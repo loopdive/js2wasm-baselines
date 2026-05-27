@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-27T18:15:47.047Z",
-  "baseline_generated_at": "2026-05-27T18:15:46Z",
-  "baseline_sha": "4a8c109a2221fdb21cd6779a10a370cff3c3c072",
+  "timestamp": "2026-05-27T18:23:41.962Z",
+  "baseline_generated_at": "2026-05-27T18:23:41Z",
+  "baseline_sha": "8e0c8b3a445d1faf978a436d88d16f4e63e6ff5c",
   "mode": {
     "include_proposals": 1,
     "label": "official test262 + proposals"
@@ -41,11 +41,11 @@
       "proposal": {
         "total": 4982,
         "pass": 1395,
-        "fail": 3243,
-        "compile_error": 248,
+        "fail": 3239,
+        "compile_error": 252,
         "compile_timeout": 0,
         "skip": 96,
-        "compilable": 4638,
+        "compilable": 4634,
         "stale": 0,
         "label": "TC39 proposals"
       },
@@ -63,11 +63,11 @@
       "full": {
         "total": 48144,
         "pass": 31447,
-        "fail": 15320,
-        "compile_error": 1276,
+        "fail": 15316,
+        "compile_error": 1280,
         "compile_timeout": 5,
         "skip": 96,
-        "compilable": 46767,
+        "compilable": 46763,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -86,21 +86,21 @@
   "full_summary": {
     "total": 48144,
     "pass": 31447,
-    "fail": 15320,
-    "compile_error": 1276,
+    "fail": 15316,
+    "compile_error": 1280,
     "compile_timeout": 5,
     "skip": 96,
-    "compilable": 46767,
+    "compilable": 46763,
     "stale": 0
   },
   "strict_summary": {
     "total": 40653,
-    "pass": 28807,
+    "pass": 28805,
     "fail": 11150,
-    "compile_error": 691,
+    "compile_error": 693,
     "compile_timeout": 5,
     "skip": 0,
-    "compilable": 39957,
+    "compilable": 39955,
     "stale": 0
   },
   "scope_summaries": {
@@ -117,11 +117,11 @@
     "proposal": {
       "total": 4982,
       "pass": 1395,
-      "fail": 3243,
-      "compile_error": 248,
+      "fail": 3239,
+      "compile_error": 252,
       "compile_timeout": 0,
       "skip": 96,
-      "compilable": 4638,
+      "compilable": 4634,
       "stale": 0
     },
     "standard": {
@@ -139,9 +139,9 @@
     {
       "name": "annexB/built-ins",
       "path": "annexB/built-ins",
-      "pass": 162,
+      "pass": 161,
       "fail": 77,
-      "compile_error": 2,
+      "compile_error": 3,
       "compile_timeout": 0,
       "skip": 0,
       "total": 241
@@ -149,9 +149,9 @@
     {
       "name": "annexB/language",
       "path": "annexB/language",
-      "pass": 413,
+      "pass": 414,
       "fail": 407,
-      "compile_error": 25,
+      "compile_error": 24,
       "compile_timeout": 0,
       "skip": 0,
       "total": 845
@@ -550,8 +550,8 @@
       "name": "built-ins/Object",
       "path": "built-ins/Object",
       "pass": 1972,
-      "fail": 1425,
-      "compile_error": 14,
+      "fail": 1426,
+      "compile_error": 13,
       "compile_timeout": 0,
       "skip": 0,
       "total": 3411
@@ -620,8 +620,8 @@
       "name": "built-ins/RegExpStringIteratorPrototype",
       "path": "built-ins/RegExpStringIteratorPrototype",
       "pass": 7,
-      "fail": 10,
-      "compile_error": 0,
+      "fail": 9,
+      "compile_error": 1,
       "compile_timeout": 0,
       "skip": 0,
       "total": 17
@@ -710,8 +710,8 @@
       "name": "built-ins/Temporal",
       "path": "built-ins/Temporal",
       "pass": 1199,
-      "fail": 3229,
-      "compile_error": 96,
+      "fail": 3225,
+      "compile_error": 100,
       "compile_timeout": 0,
       "skip": 0,
       "total": 4524
@@ -1078,18 +1078,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8301,
+    "assertion_fail": 8299,
     "illegal_cast": 245,
     "negative_test_fail": 80,
     "null_deref": 224,
     "oob": 39,
-    "other": 4724,
-    "promise_error": 39,
+    "other": 4727,
+    "promise_error": 38,
     "range_error": 46,
-    "runtime_error": 1440,
+    "runtime_error": 1436,
     "type_error": 429,
     "unreachable": 31,
-    "wasm_compile": 998
+    "wasm_compile": 1002
   },
   "skip_reasons": {
     "proposal feature: import defer (no test harness)": 96
