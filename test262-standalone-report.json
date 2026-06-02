@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-02T23:14:10.979Z",
-  "baseline_generated_at": "2026-06-02T23:14:10Z",
-  "baseline_sha": "a18fafd652460fdef417f4e4df59abdc1e5e3522",
+  "timestamp": "2026-06-02T23:22:28.980Z",
+  "baseline_generated_at": "2026-06-02T23:22:28Z",
+  "baseline_sha": "aa3af254c95b8f767a0984d51963afbb91034510",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,22 +9,22 @@
   },
   "summary": {
     "total": 43128,
-    "pass": 7611,
-    "fail": 6266,
-    "compile_error": 29230,
+    "pass": 7615,
+    "fail": 6271,
+    "compile_error": 29221,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13877,
+    "compilable": 13886,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
-        "pass": 7340,
-        "fail": 5998,
-        "compile_error": 28683,
+        "pass": 7344,
+        "fail": 6003,
+        "compile_error": 28674,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13338,
+        "compilable": 13347,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -52,23 +52,23 @@
       },
       "official": {
         "total": 43128,
-        "pass": 7611,
-        "fail": 6266,
-        "compile_error": 29230,
+        "pass": 7615,
+        "fail": 6271,
+        "compile_error": 29221,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13877,
+        "compilable": 13886,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
-        "pass": 7805,
-        "fail": 6462,
-        "compile_error": 33726,
+        "pass": 7809,
+        "fail": 6467,
+        "compile_error": 33717,
         "compile_timeout": 3,
         "skip": 114,
-        "compilable": 14267,
+        "compilable": 14276,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -76,32 +76,32 @@
   },
   "official_summary": {
     "total": 43128,
-    "pass": 7611,
-    "fail": 6266,
-    "compile_error": 29230,
+    "pass": 7615,
+    "fail": 6271,
+    "compile_error": 29221,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13877,
+    "compilable": 13886,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
-    "pass": 7805,
-    "fail": 6462,
-    "compile_error": 33726,
+    "pass": 7809,
+    "fail": 6467,
+    "compile_error": 33717,
     "compile_timeout": 3,
     "skip": 114,
-    "compilable": 14267,
+    "compilable": 14276,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
     "pass": 7112,
-    "fail": 5755,
-    "compile_error": 27731,
+    "fail": 5757,
+    "compile_error": 27729,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 12867,
+    "compilable": 12869,
     "stale": 0
   },
   "scope_summaries": {
@@ -127,12 +127,12 @@
     },
     "standard": {
       "total": 42042,
-      "pass": 7340,
-      "fail": 5998,
-      "compile_error": 28683,
+      "pass": 7344,
+      "fail": 6003,
+      "compile_error": 28674,
       "compile_timeout": 3,
       "skip": 18,
-      "compilable": 13338,
+      "compilable": 13347,
       "stale": 0
     }
   },
@@ -871,8 +871,8 @@
       "name": "language/eval-code",
       "path": "language/eval-code",
       "pass": 42,
-      "fail": 48,
-      "compile_error": 257,
+      "fail": 49,
+      "compile_error": 256,
       "compile_timeout": 0,
       "skip": 0,
       "total": 347
@@ -890,9 +890,9 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 2534,
-      "fail": 1687,
-      "compile_error": 6797,
+      "pass": 2537,
+      "fail": 1689,
+      "compile_error": 6792,
       "compile_timeout": 0,
       "skip": 18,
       "total": 11036
@@ -1050,9 +1050,9 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 1943,
-      "fail": 1432,
-      "compile_error": 5959,
+      "pass": 1944,
+      "fail": 1434,
+      "compile_error": 5956,
       "compile_timeout": 3,
       "skip": 0,
       "total": 9337
@@ -1079,15 +1079,15 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 5626,
+    "assertion_fail": 5631,
     "illegal_cast": 39,
     "negative_test_fail": 67,
     "null_deref": 109,
     "oob": 47,
-    "other": 29079,
+    "other": 29364,
     "promise_error": 18,
     "range_error": 18,
-    "runtime_error": 1264,
+    "runtime_error": 970,
     "wasm_compile": 3921
   },
   "skip_reasons": {
@@ -1096,8 +1096,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 40191,
-    "classified": 40191,
+    "total_non_pass_non_skip": 40187,
+    "classified": 40187,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1196,8 +1196,8 @@
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
+          "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
@@ -1252,20 +1252,20 @@
           "#1512"
         ],
         "label": "Dynamic import unsupported / early errors",
-        "count": 326,
+        "count": 323,
         "statuses": {
           "pass": 0,
           "fail": 48,
-          "compile_error": 278,
+          "compile_error": 275,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 326
+          "total": 323
         },
         "error_categories": {
-          "other": 202,
+          "other": 207,
           "wasm_compile": 47,
           "assertion_fail": 34,
-          "runtime_error": 35,
+          "runtime_error": 27,
           "range_error": 3,
           "null_deref": 4,
           "negative_test_fail": 1
@@ -1291,20 +1291,19 @@
           "#1387"
         ],
         "label": "`with` statement dynamic-scope lowering residuals",
-        "count": 293,
+        "count": 288,
         "statuses": {
           "pass": 0,
-          "fail": 3,
-          "compile_error": 290,
+          "fail": 5,
+          "compile_error": 283,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 293
+          "total": 288
         },
         "error_categories": {
-          "runtime_error": 286,
-          "other": 4,
-          "range_error": 1,
-          "assertion_fail": 2
+          "other": 283,
+          "assertion_fail": 4,
+          "range_error": 1
         },
         "sample_files": [
           "test/language/statements/generators/unscopables-with-in-nested-fn.js",
@@ -1314,11 +1313,11 @@
           "test/language/statements/with/S12.10_A1.11_T5.js"
         ],
         "sample_signatures": [
-          "runtime_error:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
-          "runtime_error:L#:## Codegen error: '__extern_set' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct.",
+          "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: '__extern_set' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct.",
-          "runtime_error:L#:## ##: with statement requires IR-proven closed-shape lowering before codegen; cannot safely prove HasBinding for identifier target \"scope\" because its runtime shape and mutation history are not proven closed. ECMA-# #.# creates an Objec",
-          "runtime_error:L#:## ##: with statement requires IR-proven closed-shape lowering before codegen; cannot safely prove HasBinding for object literal target because the current IR has no closed-shape fact for Object.prototype, @@unscopables, and key-set/prot"
+          "other:L#:## ##: with statement requires a proven closed object-literal shape before codegen; target Identifier is not a closed object literal. ECMA-# #.# creates an Object Environment Record, #.#.# checks HasProperty plus @@unscopables, and #.# i",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(eval('#; with({}) { }'), undefined);",
+          "other:L#:## Codegen error: '__new_plain_object' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s"
         ]
       },
       {
@@ -1342,15 +1341,15 @@
           "wasm_compile": 2
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
+          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
           "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
-          "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
+          "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: '__new_plain_object' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s"
@@ -1399,18 +1398,18 @@
           "#1776"
         ],
         "label": "Residual standalone isSameValue invalid-Wasm validator failures",
-        "count": 5512,
+        "count": 5514,
         "statuses": {
           "pass": 0,
-          "fail": 4075,
+          "fail": 4077,
           "compile_error": 1437,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 5512
+          "total": 5514
         },
         "error_categories": {
           "wasm_compile": 1440,
-          "assertion_fail": 4070,
+          "assertion_fail": 4072,
           "runtime_error": 1,
           "promise_error": 1
         },
@@ -1435,17 +1434,17 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 22435,
+        "count": 22436,
         "statuses": {
           "pass": 0,
           "fail": 705,
-          "compile_error": 21730,
+          "compile_error": 21731,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 22435
+          "total": 22436
         },
         "error_categories": {
-          "other": 21307,
+          "other": 21308,
           "null_deref": 8,
           "assertion_fail": 642,
           "wasm_compile": 357,
@@ -1997,17 +1996,17 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 95,
+        "count": 96,
         "statuses": {
           "pass": 0,
-          "fail": 61,
+          "fail": 62,
           "compile_error": 34,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 95
+          "total": 96
         },
         "error_categories": {
-          "assertion_fail": 50,
+          "assertion_fail": 51,
           "wasm_compile": 26,
           "other": 16,
           "negative_test_fail": 3
