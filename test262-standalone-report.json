@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-02T23:28:56.108Z",
-  "baseline_generated_at": "2026-06-02T23:28:55Z",
-  "baseline_sha": "4e5a182ea0648254b807828aefb79002b5129f0a",
+  "timestamp": "2026-06-02T23:37:59.816Z",
+  "baseline_generated_at": "2026-06-02T23:37:59Z",
+  "baseline_sha": "eabdb5f6e379553043d7a8f7d63cd1b4e4a29929",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1195,9 +1195,9 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
@@ -1341,16 +1341,16 @@
           "wasm_compile": 2
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/stringify/space-string-range.js",
+          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
           "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: '__new_plain_object' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s"
         ]
@@ -1382,7 +1382,7 @@
           "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
           "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
           "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
-          "test/built-ins/RegExp/S15.10.2.7_A4_T5.js"
+          "test/built-ins/RegExp/S15.10.2.6_A4_T4.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_get' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct.",
