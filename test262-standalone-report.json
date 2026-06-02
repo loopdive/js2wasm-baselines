@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-02T21:27:44.778Z",
-  "baseline_generated_at": "2026-06-02T21:27:44Z",
-  "baseline_sha": "880578f7d6034b5356b24f05d2214ccb9001ebdb",
+  "timestamp": "2026-06-02T21:33:38.364Z",
+  "baseline_generated_at": "2026-06-02T21:33:37Z",
+  "baseline_sha": "3acba000996993415950ad4d81e54f822ca016a7",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,22 +9,22 @@
   },
   "summary": {
     "total": 43128,
-    "pass": 7613,
-    "fail": 6233,
-    "compile_error": 29261,
+    "pass": 7611,
+    "fail": 6252,
+    "compile_error": 29244,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13846,
+    "compilable": 13863,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
-        "pass": 7342,
-        "fail": 5965,
-        "compile_error": 28714,
+        "pass": 7340,
+        "fail": 5984,
+        "compile_error": 28697,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13307,
+        "compilable": 13324,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -42,33 +42,33 @@
       "proposal": {
         "total": 4982,
         "pass": 194,
-        "fail": 195,
-        "compile_error": 4497,
+        "fail": 196,
+        "compile_error": 4496,
         "compile_timeout": 0,
         "skip": 96,
-        "compilable": 389,
+        "compilable": 390,
         "stale": 0,
         "label": "TC39 proposals"
       },
       "official": {
         "total": 43128,
-        "pass": 7613,
-        "fail": 6233,
-        "compile_error": 29261,
+        "pass": 7611,
+        "fail": 6252,
+        "compile_error": 29244,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13846,
+        "compilable": 13863,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
-        "pass": 7807,
-        "fail": 6428,
-        "compile_error": 33758,
+        "pass": 7805,
+        "fail": 6448,
+        "compile_error": 33740,
         "compile_timeout": 3,
         "skip": 114,
-        "compilable": 14235,
+        "compilable": 14253,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -76,32 +76,32 @@
   },
   "official_summary": {
     "total": 43128,
-    "pass": 7613,
-    "fail": 6233,
-    "compile_error": 29261,
+    "pass": 7611,
+    "fail": 6252,
+    "compile_error": 29244,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13846,
+    "compilable": 13863,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
-    "pass": 7807,
-    "fail": 6428,
-    "compile_error": 33758,
+    "pass": 7805,
+    "fail": 6448,
+    "compile_error": 33740,
     "compile_timeout": 3,
     "skip": 114,
-    "compilable": 14235,
+    "compilable": 14253,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
-    "pass": 7114,
-    "fail": 5722,
-    "compile_error": 27762,
+    "pass": 7112,
+    "fail": 5741,
+    "compile_error": 27745,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 12836,
+    "compilable": 12853,
     "stale": 0
   },
   "scope_summaries": {
@@ -118,21 +118,21 @@
     "proposal": {
       "total": 4982,
       "pass": 194,
-      "fail": 195,
-      "compile_error": 4497,
+      "fail": 196,
+      "compile_error": 4496,
       "compile_timeout": 0,
       "skip": 96,
-      "compilable": 389,
+      "compilable": 390,
       "stale": 0
     },
     "standard": {
       "total": 42042,
-      "pass": 7342,
-      "fail": 5965,
-      "compile_error": 28714,
+      "pass": 7340,
+      "fail": 5984,
+      "compile_error": 28697,
       "compile_timeout": 3,
       "skip": 18,
-      "compilable": 13307,
+      "compilable": 13324,
       "stale": 0
     }
   },
@@ -670,9 +670,9 @@
     {
       "name": "built-ins/String",
       "path": "built-ins/String",
-      "pass": 81,
-      "fail": 218,
-      "compile_error": 924,
+      "pass": 79,
+      "fail": 237,
+      "compile_error": 907,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1223
@@ -711,8 +711,8 @@
       "name": "built-ins/Temporal",
       "path": "built-ins/Temporal",
       "pass": 0,
-      "fail": 195,
-      "compile_error": 4329,
+      "fail": 196,
+      "compile_error": 4328,
       "compile_timeout": 0,
       "skip": 0,
       "total": 4524
@@ -1079,16 +1079,16 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 5602,
-    "illegal_cast": 42,
+    "assertion_fail": 5612,
+    "illegal_cast": 39,
     "negative_test_fail": 67,
-    "null_deref": 100,
+    "null_deref": 109,
     "oob": 47,
     "other": 29094,
     "promise_error": 18,
     "range_error": 18,
-    "runtime_error": 1261,
-    "wasm_compile": 3937
+    "runtime_error": 1264,
+    "wasm_compile": 3920
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1096,8 +1096,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 40189,
-    "classified": 40189,
+    "total_non_pass_non_skip": 40191,
+    "classified": 40191,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1178,8 +1178,8 @@
         "count": 4524,
         "statuses": {
           "pass": 0,
-          "fail": 195,
-          "compile_error": 4329,
+          "fail": 196,
+          "compile_error": 4328,
           "compile_timeout": 0,
           "skip": 0,
           "total": 4524
@@ -1187,16 +1187,16 @@
         "error_categories": {
           "other": 3876,
           "runtime_error": 415,
-          "assertion_fail": 189,
-          "wasm_compile": 39,
+          "assertion_fail": 190,
+          "wasm_compile": 38,
           "range_error": 4,
           "oob": 1
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
-          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
+          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
@@ -1399,18 +1399,18 @@
           "#1776"
         ],
         "label": "Residual standalone isSameValue invalid-Wasm validator failures",
-        "count": 5507,
+        "count": 5512,
         "statuses": {
           "pass": 0,
-          "fail": 4070,
+          "fail": 4075,
           "compile_error": 1437,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 5507
+          "total": 5512
         },
         "error_categories": {
           "wasm_compile": 1440,
-          "assertion_fail": 4065,
+          "assertion_fail": 4070,
           "runtime_error": 1,
           "promise_error": 1
         },
@@ -1508,7 +1508,7 @@
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $iterCount f64) (local $__arr_data_1 (ref null #)) (local $__for",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $iterCount f64) (local $x (ref null #)) (local $__arr_data_2 (re",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { for ({} of [undefined]) { counter += #; } counter += #; });",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $values (ref null #)) (local $iterCount f64) (local $__arr_data_"
+          "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { let x = #; for (const x of [x]) {} });"
         ]
       },
       {
@@ -1556,25 +1556,25 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 1044,
+        "count": 1041,
         "statuses": {
           "pass": 0,
-          "fail": 488,
-          "compile_error": 556,
+          "fail": 502,
+          "compile_error": 539,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1044
+          "total": 1041
         },
         "error_categories": {
           "other": 301,
-          "wasm_compile": 291,
+          "wasm_compile": 275,
           "negative_test_fail": 7,
-          "assertion_fail": 230,
+          "assertion_fail": 234,
           "oob": 38,
-          "runtime_error": 110,
-          "null_deref": 40,
+          "runtime_error": 113,
+          "null_deref": 49,
           "promise_error": 2,
-          "illegal_cast": 25
+          "illegal_cast": 22
         },
         "sample_files": [
           "test/language/statements/class/elements/new-no-sc-line-method-literal-names.js",
