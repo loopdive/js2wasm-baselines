@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-02T21:51:55.449Z",
-  "baseline_generated_at": "2026-06-02T21:51:54Z",
-  "baseline_sha": "2e032b84548eee584f155f7dde489ee1ae443409",
+  "timestamp": "2026-06-02T23:14:10.979Z",
+  "baseline_generated_at": "2026-06-02T23:14:10Z",
+  "baseline_sha": "a18fafd652460fdef417f4e4df59abdc1e5e3522",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -10,21 +10,21 @@
   "summary": {
     "total": 43128,
     "pass": 7611,
-    "fail": 6252,
-    "compile_error": 29244,
+    "fail": 6266,
+    "compile_error": 29230,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13863,
+    "compilable": 13877,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
         "pass": 7340,
-        "fail": 5984,
-        "compile_error": 28697,
+        "fail": 5998,
+        "compile_error": 28683,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13324,
+        "compilable": 13338,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,22 +53,22 @@
       "official": {
         "total": 43128,
         "pass": 7611,
-        "fail": 6252,
-        "compile_error": 29244,
+        "fail": 6266,
+        "compile_error": 29230,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13863,
+        "compilable": 13877,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
         "pass": 7805,
-        "fail": 6448,
-        "compile_error": 33740,
+        "fail": 6462,
+        "compile_error": 33726,
         "compile_timeout": 3,
         "skip": 114,
-        "compilable": 14253,
+        "compilable": 14267,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,31 +77,31 @@
   "official_summary": {
     "total": 43128,
     "pass": 7611,
-    "fail": 6252,
-    "compile_error": 29244,
+    "fail": 6266,
+    "compile_error": 29230,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13863,
+    "compilable": 13877,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
     "pass": 7805,
-    "fail": 6448,
-    "compile_error": 33740,
+    "fail": 6462,
+    "compile_error": 33726,
     "compile_timeout": 3,
     "skip": 114,
-    "compilable": 14253,
+    "compilable": 14267,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
     "pass": 7112,
-    "fail": 5741,
-    "compile_error": 27745,
+    "fail": 5755,
+    "compile_error": 27731,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 12853,
+    "compilable": 12867,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,11 +128,11 @@
     "standard": {
       "total": 42042,
       "pass": 7340,
-      "fail": 5984,
-      "compile_error": 28697,
+      "fail": 5998,
+      "compile_error": 28683,
       "compile_timeout": 3,
       "skip": 18,
-      "compilable": 13324,
+      "compilable": 13338,
       "stale": 0
     }
   },
@@ -481,8 +481,8 @@
       "name": "built-ins/JSON",
       "path": "built-ins/JSON",
       "pass": 5,
-      "fail": 5,
-      "compile_error": 155,
+      "fail": 19,
+      "compile_error": 141,
       "compile_timeout": 0,
       "skip": 0,
       "total": 165
@@ -1079,16 +1079,16 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 5612,
+    "assertion_fail": 5626,
     "illegal_cast": 39,
     "negative_test_fail": 67,
     "null_deref": 109,
     "oob": 47,
-    "other": 29094,
+    "other": 29079,
     "promise_error": 18,
     "range_error": 18,
     "runtime_error": 1264,
-    "wasm_compile": 3920
+    "wasm_compile": 3921
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1193,15 +1193,15 @@
           "oob": 1
         },
         "sample_files": [
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
-          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
+          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: '__extern_get' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct.",
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
+          "other:L#:## Codegen error: '__extern_get' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct.",
           "runtime_error:Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");",
           "other:L#:## Codegen error: '__extern_is_undefined' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
@@ -1330,27 +1330,27 @@
         "count": 160,
         "statuses": {
           "pass": 0,
-          "fail": 5,
-          "compile_error": 155,
+          "fail": 19,
+          "compile_error": 141,
           "compile_timeout": 0,
           "skip": 0,
           "total": 160
         },
         "error_categories": {
-          "other": 154,
-          "assertion_fail": 5,
-          "wasm_compile": 1
+          "other": 139,
+          "assertion_fail": 19,
+          "wasm_compile": 2
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
+          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
-          "test/built-ins/JSON/stringify/value-bigint-tojson.js"
+          "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: '__new_plain_object' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s"
