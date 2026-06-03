@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-02T23:43:57.342Z",
-  "baseline_generated_at": "2026-06-02T23:43:56Z",
-  "baseline_sha": "5f57c3472f67cf51f8b1a0e75f4bfe81c85928c4",
+  "timestamp": "2026-06-03T05:09:37.853Z",
+  "baseline_generated_at": "2026-06-03T05:09:37Z",
+  "baseline_sha": "ab75161b2439e667d6b43a7ae52f4a22cc95b8f4",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1341,15 +1341,15 @@
           "wasm_compile": 2
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
+          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
           "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
-          "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
+          "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: '__new_plain_object' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s"
