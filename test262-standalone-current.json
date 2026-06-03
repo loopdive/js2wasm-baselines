@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T17:26:01.835Z",
-  "baseline_generated_at": "2026-06-03T17:26:01Z",
-  "baseline_sha": "10918b6e8e5e493588e928eb17c78881ba572730",
+  "timestamp": "2026-06-03T19:27:59.422Z",
+  "baseline_generated_at": "2026-06-03T19:27:59Z",
+  "baseline_sha": "5258a136eb7b191ba70e23cd27499945e7397ff0",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1189,9 +1189,9 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js"
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
@@ -1340,15 +1340,15 @@
         },
         "sample_files": [
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
-          "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
+          "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
           "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
           "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
-          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
+          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: '__defineProperty_accessor' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struc"
         ]
@@ -1372,22 +1372,22 @@
         "error_categories": {
           "assertion_fail": 98,
           "other": 1710,
-          "wasm_compile": 184,
           "null_deref": 11,
+          "wasm_compile": 184,
           "runtime_error": 6,
           "illegal_cast": 14
         },
         "sample_files": [
           "test/language/literals/regexp/S7.8.5_A2.4_T2.js",
-          "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
           "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
+          "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
           "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
           "test/built-ins/RegExp/S15.10.2.6_A4_T4.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(pattern.source, xx, \"Code unit: \" + cu.toString(#));",
-          "other:L#:## Codegen error: standalone RegExp engine does not support flags \"u\" (m/s/u/v/d are ## Phase 2c/2d) (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engin",
           "other:L#:## Codegen error: standalone RegExp engine does not support lookahead (?= / ?!) — ## Phase 2d (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
+          "other:L#:## Codegen error: standalone RegExp engine does not support flags \"u\" (m/s/u/v/d are ## Phase 2c/2d) (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engin",
           "other:L#:## Codegen error: standalone RegExp engine does not support negated shorthand \\W inside [...] — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support word-boundary \\B — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone."
         ]
@@ -1917,15 +1917,15 @@
         },
         "sample_files": [
           "test/built-ins/Function/S15.3.5_A3_T1.js",
-          "test/built-ins/Function/StrictFunction_reservedwords_with.js",
           "test/built-ins/Function/15.3.5.4_2-9gs.js",
+          "test/built-ins/Function/StrictFunction_reservedwords_with.js",
           "test/language/function-code/10.4.3-1-92-s.js",
           "test/built-ins/Function/15.3.5.4_2-64gs.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## No dependency provided for extern class \"FACTORY\"",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { new Function(\"'use strict'; with ({}) {}\"); }, '`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception');",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f(); });",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { new Function(\"'use strict'; with ({}) {}\"); }, '`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception');",
           "assertion_fail:returned # — assert ## at L#: assert((function () {\"use strict\"; return f.call(undefined);})());",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f.apply(global); });"
         ]
