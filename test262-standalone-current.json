@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T05:19:24.231Z",
-  "baseline_generated_at": "2026-06-03T05:19:23Z",
-  "baseline_sha": "f52502e9831d4e6932972526960405afc644cd18",
+  "timestamp": "2026-06-03T05:26:16.277Z",
+  "baseline_generated_at": "2026-06-03T05:26:15Z",
+  "baseline_sha": "595dee410436c0ce9bff28960860df715b2a2f1d",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -10,21 +10,21 @@
   "summary": {
     "total": 43128,
     "pass": 7616,
-    "fail": 6270,
-    "compile_error": 29221,
+    "fail": 6268,
+    "compile_error": 29223,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13886,
+    "compilable": 13884,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
         "pass": 7345,
-        "fail": 6002,
-        "compile_error": 28674,
+        "fail": 6000,
+        "compile_error": 28676,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13347,
+        "compilable": 13345,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,22 +53,22 @@
       "official": {
         "total": 43128,
         "pass": 7616,
-        "fail": 6270,
-        "compile_error": 29221,
+        "fail": 6268,
+        "compile_error": 29223,
         "compile_timeout": 3,
         "skip": 18,
-        "compilable": 13886,
+        "compilable": 13884,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
         "pass": 7810,
-        "fail": 6466,
-        "compile_error": 33717,
+        "fail": 6464,
+        "compile_error": 33719,
         "compile_timeout": 3,
         "skip": 114,
-        "compilable": 14276,
+        "compilable": 14274,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,31 +77,31 @@
   "official_summary": {
     "total": 43128,
     "pass": 7616,
-    "fail": 6270,
-    "compile_error": 29221,
+    "fail": 6268,
+    "compile_error": 29223,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 13886,
+    "compilable": 13884,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
     "pass": 7810,
-    "fail": 6466,
-    "compile_error": 33717,
+    "fail": 6464,
+    "compile_error": 33719,
     "compile_timeout": 3,
     "skip": 114,
-    "compilable": 14276,
+    "compilable": 14274,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
     "pass": 7113,
-    "fail": 5756,
-    "compile_error": 27729,
+    "fail": 5754,
+    "compile_error": 27731,
     "compile_timeout": 3,
     "skip": 18,
-    "compilable": 12869,
+    "compilable": 12867,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,11 +128,11 @@
     "standard": {
       "total": 42042,
       "pass": 7345,
-      "fail": 6002,
-      "compile_error": 28674,
+      "fail": 6000,
+      "compile_error": 28676,
       "compile_timeout": 3,
       "skip": 18,
-      "compilable": 13347,
+      "compilable": 13345,
       "stale": 0
     }
   },
@@ -1051,8 +1051,8 @@
       "name": "language/statements",
       "path": "language/statements",
       "pass": 1944,
-      "fail": 1434,
-      "compile_error": 5956,
+      "fail": 1432,
+      "compile_error": 5958,
       "compile_timeout": 3,
       "skip": 0,
       "total": 9337
@@ -1079,16 +1079,16 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 5631,
+    "assertion_fail": 5630,
     "illegal_cast": 39,
     "negative_test_fail": 66,
-    "null_deref": 109,
+    "null_deref": 108,
     "oob": 47,
-    "other": 29364,
+    "other": 29367,
     "promise_error": 18,
     "range_error": 18,
     "runtime_error": 970,
-    "wasm_compile": 3921
+    "wasm_compile": 3920
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1195,8 +1195,8 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
@@ -1342,15 +1342,15 @@
         },
         "sample_files": [
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
-          "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
+          "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
           "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
           "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
-          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
+          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: '__new_plain_object' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s"
         ]
@@ -1362,17 +1362,17 @@
           "#1474"
         ],
         "label": "RegExp literals/constructor/String-RegExp paths still refused or missing native engine",
-        "count": 2119,
+        "count": 2117,
         "statuses": {
           "pass": 0,
           "fail": 26,
-          "compile_error": 2093,
+          "compile_error": 2091,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 2119
+          "total": 2117
         },
         "error_categories": {
-          "other": 2070,
+          "other": 2068,
           "assertion_fail": 24,
           "wasm_compile": 21,
           "runtime_error": 4
@@ -1398,17 +1398,17 @@
           "#1776"
         ],
         "label": "Residual standalone isSameValue invalid-Wasm validator failures",
-        "count": 5504,
+        "count": 5503,
         "statuses": {
           "pass": 0,
           "fail": 4077,
-          "compile_error": 1427,
+          "compile_error": 1426,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 5504
+          "total": 5503
         },
         "error_categories": {
-          "wasm_compile": 1430,
+          "wasm_compile": 1429,
           "assertion_fail": 4072,
           "runtime_error": 1,
           "promise_error": 1
@@ -1434,22 +1434,22 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 22445,
+        "count": 22558,
         "statuses": {
           "pass": 0,
-          "fail": 705,
-          "compile_error": 21740,
+          "fail": 704,
+          "compile_error": 21854,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 22445
+          "total": 22558
         },
         "error_categories": {
-          "other": 21308,
-          "null_deref": 8,
+          "other": 21422,
           "assertion_fail": 642,
           "wasm_compile": 366,
           "runtime_error": 107,
           "promise_error": 10,
+          "null_deref": 7,
           "oob": 2,
           "negative_test_fail": 1,
           "illegal_cast": 1
@@ -1477,17 +1477,17 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 808,
+        "count": 804,
         "statuses": {
           "pass": 0,
           "fail": 73,
-          "compile_error": 735,
+          "compile_error": 731,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 808
+          "total": 804
         },
         "error_categories": {
-          "other": 562,
+          "other": 558,
           "wasm_compile": 181,
           "assertion_fail": 49,
           "runtime_error": 2,
@@ -1555,20 +1555,20 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 1041,
+        "count": 1008,
         "statuses": {
           "pass": 0,
-          "fail": 502,
-          "compile_error": 539,
+          "fail": 501,
+          "compile_error": 507,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1041
+          "total": 1008
         },
         "error_categories": {
-          "other": 301,
+          "other": 269,
           "wasm_compile": 275,
           "negative_test_fail": 7,
-          "assertion_fail": 234,
+          "assertion_fail": 233,
           "oob": 38,
           "runtime_error": 113,
           "null_deref": 49,
@@ -1577,17 +1577,17 @@
         },
         "sample_files": [
           "test/language/statements/class/elements/new-no-sc-line-method-literal-names.js",
-          "test/language/statements/class/elements/privatemethods-on-proxy.js",
           "test/language/statements/class/subclass-builtins/subclass-BigUint64Array.js",
           "test/language/expressions/class/elements/syntax/early-errors/grammar-private-environment-on-class-heritage-function-expression.js",
-          "test/built-ins/Array/prototype/forEach/15.4.4.18-5-18.js"
+          "test/built-ins/Array/prototype/forEach/15.4.4.18-5-18.js",
+          "test/built-ins/Array/prototype/join/S15.4.4.5_A1.1_T1.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str",
-          "other:L#:## Codegen error: '__proxy_create' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struc",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"Subclass_new\" failed: Invalid global index: # @+#) [in Subclass_new()] [@+#] [wat: (func $Subclass_new (type #) (local $__self externref) ref.null extern local.set",
           "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
-          "assertion_fail:returned # — assert ## at L#: assert(result, 'result !== true');"
+          "assertion_fail:returned # — assert ## at L#: assert(result, 'result !== true');",
+          "other:L#:## join requires string support (wasm:js-string concat); L#:## join requires string support (wasm:js-string concat); L#:## join requires string support (wasm:js-string concat); L#:## join requires string support (wasm:js-string concat)"
         ]
       },
       {
@@ -1674,17 +1674,17 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 361,
+        "count": 288,
         "statuses": {
           "pass": 0,
           "fail": 34,
-          "compile_error": 327,
+          "compile_error": 254,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 361
+          "total": 288
         },
         "error_categories": {
-          "other": 252,
+          "other": 179,
           "wasm_compile": 78,
           "null_deref": 1,
           "negative_test_fail": 4,
@@ -1697,14 +1697,14 @@
           "test/built-ins/Number/MIN_VALUE/S15.7.3.3_A3.js",
           "test/built-ins/Object/defineProperty/15.2.3.6-3-232.js",
           "test/built-ins/Object/defineProperty/15.2.3.6-4-126.js",
-          "test/built-ins/Proxy/proxy-newtarget.js"
+          "test/language/expressions/function/forbidden-ext/b1/func-expr-strict-forbidden-ext-direct-access-prop-arguments.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__delete_property' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/st",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $obj (ref null #)) (local $__defprop_obj_1 (ref null #)) (local ",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $arrObj (ref null #)) (local $__arr_data_1 (ref null #)) (local ",
-          "other:L#:## Codegen error: '__proxy_create' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struc",
-          "other:L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str"
+          "other:L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str",
+          "other:L#:## Codegen error: '__defineProperties' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s"
         ]
       },
       {
