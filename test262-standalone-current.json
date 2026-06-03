@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T07:40:45.357Z",
-  "baseline_generated_at": "2026-06-03T07:40:44Z",
-  "baseline_sha": "dbbd61c1208294e0da91fff99e69c13c9a4433be",
+  "timestamp": "2026-06-03T07:49:07.660Z",
+  "baseline_generated_at": "2026-06-03T07:49:07Z",
+  "baseline_sha": "1be6695b572b2eac7e4f44ff150738172c958ed7",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,22 +9,22 @@
   },
   "summary": {
     "total": 43128,
-    "pass": 10178,
-    "fail": 5071,
-    "compile_error": 27856,
+    "pass": 10177,
+    "fail": 5066,
+    "compile_error": 27862,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 15249,
+    "compilable": 15243,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
-        "pass": 9863,
-        "fail": 4838,
-        "compile_error": 27318,
+        "pass": 9862,
+        "fail": 4833,
+        "compile_error": 27324,
         "compile_timeout": 5,
         "skip": 18,
-        "compilable": 14701,
+        "compilable": 14695,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -52,23 +52,23 @@
       },
       "official": {
         "total": 43128,
-        "pass": 10178,
-        "fail": 5071,
-        "compile_error": 27856,
+        "pass": 10177,
+        "fail": 5066,
+        "compile_error": 27862,
         "compile_timeout": 5,
         "skip": 18,
-        "compilable": 15249,
+        "compilable": 15243,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
-        "pass": 10398,
-        "fail": 5296,
-        "compile_error": 32297,
+        "pass": 10397,
+        "fail": 5291,
+        "compile_error": 32303,
         "compile_timeout": 5,
         "skip": 114,
-        "compilable": 15694,
+        "compilable": 15688,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -76,32 +76,32 @@
   },
   "official_summary": {
     "total": 43128,
-    "pass": 10178,
-    "fail": 5071,
-    "compile_error": 27856,
+    "pass": 10177,
+    "fail": 5066,
+    "compile_error": 27862,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 15249,
+    "compilable": 15243,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
-    "pass": 10398,
-    "fail": 5296,
-    "compile_error": 32297,
+    "pass": 10397,
+    "fail": 5291,
+    "compile_error": 32303,
     "compile_timeout": 5,
     "skip": 114,
-    "compilable": 15694,
+    "compilable": 15688,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
-    "pass": 9515,
-    "fail": 4656,
-    "compile_error": 26425,
+    "pass": 9514,
+    "fail": 4651,
+    "compile_error": 26431,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 14171,
+    "compilable": 14165,
     "stale": 0
   },
   "scope_summaries": {
@@ -127,12 +127,12 @@
     },
     "standard": {
       "total": 42042,
-      "pass": 9863,
-      "fail": 4838,
-      "compile_error": 27318,
+      "pass": 9862,
+      "fail": 4833,
+      "compile_error": 27324,
       "compile_timeout": 5,
       "skip": 18,
-      "compilable": 14701,
+      "compilable": 14695,
       "stale": 0
     }
   },
@@ -300,8 +300,8 @@
     {
       "name": "built-ins/DataView",
       "path": "built-ins/DataView",
-      "pass": 40,
-      "fail": 176,
+      "pass": 41,
+      "fail": 175,
       "compile_error": 345,
       "compile_timeout": 0,
       "skip": 0,
@@ -751,8 +751,8 @@
       "name": "built-ins/Uint8Array",
       "path": "built-ins/Uint8Array",
       "pass": 8,
-      "fail": 8,
-      "compile_error": 52,
+      "fail": 4,
+      "compile_error": 56,
       "compile_timeout": 0,
       "skip": 0,
       "total": 68
@@ -1050,9 +1050,9 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 2437,
+      "pass": 2435,
       "fail": 1107,
-      "compile_error": 5791,
+      "compile_error": 5793,
       "compile_timeout": 2,
       "skip": 0,
       "total": 9337
@@ -1079,7 +1079,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 4226,
+    "assertion_fail": 4221,
     "illegal_cast": 74,
     "negative_test_fail": 71,
     "null_deref": 150,
@@ -1087,9 +1087,9 @@
     "other": 26960,
     "promise_error": 29,
     "range_error": 25,
-    "runtime_error": 1323,
+    "runtime_error": 1316,
     "unreachable": 3,
-    "wasm_compile": 4684
+    "wasm_compile": 4697
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1097,8 +1097,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 37598,
-    "classified": 37598,
+    "total_non_pass_non_skip": 37599,
+    "classified": 37599,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1186,15 +1186,15 @@
           "oob": 1
         },
         "sample_files": [
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
           "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: '__object_isExtensible' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge",
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
+          "other:L#:## Codegen error: '__object_isExtensible' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge",
           "other:L#:## Codegen error: '__extern_length' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/stru",
           "runtime_error:Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");"
@@ -1218,22 +1218,22 @@
         },
         "error_categories": {
           "wasm_compile": 23,
-          "runtime_error": 1,
           "other": 63,
+          "runtime_error": 1,
           "assertion_fail": 22,
           "null_deref": 1
         },
         "sample_files": [
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
-          "test/built-ins/DisposableStack/prototype/move/throws-if-disposed.js",
           "test/built-ins/DisposableStack/prototype-from-newtarget.js",
+          "test/built-ins/DisposableStack/prototype/move/throws-if-disposed.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/this-not-object-throws.js",
           "test/built-ins/DisposableStack/prototype/adopt/this-does-not-have-internal-disposablestate-throws.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__nullchk_0 externref) (local $__nullchk_1 externref) (local $_",
-          "runtime_error:L#:## Cannot call DisposableStack.prototype.move on an already-disposed DisposableStack",
           "other:L#:## Codegen error: '__getPrototypeOf' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str",
+          "runtime_error:L#:## Cannot call DisposableStack.prototype.move on an already-disposed DisposableStack",
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct"
         ]
@@ -1375,8 +1375,8 @@
         "sample_files": [
           "test/language/literals/regexp/S7.8.5_A2.4_T2.js",
           "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
-          "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
           "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
+          "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
           "test/built-ins/RegExp/S15.10.2.6_A4_T4.js"
         ],
         "sample_signatures": [
@@ -1384,7 +1384,7 @@
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support metacharacter \"^\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp literal",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support metacharacter \"[\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support escape \\B (##/##). Use a plain static pattern with no flags, or recompile without --target standalone.",
-          "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support flags \"ii\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone."
+          "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support metacharacter \"(\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone."
         ]
       },
       {
@@ -1393,18 +1393,18 @@
           "#1776"
         ],
         "label": "Residual standalone isSameValue invalid-Wasm validator failures",
-        "count": 4160,
+        "count": 4157,
         "statuses": {
           "pass": 0,
-          "fail": 2578,
+          "fail": 2575,
           "compile_error": 1582,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 4160
+          "total": 4157
         },
         "error_categories": {
           "wasm_compile": 1585,
-          "assertion_fail": 2568,
+          "assertion_fail": 2565,
           "unreachable": 3,
           "runtime_error": 1,
           "promise_error": 3
@@ -1442,8 +1442,8 @@
         "error_categories": {
           "other": 18928,
           "assertion_fail": 595,
-          "wasm_compile": 404,
-          "runtime_error": 129,
+          "wasm_compile": 405,
+          "runtime_error": 128,
           "promise_error": 15,
           "null_deref": 5,
           "illegal_cast": 30,
@@ -1473,18 +1473,18 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 939,
+        "count": 941,
         "statuses": {
           "pass": 0,
           "fail": 134,
-          "compile_error": 805,
+          "compile_error": 807,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 939
+          "total": 941
         },
         "error_categories": {
           "other": 622,
-          "wasm_compile": 190,
+          "wasm_compile": 192,
           "assertion_fail": 95,
           "runtime_error": 15,
           "range_error": 2,
@@ -1552,22 +1552,22 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 1544,
+        "count": 1546,
         "statuses": {
           "pass": 0,
-          "fail": 630,
-          "compile_error": 911,
+          "fail": 628,
+          "compile_error": 915,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 1544
+          "total": 1546
         },
         "error_categories": {
           "other": 541,
-          "wasm_compile": 401,
-          "assertion_fail": 290,
+          "wasm_compile": 411,
+          "assertion_fail": 288,
           "negative_test_fail": 11,
           "oob": 38,
-          "runtime_error": 146,
+          "runtime_error": 140,
           "null_deref": 84,
           "promise_error": 2,
           "illegal_cast": 26,
