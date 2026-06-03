@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T16:10:28.126Z",
-  "baseline_generated_at": "2026-06-03T16:10:27Z",
-  "baseline_sha": "6b8dcb71fdb7abdc6b45c6c21108b1d42ff3a87d",
+  "timestamp": "2026-06-03T16:39:23.461Z",
+  "baseline_generated_at": "2026-06-03T16:39:23Z",
+  "baseline_sha": "f39015bf79d3a470575daecd696f601d282e469c",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,22 +9,22 @@
   },
   "summary": {
     "total": 43128,
-    "pass": 10655,
-    "fail": 5467,
-    "compile_error": 26975,
+    "pass": 10663,
+    "fail": 5508,
+    "compile_error": 26926,
     "compile_timeout": 13,
     "skip": 18,
-    "compilable": 16122,
+    "compilable": 16171,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
-        "pass": 10340,
-        "fail": 5225,
-        "compile_error": 26446,
+        "pass": 10348,
+        "fail": 5266,
+        "compile_error": 26397,
         "compile_timeout": 13,
         "skip": 18,
-        "compilable": 15565,
+        "compilable": 15614,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -52,23 +52,23 @@
       },
       "official": {
         "total": 43128,
-        "pass": 10655,
-        "fail": 5467,
-        "compile_error": 26975,
+        "pass": 10663,
+        "fail": 5508,
+        "compile_error": 26926,
         "compile_timeout": 13,
         "skip": 18,
-        "compilable": 16122,
+        "compilable": 16171,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
-        "pass": 10875,
-        "fail": 5725,
-        "compile_error": 31383,
+        "pass": 10883,
+        "fail": 5766,
+        "compile_error": 31334,
         "compile_timeout": 13,
         "skip": 114,
-        "compilable": 16600,
+        "compilable": 16649,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -76,32 +76,32 @@
   },
   "official_summary": {
     "total": 43128,
-    "pass": 10655,
-    "fail": 5467,
-    "compile_error": 26975,
+    "pass": 10663,
+    "fail": 5508,
+    "compile_error": 26926,
     "compile_timeout": 13,
     "skip": 18,
-    "compilable": 16122,
+    "compilable": 16171,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
-    "pass": 10875,
-    "fail": 5725,
-    "compile_error": 31383,
+    "pass": 10883,
+    "fail": 5766,
+    "compile_error": 31334,
     "compile_timeout": 13,
     "skip": 114,
-    "compilable": 16600,
+    "compilable": 16649,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
-    "pass": 9987,
-    "fail": 5045,
-    "compile_error": 25556,
+    "pass": 9994,
+    "fail": 5085,
+    "compile_error": 25509,
     "compile_timeout": 13,
     "skip": 18,
-    "compilable": 15032,
+    "compilable": 15079,
     "stale": 0
   },
   "scope_summaries": {
@@ -127,12 +127,12 @@
     },
     "standard": {
       "total": 42042,
-      "pass": 10340,
-      "fail": 5225,
-      "compile_error": 26446,
+      "pass": 10348,
+      "fail": 5266,
+      "compile_error": 26397,
       "compile_timeout": 13,
       "skip": 18,
-      "compilable": 15565,
+      "compilable": 15614,
       "stale": 0
     }
   },
@@ -321,8 +321,8 @@
       "name": "built-ins/decodeURI",
       "path": "built-ins/decodeURI",
       "pass": 2,
-      "fail": 11,
-      "compile_error": 42,
+      "fail": 19,
+      "compile_error": 34,
       "compile_timeout": 0,
       "skip": 0,
       "total": 55
@@ -331,8 +331,8 @@
       "name": "built-ins/decodeURIComponent",
       "path": "built-ins/decodeURIComponent",
       "pass": 2,
-      "fail": 12,
-      "compile_error": 42,
+      "fail": 20,
+      "compile_error": 34,
       "compile_timeout": 0,
       "skip": 0,
       "total": 56
@@ -351,8 +351,8 @@
       "name": "built-ins/encodeURI",
       "path": "built-ins/encodeURI",
       "pass": 2,
-      "fail": 2,
-      "compile_error": 27,
+      "fail": 7,
+      "compile_error": 22,
       "compile_timeout": 0,
       "skip": 0,
       "total": 31
@@ -361,8 +361,8 @@
       "name": "built-ins/encodeURIComponent",
       "path": "built-ins/encodeURIComponent",
       "pass": 2,
-      "fail": 2,
-      "compile_error": 27,
+      "fail": 7,
+      "compile_error": 22,
       "compile_timeout": 0,
       "skip": 0,
       "total": 31
@@ -611,8 +611,8 @@
       "name": "built-ins/RegExp",
       "path": "built-ins/RegExp",
       "pass": 224,
-      "fail": 78,
-      "compile_error": 1569,
+      "fail": 82,
+      "compile_error": 1565,
       "compile_timeout": 8,
       "skip": 0,
       "total": 1879
@@ -670,9 +670,9 @@
     {
       "name": "built-ins/String",
       "path": "built-ins/String",
-      "pass": 98,
-      "fail": 257,
-      "compile_error": 868,
+      "pass": 99,
+      "fail": 260,
+      "compile_error": 864,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1223
@@ -800,9 +800,9 @@
     {
       "name": "language/arguments-object",
       "path": "language/arguments-object",
-      "pass": 103,
+      "pass": 105,
       "fail": 67,
-      "compile_error": 93,
+      "compile_error": 91,
       "compile_timeout": 0,
       "skip": 0,
       "total": 263
@@ -890,9 +890,9 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 3403,
-      "fail": 1301,
-      "compile_error": 6314,
+      "pass": 3408,
+      "fail": 1303,
+      "compile_error": 6307,
       "compile_timeout": 0,
       "skip": 18,
       "total": 11036
@@ -981,8 +981,8 @@
       "name": "language/literals",
       "path": "language/literals",
       "pass": 467,
-      "fail": 21,
-      "compile_error": 46,
+      "fail": 25,
+      "compile_error": 42,
       "compile_timeout": 0,
       "skip": 0,
       "total": 534
@@ -1051,8 +1051,8 @@
       "name": "language/statements",
       "path": "language/statements",
       "pass": 2728,
-      "fail": 1225,
-      "compile_error": 5382,
+      "fail": 1227,
+      "compile_error": 5380,
       "compile_timeout": 2,
       "skip": 0,
       "total": 9337
@@ -1080,16 +1080,16 @@
   ],
   "error_categories": {
     "assertion_fail": 4602,
-    "illegal_cast": 82,
+    "illegal_cast": 96,
     "negative_test_fail": 74,
-    "null_deref": 165,
+    "null_deref": 166,
     "oob": 101,
     "other": 26271,
     "promise_error": 27,
     "range_error": 27,
-    "runtime_error": 1344,
+    "runtime_error": 1370,
     "unreachable": 3,
-    "wasm_compile": 4412
+    "wasm_compile": 4363
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1097,8 +1097,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 37121,
-    "classified": 37121,
+    "total_non_pass_non_skip": 37113,
+    "classified": 37113,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1187,15 +1187,15 @@
           "null_deref": 1
         },
         "sample_files": [
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
-          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
+          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: '__proto_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/",
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
+          "other:L#:## Codegen error: '__proto_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/",
           "runtime_error:Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");",
           "other:L#:## Codegen error: '__extern_is_undefined' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
@@ -1249,22 +1249,23 @@
         "count": 198,
         "statuses": {
           "pass": 0,
-          "fail": 45,
-          "compile_error": 153,
+          "fail": 46,
+          "compile_error": 152,
           "compile_timeout": 0,
           "skip": 0,
           "total": 198
         },
         "error_categories": {
           "other": 67,
-          "wasm_compile": 61,
+          "wasm_compile": 60,
           "assertion_fail": 31,
           "runtime_error": 24,
           "range_error": 3,
           "promise_error": 1,
           "negative_test_fail": 1,
           "null_deref": 6,
-          "oob": 4
+          "oob": 4,
+          "illegal_cast": 1
         },
         "sample_files": [
           "test/language/expressions/dynamic-import/await-import-evaluation.js",
@@ -1362,8 +1363,8 @@
         "count": 2029,
         "statuses": {
           "pass": 0,
-          "fail": 115,
-          "compile_error": 1906,
+          "fail": 124,
+          "compile_error": 1897,
           "compile_timeout": 8,
           "skip": 0,
           "total": 2029
@@ -1371,10 +1372,10 @@
         "error_categories": {
           "assertion_fail": 96,
           "other": 1710,
-          "wasm_compile": 193,
           "null_deref": 11,
+          "wasm_compile": 184,
           "runtime_error": 6,
-          "illegal_cast": 5
+          "illegal_cast": 14
         },
         "sample_files": [
           "test/language/literals/regexp/S7.8.5_A2.4_T2.js",
@@ -1434,19 +1435,19 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 19635,
+        "count": 19634,
         "statuses": {
           "pass": 0,
           "fail": 721,
-          "compile_error": 18914,
+          "compile_error": 18913,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 19635
+          "total": 19634
         },
         "error_categories": {
           "other": 18516,
           "assertion_fail": 603,
-          "wasm_compile": 284,
+          "wasm_compile": 283,
           "oob": 48,
           "runtime_error": 132,
           "promise_error": 12,
@@ -1557,25 +1558,25 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 1659,
+        "count": 1658,
         "statuses": {
           "pass": 0,
-          "fail": 665,
-          "compile_error": 991,
+          "fail": 669,
+          "compile_error": 986,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 1659
+          "total": 1658
         },
         "error_categories": {
           "other": 585,
-          "wasm_compile": 438,
+          "wasm_compile": 433,
           "assertion_fail": 316,
           "negative_test_fail": 13,
           "oob": 41,
           "runtime_error": 147,
           "null_deref": 86,
+          "illegal_cast": 30,
           "promise_error": 2,
-          "illegal_cast": 26,
           "range_error": 2
         },
         "sample_files": [
@@ -1601,17 +1602,17 @@
           "#1759"
         ],
         "label": "ToPrimitive / object-to-string dispatch residuals",
-        "count": 372,
+        "count": 398,
         "statuses": {
           "pass": 0,
-          "fail": 269,
+          "fail": 295,
           "compile_error": 103,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 372
+          "total": 398
         },
         "error_categories": {
-          "runtime_error": 347,
+          "runtime_error": 373,
           "wasm_compile": 12,
           "assertion_fail": 13
         },
@@ -1743,11 +1744,11 @@
           "test/built-ins/String/S15.5.5.1_A2.js"
         ],
         "sample_signatures": [
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local ",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found local.get of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $obj",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $e externref) nop (try (do i32.const # (if (result externref) (t",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__str (ref nu",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $obj (ref null #)) (local $__defprop_obj_1 (ref null #)) (local ",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found i32.const of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__str__instance (ref nu",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found if of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__charCodeAt_tmp (ref null #))"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found i32.const of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__str__instance (ref nu"
         ]
       },
       {
@@ -1851,9 +1852,9 @@
         "sample_signatures": [
           "wasm_compile:L#:## No dependency provided for extern class \"parseFloat\"",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found call of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $e externref) nop (try (do i3",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: i32.trunc_sat_f64_s[#] expected type f64, found i32.trunc_sat_f64_s of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $e exter",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type f64, found call of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $e externref) nop (try (do i3",
           "illegal_cast:illegal cast [in parseFloat() ← test]",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type f64, found call of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $e externref) nop (try (do i3"
+          "wasm_compile:L#:## No dependency provided for extern class \"BigInt\""
         ]
       },
       {
@@ -2049,34 +2050,34 @@
           "#1726"
         ],
         "label": "Arguments object fidelity",
-        "count": 13,
+        "count": 11,
         "statuses": {
           "pass": 0,
           "fail": 9,
-          "compile_error": 4,
+          "compile_error": 2,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 13
+          "total": 11
         },
         "error_categories": {
-          "wasm_compile": 4,
+          "wasm_compile": 2,
           "illegal_cast": 2,
           "assertion_fail": 6,
           "null_deref": 1
         },
         "sample_files": [
           "test/language/arguments-object/10.6-13-a-3.js",
-          "test/language/arguments-object/unmapped/via-strict.js",
           "test/language/arguments-object/unmapped/via-params-rest.js",
           "test/language/arguments-object/10.6-6-4.js",
-          "test/language/arguments-object/10.6-10-c-ii-1-s.js"
+          "test/language/arguments-object/10.6-10-c-ii-1-s.js",
+          "test/language/arguments-object/10.6-10-c-ii-1.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test2\" failed: not enough arguments on the stack for local.tee (need #, got #) @+#) [in test2()] [@+#] [wat: (func $test2 (param (ref null #)) (local $arguments (r",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"foo\" failed: Invalid types for ref.cast null: local.get of type externref has to be in the same reference type hierarchy as (ref #) @+#) [in foo()] [@+#] [wat: (fu",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"rest\" failed: local.set[#] expected type (ref null #), found any.convert_extern of type anyref @+#) [in rest()] [@+#] [wat: (func $rest (param (ref null #) externr",
           "illegal_cast:L#:## illegal cast [in testcase() ← test]",
-          "assertion_fail:returned # — assert ## at L#: assert(foo(#, 'sss', #), 'foo(#, \"sss\", #) !== true');"
+          "assertion_fail:returned # — assert ## at L#: assert(foo(#, 'sss', #), 'foo(#, \"sss\", #) !== true');",
+          "assertion_fail:returned # — assert ## at L#: assert(foo(#,'sss',#), 'foo(#,\"sss\",#) !== true');"
         ]
       },
       {
@@ -2245,16 +2246,16 @@
         "count": 158,
         "statuses": {
           "pass": 0,
-          "fail": 44,
-          "compile_error": 112,
+          "fail": 45,
+          "compile_error": 111,
           "compile_timeout": 2,
           "skip": 0,
           "total": 158
         },
         "error_categories": {
-          "wasm_compile": 105,
+          "wasm_compile": 104,
           "other": 7,
-          "null_deref": 17,
+          "null_deref": 18,
           "assertion_fail": 19,
           "negative_test_fail": 3,
           "illegal_cast": 2,
@@ -2265,14 +2266,14 @@
           "test/language/statements/switch/S12.11_A1_T4.js",
           "test/language/statements/try/S12.14_A18_T3.js",
           "test/language/statements/for/12.6.3_2-3-a-ii-11.js",
-          "test/language/statements/function/S13.2.1_A6_T2.js"
+          "test/language/statements/function/S13.2_A2_T2.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## No dependency provided for extern class \"__func\"",
           "other:L#:## Codegen error: pendingMethodTrampolines: methodFuncIdx # points at import \"isNaN\" — shift walker missed this entry (#1525b regression)",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local ",
           "compile_timeout:timeout (10s)",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found local.get of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $x f64) (local $a (ref n"
+          "null_deref:dereferencing a null pointer [in __str_concat() ← test]"
         ]
       },
       {
@@ -2560,17 +2561,17 @@
           "#1623"
         ],
         "label": "Illegal-cast/type-boundary residual",
-        "count": 338,
+        "count": 279,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 338,
+          "compile_error": 279,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 338
+          "total": 279
         },
         "error_categories": {
-          "wasm_compile": 338
+          "wasm_compile": 279
         },
         "sample_files": [
           "test/language/expressions/compound-assignment/S11.13.2_A4.2_T1.3.js",
@@ -2580,7 +2581,11 @@
           "test/language/expressions/addition/S11.6.1_A3.2_T2.4.js"
         ],
         "sample_signatures": [
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local "
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local ",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $object (ref n",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $str (ref null",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $x f64) (local",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__tmp_0 exter"
         ]
       },
       {
@@ -2622,17 +2627,17 @@
           "#1525b"
         ],
         "label": "Invalid Wasm at type/coercion boundaries, late globals, and trampolines",
-        "count": 542,
+        "count": 571,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 542,
+          "compile_error": 571,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 542
+          "total": 571
         },
         "error_categories": {
-          "wasm_compile": 542
+          "wasm_compile": 571
         },
         "sample_files": [
           "test/language/expressions/addition/S11.6.1_A3.1_T1.3.js",
