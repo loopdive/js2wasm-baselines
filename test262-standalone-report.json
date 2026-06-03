@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T07:04:50.336Z",
-  "baseline_generated_at": "2026-06-03T07:04:49Z",
-  "baseline_sha": "44ad0e9127d21d2cf00049ca13ea234d300771a2",
+  "timestamp": "2026-06-03T07:16:33.985Z",
+  "baseline_generated_at": "2026-06-03T07:16:33Z",
+  "baseline_sha": "761ecb29263660bd621b884ee56d2c5e51d6cada",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,22 +9,22 @@
   },
   "summary": {
     "total": 43128,
-    "pass": 8106,
-    "fail": 7163,
-    "compile_error": 27835,
+    "pass": 8107,
+    "fail": 7167,
+    "compile_error": 27830,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 15269,
+    "compilable": 15274,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
-        "pass": 7835,
-        "fail": 6886,
-        "compile_error": 27297,
+        "pass": 7836,
+        "fail": 6890,
+        "compile_error": 27292,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 14721,
+        "compilable": 14726,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -52,23 +52,23 @@
       },
       "official": {
         "total": 43128,
-        "pass": 8106,
-        "fail": 7163,
-        "compile_error": 27835,
+        "pass": 8107,
+        "fail": 7167,
+        "compile_error": 27830,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 15269,
+        "compilable": 15274,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
-        "pass": 8327,
-        "fail": 7387,
-        "compile_error": 32276,
+        "pass": 8328,
+        "fail": 7391,
+        "compile_error": 32271,
         "compile_timeout": 6,
         "skip": 114,
-        "compilable": 15714,
+        "compilable": 15719,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -76,32 +76,32 @@
   },
   "official_summary": {
     "total": 43128,
-    "pass": 8106,
-    "fail": 7163,
-    "compile_error": 27835,
+    "pass": 8107,
+    "fail": 7167,
+    "compile_error": 27830,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 15269,
+    "compilable": 15274,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
-    "pass": 8327,
-    "fail": 7387,
-    "compile_error": 32276,
+    "pass": 8328,
+    "fail": 7391,
+    "compile_error": 32271,
     "compile_timeout": 6,
     "skip": 114,
-    "compilable": 15714,
+    "compilable": 15719,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
-    "pass": 7560,
-    "fail": 6615,
-    "compile_error": 26420,
+    "pass": 7561,
+    "fail": 6619,
+    "compile_error": 26415,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 14175,
+    "compilable": 14180,
     "stale": 0
   },
   "scope_summaries": {
@@ -127,12 +127,12 @@
     },
     "standard": {
       "total": 42042,
-      "pass": 7835,
-      "fail": 6886,
-      "compile_error": 27297,
+      "pass": 7836,
+      "fail": 6890,
+      "compile_error": 27292,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 14721,
+      "compilable": 14726,
       "stale": 0
     }
   },
@@ -670,9 +670,9 @@
     {
       "name": "built-ins/String",
       "path": "built-ins/String",
-      "pass": 79,
-      "fail": 266,
-      "compile_error": 878,
+      "pass": 80,
+      "fail": 270,
+      "compile_error": 873,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1223
@@ -1082,14 +1082,14 @@
     "assertion_fail": 6330,
     "illegal_cast": 73,
     "negative_test_fail": 71,
-    "null_deref": 146,
+    "null_deref": 150,
     "oob": 48,
-    "other": 26968,
+    "other": 26960,
     "promise_error": 29,
     "range_error": 25,
     "runtime_error": 1294,
     "unreachable": 2,
-    "wasm_compile": 4677
+    "wasm_compile": 4680
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1097,8 +1097,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 39669,
-    "classified": 39669,
+    "total_non_pass_non_skip": 39668,
+    "classified": 39668,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1197,14 +1197,14 @@
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "other:L#:## Codegen error: '__object_isExtensible' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge",
-          "other:L#:## Codegen error: '__extern_length' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/stru",
           "runtime_error:Cannot convert object to primitive value",
+          "other:L#:## Codegen error: '__extern_length' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/stru",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");"
         ]
       },
@@ -1382,15 +1382,15 @@
         },
         "sample_files": [
           "test/language/literals/regexp/S7.8.5_A2.4_T2.js",
-          "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
           "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
           "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
+          "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
           "test/built-ins/RegExp/S15.10.2.6_A4_T4.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(pattern.source, xx, \"Code unit: \" + cu.toString(#));",
-          "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support metacharacter \"[\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support metacharacter \"^\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp literal",
+          "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support metacharacter \"[\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support escape \\B (##/##). Use a plain static pattern with no flags, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support metacharacter \"(\" (##/##). Use a plain static pattern with no flags, or recompile without --target standalone."
         ]
@@ -1560,23 +1560,23 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 1546,
+        "count": 1545,
         "statuses": {
           "pass": 0,
-          "fail": 631,
-          "compile_error": 912,
+          "fail": 635,
+          "compile_error": 907,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 1546
+          "total": 1545
         },
         "error_categories": {
-          "other": 549,
-          "wasm_compile": 394,
+          "other": 541,
+          "wasm_compile": 397,
           "assertion_fail": 295,
           "negative_test_fail": 11,
           "oob": 38,
           "runtime_error": 146,
-          "null_deref": 80,
+          "null_deref": 84,
           "promise_error": 2,
           "illegal_cast": 26,
           "range_error": 2
