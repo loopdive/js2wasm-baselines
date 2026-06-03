@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T21:18:46.152Z",
-  "baseline_generated_at": "2026-06-03T21:18:45Z",
-  "baseline_sha": "aeab9d043268f15e6f3cba95dd8b5ddc2733f503",
+  "timestamp": "2026-06-03T21:27:21.942Z",
+  "baseline_generated_at": "2026-06-03T21:27:21Z",
+  "baseline_sha": "1fecb37be2e9838a15f12e1d6fef860c2e43d8fa",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1188,9 +1188,9 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/compare/builtin.js",
-          "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
+          "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
@@ -1333,21 +1333,21 @@
           "total": 158
         },
         "error_categories": {
-          "other": 99,
           "unreachable": 33,
+          "other": 99,
           "assertion_fail": 22,
           "wasm_compile": 4
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
+          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
           "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
-          "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← test]",
+          "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # "
@@ -1372,8 +1372,8 @@
         "error_categories": {
           "assertion_fail": 98,
           "other": 1712,
-          "null_deref": 11,
           "wasm_compile": 183,
+          "null_deref": 11,
           "runtime_error": 6,
           "illegal_cast": 14
         },
@@ -2301,14 +2301,14 @@
           "test/language/statements/switch/S12.11_A1_T4.js",
           "test/language/statements/try/S12.14_A18_T3.js",
           "test/language/statements/for/12.6.3_2-3-a-ii-11.js",
-          "test/language/statements/function/S13.2_A2_T2.js"
+          "test/language/statements/function/S13.2.1_A6_T2.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## No dependency provided for extern class \"__func\"",
           "other:L#:## Codegen error: pendingMethodTrampolines: methodFuncIdx # points at import \"isNaN\" — shift walker missed this entry (#1525b regression)",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found ref.cast null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local ",
           "compile_timeout:timeout (10s)",
-          "null_deref:dereferencing a null pointer [in __str_concat() ← test]"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found local.get of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $x f64) (local $a (ref n"
         ]
       },
       {
