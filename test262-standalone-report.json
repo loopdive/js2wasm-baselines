@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T22:05:23.657Z",
-  "baseline_generated_at": "2026-06-03T22:05:23Z",
-  "baseline_sha": "0a3607973e11f63c50b4d8cc7d496e1981fc7f66",
+  "timestamp": "2026-06-03T22:28:05.941Z",
+  "baseline_generated_at": "2026-06-03T22:28:05Z",
+  "baseline_sha": "f692249d78cacebe3c88c098708258899856abe2",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1191,14 +1191,14 @@
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
+          "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__proto_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/",
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "runtime_error:Cannot convert object to primitive value",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");",
-          "other:L#:## Codegen error: '__extern_is_undefined' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
+          "other:L#:## Codegen error: '__extern_is_undefined' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");"
         ]
       },
       {
@@ -1333,22 +1333,22 @@
           "total": 158
         },
         "error_categories": {
-          "unreachable": 33,
           "other": 99,
+          "unreachable": 33,
           "assertion_fail": 22,
           "wasm_compile": 4
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/stringify/space-string-range.js",
+          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
           "test/built-ins/JSON/parse/text-object-abrupt.js"
         ],
         "sample_signatures": [
-          "unreachable:L#:## unreachable [in __json_parse_primitive() ← test]",
           "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
+          "unreachable:L#:## unreachable [in __json_parse_primitive() ← test]",
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # "
         ]
@@ -1372,8 +1372,8 @@
         "error_categories": {
           "assertion_fail": 103,
           "other": 1709,
-          "null_deref": 11,
           "wasm_compile": 183,
+          "null_deref": 11,
           "runtime_error": 6,
           "illegal_cast": 14
         },
@@ -1739,7 +1739,7 @@
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-220.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-40.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-94.js",
-          "test/built-ins/Object/defineProperty/15.2.3.6-4-432.js"
+          "test/built-ins/Object/defineProperty/15.2.3.6-4-485.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(obj == Infinity, 'The result of evaluating (obj == Infinity) is expected to be true');",
