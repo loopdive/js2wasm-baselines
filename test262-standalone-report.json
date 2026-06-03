@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-03T21:09:36.308Z",
-  "baseline_generated_at": "2026-06-03T21:09:35Z",
-  "baseline_sha": "b27ca2e5adaf154c016cc004baddb4f45a2e78b7",
+  "timestamp": "2026-06-03T21:18:46.152Z",
+  "baseline_generated_at": "2026-06-03T21:18:45Z",
+  "baseline_sha": "aeab9d043268f15e6f3cba95dd8b5ddc2733f503",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1187,15 +1187,15 @@
           "null_deref": 1
         },
         "sample_files": [
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "other:L#:## Codegen error: '__proto_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/",
+          "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "runtime_error:Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");",
           "other:L#:## Codegen error: '__extern_is_undefined' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
@@ -1952,15 +1952,15 @@
         },
         "sample_files": [
           "test/built-ins/Function/S15.3.5_A3_T1.js",
-          "test/built-ins/Function/StrictFunction_reservedwords_with.js",
           "test/built-ins/Function/15.3.5.4_2-9gs.js",
+          "test/built-ins/Function/StrictFunction_reservedwords_with.js",
           "test/language/function-code/10.4.3-1-92-s.js",
           "test/built-ins/Function/15.3.5.4_2-64gs.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## No dependency provided for extern class \"FACTORY\"",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { new Function(\"'use strict'; with ({}) {}\"); }, '`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception');",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f(); });",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { new Function(\"'use strict'; with ({}) {}\"); }, '`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception');",
           "assertion_fail:returned # — assert ## at L#: assert((function () {\"use strict\"; return f.call(undefined);})());",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f.apply(global); });"
         ]
