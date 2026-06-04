@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T04:21:44.612Z",
-  "baseline_generated_at": "2026-06-04T04:21:44Z",
-  "baseline_sha": "7e47f80268008a8b590fc0ea4a9de10d4eb75294",
+  "timestamp": "2026-06-04T04:34:28.261Z",
+  "baseline_generated_at": "2026-06-04T04:34:27Z",
+  "baseline_sha": "f88b7a1b166f80791ba20aba5586cdf393b6c7ff",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1189,10 +1189,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
+          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
@@ -1490,20 +1490,20 @@
           "total": 179
         },
         "error_categories": {
-          "assertion_fail": 2,
           "other": 175,
+          "assertion_fail": 2,
           "runtime_error": 2
         },
         "sample_files": [
-          "test/built-ins/Reflect/ownKeys/return-non-enumerable-keys.js",
           "test/built-ins/Reflect/get/return-abrupt-from-property-key.js",
+          "test/built-ins/Reflect/ownKeys/return-non-enumerable-keys.js",
           "test/built-ins/TypedArrayConstructors/internals/Delete/BigInt/key-is-symbol.js",
           "test/built-ins/Reflect/getOwnPropertyDescriptor/return-abrupt-from-property-key.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/key-is-minus-zero.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.compareArray( Reflect.ownKeys([]), ['length'], 'return non enumerable `length` from empty array' );",
           "other:L#:## Codegen error: Reflect.get not supported in standalone mode (## Phase C).",
+          "assertion_fail:returned # — assert ## at L#: assert.compareArray( Reflect.ownKeys([]), ['length'], 'return non enumerable `length` from empty array' );",
           "other:L#:## Codegen error: Reflect.has not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.has not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.set not supported in standalone mode (## Phase C).; L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object "
@@ -1743,7 +1743,7 @@
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-220.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-40.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-94.js",
-          "test/built-ins/Object/defineProperty/15.2.3.6-4-485.js"
+          "test/built-ins/Object/defineProperty/15.2.3.6-4-432.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(obj == Infinity, 'The result of evaluating (obj == Infinity) is expected to be true');",
