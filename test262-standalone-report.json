@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T13:46:18.750Z",
-  "baseline_generated_at": "2026-06-04T13:46:18Z",
-  "baseline_sha": "428f335c9f022d69175829c2850a54be98887e5a",
+  "timestamp": "2026-06-04T14:03:29.225Z",
+  "baseline_generated_at": "2026-06-04T14:03:28Z",
+  "baseline_sha": "818a8c1dca070e25c99f24a5f074086121835ac9",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1083,14 +1083,14 @@
     "illegal_cast": 141,
     "negative_test_fail": 71,
     "null_deref": 207,
-    "oob": 122,
-    "other": 24832,
-    "promise_error": 30,
+    "oob": 104,
+    "other": 25196,
+    "promise_error": 26,
     "range_error": 37,
     "runtime_error": 2072,
     "type_error": 1,
     "unreachable": 36,
-    "wasm_compile": 2414
+    "wasm_compile": 2072
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1102,6 +1102,40 @@
     "classified": 35771,
     "unclassified_threshold": 0,
     "buckets": [
+      {
+        "id": "binary-emit-u32-out-of-range",
+        "issues": [
+          "#1858",
+          "#1862"
+        ],
+        "label": "Binary emit u32 out of range (negative index/count emitted as u32) — instanceof / Error.isError fail-loud",
+        "count": 382,
+        "statuses": {
+          "pass": 0,
+          "fail": 0,
+          "compile_error": 382,
+          "compile_timeout": 0,
+          "skip": 0,
+          "total": 382
+        },
+        "error_categories": {
+          "other": 382
+        },
+        "sample_files": [
+          "test/language/statements/class/subclass-builtins/subclass-BigUint64Array.js",
+          "test/language/statements/function/dstr/dflt-obj-ptrn-rest-getter.js",
+          "test/language/expressions/compound-assignment/S11.13.2_A5.3_T1.js",
+          "test/built-ins/Array/prototype/every/15.4.4.16-1-9.js",
+          "test/built-ins/Array/prototype/filter/15.4.4.20-1-11.js"
+        ],
+        "sample_signatures": [
+          "other:L#:## Binary emit error: u32 out of range: -#",
+          "other:L#:## ##: with statement requires a proven closed object-literal shape before codegen; target Identifier is not a closed object literal. ECMA-# #.# creates an Object Environment Record, #.#.# checks HasProperty plus @@unscopables, and #.# i",
+          "other:L#:## Binary emit error: u32 out of range: undefined",
+          "other:L#:## join requires string support (wasm:js-string concat); L#:## join requires string support (wasm:js-string concat); L#:## join requires string support (wasm:js-string concat); L#:## join requires string support (wasm:js-string concat); ",
+          "other:L#:## join requires string support (wasm:js-string concat); L#:## join requires string support (wasm:js-string concat); L#:## Binary emit error: u32 out of range: -#"
+        ]
+      },
       {
         "id": "numeric-separator-literal-values",
         "issues": [
@@ -1189,8 +1223,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
-          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/compare/builtin.js",
+          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
@@ -1209,35 +1243,35 @@
           "#990"
         ],
         "label": "DisposableStack / explicit resource management",
-        "count": 110,
+        "count": 94,
         "statuses": {
           "pass": 0,
           "fail": 33,
-          "compile_error": 77,
+          "compile_error": 61,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 110
+          "total": 94
         },
         "error_categories": {
-          "wasm_compile": 23,
           "other": 61,
           "runtime_error": 1,
+          "wasm_compile": 7,
           "assertion_fail": 24,
           "null_deref": 1
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/DisposableStack/prototype-from-newtarget.js",
           "test/built-ins/DisposableStack/prototype/move/throws-if-disposed.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/this-not-object-throws.js",
-          "test/built-ins/DisposableStack/prototype/adopt/this-does-not-have-internal-disposablestate-throws.js"
+          "test/built-ins/DisposableStack/prototype/adopt/this-does-not-have-internal-disposablestate-throws.js",
+          "test/built-ins/AsyncDisposableStack/prototype/Symbol.asyncDispose.js"
         ],
         "sample_signatures": [
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__nullchk_0 externref) (local $__nullchk_1 externref) (local $_",
           "other:L#:## Codegen error: '__getPrototypeOf' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str",
           "runtime_error:L#:## Cannot call DisposableStack.prototype.move on an already-disposed DisposableStack",
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
-          "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct"
+          "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
+          "other:L#:## Codegen error: '__getOwnPropertyDescriptor' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to stru"
         ]
       },
       {
@@ -1247,19 +1281,19 @@
           "#1512"
         ],
         "label": "Dynamic import unsupported / early errors",
-        "count": 165,
+        "count": 164,
         "statuses": {
           "pass": 0,
           "fail": 39,
-          "compile_error": 126,
+          "compile_error": 125,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 165
+          "total": 164
         },
         "error_categories": {
           "other": 85,
           "runtime_error": 24,
-          "wasm_compile": 15,
+          "wasm_compile": 14,
           "range_error": 3,
           "assertion_fail": 26,
           "promise_error": 1,
@@ -1288,17 +1322,17 @@
           "#1387"
         ],
         "label": "`with` statement dynamic-scope lowering residuals",
-        "count": 288,
+        "count": 273,
         "statuses": {
           "pass": 0,
           "fail": 8,
-          "compile_error": 280,
+          "compile_error": 265,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 288
+          "total": 273
         },
         "error_categories": {
-          "other": 279,
+          "other": 264,
           "runtime_error": 1,
           "assertion_fail": 4,
           "range_error": 3,
@@ -1308,8 +1342,8 @@
           "test/language/statements/generators/unscopables-with-in-nested-fn.js",
           "test/language/statements/with/S12.10_A3.10_T2.js",
           "test/language/statements/with/S12.10_A4_T6.js",
-          "test/language/expressions/compound-assignment/S11.13.2_A5.3_T1.js",
-          "test/language/statements/with/S12.10_A1.11_T5.js"
+          "test/language/statements/with/S12.10_A1.11_T5.js",
+          "test/language/statements/with/S12.10_A3.12_T3.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
@@ -1363,20 +1397,20 @@
           "#1474"
         ],
         "label": "RegExp literals/constructor/String-RegExp paths still refused or missing native engine",
-        "count": 2034,
+        "count": 2007,
         "statuses": {
           "pass": 0,
           "fail": 141,
-          "compile_error": 1885,
+          "compile_error": 1858,
           "compile_timeout": 8,
           "skip": 0,
-          "total": 2034
+          "total": 2007
         },
         "error_categories": {
           "assertion_fail": 113,
           "other": 1693,
           "null_deref": 9,
-          "wasm_compile": 189,
+          "wasm_compile": 162,
           "runtime_error": 17,
           "illegal_cast": 5
         },
@@ -1437,20 +1471,20 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 18297,
+        "count": 18223,
         "statuses": {
           "pass": 0,
           "fail": 868,
-          "compile_error": 17429,
+          "compile_error": 17355,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 18297
+          "total": 18223
         },
         "error_categories": {
           "assertion_fail": 661,
-          "wasm_compile": 587,
+          "wasm_compile": 531,
           "other": 16688,
-          "oob": 65,
+          "oob": 47,
           "runtime_error": 219,
           "promise_error": 12,
           "illegal_cast": 44,
@@ -1517,20 +1551,20 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 972,
+        "count": 959,
         "statuses": {
           "pass": 0,
           "fail": 225,
-          "compile_error": 747,
+          "compile_error": 734,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 972
+          "total": 959
         },
         "error_categories": {
           "null_deref": 20,
           "other": 654,
           "assertion_fail": 135,
-          "wasm_compile": 109,
+          "wasm_compile": 96,
           "runtime_error": 45,
           "oob": 1,
           "illegal_cast": 4,
@@ -1558,18 +1592,18 @@
           "#1665"
         ],
         "label": "Generators and async iteration",
-        "count": 103,
+        "count": 101,
         "statuses": {
           "pass": 0,
           "fail": 5,
-          "compile_error": 98,
+          "compile_error": 96,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 103
+          "total": 101
         },
         "error_categories": {
           "other": 76,
-          "wasm_compile": 23,
+          "wasm_compile": 21,
           "null_deref": 2,
           "assertion_fail": 1,
           "range_error": 1
@@ -1597,18 +1631,18 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 2439,
+        "count": 2265,
         "statuses": {
           "pass": 0,
           "fail": 833,
-          "compile_error": 1603,
+          "compile_error": 1429,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 2439
+          "total": 2265
         },
         "error_categories": {
-          "wasm_compile": 1017,
-          "other": 615,
+          "wasm_compile": 846,
+          "other": 612,
           "negative_test_fail": 13,
           "assertion_fail": 444,
           "oob": 42,
@@ -1621,15 +1655,15 @@
           "test/language/statements/class/accessor-name-static/literal-string-empty.js",
           "test/language/statements/class/elements/new-no-sc-line-method-literal-names.js",
           "test/language/statements/class/elements/set-access-of-missing-private-setter.js",
-          "test/language/statements/class/subclass-builtins/subclass-BigUint64Array.js",
-          "test/language/expressions/arrow-function/forbidden-ext/b2/arrow-function-forbidden-ext-indirect-access-prop-caller.js"
+          "test/language/expressions/arrow-function/forbidden-ext/b2/arrow-function-forbidden-ext-indirect-access-prop-caller.js",
+          "test/language/expressions/class/elements/private-getter-shadowed-by-setter-on-nested-class.js"
         ],
         "sample_signatures": [
           "wasm_compile:invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"__str_flatten\" failed: call[#] expected type (ref null #), found i32.const of type i32 @+#) [in __str_flatten()] [@+#] [wat: (func $__str_flatten (param (ref null #)) (r",
           "other:L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str",
-          "wasm_compile:invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"__str_flatten\" failed: call[#] expected type i32, found local.get of type (ref null #) @+#) [in __str_flatten()] [@+#] [wat: (func $__str_flatten (param (ref null #)) (r",
           "other:L#:## Codegen error: '__getOwnPropertyDescriptor' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to stru",
-          "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully"
+          "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $accessed i32) (loc"
         ]
       },
       {
@@ -1678,20 +1712,20 @@
           "#1654"
         ],
         "label": "Array, TypedArray, DataView, and buffer semantics",
-        "count": 71,
+        "count": 70,
         "statuses": {
           "pass": 0,
           "fail": 47,
-          "compile_error": 24,
+          "compile_error": 23,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 71
+          "total": 70
         },
         "error_categories": {
           "assertion_fail": 34,
           "other": 17,
           "oob": 7,
-          "wasm_compile": 11,
+          "wasm_compile": 10,
           "illegal_cast": 1,
           "null_deref": 1
         },
@@ -1719,20 +1753,20 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 888,
+        "count": 859,
         "statuses": {
           "pass": 0,
           "fail": 309,
-          "compile_error": 579,
+          "compile_error": 550,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 888
+          "total": 859
         },
         "error_categories": {
           "assertion_fail": 294,
           "other": 521,
-          "wasm_compile": 56,
           "illegal_cast": 2,
+          "wasm_compile": 27,
           "negative_test_fail": 4,
           "promise_error": 4,
           "runtime_error": 5,
@@ -1868,18 +1902,18 @@
           "#1689"
         ],
         "label": "Number parsing, formatting, and coercion",
-        "count": 68,
+        "count": 67,
         "statuses": {
           "pass": 0,
           "fail": 54,
-          "compile_error": 14,
+          "compile_error": 13,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 68
+          "total": 67
         },
         "error_categories": {
           "illegal_cast": 35,
-          "wasm_compile": 29,
+          "wasm_compile": 28,
           "assertion_fail": 4
         },
         "sample_files": [
@@ -1976,18 +2010,18 @@
           "#540"
         ],
         "label": "Assignment targets, private refs, and short-circuit semantics",
-        "count": 54,
+        "count": 53,
         "statuses": {
           "pass": 0,
           "fail": 45,
-          "compile_error": 9,
+          "compile_error": 8,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 54
+          "total": 53
         },
         "error_categories": {
           "assertion_fail": 34,
-          "wasm_compile": 9,
+          "wasm_compile": 8,
           "negative_test_fail": 4,
           "illegal_cast": 3,
           "null_deref": 4
@@ -2050,18 +2084,18 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 95,
+        "count": 94,
         "statuses": {
           "pass": 0,
           "fail": 81,
-          "compile_error": 14,
+          "compile_error": 13,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 95
+          "total": 94
         },
         "error_categories": {
           "assertion_fail": 63,
-          "wasm_compile": 16,
+          "wasm_compile": 15,
           "other": 12,
           "negative_test_fail": 3,
           "null_deref": 1
@@ -2162,20 +2196,20 @@
           "#1726"
         ],
         "label": "Lexical scope, TDZ, and declaration semantics",
-        "count": 114,
+        "count": 111,
         "statuses": {
           "pass": 0,
           "fail": 90,
-          "compile_error": 24,
+          "compile_error": 21,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 114
+          "total": 111
         },
         "error_categories": {
           "null_deref": 10,
           "assertion_fail": 49,
           "negative_test_fail": 12,
-          "wasm_compile": 28,
+          "wasm_compile": 25,
           "other": 5,
           "illegal_cast": 2,
           "range_error": 4,
@@ -2204,19 +2238,19 @@
           "#1694"
         ],
         "label": "Promise and async standalone semantics",
-        "count": 75,
+        "count": 70,
         "statuses": {
           "pass": 0,
           "fail": 49,
-          "compile_error": 26,
+          "compile_error": 21,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 75
+          "total": 70
         },
         "error_categories": {
           "negative_test_fail": 1,
-          "wasm_compile": 23,
-          "promise_error": 9,
+          "wasm_compile": 22,
+          "promise_error": 5,
           "other": 36,
           "assertion_fail": 3,
           "null_deref": 2,
@@ -2281,17 +2315,17 @@
           "#787"
         ],
         "label": "Tail-call/control-flow loop semantics, including compile timeouts",
-        "count": 83,
+        "count": 81,
         "statuses": {
           "pass": 0,
           "fail": 50,
-          "compile_error": 31,
+          "compile_error": 29,
           "compile_timeout": 2,
           "skip": 0,
-          "total": 83
+          "total": 81
         },
         "error_categories": {
-          "wasm_compile": 26,
+          "wasm_compile": 24,
           "null_deref": 23,
           "assertion_fail": 17,
           "illegal_cast": 3,
@@ -2654,31 +2688,31 @@
           "#1525b"
         ],
         "label": "Invalid Wasm at type/coercion boundaries, late globals, and trampolines",
-        "count": 71,
+        "count": 54,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 71,
+          "compile_error": 54,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 71
+          "total": 54
         },
         "error_categories": {
-          "wasm_compile": 71
+          "wasm_compile": 54
         },
         "sample_files": [
           "test/built-ins/encodeURI/S15.1.3.3_A2.4_T1.js",
           "test/language/expressions/call/S11.2.3_A2.js",
           "test/language/expressions/compound-assignment/S11.13.2_A6.9_T1.js",
-          "test/language/expressions/instanceof/S15.3.5.3_A2_T2.js",
-          "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.js"
+          "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.js",
+          "test/language/expressions/compound-assignment/S11.13.2_A6.10_T1.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found f64.add of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $chars (ref null #)) (loca",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found ref.null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $e ex",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"testCompoundAssignment\" failed: local.set[#] expected type externref, found f64.const of type f64 @+#) [in testCompoundAssignment()] [@+#] [wat: (func $testCompoun",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: Invalid global index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $FACTORY externref) (local $obj externref) (local $__paset_obj_2",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found f64.add of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $errorCount f64) (local $c"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type (ref null #), found f64.add of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $errorCount f64) (local $c",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"testcase\" failed: array.set[#] expected type externref, found local.get of type f64 @+#) [in testcase()] [@+#] [wat: (func $testcase (type #) (local $arguments (re"
         ]
       },
       {
