@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T02:43:36.878Z",
-  "baseline_generated_at": "2026-06-04T02:43:36Z",
-  "baseline_sha": "70dba09ced4468ed9cf7e6cee9586a6a958d62f0",
+  "timestamp": "2026-06-04T03:39:45.839Z",
+  "baseline_generated_at": "2026-06-04T03:39:45Z",
+  "baseline_sha": "599ce55ce97fba8c15c3cf73e716664f7a8d06aa",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total": 43128,
-    "pass": 11444,
-    "fail": 7068,
+    "pass": 11445,
+    "fail": 7067,
     "compile_error": 24585,
     "compile_timeout": 13,
     "skip": 18,
@@ -19,8 +19,8 @@
     "by_category": {
       "standard": {
         "total": 42042,
-        "pass": 11129,
-        "fail": 6823,
+        "pass": 11130,
+        "fail": 6822,
         "compile_error": 24059,
         "compile_timeout": 13,
         "skip": 18,
@@ -52,8 +52,8 @@
       },
       "official": {
         "total": 43128,
-        "pass": 11444,
-        "fail": 7068,
+        "pass": 11445,
+        "fail": 7067,
         "compile_error": 24585,
         "compile_timeout": 13,
         "skip": 18,
@@ -63,8 +63,8 @@
       },
       "full": {
         "total": 48110,
-        "pass": 11664,
-        "fail": 7327,
+        "pass": 11665,
+        "fail": 7326,
         "compile_error": 28992,
         "compile_timeout": 13,
         "skip": 114,
@@ -76,8 +76,8 @@
   },
   "official_summary": {
     "total": 43128,
-    "pass": 11444,
-    "fail": 7068,
+    "pass": 11445,
+    "fail": 7067,
     "compile_error": 24585,
     "compile_timeout": 13,
     "skip": 18,
@@ -86,8 +86,8 @@
   },
   "full_summary": {
     "total": 48110,
-    "pass": 11664,
-    "fail": 7327,
+    "pass": 11665,
+    "fail": 7326,
     "compile_error": 28992,
     "compile_timeout": 13,
     "skip": 114,
@@ -96,8 +96,8 @@
   },
   "strict_summary": {
     "total": 40619,
-    "pass": 10757,
-    "fail": 6610,
+    "pass": 10758,
+    "fail": 6609,
     "compile_error": 23221,
     "compile_timeout": 13,
     "skip": 18,
@@ -127,8 +127,8 @@
     },
     "standard": {
       "total": 42042,
-      "pass": 11129,
-      "fail": 6823,
+      "pass": 11130,
+      "fail": 6822,
       "compile_error": 24059,
       "compile_timeout": 13,
       "skip": 18,
@@ -180,8 +180,8 @@
     {
       "name": "built-ins/Array",
       "path": "built-ins/Array",
-      "pass": 401,
-      "fail": 823,
+      "pass": 402,
+      "fail": 822,
       "compile_error": 1854,
       "compile_timeout": 3,
       "skip": 0,
@@ -1087,7 +1087,7 @@
     "other": 24822,
     "promise_error": 31,
     "range_error": 27,
-    "runtime_error": 1982,
+    "runtime_error": 1981,
     "unreachable": 36,
     "wasm_compile": 3407
   },
@@ -1097,8 +1097,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 36332,
-    "classified": 36332,
+    "total_non_pass_non_skip": 36331,
+    "classified": 36331,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1187,15 +1187,15 @@
           "null_deref": 1
         },
         "sample_files": [
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js"
+          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "other:L#:## Codegen error: '__proto_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/",
+          "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "runtime_error:Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");",
           "other:L#:## Codegen error: '__extern_is_undefined' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
@@ -1334,24 +1334,24 @@
           "total": 158
         },
         "error_categories": {
-          "unreachable": 33,
           "other": 99,
+          "unreachable": 33,
           "assertion_fail": 22,
           "wasm_compile": 4
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
+          "test/built-ins/JSON/parse/15.12.1.1-0-9.js",
           "test/built-ins/JSON/stringify/space-string-range.js",
           "test/built-ins/JSON/parse/15.12.1.1-g4-2.js",
-          "test/built-ins/JSON/parse/text-object-abrupt.js"
+          "test/built-ins/JSON/stringify/value-bigint-tojson.js"
         ],
         "sample_signatures": [
-          "unreachable:L#:## unreachable [in __json_parse_primitive() ← test]",
           "other:L#:## Duplicate identifier 'assertOnlyOwnProperties'",
+          "unreachable:L#:## unreachable [in __json_parse_primitive() ← test]",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # "
+          "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct"
         ]
       },
       {
@@ -1373,8 +1373,8 @@
         "error_categories": {
           "assertion_fail": 112,
           "other": 1693,
-          "null_deref": 9,
           "wasm_compile": 187,
+          "null_deref": 9,
           "runtime_error": 17,
           "illegal_cast": 5
         },
@@ -1594,14 +1594,14 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 2132,
+        "count": 2131,
         "statuses": {
           "pass": 0,
-          "fail": 856,
+          "fail": 855,
           "compile_error": 1273,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 2132
+          "total": 2131
         },
         "error_categories": {
           "other": 617,
@@ -1609,7 +1609,7 @@
           "assertion_fail": 464,
           "negative_test_fail": 13,
           "oob": 41,
-          "runtime_error": 170,
+          "runtime_error": 169,
           "null_deref": 105,
           "illegal_cast": 35,
           "promise_error": 2,
