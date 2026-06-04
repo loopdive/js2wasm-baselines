@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T01:43:56.430Z",
-  "baseline_generated_at": "2026-06-04T01:43:56Z",
-  "baseline_sha": "aeac2c6040a2ba27bf4fc68163844e10208417d2",
+  "timestamp": "2026-06-04T01:53:39.698Z",
+  "baseline_generated_at": "2026-06-04T01:53:39Z",
+  "baseline_sha": "445f677b4e4db3d0c2a8f18e3c99738a99857216",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -10,21 +10,21 @@
   "summary": {
     "total": 43128,
     "pass": 11444,
-    "fail": 7064,
-    "compile_error": 24589,
+    "fail": 7068,
+    "compile_error": 24585,
     "compile_timeout": 13,
     "skip": 18,
-    "compilable": 18508,
+    "compilable": 18512,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42042,
         "pass": 11129,
-        "fail": 6819,
-        "compile_error": 24063,
+        "fail": 6823,
+        "compile_error": 24059,
         "compile_timeout": 13,
         "skip": 18,
-        "compilable": 17948,
+        "compilable": 17952,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,22 +53,22 @@
       "official": {
         "total": 43128,
         "pass": 11444,
-        "fail": 7064,
-        "compile_error": 24589,
+        "fail": 7068,
+        "compile_error": 24585,
         "compile_timeout": 13,
         "skip": 18,
-        "compilable": 18508,
+        "compilable": 18512,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48110,
         "pass": 11664,
-        "fail": 7323,
-        "compile_error": 28996,
+        "fail": 7327,
+        "compile_error": 28992,
         "compile_timeout": 13,
         "skip": 114,
-        "compilable": 18987,
+        "compilable": 18991,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,31 +77,31 @@
   "official_summary": {
     "total": 43128,
     "pass": 11444,
-    "fail": 7064,
-    "compile_error": 24589,
+    "fail": 7068,
+    "compile_error": 24585,
     "compile_timeout": 13,
     "skip": 18,
-    "compilable": 18508,
+    "compilable": 18512,
     "stale": 0
   },
   "full_summary": {
     "total": 48110,
     "pass": 11664,
-    "fail": 7323,
-    "compile_error": 28996,
+    "fail": 7327,
+    "compile_error": 28992,
     "compile_timeout": 13,
     "skip": 114,
-    "compilable": 18987,
+    "compilable": 18991,
     "stale": 0
   },
   "strict_summary": {
     "total": 40619,
     "pass": 10757,
-    "fail": 6606,
-    "compile_error": 23225,
+    "fail": 6610,
+    "compile_error": 23221,
     "compile_timeout": 13,
     "skip": 18,
-    "compilable": 17363,
+    "compilable": 17367,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,11 +128,11 @@
     "standard": {
       "total": 42042,
       "pass": 11129,
-      "fail": 6819,
-      "compile_error": 24063,
+      "fail": 6823,
+      "compile_error": 24059,
       "compile_timeout": 13,
       "skip": 18,
-      "compilable": 17948,
+      "compilable": 17952,
       "stale": 0
     }
   },
@@ -581,8 +581,8 @@
       "name": "built-ins/Promise",
       "path": "built-ins/Promise",
       "pass": 207,
-      "fail": 69,
-      "compile_error": 376,
+      "fail": 72,
+      "compile_error": 373,
       "compile_timeout": 0,
       "skip": 0,
       "total": 652
@@ -1051,8 +1051,8 @@
       "name": "language/statements",
       "path": "language/statements",
       "pass": 2762,
-      "fail": 1280,
-      "compile_error": 5293,
+      "fail": 1281,
+      "compile_error": 5292,
       "compile_timeout": 2,
       "skip": 0,
       "total": 9337
@@ -1084,12 +1084,12 @@
     "negative_test_fail": 74,
     "null_deref": 192,
     "oob": 117,
-    "other": 24827,
+    "other": 24825,
     "promise_error": 28,
     "range_error": 27,
-    "runtime_error": 1981,
+    "runtime_error": 1982,
     "unreachable": 36,
-    "wasm_compile": 3406
+    "wasm_compile": 3407
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1188,10 +1188,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
-          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
           "test/built-ins/Temporal/Duration/compare/builtin.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
+          "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
+          "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
@@ -1380,15 +1380,15 @@
         },
         "sample_files": [
           "test/language/literals/regexp/S7.8.5_A2.4_T2.js",
-          "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
           "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
+          "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
           "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
           "test/built-ins/RegExp/S15.10.2.6_A4_T4.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(pattern.source, xx, \"Code unit: \" + cu.toString(#));",
-          "other:L#:## Codegen error: standalone RegExp engine does not support lookahead (?= / ?!) — ## Phase 2d (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support flags \"u\" (u/v/d are ## Phase 2d) (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does ",
+          "other:L#:## Codegen error: standalone RegExp engine does not support lookahead (?= / ?!) — ## Phase 2d (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support negated shorthand \\W inside [...] — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support word-boundary \\B — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone."
         ]
@@ -1399,17 +1399,17 @@
           "#1776"
         ],
         "label": "Residual standalone isSameValue invalid-Wasm validator failures",
-        "count": 4804,
+        "count": 4805,
         "statuses": {
           "pass": 0,
           "fail": 3148,
-          "compile_error": 1656,
+          "compile_error": 1657,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 4804
+          "total": 4805
         },
         "error_categories": {
-          "wasm_compile": 1659,
+          "wasm_compile": 1660,
           "assertion_fail": 3138,
           "unreachable": 3,
           "runtime_error": 1,
@@ -1638,27 +1638,27 @@
           "#1759"
         ],
         "label": "ToPrimitive / object-to-string dispatch residuals",
-        "count": 921,
+        "count": 922,
         "statuses": {
           "pass": 0,
-          "fail": 775,
+          "fail": 776,
           "compile_error": 146,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 921
+          "total": 922
         },
         "error_categories": {
-          "runtime_error": 880,
+          "runtime_error": 881,
           "other": 17,
           "wasm_compile": 8,
           "assertion_fail": 16
         },
         "sample_files": [
+          "test/language/statements/switch/S12.11_A1_T4.js",
           "test/language/statements/try/S12.14_A18_T3.js",
           "test/language/expressions/bitwise-and/bigint-toprimitive.js",
           "test/language/expressions/bitwise-xor/S11.10.2_A2.4_T2.js",
-          "test/language/expressions/compound-assignment/S11.13.2_A4.2_T1.3.js",
-          "test/language/expressions/compound-assignment/S11.13.2_A4.6_T2.4.js"
+          "test/language/expressions/compound-assignment/S11.13.2_A4.2_T1.3.js"
         ],
         "sample_signatures": [
           "runtime_error:L#:## Cannot convert object to primitive value",
@@ -1738,15 +1738,15 @@
         },
         "sample_files": [
           "test/built-ins/Object/S15.2.1.1_A2_T6.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-220.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-40.js",
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-220.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-94.js",
           "test/built-ins/Object/defineProperty/15.2.3.6-4-432.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(obj == Infinity, 'The result of evaluating (obj == Infinity) is expected to be true');",
-          "other:L#:## Codegen error: '__defineProperties' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s",
           "assertion_fail:returned # — assert ## at L#: assert(accessed, 'accessed !== true');",
+          "other:L#:## Codegen error: '__defineProperties' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s",
           "other:L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str",
           "assertion_fail:returned # — assert ## at L#: verifySetFunc = value;"
         ]
@@ -2018,18 +2018,18 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 93,
+        "count": 92,
         "statuses": {
           "pass": 0,
-          "fail": 79,
-          "compile_error": 14,
+          "fail": 82,
+          "compile_error": 10,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 93
+          "total": 92
         },
         "error_categories": {
           "assertion_fail": 61,
-          "other": 16,
+          "other": 15,
           "negative_test_fail": 3,
           "wasm_compile": 12,
           "null_deref": 1
@@ -2249,37 +2249,37 @@
           "#787"
         ],
         "label": "Tail-call/control-flow loop semantics, including compile timeouts",
-        "count": 80,
+        "count": 79,
         "statuses": {
           "pass": 0,
           "fail": 49,
-          "compile_error": 29,
+          "compile_error": 28,
           "compile_timeout": 2,
           "skip": 0,
-          "total": 80
+          "total": 79
         },
         "error_categories": {
           "wasm_compile": 22,
-          "other": 7,
           "null_deref": 23,
           "assertion_fail": 17,
           "illegal_cast": 3,
           "negative_test_fail": 3,
+          "other": 6,
           "runtime_error": 3
         },
         "sample_files": [
           "test/language/statements/function/S13.2.2_A6_T1.js",
-          "test/language/statements/switch/S12.11_A1_T4.js",
           "test/language/statements/for/12.6.3_2-3-a-ii-11.js",
           "test/language/statements/function/S13.2_A2_T2.js",
-          "test/language/statements/while/S12.6.2_A4_T4.js"
+          "test/language/statements/while/S12.6.2_A4_T4.js",
+          "test/language/statements/for/12.6.3_2-3-a-ii-7.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## No dependency provided for extern class \"__func\"",
-          "other:L#:## Codegen error: pendingMethodTrampolines: methodFuncIdx # points at import \"isNaN\" — shift walker missed this entry (#1525b regression)",
           "compile_timeout:timeout (10s)",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: any.convert_extern[#] expected type externref, found ref.null of type (ref null #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__RO",
-          "null_deref:dereferencing a null pointer [in __str_flatten() ← test]"
+          "null_deref:dereferencing a null pointer [in __str_flatten() ← test]",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { foo.arguments = #; });"
         ]
       },
       {
