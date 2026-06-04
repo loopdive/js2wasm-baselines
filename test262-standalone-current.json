@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T12:31:12.405Z",
-  "baseline_generated_at": "2026-06-04T12:31:12Z",
-  "baseline_sha": "0ba030d1026710db90f96c5bf36d477c74e9f8e9",
+  "timestamp": "2026-06-04T12:45:25.765Z",
+  "baseline_generated_at": "2026-06-04T12:45:25Z",
+  "baseline_sha": "67b60b499b07f213b28da5ec0c40b4ff73d6290d",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1190,8 +1190,8 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
@@ -1375,23 +1375,23 @@
         "error_categories": {
           "assertion_fail": 113,
           "other": 1693,
-          "null_deref": 9,
           "wasm_compile": 189,
+          "null_deref": 9,
           "runtime_error": 17,
           "illegal_cast": 5
         },
         "sample_files": [
           "test/language/literals/regexp/S7.8.5_A2.4_T2.js",
           "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
-          "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
           "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
+          "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
           "test/built-ins/RegExp/S15.10.2.6_A4_T4.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(pattern.source, xx, \"Code unit: \" + cu.toString(#));",
           "other:L#:## Codegen error: standalone RegExp engine does not support flags \"u\" (u/v/d are ## Phase 2d) (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does ",
-          "other:L#:## Codegen error: standalone RegExp engine does not support lookahead (?= / ?!) — ## Phase 2d (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support negated shorthand \\W inside [...] — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
+          "other:L#:## Codegen error: standalone RegExp engine does not support lookahead (?= / ?!) — ## Phase 2d (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support word-boundary \\B — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone."
         ]
       },
@@ -1743,7 +1743,7 @@
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-220.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-40.js",
           "test/built-ins/Object/defineProperties/15.2.3.7-5-b-94.js",
-          "test/built-ins/Object/defineProperty/15.2.3.6-4-485.js"
+          "test/built-ins/Object/defineProperty/15.2.3.6-4-432.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(obj == Infinity, 'The result of evaluating (obj == Infinity) is expected to be true');",
