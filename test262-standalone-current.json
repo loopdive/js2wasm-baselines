@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T04:34:28.261Z",
-  "baseline_generated_at": "2026-06-04T04:34:27Z",
-  "baseline_sha": "f88b7a1b166f80791ba20aba5586cdf393b6c7ff",
+  "timestamp": "2026-06-04T04:45:06.720Z",
+  "baseline_generated_at": "2026-06-04T04:45:06Z",
+  "baseline_sha": "f07a5032250bc16950320736f14d545bb3bf28fd",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1079,15 +1079,15 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 5750,
+    "assertion_fail": 5753,
     "illegal_cast": 141,
     "negative_test_fail": 71,
     "null_deref": 209,
-    "oob": 121,
-    "other": 24837,
+    "oob": 122,
+    "other": 24831,
     "promise_error": 30,
     "range_error": 37,
-    "runtime_error": 2068,
+    "runtime_error": 2070,
     "type_error": 1,
     "unreachable": 36,
     "wasm_compile": 2486
@@ -1190,9 +1190,9 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
@@ -1401,17 +1401,17 @@
           "#1776"
         ],
         "label": "Residual standalone isSameValue invalid-Wasm validator failures",
-        "count": 3294,
+        "count": 3295,
         "statuses": {
           "pass": 0,
-          "fail": 3293,
+          "fail": 3294,
           "compile_error": 1,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 3294
+          "total": 3295
         },
         "error_categories": {
-          "assertion_fail": 3287,
+          "assertion_fail": 3288,
           "unreachable": 3,
           "runtime_error": 1,
           "promise_error": 3
@@ -1490,20 +1490,20 @@
           "total": 179
         },
         "error_categories": {
-          "other": 175,
           "assertion_fail": 2,
+          "other": 175,
           "runtime_error": 2
         },
         "sample_files": [
-          "test/built-ins/Reflect/get/return-abrupt-from-property-key.js",
           "test/built-ins/Reflect/ownKeys/return-non-enumerable-keys.js",
+          "test/built-ins/Reflect/get/return-abrupt-from-property-key.js",
           "test/built-ins/TypedArrayConstructors/internals/Delete/BigInt/key-is-symbol.js",
           "test/built-ins/Reflect/getOwnPropertyDescriptor/return-abrupt-from-property-key.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/key-is-minus-zero.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: Reflect.get not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.compareArray( Reflect.ownKeys([]), ['length'], 'return non enumerable `length` from empty array' );",
+          "other:L#:## Codegen error: Reflect.get not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.has not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.has not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.set not supported in standalone mode (## Phase C).; L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object "
@@ -1608,10 +1608,10 @@
         },
         "error_categories": {
           "wasm_compile": 1023,
-          "other": 616,
+          "other": 615,
           "negative_test_fail": 13,
           "assertion_fail": 444,
-          "oob": 41,
+          "oob": 42,
           "runtime_error": 167,
           "null_deref": 103,
           "illegal_cast": 31,
@@ -1640,17 +1640,17 @@
           "#1759"
         ],
         "label": "ToPrimitive / object-to-string dispatch residuals",
-        "count": 955,
+        "count": 957,
         "statuses": {
           "pass": 0,
-          "fail": 783,
+          "fail": 785,
           "compile_error": 172,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 955
+          "total": 957
         },
         "error_categories": {
-          "runtime_error": 914,
+          "runtime_error": 916,
           "other": 17,
           "wasm_compile": 8,
           "assertion_fail": 16
@@ -1678,18 +1678,18 @@
           "#1654"
         ],
         "label": "Array, TypedArray, DataView, and buffer semantics",
-        "count": 74,
+        "count": 71,
         "statuses": {
           "pass": 0,
-          "fail": 50,
+          "fail": 47,
           "compile_error": 24,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 74
+          "total": 71
         },
         "error_categories": {
-          "assertion_fail": 32,
-          "other": 22,
+          "assertion_fail": 34,
+          "other": 17,
           "oob": 7,
           "wasm_compile": 11,
           "illegal_cast": 1,
@@ -1926,15 +1926,15 @@
         "sample_files": [
           "test/language/function-code/10.4.3-1-48-s.js",
           "test/built-ins/Function/S15.3.5_A3_T1.js",
-          "test/built-ins/Function/15.3.5.4_2-9gs.js",
           "test/built-ins/Function/StrictFunction_reservedwords_with.js",
+          "test/built-ins/Function/15.3.5.4_2-9gs.js",
           "test/language/function-code/10.4.3-1-35-s.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(f1(), 'f1() !== true');",
           "wasm_compile:L#:## No dependency provided for extern class \"FACTORY\"",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f(); });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { new Function(\"'use strict'; with ({}) {}\"); }, '`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception');",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f(); });",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found call of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__iife_ret_0 externref) (l"
         ]
       },
