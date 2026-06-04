@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T05:18:05.078Z",
-  "baseline_generated_at": "2026-06-04T05:18:04Z",
-  "baseline_sha": "1b4d9207f1453b6b35306914d5b494e5e902c0ca",
+  "timestamp": "2026-06-04T05:30:18.667Z",
+  "baseline_generated_at": "2026-06-04T05:30:18Z",
+  "baseline_sha": "06c913cc0f6a94d8295fe4a1c09346c829fbb180",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1190,8 +1190,8 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js",
           "test/built-ins/Temporal/Duration/prototype/round/throws-on-wrong-offset-for-zoned-date-time-relative-to.js"
         ],
         "sample_signatures": [
@@ -1375,8 +1375,8 @@
         "error_categories": {
           "assertion_fail": 113,
           "other": 1693,
-          "null_deref": 9,
           "wasm_compile": 189,
+          "null_deref": 9,
           "runtime_error": 17,
           "illegal_cast": 5
         },
@@ -1750,7 +1750,7 @@
           "other:L#:## Codegen error: '__defineProperties' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/s",
           "assertion_fail:returned # — assert ## at L#: assert(accessed, 'accessed !== true');",
           "other:L#:## Codegen error: '__hasOwnProperty' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/str",
-          "assertion_fail:returned # — assert ## at L#: verifyEqualTo(obj, \"foo\", get_func());"
+          "assertion_fail:returned # — assert ## at L#: verifySetFunc = value;"
         ]
       },
       {
