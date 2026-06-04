@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-04T12:45:25.765Z",
-  "baseline_generated_at": "2026-06-04T12:45:25Z",
-  "baseline_sha": "67b60b499b07f213b28da5ec0c40b4ff73d6290d",
+  "timestamp": "2026-06-04T12:59:20.620Z",
+  "baseline_generated_at": "2026-06-04T12:59:20Z",
+  "baseline_sha": "c84c5ec197db295572ee949353107ab596c9be14",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1188,15 +1188,15 @@
           "null_deref": 1
         },
         "sample_files": [
+          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/from/argument-string-is-infinity.js",
           "test/built-ins/Temporal/Duration/prototype/add/balance-negative-time-units.js",
           "test/built-ins/Temporal/Duration/prototype/round/balance-subseconds.js",
-          "test/built-ins/Temporal/Duration/compare/builtin.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-optional-properties.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "other:L#:## Codegen error: '__proto_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/",
+          "other:L#:## Codegen error: '__extern_method_call' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get",
           "runtime_error:Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result1, \"#-#-09T01:#:#.123987Z\", \"roundingMode is halfTrunc (with # digits from smallestUnit)\");",
           "other:L#:## Codegen error: '__extern_is_undefined' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
@@ -1375,23 +1375,23 @@
         "error_categories": {
           "assertion_fail": 113,
           "other": 1693,
-          "wasm_compile": 189,
           "null_deref": 9,
+          "wasm_compile": 189,
           "runtime_error": 17,
           "illegal_cast": 5
         },
         "sample_files": [
           "test/language/literals/regexp/S7.8.5_A2.4_T2.js",
           "test/built-ins/RegExp/CharacterClassEscapes/character-class-non-digit-class-escape-positive-cases.js",
-          "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
           "test/built-ins/RegExp/S15.10.2.13_A1_T4.js",
+          "test/built-ins/RegExp/S15.10.2.15_A1_T8.js",
           "test/built-ins/RegExp/S15.10.2.6_A4_T4.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(pattern.source, xx, \"Code unit: \" + cu.toString(#));",
           "other:L#:## Codegen error: standalone RegExp engine does not support flags \"u\" (u/v/d are ## Phase 2d) (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does ",
-          "other:L#:## Codegen error: standalone RegExp engine does not support negated shorthand \\W inside [...] — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support lookahead (?= / ?!) — ## Phase 2d (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
+          "other:L#:## Codegen error: standalone RegExp engine does not support negated shorthand \\W inside [...] — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.",
           "other:L#:## Codegen error: standalone RegExp engine does not support word-boundary \\B — ## Phase 2b (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone."
         ]
       },
@@ -1926,15 +1926,15 @@
         "sample_files": [
           "test/language/function-code/10.4.3-1-48-s.js",
           "test/built-ins/Function/S15.3.5_A3_T1.js",
-          "test/built-ins/Function/15.3.5.4_2-9gs.js",
           "test/built-ins/Function/StrictFunction_reservedwords_with.js",
+          "test/built-ins/Function/15.3.5.4_2-9gs.js",
           "test/language/function-code/10.4.3-1-35-s.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(f1(), 'f1() !== true');",
           "wasm_compile:L#:## No dependency provided for extern class \"FACTORY\"",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f(); });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { new Function(\"'use strict'; with ({}) {}\"); }, '`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception');",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f(); });",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found call of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $__iife_ret_0 externref) (l"
         ]
       },
