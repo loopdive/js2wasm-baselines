@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-11T17:40:43.574Z",
-  "baseline_generated_at": "2026-06-11T17:40:43Z",
-  "baseline_sha": "3903ea64e54a26d76ad4468b780610e0359ea722",
+  "timestamp": "2026-06-11T21:04:20.706Z",
+  "baseline_generated_at": "2026-06-11T21:04:20Z",
+  "baseline_sha": "20d33364adbac2cdbe5935efd9b57958a9500bf7",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1109,17 +1109,17 @@
           "#2043"
         ],
         "label": "Late-import index-shift fail-loud CE (stale captured index across flushLateImportShifts) — standalone generators, class globals",
-        "count": 922,
+        "count": 948,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 922,
+          "compile_error": 948,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 922
+          "total": 948
         },
         "error_categories": {
-          "other": 916,
+          "other": 942,
           "promise_error": 6
         },
         "sample_files": [
@@ -1133,8 +1133,8 @@
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'test'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/a",
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'Subclass_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionI",
           "other:L#:## Binary emit error: Codegen error: local index out of range — # (valid: [#, #)) at function 'fn'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/addSt",
-          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'RE2_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImport",
-          "other:L#:## Binary emit error: Codegen error: function index out of range — undefined (valid: [#, #)) at function 'values'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUni"
+          "other:L#:## ##: with statement requires a proven closed object-literal shape before codegen; target Identifier is not a closed object literal. ECMA-# #.# creates an Object Environment Record, #.#.# checks HasProperty plus @@unscopables, and #.# i",
+          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'RE2_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImport"
         ]
       },
       {
@@ -1285,14 +1285,14 @@
           "#1512"
         ],
         "label": "Dynamic import unsupported / early errors",
-        "count": 113,
+        "count": 112,
         "statuses": {
           "pass": 0,
           "fail": 50,
-          "compile_error": 63,
+          "compile_error": 62,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 113
+          "total": 112
         },
         "error_categories": {
           "assertion_fail": 33,
@@ -1300,7 +1300,7 @@
           "wasm_compile": 7,
           "illegal_cast": 3,
           "runtime_error": 25,
-          "other": 33,
+          "other": 32,
           "null_deref": 4,
           "promise_error": 4,
           "negative_test_fail": 1
@@ -1326,17 +1326,17 @@
           "#1387"
         ],
         "label": "`with` statement dynamic-scope lowering residuals",
-        "count": 279,
+        "count": 264,
         "statuses": {
           "pass": 0,
           "fail": 8,
-          "compile_error": 271,
+          "compile_error": 256,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 279
+          "total": 264
         },
         "error_categories": {
-          "other": 270,
+          "other": 255,
           "assertion_fail": 4,
           "runtime_error": 1,
           "range_error": 3,
@@ -1345,9 +1345,9 @@
         "sample_files": [
           "test/language/statements/with/set-mutable-binding-idref-with-proxy-env.js",
           "test/language/statements/with/S12.10_A5_T6.js",
-          "test/language/expressions/compound-assignment/S11.13.2_A5.2_T1.js",
           "test/language/statements/with/S12.10_A3.9_T2.js",
-          "test/language/statements/with/S12.10_A3.9_T3.js"
+          "test/language/statements/with/S12.10_A3.9_T3.js",
+          "test/language/expressions/async-arrow-function/unscopables-with-in-nested-fn.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).; L#:## ##: with statement requires a proven closed object-literal shape before codegen; target Identifier is not a closed object literal. ECMA-# #.# creates an Object",
@@ -1363,31 +1363,31 @@
           "#1599"
         ],
         "label": "Standalone JSON parser/stringifier",
-        "count": 132,
+        "count": 131,
         "statuses": {
           "pass": 0,
           "fail": 32,
-          "compile_error": 100,
+          "compile_error": 99,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 132
+          "total": 131
         },
         "error_categories": {
-          "other": 98,
           "unreachable": 25,
+          "other": 97,
           "assertion_fail": 7,
           "wasm_compile": 2
         },
         "sample_files": [
-          "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/parse/15.12.1.1-g2-3.js",
+          "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-8.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
+          "test/built-ins/JSON/stringify/replacer-array-empty.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
+          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.throws(Test262Error, function() { JSON.parse('#', function() { throw new Test262Error(); }); });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { JSON.parse('#\\r34'); }, '<CR> should produce a syntax error as whitespace results in two tokens');"
@@ -1438,17 +1438,17 @@
           "#1539"
         ],
         "label": "Standalone RegExp string protocol, global/sticky lastIndex, split, replace, and matchAll",
-        "count": 450,
+        "count": 448,
         "statuses": {
           "pass": 0,
           "fail": 22,
-          "compile_error": 428,
+          "compile_error": 426,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 450
+          "total": 448
         },
         "error_categories": {
-          "other": 428,
+          "other": 426,
           "assertion_fail": 14,
           "null_deref": 7,
           "illegal_cast": 1
@@ -1517,17 +1517,17 @@
           "#1914"
         ],
         "label": "Residual standalone RegExp failures not matched by the narrower RegExp sub-buckets",
-        "count": 76,
+        "count": 74,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 76,
+          "compile_error": 74,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 76
+          "total": 74
         },
         "error_categories": {
-          "other": 76
+          "other": 74
         },
         "sample_files": [
           "test/built-ins/String/prototype/search/S15.5.4.12_A1_T4.js",
@@ -1601,22 +1601,22 @@
           "total": 291
         },
         "error_categories": {
-          "other": 253,
           "assertion_fail": 21,
+          "other": 253,
           "runtime_error": 16,
           "illegal_cast": 1
         },
         "sample_files": [
-          "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/has/return-boolean.js",
           "test/built-ins/Reflect/construct/length.js",
+          "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Object.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Reflect.setPrototypeOf not supported"
         ]
@@ -1629,17 +1629,17 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 4780,
+        "count": 4779,
         "statuses": {
           "pass": 0,
           "fail": 2769,
-          "compile_error": 2011,
+          "compile_error": 2010,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 4780
+          "total": 4779
         },
         "error_categories": {
-          "other": 1245,
+          "other": 1244,
           "wasm_compile": 773,
           "oob": 86,
           "assertion_fail": 1857,
@@ -1674,19 +1674,19 @@
           "#1665"
         ],
         "label": "Generators and async iteration",
-        "count": 118,
+        "count": 116,
         "statuses": {
           "pass": 0,
           "fail": 70,
-          "compile_error": 48,
+          "compile_error": 46,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 118
+          "total": 116
         },
         "error_categories": {
           "wasm_compile": 17,
           "runtime_error": 11,
-          "other": 21,
+          "other": 19,
           "assertion_fail": 64,
           "null_deref": 4,
           "promise_error": 1
@@ -1714,17 +1714,17 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 7382,
+        "count": 7380,
         "statuses": {
           "pass": 0,
           "fail": 2568,
-          "compile_error": 4811,
+          "compile_error": 4809,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 7382
+          "total": 7380
         },
         "error_categories": {
-          "other": 3849,
+          "other": 3847,
           "assertion_fail": 1953,
           "wasm_compile": 673,
           "oob": 78,
@@ -1900,14 +1900,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/language/expressions/object/dstr/meth-dflt-obj-init-null.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { obj.method(); });",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "runtime_error:Cannot convert object to primitive value"
+          "other:L#:## Codegen error: '__getOwnPropertyNames' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
         ]
       },
       {
@@ -2400,8 +2400,8 @@
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
           "test/language/expressions/async-function/named-dflt-params-ref-prior.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js"
         ],
         "sample_signatures": [
