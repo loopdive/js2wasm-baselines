@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-12T00:29:38.685Z",
-  "baseline_generated_at": "2026-06-12T00:29:38Z",
-  "baseline_sha": "5105bcb6d9336a0ff5f8d37567fcc9b87eae4af7",
+  "timestamp": "2026-06-12T00:47:01.168Z",
+  "baseline_generated_at": "2026-06-12T00:47:00Z",
+  "baseline_sha": "5468e2b763f2bfb0db8963528a099be933d3ded9",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 19459,
-    "fail": 11026,
+    "pass": 19461,
+    "fail": 11024,
     "compile_error": 12626,
     "compile_timeout": 6,
     "skip": 18,
@@ -19,8 +19,8 @@
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 18968,
-        "fail": 10653,
+        "pass": 18970,
+        "fail": 10651,
         "compile_error": 12404,
         "compile_timeout": 6,
         "skip": 18,
@@ -52,8 +52,8 @@
       },
       "official": {
         "total": 43135,
-        "pass": 19459,
-        "fail": 11026,
+        "pass": 19461,
+        "fail": 11024,
         "compile_error": 12626,
         "compile_timeout": 6,
         "skip": 18,
@@ -63,8 +63,8 @@
       },
       "full": {
         "total": 48117,
-        "pass": 20439,
-        "fail": 12208,
+        "pass": 20441,
+        "fail": 12206,
         "compile_error": 15349,
         "compile_timeout": 7,
         "skip": 114,
@@ -76,8 +76,8 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 19459,
-    "fail": 11026,
+    "pass": 19461,
+    "fail": 11024,
     "compile_error": 12626,
     "compile_timeout": 6,
     "skip": 18,
@@ -86,8 +86,8 @@
   },
   "full_summary": {
     "total": 48117,
-    "pass": 20439,
-    "fail": 12208,
+    "pass": 20441,
+    "fail": 12206,
     "compile_error": 15349,
     "compile_timeout": 7,
     "skip": 114,
@@ -96,8 +96,8 @@
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 18488,
-    "fail": 10164,
+    "pass": 18490,
+    "fail": 10162,
     "compile_error": 11950,
     "compile_timeout": 6,
     "skip": 18,
@@ -127,8 +127,8 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 18968,
-      "fail": 10653,
+      "pass": 18970,
+      "fail": 10651,
       "compile_error": 12404,
       "compile_timeout": 6,
       "skip": 18,
@@ -670,8 +670,8 @@
     {
       "name": "built-ins/String",
       "path": "built-ins/String",
-      "pass": 295,
-      "fail": 370,
+      "pass": 297,
+      "fail": 368,
       "compile_error": 558,
       "compile_timeout": 0,
       "skip": 0,
@@ -1087,7 +1087,7 @@
     "other": 10219,
     "promise_error": 180,
     "range_error": 26,
-    "runtime_error": 5154,
+    "runtime_error": 5152,
     "type_error": 8,
     "unreachable": 27,
     "wasm_compile": 1991
@@ -1098,8 +1098,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 27564,
-    "classified": 27564,
+    "total_non_pass_non_skip": 27562,
+    "classified": 27562,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1123,15 +1123,15 @@
           "promise_error": 6
         },
         "sample_files": [
-          "test/language/expressions/class/subclass-builtins/subclass-Number.js",
           "test/language/expressions/assignment/dstr/obj-rest-symbol-val.js",
+          "test/language/expressions/class/subclass-builtins/subclass-Number.js",
           "test/language/expressions/dynamic-import/namespace/await-ns-no-iterator.js",
           "test/language/expressions/dynamic-import/namespace/await-ns-has-property-sym-found.js",
           "test/language/expressions/class/subclass-builtins/subclass-Array.js"
         ],
         "sample_signatures": [
-          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'Subclass_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionI",
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'test'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/a",
+          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'Subclass_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionI",
           "other:L#:## Binary emit error: Codegen error: local index out of range — # (valid: [#, #)) at function 'fn'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/addSt",
           "other:L#:## ##: with statement requires a proven closed object-literal shape before codegen; target Identifier is not a closed object literal. ECMA-# #.# creates an Object Environment Record, #.#.# checks HasProperty plus @@unscopables, and #.# i",
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'RE2_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImport"
@@ -1234,8 +1234,8 @@
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: not enough arguments on the stack for call (need #, got #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $args (ref null #)) (local $d",
           "other:L#:## Codegen error: Symbol.toStringTag built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: not enough arguments on the stack for call (need #, got #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $args (ref null #)) (local $d",
           "null_deref:L#:## dereferencing a null pointer [in test()]"
         ]
       },
@@ -1383,7 +1383,7 @@
           "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-8.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js"
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
@@ -1475,21 +1475,21 @@
           "#682"
         ],
         "label": "Standalone RegExp native-engine/runtime gaps: source, constructors, prototype access, result shape",
-        "count": 527,
+        "count": 528,
         "statuses": {
           "pass": 0,
           "fail": 192,
-          "compile_error": 335,
+          "compile_error": 336,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 527
+          "total": 528
         },
         "error_categories": {
           "other": 317,
           "assertion_fail": 138,
           "runtime_error": 39,
           "null_deref": 29,
-          "wasm_compile": 4
+          "wasm_compile": 5
         },
         "sample_files": [
           "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
@@ -1628,18 +1628,18 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 4778,
+        "count": 4777,
         "statuses": {
           "pass": 0,
           "fail": 2767,
-          "compile_error": 2010,
+          "compile_error": 2009,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 4778
+          "total": 4777
         },
         "error_categories": {
           "other": 1244,
-          "wasm_compile": 773,
+          "wasm_compile": 772,
           "oob": 86,
           "assertion_fail": 1855,
           "illegal_cast": 500,
@@ -1713,21 +1713,21 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 7394,
+        "count": 7392,
         "statuses": {
           "pass": 0,
-          "fail": 2584,
+          "fail": 2582,
           "compile_error": 4807,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 7394
+          "total": 7392
         },
         "error_categories": {
           "other": 3850,
           "assertion_fail": 1956,
           "wasm_compile": 668,
           "oob": 78,
-          "runtime_error": 538,
+          "runtime_error": 536,
           "illegal_cast": 85,
           "promise_error": 50,
           "null_deref": 153,
@@ -1899,14 +1899,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/language/expressions/object/dstr/meth-dflt-obj-init-null.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { obj.method(); });",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "runtime_error:Cannot convert object to primitive value"
+          "other:L#:## Codegen error: '__getOwnPropertyNames' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
         ]
       },
       {
@@ -2093,7 +2093,7 @@
           "test/language/function-code/10.4.3-1-98-s.js",
           "test/language/expressions/arrow-function/dstr/dflt-obj-ptrn-prop-obj-init.js",
           "test/language/expressions/arrow-function/lexical-this.js",
-          "test/built-ins/Function/S15.3.5_A2_T1.js"
+          "test/built-ins/Function/15.3.5.4_2-63gs.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -2399,8 +2399,8 @@
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
           "test/language/expressions/async-function/named-dflt-params-ref-prior.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js"
         ],
         "sample_signatures": [
@@ -2523,8 +2523,8 @@
           "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local",
           "assertion_fail:returned # — assert ## at L#: assert(foo.call(undefined));",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) ("
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l"
         ]
       },
       {
