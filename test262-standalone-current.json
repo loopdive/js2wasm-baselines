@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-12T05:40:53.034Z",
-  "baseline_generated_at": "2026-06-12T05:40:52Z",
-  "baseline_sha": "095d53e23268c5840ff2e16724298d1f5f43f720",
+  "timestamp": "2026-06-12T05:54:18.994Z",
+  "baseline_generated_at": "2026-06-12T05:54:18Z",
+  "baseline_sha": "3a3a91c5eda6243e483ff7bc07f82281a404ed8c",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1383,7 +1383,7 @@
           "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-8.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js"
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
@@ -1600,23 +1600,23 @@
           "total": 291
         },
         "error_categories": {
-          "other": 253,
           "assertion_fail": 21,
+          "other": 253,
           "runtime_error": 16,
           "illegal_cast": 1
         },
         "sample_files": [
-          "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/has/return-boolean.js",
-          "test/built-ins/Reflect/enumerate/undefined.js",
+          "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/construct/length.js",
+          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
-          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
+          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Object.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Reflect.setPrototypeOf not supported"
         ]
       },
@@ -1662,8 +1662,8 @@
           "other:L#:## Codegen error: Symbol.iterator built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"inner\" failed: call[#] expected type externref, found ref.cast of type (ref #) @+#) [in inner()] [@+#] [wat: (func $inner (type #) (local $__nullchk_0 externref) g",
           "oob:L#:## array element access out of bounds [in __closure_0() ← test]",
-          "assertion_fail:returned # — assert ## at L#: assert.notSameValue(x, values);",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(x.length, #);"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(x.length, #);",
+          "assertion_fail:returned # — assert ## at L#: assert.notSameValue(x, values);"
         ]
       },
       {
@@ -2092,7 +2092,7 @@
           "test/language/function-code/10.4.3-1-98-s.js",
           "test/language/expressions/arrow-function/dstr/dflt-obj-ptrn-prop-obj-init.js",
           "test/language/expressions/arrow-function/lexical-this.js",
-          "test/built-ins/Function/15.3.5.4_2-63gs.js"
+          "test/built-ins/Function/S15.3.5_A2_T1.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -2359,7 +2359,7 @@
           "test/language/statements/for/dstr/let-obj-ptrn-prop-obj.js",
           "test/language/module-code/instn-local-bndng-cls.js",
           "test/language/statements/await-using/function-local-use-before-initialization-in-prior-statement.js",
-          "test/language/module-code/instn-local-bndng-export-const.js"
+          "test/language/module-code/instn-named-bndng-cls.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found f64.const of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $initCount f64) (local $t e",
