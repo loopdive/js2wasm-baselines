@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-12T00:47:00.790Z",
-  "baseline_generated_at": "2026-06-12T00:47:00Z",
-  "baseline_sha": "5468e2b763f2bfb0db8963528a099be933d3ded9",
+  "timestamp": "2026-06-12T00:56:50.746Z",
+  "baseline_generated_at": "2026-06-12T00:56:50Z",
+  "baseline_sha": "3d352c38bacc72170e22a3ef279f673be41feaef",
   "mode": {
     "target": "gc",
     "include_proposals": 1,
@@ -9,22 +9,22 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 31072,
-    "fail": 11119,
-    "compile_error": 845,
+    "pass": 31073,
+    "fail": 11089,
+    "compile_error": 874,
     "compile_timeout": 81,
     "skip": 18,
-    "compilable": 42191,
+    "compilable": 42162,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 30470,
-        "fail": 10658,
-        "compile_error": 822,
+        "pass": 30471,
+        "fail": 10628,
+        "compile_error": 851,
         "compile_timeout": 81,
         "skip": 18,
-        "compilable": 41128,
+        "compilable": 41099,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -52,23 +52,23 @@
       },
       "official": {
         "total": 43135,
-        "pass": 31072,
-        "fail": 11119,
-        "compile_error": 845,
+        "pass": 31073,
+        "fail": 11089,
+        "compile_error": 874,
         "compile_timeout": 81,
         "skip": 18,
-        "compilable": 42191,
+        "compilable": 42162,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48117,
-        "pass": 32522,
-        "fail": 14324,
-        "compile_error": 1075,
+        "pass": 32523,
+        "fail": 14294,
+        "compile_error": 1104,
         "compile_timeout": 82,
         "skip": 114,
-        "compilable": 46846,
+        "compilable": 46817,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -76,32 +76,32 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 31072,
-    "fail": 11119,
-    "compile_error": 845,
+    "pass": 31073,
+    "fail": 11089,
+    "compile_error": 874,
     "compile_timeout": 81,
     "skip": 18,
-    "compilable": 42191,
+    "compilable": 42162,
     "stale": 0
   },
   "full_summary": {
     "total": 48117,
-    "pass": 32522,
-    "fail": 14324,
-    "compile_error": 1075,
+    "pass": 32523,
+    "fail": 14294,
+    "compile_error": 1104,
     "compile_timeout": 82,
     "skip": 114,
-    "compilable": 46846,
+    "compilable": 46817,
     "stale": 0
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 29778,
-    "fail": 10226,
-    "compile_error": 523,
+    "pass": 29779,
+    "fail": 10196,
+    "compile_error": 552,
     "compile_timeout": 81,
     "skip": 18,
-    "compilable": 40004,
+    "compilable": 39975,
     "stale": 0
   },
   "scope_summaries": {
@@ -127,12 +127,12 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 30470,
-      "fail": 10658,
-      "compile_error": 822,
+      "pass": 30471,
+      "fail": 10628,
+      "compile_error": 851,
       "compile_timeout": 81,
       "skip": 18,
-      "compilable": 41128,
+      "compilable": 41099,
       "stale": 0
     }
   },
@@ -180,9 +180,9 @@
     {
       "name": "built-ins/Array",
       "path": "built-ins/Array",
-      "pass": 1513,
-      "fail": 1531,
-      "compile_error": 22,
+      "pass": 1514,
+      "fail": 1510,
+      "compile_error": 42,
       "compile_timeout": 15,
       "skip": 0,
       "total": 3081
@@ -271,8 +271,8 @@
       "name": "built-ins/Atomics",
       "path": "built-ins/Atomics",
       "pass": 173,
-      "fail": 168,
-      "compile_error": 40,
+      "fail": 159,
+      "compile_error": 49,
       "compile_timeout": 1,
       "skip": 0,
       "total": 382
@@ -1079,18 +1079,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8045,
+    "assertion_fail": 8029,
     "illegal_cast": 209,
     "negative_test_fail": 77,
     "null_deref": 211,
     "oob": 40,
-    "other": 4139,
+    "other": 4134,
     "promise_error": 47,
     "range_error": 42,
-    "runtime_error": 1092,
+    "runtime_error": 1093,
     "type_error": 379,
     "unreachable": 27,
-    "wasm_compile": 1091
+    "wasm_compile": 1110
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
