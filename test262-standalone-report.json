@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-13T07:18:13.824Z",
-  "baseline_generated_at": "2026-06-13T07:18:13Z",
-  "baseline_sha": "bb185133b3f16330bd8987c55716e90436db2c72",
+  "timestamp": "2026-06-13T08:16:11.944Z",
+  "baseline_generated_at": "2026-06-13T08:16:11Z",
+  "baseline_sha": "d9b4cba524a49426d1b3d58d300845598d5ad875",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1079,18 +1079,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8354,
+    "assertion_fail": 8355,
     "illegal_cast": 774,
     "negative_test_fail": 77,
     "null_deref": 583,
     "oob": 90,
-    "other": 10237,
+    "other": 10244,
     "promise_error": 180,
     "range_error": 22,
     "runtime_error": 5145,
     "type_error": 8,
     "unreachable": 27,
-    "wasm_compile": 1984
+    "wasm_compile": 1976
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1109,32 +1109,32 @@
           "#2043"
         ],
         "label": "Late-import index-shift fail-loud CE (stale captured index across flushLateImportShifts) — standalone generators, class globals",
-        "count": 962,
+        "count": 970,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 962,
+          "compile_error": 970,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 962
+          "total": 970
         },
         "error_categories": {
-          "other": 956,
+          "other": 964,
           "promise_error": 6
         },
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-rest-symbol-val.js",
           "test/language/expressions/class/subclass-builtins/subclass-Number.js",
-          "test/language/expressions/class/subclass-builtins/subclass-Array.js",
-          "test/language/expressions/compound-assignment/S11.13.2_A5.2_T1.js",
-          "test/language/statements/class/subclass-builtins/subclass-WeakRef.js"
+          "test/language/expressions/dynamic-import/namespace/await-ns-no-iterator.js",
+          "test/language/expressions/dynamic-import/namespace/await-ns-has-property-sym-found.js",
+          "test/language/expressions/class/subclass-builtins/subclass-Array.js"
         ],
         "sample_signatures": [
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'test'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/a",
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'Subclass_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionI",
+          "other:L#:## Binary emit error: Codegen error: local index out of range — # (valid: [#, #)) at function '__vec_mut_supported'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addU",
           "other:L#:## ##: with statement requires a proven closed object-literal shape before codegen; target Identifier is not a closed object literal. ECMA-# #.# creates an Object Environment Record, #.#.# checks HasProperty plus @@unscopables, and #.# i",
-          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'RE2_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImport",
-          "other:L#:## Binary emit error: Codegen error: function index out of range — undefined (valid: [#, #)) at function 'values'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUni"
+          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'RE2_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImport"
         ]
       },
       {
@@ -1216,9 +1216,9 @@
         "error_categories": {
           "runtime_error": 2315,
           "wasm_compile": 82,
-          "other": 344,
+          "other": 343,
           "null_deref": 220,
-          "assertion_fail": 762,
+          "assertion_fail": 763,
           "range_error": 9,
           "illegal_cast": 1,
           "oob": 2,
@@ -1227,9 +1227,9 @@
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1265,8 +1265,8 @@
         },
         "sample_files": [
           "test/built-ins/DisposableStack/prototype/adopt/returns-value.js",
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js"
         ],
@@ -1285,39 +1285,39 @@
           "#1512"
         ],
         "label": "Dynamic import unsupported / early errors",
-        "count": 116,
+        "count": 108,
         "statuses": {
           "pass": 0,
           "fail": 50,
-          "compile_error": 66,
+          "compile_error": 58,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 116
+          "total": 108
         },
         "error_categories": {
           "assertion_fail": 33,
-          "wasm_compile": 11,
           "range_error": 3,
           "illegal_cast": 3,
           "runtime_error": 25,
           "other": 32,
+          "wasm_compile": 3,
           "null_deref": 4,
           "promise_error": 4,
           "negative_test_fail": 1
         },
         "sample_files": [
           "test/language/expressions/dynamic-import/namespace/await-ns-has-property-str-found-init.js",
-          "test/language/expressions/dynamic-import/namespace/await-ns-no-iterator.js",
           "test/language/expressions/dynamic-import/import-attributes/2nd-param-non-object.js",
-          "test/language/expressions/dynamic-import/namespace/await-ns-has-property-sym-found.js",
-          "test/language/expressions/dynamic-import/update-to-dynamic-import.js"
+          "test/language/expressions/dynamic-import/update-to-dynamic-import.js",
+          "test/language/expressions/dynamic-import/assignment-expression/lhs-eq-assign-expr-nostrict.js",
+          "test/language/expressions/dynamic-import/assignment-expression/cover-call-expr.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert('local1' in ns, 'in: local1');",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"fn\" failed: not enough arguments on the stack for call (need #, got #) @+#) [in fn()] [@+#] [wat: (func $fn (type #) (local $ns externref) i32.const # i32.const # ",
           "range_error:L#:## Maximum call stack size exceeded",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"__fn_tramp_$DONE_cached\" failed: any.convert_extern[#] expected type externref, found local.get of type (ref null #) @+#) [in __fn_tramp_$DONE_cached()] [@+#] [wat",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(first.x, 'first', 'the other module has not been evaluated yet');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(first.x, 'first', 'the other module has not been evaluated yet');",
+          "illegal_cast:L#:## illegal cast [in __str_to_number() ← fn ← __fn_tramp_fn_3 ← asyncTest]",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(ns1.local1, 'Test262');"
         ]
       },
       {
@@ -1456,13 +1456,13 @@
           "test/built-ins/String/prototype/match/duplicate-named-indices-groups-properties.js",
           "test/built-ins/RegExp/prototype/Symbol.replace/result-get-matched-err.js",
           "test/built-ins/RegExp/prototype/Symbol.replace/fn-invoke-this-strict.js",
-          "test/built-ins/RegExp/prototype/Symbol.match/get-flags-err.js"
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/not-a-constructor.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Symbol.matchAll built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: String.prototype.matchAll(...) with a",
           "other:L#:## Codegen error: standalone RegExp engine does not support duplicate capture group name 'x' (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does n",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support @@replace symbol protocol calls (##/##). Use RegExp.prototype.test with a plain static pattern and no flags, or recompile without --target standalone.",
-          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.match built-in static propert",
+          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.matchAll built-in static prop",
           "assertion_fail:returned # — assert ## at L#: verifyProperty(RegExp.prototype[Symbol.split], \"name\", { value: \"[Symbol.split]\", writable: false, enumerable: false, configurable: true });"
         ]
       },
@@ -1492,15 +1492,15 @@
         },
         "sample_files": [
           "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
-          "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
           "test/built-ins/RegExp/S15.10.2.15_A1_T1.js",
+          "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/language/literals/regexp/S7.8.5_A2.3_T4.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Symbol.match built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: standalone RegExp engine does not suppor",
-          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error('##: /[b-ac-e]/.exec(\"a\") throw SyntaxError. Actual: ' + (new RegExp(\"[b-ac-e]\").exec(\"a\")));",
+          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "runtime_error:L#:## Cannot convert object to primitive value"
         ]
@@ -1965,23 +1965,23 @@
         },
         "error_categories": {
           "assertion_fail": 194,
-          "other": 10,
           "runtime_error": 8,
+          "other": 10,
           "wasm_compile": 4
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/global-code/switch-case-global-update.js",
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
           "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js"
+          "test/annexB/language/global-code/switch-case-global-update.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "other:L#:## ';' expected.",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
         ]
       },
       {
@@ -2157,8 +2157,8 @@
           "assertion_fail": 87,
           "null_deref": 6,
           "other": 1,
-          "negative_test_fail": 4,
           "wasm_compile": 5,
+          "negative_test_fail": 4,
           "illegal_cast": 1
         },
         "sample_files": [
@@ -2396,8 +2396,8 @@
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
           "test/language/expressions/async-function/named-dflt-params-ref-prior.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js"
         ],
         "sample_signatures": [
