@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-13T06:55:49.143Z",
-  "baseline_generated_at": "2026-06-13T06:55:48Z",
-  "baseline_sha": "ec2ad9b49971424fea88f2e4a38765ae36d621d3",
+  "timestamp": "2026-06-13T07:18:13.824Z",
+  "baseline_generated_at": "2026-06-13T07:18:13Z",
+  "baseline_sha": "bb185133b3f16330bd8987c55716e90436db2c72",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 19533,
-    "fail": 10946,
+    "pass": 19535,
+    "fail": 10944,
     "compile_error": 12632,
     "compile_timeout": 6,
     "skip": 18,
@@ -19,8 +19,8 @@
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 19042,
-        "fail": 10574,
+        "pass": 19044,
+        "fail": 10572,
         "compile_error": 12409,
         "compile_timeout": 6,
         "skip": 18,
@@ -52,8 +52,8 @@
       },
       "official": {
         "total": 43135,
-        "pass": 19533,
-        "fail": 10946,
+        "pass": 19535,
+        "fail": 10944,
         "compile_error": 12632,
         "compile_timeout": 6,
         "skip": 18,
@@ -63,8 +63,8 @@
       },
       "full": {
         "total": 48117,
-        "pass": 20513,
-        "fail": 12128,
+        "pass": 20515,
+        "fail": 12126,
         "compile_error": 15355,
         "compile_timeout": 7,
         "skip": 114,
@@ -76,8 +76,8 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 19533,
-    "fail": 10946,
+    "pass": 19535,
+    "fail": 10944,
     "compile_error": 12632,
     "compile_timeout": 6,
     "skip": 18,
@@ -86,8 +86,8 @@
   },
   "full_summary": {
     "total": 48117,
-    "pass": 20513,
-    "fail": 12128,
+    "pass": 20515,
+    "fail": 12126,
     "compile_error": 15355,
     "compile_timeout": 7,
     "skip": 114,
@@ -96,8 +96,8 @@
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 18538,
-    "fail": 10110,
+    "pass": 18540,
+    "fail": 10108,
     "compile_error": 11954,
     "compile_timeout": 6,
     "skip": 18,
@@ -127,8 +127,8 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 19042,
-      "fail": 10574,
+      "pass": 19044,
+      "fail": 10572,
       "compile_error": 12409,
       "compile_timeout": 6,
       "skip": 18,
@@ -890,8 +890,8 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 6211,
-      "fail": 3093,
+      "pass": 6212,
+      "fail": 3092,
       "compile_error": 1713,
       "compile_timeout": 1,
       "skip": 18,
@@ -1060,8 +1060,8 @@
     {
       "name": "language/types",
       "path": "language/types",
-      "pass": 81,
-      "fail": 23,
+      "pass": 82,
+      "fail": 22,
       "compile_error": 9,
       "compile_timeout": 0,
       "skip": 0,
@@ -1079,12 +1079,12 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8357,
+    "assertion_fail": 8354,
     "illegal_cast": 774,
     "negative_test_fail": 77,
     "null_deref": 583,
     "oob": 90,
-    "other": 10236,
+    "other": 10237,
     "promise_error": 180,
     "range_error": 22,
     "runtime_error": 5145,
@@ -1098,8 +1098,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 27490,
-    "classified": 27490,
+    "total_non_pass_non_skip": 27488,
+    "classified": 27488,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1216,9 +1216,9 @@
         "error_categories": {
           "runtime_error": 2315,
           "wasm_compile": 82,
-          "other": 343,
+          "other": 344,
           "null_deref": 220,
-          "assertion_fail": 763,
+          "assertion_fail": 762,
           "range_error": 9,
           "illegal_cast": 1,
           "oob": 2,
@@ -1226,10 +1226,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1484,23 +1484,23 @@
           "total": 526
         },
         "error_categories": {
-          "assertion_fail": 138,
           "other": 317,
+          "assertion_fail": 138,
           "runtime_error": 38,
           "null_deref": 29,
           "wasm_compile": 4
         },
         "sample_files": [
-          "test/built-ins/RegExp/S15.10.2.15_A1_T1.js",
-          "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
           "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
+          "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
+          "test/built-ins/RegExp/S15.10.2.15_A1_T1.js",
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/language/literals/regexp/S7.8.5_A2.3_T4.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: throw new Test262Error('##: /[b-ac-e]/.exec(\"a\") throw SyntaxError. Actual: ' + (new RegExp(\"[b-ac-e]\").exec(\"a\")));",
-          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "other:L#:## Codegen error: Symbol.match built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: standalone RegExp engine does not suppor",
+          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "assertion_fail:returned # — assert ## at L#: throw new Test262Error('##: /[b-ac-e]/.exec(\"a\") throw SyntaxError. Actual: ' + (new RegExp(\"[b-ac-e]\").exec(\"a\")));",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "runtime_error:L#:## Cannot convert object to primitive value"
         ]
@@ -1965,23 +1965,23 @@
         },
         "error_categories": {
           "assertion_fail": 194,
-          "runtime_error": 8,
           "other": 10,
+          "runtime_error": 8,
           "wasm_compile": 4
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/global-code/switch-case-global-update.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected."
+          "other:L#:## ';' expected.",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
         ]
       },
       {
@@ -2144,21 +2144,21 @@
           "#540"
         ],
         "label": "Assignment targets, private refs, and short-circuit semantics",
-        "count": 105,
+        "count": 104,
         "statuses": {
           "pass": 0,
-          "fail": 99,
+          "fail": 98,
           "compile_error": 6,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 105
+          "total": 104
         },
         "error_categories": {
-          "assertion_fail": 88,
+          "assertion_fail": 87,
           "null_deref": 6,
           "other": 1,
-          "wasm_compile": 5,
           "negative_test_fail": 4,
+          "wasm_compile": 5,
           "illegal_cast": 1
         },
         "sample_files": [
@@ -2825,18 +2825,18 @@
           "#779"
         ],
         "label": "Miscellaneous low-volume spec-completeness tail",
-        "count": 61,
+        "count": 60,
         "statuses": {
           "pass": 0,
-          "fail": 54,
+          "fail": 53,
           "compile_error": 7,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 61
+          "total": 60
         },
         "error_categories": {
           "runtime_error": 7,
-          "assertion_fail": 53,
+          "assertion_fail": 52,
           "range_error": 1
         },
         "sample_files": [
