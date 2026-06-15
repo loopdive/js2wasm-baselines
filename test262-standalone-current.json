@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-14T22:36:11.633Z",
-  "baseline_generated_at": "2026-06-14T22:36:11Z",
-  "baseline_sha": "f29e61e5b76435d1ccbfd721160b69d9bc1a0b6d",
+  "timestamp": "2026-06-15T01:15:39.717Z",
+  "baseline_generated_at": "2026-06-15T01:15:39Z",
+  "baseline_sha": "1bafaeb2f14989757142ecfb8ca39da984b16d2d",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1079,12 +1079,12 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8288,
+    "assertion_fail": 8289,
     "illegal_cast": 412,
     "negative_test_fail": 77,
     "null_deref": 594,
     "oob": 70,
-    "other": 10264,
+    "other": 10263,
     "promise_error": 180,
     "range_error": 22,
     "runtime_error": 5046,
@@ -1123,15 +1123,15 @@
           "promise_error": 6
         },
         "sample_files": [
-          "test/language/expressions/class/subclass-builtins/subclass-Number.js",
           "test/language/expressions/assignment/dstr/obj-rest-symbol-val.js",
+          "test/language/expressions/class/subclass-builtins/subclass-Number.js",
           "test/language/expressions/dynamic-import/namespace/await-ns-no-iterator.js",
           "test/language/expressions/dynamic-import/namespace/await-ns-has-property-sym-found.js",
           "test/language/expressions/class/subclass-builtins/subclass-Array.js"
         ],
         "sample_signatures": [
-          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'Subclass_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionI",
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'test'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/a",
+          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'Subclass_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionI",
           "other:L#:## Binary emit error: Codegen error: local index out of range — # (valid: [#, #)) at function '__vec_mut_supported'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addU",
           "other:L#:## ##: with statement requires a proven closed object-literal shape before codegen; target Identifier is not a closed object literal. ECMA-# #.# creates an Object Environment Record, #.#.# checks HasProperty plus @@unscopables, and #.# i",
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'RE2_new'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImport"
@@ -1216,9 +1216,9 @@
         "error_categories": {
           "runtime_error": 2307,
           "wasm_compile": 91,
-          "other": 344,
+          "other": 343,
           "null_deref": 220,
-          "assertion_fail": 762,
+          "assertion_fail": 763,
           "range_error": 9,
           "illegal_cast": 1,
           "oob": 2,
@@ -1227,8 +1227,8 @@
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1267,14 +1267,14 @@
           "test/built-ins/DisposableStack/prototype/adopt/returns-value.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
-          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
-          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js"
+          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
+          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(stack.adopt(resource, _ => {}), resource);",
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "null_deref:L#:## dereferencing a null pointer [in __cb_0() ← test]"
         ]
       },
@@ -1372,21 +1372,21 @@
           "total": 131
         },
         "error_categories": {
-          "other": 97,
           "unreachable": 25,
+          "other": 97,
           "assertion_fail": 7,
           "wasm_compile": 2
         },
         "sample_files": [
-          "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/parse/15.12.1.1-g2-3.js",
+          "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-8.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
+          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.throws(Test262Error, function() { JSON.parse('#', function() { throw new Test262Error(); }); });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { JSON.parse('#\\r34'); }, '<CR> should produce a syntax error as whitespace results in two tokens');"
@@ -1463,7 +1463,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support duplicate capture group name 'x' (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does n",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support @@replace symbol protocol calls (##/##). Use RegExp.prototype.test with a plain static pattern and no flags, or recompile without --target standalone.",
           "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.match built-in static propert",
-          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.matchAll built-in static prop"
+          "assertion_fail:returned # — assert ## at L#: verifyProperty(RegExp.prototype[Symbol.split], \"name\", { value: \"[Symbol.split]\", writable: false, enumerable: false, configurable: true });"
         ]
       },
       {
@@ -1484,23 +1484,23 @@
           "total": 520
         },
         "error_categories": {
-          "other": 317,
           "assertion_fail": 132,
+          "other": 317,
           "runtime_error": 38,
           "null_deref": 29,
           "wasm_compile": 4
         },
         "sample_files": [
-          "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
           "test/built-ins/RegExp/S15.10.2.15_A1_T1.js",
           "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
+          "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/language/literals/regexp/S7.8.5_A2.3_T4.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: Symbol.match built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: standalone RegExp engine does not suppor",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error('##: /[b-ac-e]/.exec(\"a\") throw SyntaxError. Actual: ' + (new RegExp(\"[b-ac-e]\").exec(\"a\")));",
           "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: Symbol.match built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: standalone RegExp engine does not suppor",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "runtime_error:L#:## Cannot convert object to primitive value"
         ]
@@ -1653,13 +1653,13 @@
           "test/language/expressions/class/async-gen-method/forbidden-ext/b2/cls-expr-async-gen-meth-forbidden-ext-indirect-access-prop-caller.js",
           "test/language/expressions/class/dstr/async-private-gen-meth-dflt-ary-init-iter-close.js",
           "test/language/expressions/class/dstr/gen-meth-static-ary-ptrn-elem-id-iter-val-err.js",
-          "test/language/expressions/object/dstr/gen-meth-dflt-ary-ptrn-rest-id.js"
+          "test/language/expressions/class/dstr/async-private-gen-meth-ary-ptrn-elem-ary-rest-init.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Symbol.iterator built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"inner\" failed: call[#] expected type externref, found ref.cast of type (ref #) @+#) [in inner()] [@+#] [wat: (func $inner (type #) (local $__nullchk_0 externref) g",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(x.length, #);",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(x, values);",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(x.length, #);",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result.value, undefined);"
         ]
       },
@@ -1896,14 +1896,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/language/expressions/object/dstr/meth-dflt-obj-init-null.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { obj.method(); });",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "other:L#:## Codegen error: '__getOwnPropertyNames' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.ge"
+          "runtime_error:Cannot convert object to primitive value"
         ]
       },
       {
@@ -1942,8 +1942,8 @@
           "runtime_error:L#:## Cannot convert object to primitive value",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"__closure_2\" failed: not enough arguments on the stack for call (need #, got #) @+#) [in __closure_2()] [@+#] [wat: (func $__closure_2 (type #) global.get # i32.co",
           "wasm_compile:L#:## No dependency provided for extern class \"decodeURI\"",
-          "wasm_compile:L#:## No dependency provided for extern class \"encodeURI\"",
-          "wasm_compile:L#:## No dependency provided for extern class \"decodeURIComponent\""
+          "wasm_compile:L#:## No dependency provided for extern class \"decodeURIComponent\"",
+          "wasm_compile:L#:## No dependency provided for extern class \"encodeURI\""
         ]
       },
       {
@@ -2395,8 +2395,8 @@
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
           "test/language/expressions/async-function/named-dflt-params-ref-prior.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js"
         ],
         "sample_signatures": [
