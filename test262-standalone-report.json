@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-16T03:54:28.619Z",
-  "baseline_generated_at": "2026-06-16T03:54:28Z",
-  "baseline_sha": "5f3f3814a278ddf87282276c7e6e5c64bd1536cf",
+  "timestamp": "2026-06-16T04:07:30.217Z",
+  "baseline_generated_at": "2026-06-16T04:07:29Z",
+  "baseline_sha": "3a762346ace851229ab454f058168112803ac9fd",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,8 +9,8 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 20205,
-    "fail": 10393,
+    "pass": 20207,
+    "fail": 10391,
     "compile_error": 12513,
     "compile_timeout": 6,
     "skip": 18,
@@ -19,8 +19,8 @@
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 19713,
-        "fail": 10023,
+        "pass": 19715,
+        "fail": 10021,
         "compile_error": 12289,
         "compile_timeout": 6,
         "skip": 18,
@@ -52,8 +52,8 @@
       },
       "official": {
         "total": 43135,
-        "pass": 20205,
-        "fail": 10393,
+        "pass": 20207,
+        "fail": 10391,
         "compile_error": 12513,
         "compile_timeout": 6,
         "skip": 18,
@@ -63,8 +63,8 @@
       },
       "full": {
         "total": 48117,
-        "pass": 21185,
-        "fail": 11569,
+        "pass": 21187,
+        "fail": 11567,
         "compile_error": 15242,
         "compile_timeout": 7,
         "skip": 114,
@@ -76,8 +76,8 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 20205,
-    "fail": 10393,
+    "pass": 20207,
+    "fail": 10391,
     "compile_error": 12513,
     "compile_timeout": 6,
     "skip": 18,
@@ -86,8 +86,8 @@
   },
   "full_summary": {
     "total": 48117,
-    "pass": 21185,
-    "fail": 11569,
+    "pass": 21187,
+    "fail": 11567,
     "compile_error": 15242,
     "compile_timeout": 7,
     "skip": 114,
@@ -96,8 +96,8 @@
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 19204,
-    "fail": 9562,
+    "pass": 19206,
+    "fail": 9560,
     "compile_error": 11836,
     "compile_timeout": 6,
     "skip": 18,
@@ -127,8 +127,8 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 19713,
-      "fail": 10023,
+      "pass": 19715,
+      "fail": 10021,
       "compile_error": 12289,
       "compile_timeout": 6,
       "skip": 18,
@@ -550,8 +550,8 @@
     {
       "name": "built-ins/Object",
       "path": "built-ins/Object",
-      "pass": 684,
-      "fail": 1155,
+      "pass": 683,
+      "fail": 1156,
       "compile_error": 1572,
       "compile_timeout": 0,
       "skip": 0,
@@ -890,8 +890,8 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 6398,
-      "fail": 2966,
+      "pass": 6401,
+      "fail": 2963,
       "compile_error": 1653,
       "compile_timeout": 1,
       "skip": 18,
@@ -1079,18 +1079,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8424,
-    "illegal_cast": 440,
+    "assertion_fail": 8426,
+    "illegal_cast": 434,
     "negative_test_fail": 77,
     "null_deref": 610,
     "oob": 86,
-    "other": 9974,
+    "other": 9975,
     "promise_error": 178,
     "range_error": 22,
     "runtime_error": 4760,
     "type_error": 2,
     "unreachable": 25,
-    "wasm_compile": 2213
+    "wasm_compile": 2214
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1098,8 +1098,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 26818,
-    "classified": 26818,
+    "total_non_pass_non_skip": 26816,
+    "classified": 26816,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1225,10 +1225,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/PlainDateTime/subclass.js",
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/PlainDateTime/subclass.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1294,12 +1294,12 @@
           "total": 117
         },
         "error_categories": {
-          "assertion_fail": 34,
+          "assertion_fail": 33,
           "wasm_compile": 13,
           "range_error": 3,
           "illegal_cast": 3,
           "runtime_error": 23,
-          "other": 32,
+          "other": 33,
           "null_deref": 4,
           "promise_error": 4,
           "negative_test_fail": 1
@@ -1371,20 +1371,20 @@
           "total": 129
         },
         "error_categories": {
-          "other": 97,
           "unreachable": 25,
+          "other": 97,
           "assertion_fail": 7
         },
         "sample_files": [
-          "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/parse/15.12.1.1-g2-3.js",
+          "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-8.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
+          "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.throws(Test262Error, function() { JSON.parse('#', function() { throw new Test262Error(); }); });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { JSON.parse('#\\r34'); }, '<CR> should produce a syntax error as whitespace results in two tokens');"
@@ -1462,7 +1462,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support duplicate capture group name 'x' (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does n",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support @@replace symbol protocol calls (##/##). Use RegExp.prototype.test with a plain static pattern and no flags, or recompile without --target standalone.",
           "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.match built-in static propert",
-          "assertion_fail:returned # — assert ## at L#: verifyProperty(RegExp.prototype[Symbol.split], \"name\", { value: \"[Symbol.split]\", writable: false, enumerable: false, configurable: true });"
+          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.matchAll built-in static prop"
         ]
       },
       {
@@ -1719,10 +1719,10 @@
         },
         "error_categories": {
           "other": 3798,
-          "assertion_fail": 2146,
-          "wasm_compile": 456,
+          "assertion_fail": 2147,
+          "wasm_compile": 457,
           "oob": 74,
-          "illegal_cast": 86,
+          "illegal_cast": 84,
           "null_deref": 183,
           "runtime_error": 323,
           "promise_error": 54,
@@ -1813,8 +1813,8 @@
           "test/built-ins/TypedArrayConstructors/Float32Array/length.js",
           "test/built-ins/Array/fromAsync/non-iterable-sync-mapped-callback-err.js",
           "test/built-ins/Array/fromAsync/asyncitems-null-undefined.js",
-          "test/built-ins/ArrayBuffer/isView/length.js",
-          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js"
+          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js",
+          "test/built-ins/ArrayBuffer/isView/length.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Float32Array.length built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
@@ -1870,17 +1870,17 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 1541,
+        "count": 1542,
         "statuses": {
           "pass": 0,
-          "fail": 897,
+          "fail": 898,
           "compile_error": 644,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1541
+          "total": 1542
         },
         "error_categories": {
-          "assertion_fail": 854,
+          "assertion_fail": 855,
           "other": 322,
           "runtime_error": 248,
           "promise_error": 91,
@@ -2221,21 +2221,20 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 555,
+        "count": 552,
         "statuses": {
           "pass": 0,
-          "fail": 542,
+          "fail": 539,
           "compile_error": 13,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 555
+          "total": 552
         },
         "error_categories": {
-          "assertion_fail": 514,
+          "assertion_fail": 515,
           "wasm_compile": 14,
           "other": 13,
           "negative_test_fail": 3,
-          "illegal_cast": 4,
           "promise_error": 3,
           "null_deref": 4
         },
@@ -2399,8 +2398,8 @@
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
           "test/language/expressions/async-function/named-dflt-params-ref-prior.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js"
         ],
         "sample_signatures": [
@@ -2523,8 +2522,8 @@
           "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local",
           "assertion_fail:returned # — assert ## at L#: assert(foo.call(undefined));",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) ("
         ]
       },
       {
