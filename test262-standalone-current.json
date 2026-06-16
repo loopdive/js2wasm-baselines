@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-16T03:10:33.268Z",
-  "baseline_generated_at": "2026-06-16T03:10:32Z",
-  "baseline_sha": "efe7afe437654f5b3899a629a94fb4ea03291cfc",
+  "timestamp": "2026-06-16T03:54:28.619Z",
+  "baseline_generated_at": "2026-06-16T03:54:28Z",
+  "baseline_sha": "5f3f3814a278ddf87282276c7e6e5c64bd1536cf",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -9,22 +9,22 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 20211,
-    "fail": 10458,
-    "compile_error": 12442,
+    "pass": 20205,
+    "fail": 10393,
+    "compile_error": 12513,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 30669,
+    "compilable": 30598,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 19719,
-        "fail": 10088,
-        "compile_error": 12218,
+        "pass": 19713,
+        "fail": 10023,
+        "compile_error": 12289,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 29807,
+        "compilable": 29736,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -52,23 +52,23 @@
       },
       "official": {
         "total": 43135,
-        "pass": 20211,
-        "fail": 10458,
-        "compile_error": 12442,
+        "pass": 20205,
+        "fail": 10393,
+        "compile_error": 12513,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 30669,
+        "compilable": 30598,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48117,
-        "pass": 21191,
-        "fail": 11634,
-        "compile_error": 15171,
+        "pass": 21185,
+        "fail": 11569,
+        "compile_error": 15242,
         "compile_timeout": 7,
         "skip": 114,
-        "compilable": 32825,
+        "compilable": 32754,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -76,32 +76,32 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 20211,
-    "fail": 10458,
-    "compile_error": 12442,
+    "pass": 20205,
+    "fail": 10393,
+    "compile_error": 12513,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 30669,
+    "compilable": 30598,
     "stale": 0
   },
   "full_summary": {
     "total": 48117,
-    "pass": 21191,
-    "fail": 11634,
-    "compile_error": 15171,
+    "pass": 21185,
+    "fail": 11569,
+    "compile_error": 15242,
     "compile_timeout": 7,
     "skip": 114,
-    "compilable": 32825,
+    "compilable": 32754,
     "stale": 0
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 19209,
-    "fail": 9627,
-    "compile_error": 11766,
+    "pass": 19204,
+    "fail": 9562,
+    "compile_error": 11836,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 28836,
+    "compilable": 28766,
     "stale": 0
   },
   "scope_summaries": {
@@ -127,12 +127,12 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 19719,
-      "fail": 10088,
-      "compile_error": 12218,
+      "pass": 19713,
+      "fail": 10023,
+      "compile_error": 12289,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 29807,
+      "compilable": 29736,
       "stale": 0
     }
   },
@@ -630,9 +630,9 @@
     {
       "name": "built-ins/Set",
       "path": "built-ins/Set",
-      "pass": 42,
-      "fail": 152,
-      "compile_error": 189,
+      "pass": 37,
+      "fail": 87,
+      "compile_error": 259,
       "compile_timeout": 0,
       "skip": 0,
       "total": 383
@@ -730,9 +730,9 @@
     {
       "name": "built-ins/TypedArray",
       "path": "built-ins/TypedArray",
-      "pass": 724,
+      "pass": 723,
       "fail": 9,
-      "compile_error": 705,
+      "compile_error": 706,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1438
@@ -1079,18 +1079,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8437,
-    "illegal_cast": 439,
+    "assertion_fail": 8424,
+    "illegal_cast": 440,
     "negative_test_fail": 77,
-    "null_deref": 602,
+    "null_deref": 610,
     "oob": 86,
-    "other": 10015,
+    "other": 9974,
     "promise_error": 178,
     "range_error": 22,
-    "runtime_error": 4765,
+    "runtime_error": 4760,
     "type_error": 2,
     "unreachable": 25,
-    "wasm_compile": 2157
+    "wasm_compile": 2213
   },
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
@@ -1098,8 +1098,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 26812,
-    "classified": 26812,
+    "total_non_pass_non_skip": 26818,
+    "classified": 26818,
     "unclassified_threshold": 0,
     "buckets": [
       {
@@ -1225,10 +1225,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Duration/prototype/toLocaleString/branding.js"
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1371,20 +1371,20 @@
           "total": 129
         },
         "error_categories": {
-          "unreachable": 25,
           "other": 97,
+          "unreachable": 25,
           "assertion_fail": 7
         },
         "sample_files": [
-          "test/built-ins/JSON/parse/15.12.1.1-g2-3.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
+          "test/built-ins/JSON/parse/15.12.1.1-g2-3.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-8.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js"
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
-          "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
+          "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
           "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.throws(Test262Error, function() { JSON.parse('#', function() { throw new Test262Error(); }); });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { JSON.parse('#\\r34'); }, '<CR> should produce a syntax error as whitespace results in two tokens');"
@@ -1462,7 +1462,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support duplicate capture group name 'x' (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does n",
           "other:L#:## Codegen error: standalone RegExp literal-substring backend does not support @@replace symbol protocol calls (##/##). Use RegExp.prototype.test with a plain static pattern and no flags, or recompile without --target standalone.",
           "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.match built-in static propert",
-          "other:L#:## Codegen error: RegExp.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Symbol.matchAll built-in static prop"
+          "assertion_fail:returned # — assert ## at L#: verifyProperty(RegExp.prototype[Symbol.split], \"name\", { value: \"[Symbol.split]\", writable: false, enumerable: false, configurable: true });"
         ]
       },
       {
@@ -1547,21 +1547,21 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 3315,
+        "count": 3314,
         "statuses": {
           "pass": 0,
           "fail": 1420,
-          "compile_error": 1895,
+          "compile_error": 1894,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 3315
+          "total": 3314
         },
         "error_categories": {
           "illegal_cast": 117,
           "assertion_fail": 947,
           "runtime_error": 490,
           "other": 1640,
-          "wasm_compile": 104,
+          "wasm_compile": 103,
           "null_deref": 13,
           "promise_error": 2,
           "negative_test_fail": 1,
@@ -1598,23 +1598,23 @@
           "total": 291
         },
         "error_categories": {
-          "other": 269,
           "assertion_fail": 17,
+          "other": 269,
           "illegal_cast": 1,
           "runtime_error": 4
         },
         "sample_files": [
-          "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/has/return-boolean.js",
-          "test/built-ins/Reflect/enumerate/undefined.js",
+          "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/construct/length.js",
+          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
-          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
+          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Object.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Reflect.setPrototypeOf not supported"
         ]
       },
@@ -1626,21 +1626,21 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 4827,
+        "count": 4823,
         "statuses": {
           "pass": 0,
-          "fail": 2434,
-          "compile_error": 2392,
+          "fail": 2424,
+          "compile_error": 2398,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 4827
+          "total": 4823
         },
         "error_categories": {
-          "other": 1248,
+          "other": 1233,
           "wasm_compile": 1158,
-          "assertion_fail": 1929,
+          "assertion_fail": 1944,
           "illegal_cast": 191,
-          "runtime_error": 225,
+          "runtime_error": 221,
           "null_deref": 52,
           "range_error": 2,
           "negative_test_fail": 6,
@@ -1708,22 +1708,22 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 7127,
+        "count": 7136,
         "statuses": {
           "pass": 0,
-          "fail": 2696,
-          "compile_error": 4428,
+          "fail": 2640,
+          "compile_error": 4493,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 7127
+          "total": 7136
         },
         "error_categories": {
-          "other": 3824,
-          "assertion_fail": 2173,
-          "wasm_compile": 401,
+          "other": 3798,
+          "assertion_fail": 2146,
+          "wasm_compile": 456,
           "oob": 74,
           "illegal_cast": 86,
-          "null_deref": 176,
+          "null_deref": 183,
           "runtime_error": 323,
           "promise_error": 54,
           "negative_test_fail": 13
@@ -1752,17 +1752,17 @@
           "#1472"
         ],
         "label": "ToPrimitive / object-to-string dispatch residuals",
-        "count": 757,
+        "count": 756,
         "statuses": {
           "pass": 0,
           "fail": 552,
-          "compile_error": 205,
+          "compile_error": 204,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 757
+          "total": 756
         },
         "error_categories": {
-          "runtime_error": 707,
+          "runtime_error": 706,
           "other": 31,
           "assertion_fail": 11,
           "wasm_compile": 8
@@ -1971,15 +1971,15 @@
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/global-code/switch-case-global-update.js"
+          "test/annexB/language/global-code/switch-case-global-update.js",
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2182,18 +2182,21 @@
           "#1103"
         ],
         "label": "Wasm-native Map/Set/Weak collection semantics",
-        "count": 15,
+        "count": 18,
         "statuses": {
           "pass": 0,
-          "fail": 11,
-          "compile_error": 4,
+          "fail": 12,
+          "compile_error": 6,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 15
+          "total": 18
         },
         "error_categories": {
-          "assertion_fail": 11,
-          "other": 4
+          "assertion_fail": 10,
+          "other": 4,
+          "wasm_compile": 2,
+          "null_deref": 1,
+          "illegal_cast": 1
         },
         "sample_files": [
           "test/built-ins/WeakMap/undefined-newtarget.js",
@@ -2206,7 +2209,7 @@
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { WeakMap(); });",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(isConstructor(Map), true, 'isConstructor(Map) must return true');",
           "other:L#:## Unsupported new expression for class: Map",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(s.has(number), true);",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type anyref, found local.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $number f64) (local $bigint i6",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { Map(); });"
         ]
       },
