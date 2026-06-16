@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-16T06:23:09.917Z",
-  "baseline_generated_at": "2026-06-16T06:23:09Z",
-  "baseline_sha": "c19a58a1f3490f650797ef908e8edcd998b927f0",
+  "timestamp": "2026-06-16T06:34:48.439Z",
+  "baseline_generated_at": "2026-06-16T06:34:48Z",
+  "baseline_sha": "8356e584e6e9271e57743a1d14db7cc4797e5d79",
   "mode": {
     "target": "standalone",
     "include_proposals": 1,
@@ -1215,27 +1215,27 @@
         "error_categories": {
           "runtime_error": 2304,
           "wasm_compile": 96,
+          "assertion_fail": 759,
           "other": 345,
           "null_deref": 220,
-          "assertion_fail": 759,
           "range_error": 9,
           "illegal_cast": 1,
           "oob": 2,
           "type_error": 1
         },
         "sample_files": [
-          "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(isoYearExplicit, #, \"default referenceISOYear is #\");",
           "other:L#:## Codegen error: Symbol.toStringTag built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "null_deref:L#:## dereferencing a null pointer [in test()]",
-          "other:L#:## Temporal.PlainDate argument must be a string or property bag, not object"
+          "null_deref:L#:## dereferencing a null pointer [in test()]"
         ]
       },
       {
@@ -1265,14 +1265,14 @@
           "test/built-ins/DisposableStack/prototype/adopt/returns-value.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
-          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
-          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js"
+          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
+          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(stack.adopt(resource, _ => {}), resource);",
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
+          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
           "runtime_error:Cannot convert object to primitive value"
         ]
       },
@@ -1379,7 +1379,7 @@
           "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js",
           "test/built-ins/JSON/parse/15.12.1.1-0-8.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js"
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
           "unreachable:L#:## unreachable [in __json_parse_primitive() ← __closure_2 ← assert_throws ← test]",
@@ -1604,16 +1604,16 @@
         },
         "sample_files": [
           "test/built-ins/Reflect/has/return-boolean.js",
+          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/construct/length.js",
-          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
+          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Object.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Reflect.setPrototypeOf not supported"
         ]
       },
@@ -1962,23 +1962,23 @@
         },
         "error_categories": {
           "assertion_fail": 196,
-          "runtime_error": 8,
           "other": 10,
+          "runtime_error": 8,
           "wasm_compile": 4
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
           "test/annexB/language/global-code/switch-case-global-update.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
-          "other:L#:## ';' expected."
+          "other:L#:## ';' expected.",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
         ]
       },
       {
@@ -2073,8 +2073,8 @@
           "total": 311
         },
         "error_categories": {
-          "assertion_fail": 166,
           "runtime_error": 121,
+          "assertion_fail": 166,
           "illegal_cast": 4,
           "other": 5,
           "wasm_compile": 8,
@@ -2083,15 +2083,15 @@
           "negative_test_fail": 1
         },
         "sample_files": [
-          "test/language/function-code/10.4.3-1-98-s.js",
           "test/language/function-code/10.4.3-1-74gs.js",
+          "test/language/function-code/10.4.3-1-98-s.js",
           "test/language/expressions/arrow-function/dstr/dflt-obj-ptrn-prop-obj-init.js",
           "test/language/expressions/arrow-function/lexical-this.js",
           "test/built-ins/Function/S15.3.5_A2_T1.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert((function () {\"use strict\"; return f.bind(o)();})());",
           "runtime_error:Cannot convert object to primitive value",
+          "assertion_fail:returned # — assert ## at L#: assert((function () {\"use strict\"; return f.bind(o)();})());",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(x, #);",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(f.af(), f);",
           "illegal_cast:L#:## illegal cast [in test()]"
@@ -2194,8 +2194,8 @@
           "assertion_fail": 10,
           "other": 4,
           "wasm_compile": 2,
-          "illegal_cast": 1,
-          "null_deref": 1
+          "null_deref": 1,
+          "illegal_cast": 1
         },
         "sample_files": [
           "test/built-ins/WeakMap/undefined-newtarget.js",
@@ -2358,7 +2358,7 @@
           "test/language/statements/for/dstr/let-obj-ptrn-prop-obj.js",
           "test/language/module-code/instn-local-bndng-cls.js",
           "test/language/statements/await-using/function-local-use-before-initialization-in-prior-statement.js",
-          "test/language/module-code/instn-named-bndng-cls.js"
+          "test/language/module-code/instn-local-bndng-export-const.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: call[#] expected type externref, found f64.const of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $initCount f64) (local $t e",
@@ -2521,8 +2521,8 @@
           "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local",
           "assertion_fail:returned # — assert ## at L#: assert(foo.call(undefined));",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) ("
         ]
       },
       {
