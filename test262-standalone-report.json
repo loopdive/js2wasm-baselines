@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-17T21:59:13.053Z",
-  "baseline_generated_at": "2026-06-17T21:59:13.053Z",
-  "baseline_sha": "07ad15be97ab888466c90165e69f983a3e5dba70",
+  "timestamp": "2026-06-17T22:13:07.522Z",
+  "baseline_generated_at": "2026-06-17T22:13:07.522Z",
+  "baseline_sha": "18bc03a6d2014f17845b735025caa47b4127555b",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1217,8 +1217,8 @@
         },
         "error_categories": {
           "runtime_error": 2314,
-          "wasm_compile": 90,
           "assertion_fail": 767,
+          "wasm_compile": 90,
           "other": 326,
           "null_deref": 220,
           "illegal_cast": 8,
@@ -1227,15 +1227,15 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js",
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(isoYearExplicit, #, \"default referenceISOYear is #\");",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "other:L#:## Codegen error: Symbol.toStringTag built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "null_deref:L#:## dereferencing a null pointer [in test()]"
         ]
@@ -1819,8 +1819,8 @@
           "test/built-ins/TypedArrayConstructors/Float32Array/length.js",
           "test/built-ins/Array/fromAsync/non-iterable-sync-mapped-callback-err.js",
           "test/built-ins/Array/fromAsync/asyncitems-null-undefined.js",
-          "test/built-ins/ArrayBuffer/isView/length.js",
-          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js"
+          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js",
+          "test/built-ins/ArrayBuffer/isView/length.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Float32Array.length built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
@@ -1888,8 +1888,8 @@
         "error_categories": {
           "assertion_fail": 914,
           "other": 264,
-          "runtime_error": 250,
           "wasm_compile": 19,
+          "runtime_error": 250,
           "promise_error": 95,
           "negative_test_fail": 5,
           "illegal_cast": 1,
@@ -1900,14 +1900,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/language/expressions/object/dstr/meth-dflt-obj-init-null.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { obj.method(); });",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "runtime_error:Cannot convert object to primitive value"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
         ]
       },
       {
@@ -1975,16 +1975,16 @@
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
+          "test/annexB/language/global-code/switch-case-global-update.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/global-code/switch-case-global-update.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2163,8 +2163,8 @@
           "assertion_fail": 90,
           "null_deref": 6,
           "other": 1,
-          "negative_test_fail": 4,
           "wasm_compile": 4,
+          "negative_test_fail": 4,
           "illegal_cast": 1
         },
         "sample_files": [
