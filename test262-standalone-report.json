@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-18T11:11:17.440Z",
-  "baseline_generated_at": "2026-06-18T11:11:17.440Z",
-  "baseline_sha": "5c378db3043175c3ef909e6c3beae54f787e5f94",
+  "timestamp": "2026-06-18T12:31:29.668Z",
+  "baseline_generated_at": "2026-06-18T12:31:29.668Z",
+  "baseline_sha": "acc9f0024ae347b71e3a2cce050afcf15db18c84",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -11,21 +11,21 @@
   "summary": {
     "total": 43135,
     "pass": 21046,
-    "fail": 10983,
-    "compile_error": 11082,
+    "fail": 10981,
+    "compile_error": 11084,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 32029,
+    "compilable": 32027,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42049,
         "pass": 20547,
-        "fail": 10607,
-        "compile_error": 10871,
+        "fail": 10605,
+        "compile_error": 10873,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 31154,
+        "compilable": 31152,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -54,22 +54,22 @@
       "official": {
         "total": 43135,
         "pass": 21046,
-        "fail": 10983,
-        "compile_error": 11082,
+        "fail": 10981,
+        "compile_error": 11084,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 32029,
+        "compilable": 32027,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48117,
         "pass": 22025,
-        "fail": 12155,
-        "compile_error": 13807,
+        "fail": 12153,
+        "compile_error": 13809,
         "compile_timeout": 7,
         "skip": 123,
-        "compilable": 34180,
+        "compilable": 34178,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -78,31 +78,31 @@
   "official_summary": {
     "total": 43135,
     "pass": 21046,
-    "fail": 10983,
-    "compile_error": 11082,
+    "fail": 10981,
+    "compile_error": 11084,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 32029,
+    "compilable": 32027,
     "stale": 0
   },
   "full_summary": {
     "total": 48117,
     "pass": 22025,
-    "fail": 12155,
-    "compile_error": 13807,
+    "fail": 12153,
+    "compile_error": 13809,
     "compile_timeout": 7,
     "skip": 123,
-    "compilable": 34180,
+    "compilable": 34178,
     "stale": 0
   },
   "strict_summary": {
     "total": 40626,
     "pass": 20043,
-    "fail": 10147,
-    "compile_error": 10412,
+    "fail": 10145,
+    "compile_error": 10414,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 30190,
+    "compilable": 30188,
     "stale": 0
   },
   "scope_summaries": {
@@ -129,11 +129,11 @@
     "standard": {
       "total": 42049,
       "pass": 20547,
-      "fail": 10607,
-      "compile_error": 10871,
+      "fail": 10605,
+      "compile_error": 10873,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 31154,
+      "compilable": 31152,
       "stale": 0
     }
   },
@@ -612,8 +612,8 @@
       "name": "built-ins/RegExp",
       "path": "built-ins/RegExp",
       "pass": 1188,
-      "fail": 249,
-      "compile_error": 442,
+      "fail": 247,
+      "compile_error": 444,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1879
@@ -1080,15 +1080,15 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 9018,
+    "assertion_fail": 9017,
     "illegal_cast": 605,
     "negative_test_fail": 77,
-    "null_deref": 578,
+    "null_deref": 576,
     "oob": 95,
-    "other": 7908,
+    "other": 7909,
     "promise_error": 210,
     "range_error": 14,
-    "runtime_error": 5735,
+    "runtime_error": 5737,
     "type_error": 2,
     "unreachable": 1,
     "wasm_compile": 1719
@@ -1480,8 +1480,8 @@
         "count": 499,
         "statuses": {
           "pass": 0,
-          "fail": 236,
-          "compile_error": 263,
+          "fail": 234,
+          "compile_error": 265,
           "compile_timeout": 0,
           "skip": 0,
           "total": 499
@@ -1489,9 +1489,9 @@
         "error_categories": {
           "other": 149,
           "assertion_fail": 162,
-          "runtime_error": 138,
+          "runtime_error": 140,
           "wasm_compile": 18,
-          "null_deref": 31,
+          "null_deref": 29,
           "illegal_cast": 1
         },
         "sample_files": [
@@ -1604,21 +1604,21 @@
           "total": 316
         },
         "error_categories": {
-          "assertion_fail": 21,
           "other": 290,
+          "assertion_fail": 21,
           "illegal_cast": 1,
           "runtime_error": 4
         },
         "sample_files": [
-          "test/built-ins/Reflect/has/return-boolean.js",
           "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
+          "test/built-ins/Reflect/has/return-boolean.js",
           "test/built-ins/Reflect/construct/length.js",
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.setPrototypeOf not supported in standalone mode (## Phase C)."
@@ -1642,9 +1642,9 @@
           "total": 4720
         },
         "error_categories": {
-          "other": 1223,
+          "other": 1224,
           "wasm_compile": 890,
-          "assertion_fail": 2082,
+          "assertion_fail": 2081,
           "illegal_cast": 203,
           "runtime_error": 250,
           "null_deref": 53,
@@ -1657,13 +1657,13 @@
           "test/language/expressions/class/async-gen-method/forbidden-ext/b2/cls-expr-async-gen-meth-forbidden-ext-indirect-access-prop-caller.js",
           "test/language/expressions/class/dstr/async-private-gen-meth-dflt-ary-init-iter-close.js",
           "test/language/expressions/class/dstr/gen-meth-static-ary-ptrn-elem-id-iter-val-err.js",
-          "test/language/expressions/object/dstr/gen-meth-dflt-ary-ptrn-rest-id.js"
+          "test/language/expressions/class/dstr/async-private-gen-meth-ary-ptrn-elem-ary-rest-init.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Symbol.iterator built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"inner\" failed: call[#] expected type externref, found ref.cast of type (ref #) @+#) [in inner()] [@+#] [wat: (func $inner (type #) (local $__nullchk_0 externref) g",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(x.length, #);",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(x, values);",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(x.length, #);",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(result.value, undefined);"
         ]
       },
@@ -1820,8 +1820,8 @@
           "test/built-ins/TypedArrayConstructors/Float32Array/length.js",
           "test/built-ins/Array/fromAsync/non-iterable-sync-mapped-callback-err.js",
           "test/built-ins/Array/fromAsync/asyncitems-null-undefined.js",
-          "test/built-ins/ArrayBuffer/isView/length.js",
-          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js"
+          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js",
+          "test/built-ins/ArrayBuffer/isView/length.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Float32Array.length built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
