@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-18T04:17:42.370Z",
-  "baseline_generated_at": "2026-06-18T04:17:42.370Z",
-  "baseline_sha": "72750a4a2531427e2ff57fde2f1ff68d31fd1562",
+  "timestamp": "2026-06-18T04:32:41.387Z",
+  "baseline_generated_at": "2026-06-18T04:32:41.387Z",
+  "baseline_sha": "4a3b5eb9d245e07e9f884f03641fede7f7b130b3",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 20541,
-    "fail": 10207,
+    "pass": 20550,
+    "fail": 10198,
     "compile_error": 12363,
     "compile_timeout": 6,
     "skip": 18,
@@ -20,8 +20,8 @@
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 20042,
-        "fail": 9831,
+        "pass": 20051,
+        "fail": 9822,
         "compile_error": 12152,
         "compile_timeout": 6,
         "skip": 18,
@@ -53,8 +53,8 @@
       },
       "official": {
         "total": 43135,
-        "pass": 20541,
-        "fail": 10207,
+        "pass": 20550,
+        "fail": 10198,
         "compile_error": 12363,
         "compile_timeout": 6,
         "skip": 18,
@@ -64,8 +64,8 @@
       },
       "full": {
         "total": 48117,
-        "pass": 21520,
-        "fail": 11378,
+        "pass": 21529,
+        "fail": 11369,
         "compile_error": 15088,
         "compile_timeout": 7,
         "skip": 124,
@@ -77,8 +77,8 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 20541,
-    "fail": 10207,
+    "pass": 20550,
+    "fail": 10198,
     "compile_error": 12363,
     "compile_timeout": 6,
     "skip": 18,
@@ -87,8 +87,8 @@
   },
   "full_summary": {
     "total": 48117,
-    "pass": 21520,
-    "fail": 11378,
+    "pass": 21529,
+    "fail": 11369,
     "compile_error": 15088,
     "compile_timeout": 7,
     "skip": 124,
@@ -97,8 +97,8 @@
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 19540,
-    "fail": 9374,
+    "pass": 19549,
+    "fail": 9365,
     "compile_error": 11688,
     "compile_timeout": 6,
     "skip": 18,
@@ -128,8 +128,8 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 20042,
-      "fail": 9831,
+      "pass": 20051,
+      "fail": 9822,
       "compile_error": 12152,
       "compile_timeout": 6,
       "skip": 18,
@@ -311,8 +311,8 @@
     {
       "name": "built-ins/Date",
       "path": "built-ins/Date",
-      "pass": 250,
-      "fail": 73,
+      "pass": 259,
+      "fail": 64,
       "compile_error": 271,
       "compile_timeout": 0,
       "skip": 0,
@@ -1080,7 +1080,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8441,
+    "assertion_fail": 8432,
     "illegal_cast": 519,
     "negative_test_fail": 77,
     "null_deref": 633,
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 26473,
-    "classified": 26473,
+    "total_non_pass_non_skip": 26464,
+    "classified": 26464,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1217,10 +1217,10 @@
         },
         "error_categories": {
           "runtime_error": 2315,
-          "wasm_compile": 88,
           "assertion_fail": 767,
           "other": 326,
           "null_deref": 221,
+          "wasm_compile": 88,
           "illegal_cast": 8,
           "oob": 2,
           "type_error": 1
@@ -1230,14 +1230,14 @@
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(isoYearExplicit, #, \"default referenceISOYear is #\");",
           "other:L#:## Codegen error: Symbol.toStringTag built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "null_deref:L#:## dereferencing a null pointer [in test()]"
+          "null_deref:L#:## dereferencing a null pointer [in test()]",
+          "other:L#:## Temporal.PlainDate argument must be a string or property bag, not object"
         ]
       },
       {
@@ -1612,15 +1612,15 @@
         "sample_files": [
           "test/built-ins/Reflect/has/return-boolean.js",
           "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
-          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Reflect/construct/length.js",
+          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
-          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Object.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: Reflect.setPrototypeOf not supported"
         ]
       },
@@ -1714,19 +1714,19 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 7270,
+        "count": 7261,
         "statuses": {
           "pass": 0,
-          "fail": 2315,
+          "fail": 2306,
           "compile_error": 4952,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 7270
+          "total": 7261
         },
         "error_categories": {
           "wasm_compile": 344,
           "other": 3628,
-          "assertion_fail": 1833,
+          "assertion_fail": 1824,
           "oob": 74,
           "illegal_cast": 104,
           "null_deref": 181,
@@ -1889,8 +1889,8 @@
         "error_categories": {
           "assertion_fail": 913,
           "other": 264,
-          "runtime_error": 252,
           "wasm_compile": 19,
+          "runtime_error": 252,
           "promise_error": 95,
           "negative_test_fail": 5,
           "illegal_cast": 1,
@@ -1901,14 +1901,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/language/expressions/object/dstr/meth-dflt-obj-init-null.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { obj.method(); });",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "runtime_error:Cannot convert object to primitive value"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
         ]
       },
       {
@@ -2661,7 +2661,7 @@
           "test/built-ins/SharedArrayBuffer/allocation-limit.js",
           "test/built-ins/SharedArrayBuffer/init-zero.js",
           "test/built-ins/SharedArrayBuffer/options-maxbytelength-undefined.js",
-          "test/built-ins/SharedArrayBuffer/options-maxbytelength-negative.js"
+          "test/built-ins/SharedArrayBuffer/toindex-length.js"
         ],
         "sample_signatures": [
           "other:L#:## Unsupported new expression for class: SharedArrayBuffer",
