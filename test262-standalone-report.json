@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-18T06:41:21.295Z",
-  "baseline_generated_at": "2026-06-18T06:41:21.295Z",
-  "baseline_sha": "e95797203e1c6452295a2dd08980fb0ae440ee4b",
+  "timestamp": "2026-06-18T10:08:45.438Z",
+  "baseline_generated_at": "2026-06-18T10:08:45.438Z",
+  "baseline_sha": "4b7ba943f9aaba8339024b8d462918f7bb62b988",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,22 +10,22 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 20803,
-    "fail": 10852,
-    "compile_error": 11456,
+    "pass": 20807,
+    "fail": 10851,
+    "compile_error": 11453,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 31655,
+    "compilable": 31658,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 20304,
-        "fail": 10476,
-        "compile_error": 11245,
+        "pass": 20308,
+        "fail": 10475,
+        "compile_error": 11242,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 30780,
+        "compilable": 30783,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,23 +53,23 @@
       },
       "official": {
         "total": 43135,
-        "pass": 20803,
-        "fail": 10852,
-        "compile_error": 11456,
+        "pass": 20807,
+        "fail": 10851,
+        "compile_error": 11453,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 31655,
+        "compilable": 31658,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48117,
-        "pass": 21782,
-        "fail": 12024,
-        "compile_error": 14181,
+        "pass": 21786,
+        "fail": 12023,
+        "compile_error": 14178,
         "compile_timeout": 7,
         "skip": 123,
-        "compilable": 33806,
+        "compilable": 33809,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,32 +77,32 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 20803,
-    "fail": 10852,
-    "compile_error": 11456,
+    "pass": 20807,
+    "fail": 10851,
+    "compile_error": 11453,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 31655,
+    "compilable": 31658,
     "stale": 0
   },
   "full_summary": {
     "total": 48117,
-    "pass": 21782,
-    "fail": 12024,
-    "compile_error": 14181,
+    "pass": 21786,
+    "fail": 12023,
+    "compile_error": 14178,
     "compile_timeout": 7,
     "skip": 123,
-    "compilable": 33806,
+    "compilable": 33809,
     "stale": 0
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 19801,
-    "fail": 10016,
-    "compile_error": 10785,
+    "pass": 19804,
+    "fail": 10015,
+    "compile_error": 10783,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 29817,
+    "compilable": 29819,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,12 +128,12 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 20304,
-      "fail": 10476,
-      "compile_error": 11245,
+      "pass": 20308,
+      "fail": 10475,
+      "compile_error": 11242,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 30780,
+      "compilable": 30783,
       "stale": 0
     }
   },
@@ -671,8 +671,8 @@
     {
       "name": "built-ins/String",
       "path": "built-ins/String",
-      "pass": 330,
-      "fail": 354,
+      "pass": 331,
+      "fail": 353,
       "compile_error": 539,
       "compile_timeout": 0,
       "skip": 0,
@@ -701,9 +701,9 @@
     {
       "name": "built-ins/Symbol",
       "path": "built-ins/Symbol",
-      "pass": 31,
+      "pass": 34,
       "fail": 14,
-      "compile_error": 53,
+      "compile_error": 50,
       "compile_timeout": 0,
       "skip": 0,
       "total": 98
@@ -1080,12 +1080,12 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8891,
+    "assertion_fail": 8890,
     "illegal_cast": 544,
     "negative_test_fail": 77,
     "null_deref": 637,
     "oob": 95,
-    "other": 7911,
+    "other": 7908,
     "promise_error": 210,
     "range_error": 14,
     "runtime_error": 5728,
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 26212,
-    "classified": 26212,
+    "total_non_pass_non_skip": 26208,
+    "classified": 26208,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1112,17 +1112,17 @@
           "#2043"
         ],
         "label": "Late-import index-shift fail-loud CE (stale captured index across flushLateImportShifts) — standalone generators, class globals",
-        "count": 250,
+        "count": 247,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 250,
+          "compile_error": 247,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 250
+          "total": 247
         },
         "error_categories": {
-          "other": 250
+          "other": 247
         },
         "sample_files": [
           "test/language/expressions/dynamic-import/namespace/await-ns-has-property-sym-found.js",
@@ -1229,8 +1229,8 @@
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1380,8 +1380,8 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/space-string.js",
           "test/built-ins/JSON/parse/text-object.js"
         ],
@@ -1820,8 +1820,8 @@
           "test/built-ins/TypedArrayConstructors/Float32Array/length.js",
           "test/built-ins/Array/fromAsync/non-iterable-sync-mapped-callback-err.js",
           "test/built-ins/Array/fromAsync/asyncitems-null-undefined.js",
-          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js",
-          "test/built-ins/ArrayBuffer/isView/length.js"
+          "test/built-ins/ArrayBuffer/isView/length.js",
+          "test/built-ins/ArrayBuffer/isView/invoked-as-a-fn.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Float32Array.length built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
@@ -1901,14 +1901,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/language/expressions/object/dstr/meth-dflt-obj-init-null.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/isExtensible/15.2.3.13-2-1.js"
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { obj.method(); });",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "assertion_fail:returned # — assert ## at L#: assert(Object.isExtensible(global));"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
         ]
       },
       {
@@ -1920,18 +1920,18 @@
           "#1381"
         ],
         "label": "String and URI methods/coercion residuals in standalone",
-        "count": 195,
+        "count": 194,
         "statuses": {
           "pass": 0,
-          "fail": 187,
+          "fail": 186,
           "compile_error": 8,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 195
+          "total": 194
         },
         "error_categories": {
           "runtime_error": 172,
-          "assertion_fail": 12,
+          "assertion_fail": 11,
           "wasm_compile": 4,
           "null_deref": 4,
           "other": 3
@@ -1969,23 +1969,23 @@
         },
         "error_categories": {
           "assertion_fail": 198,
-          "runtime_error": 8,
           "other": 10,
+          "runtime_error": 8,
           "wasm_compile": 2
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
+          "test/annexB/language/global-code/switch-case-global-update.js",
           "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/global-code/switch-case-global-update.js"
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
           "other:L#:## ';' expected.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
         ]
       },
       {
@@ -2163,8 +2163,8 @@
           "assertion_fail": 91,
           "null_deref": 6,
           "other": 1,
-          "wasm_compile": 4,
           "negative_test_fail": 4,
+          "wasm_compile": 4,
           "illegal_cast": 1
         },
         "sample_files": [
@@ -2245,15 +2245,15 @@
         },
         "sample_files": [
           "test/language/expressions/new/spread-obj-manipulate-outter-obj-in-getter.js",
-          "test/language/expressions/exponentiation/exp-operator-evaluation-order.js",
           "test/language/expressions/greater-than/11.8.2-3.js",
+          "test/language/expressions/exponentiation/exp-operator-evaluation-order.js",
           "test/language/expressions/import.meta/not-accessible-from-direct-eval.js",
           "test/language/expressions/function/dstr/obj-ptrn-id-init-fn-name-class.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(obj.b, #);",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(capture[#], \"right\", \"Expected the 2nd element captured to be 'right'\");",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(obj1 > obj2, false, 'The result of (obj1 > obj2) is false');",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(capture[#], \"right\", \"Expected the 2nd element captured to be 'right'\");",
           "assertion_fail:returned # — assert ## at L#: assert.throws(SyntaxError, function() { eval(\"import.meta\"); });",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(xCls2.name, 'xCls2');"
         ]
@@ -2661,7 +2661,7 @@
           "test/built-ins/SharedArrayBuffer/allocation-limit.js",
           "test/built-ins/SharedArrayBuffer/init-zero.js",
           "test/built-ins/SharedArrayBuffer/options-maxbytelength-undefined.js",
-          "test/built-ins/SharedArrayBuffer/options-maxbytelength-negative.js"
+          "test/built-ins/SharedArrayBuffer/toindex-length.js"
         ],
         "sample_signatures": [
           "other:L#:## Unsupported new expression for class: SharedArrayBuffer",
