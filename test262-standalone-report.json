@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-20T13:21:28.158Z",
-  "baseline_generated_at": "2026-06-20T13:21:28.159Z",
-  "baseline_sha": "5971daa23f9b90d0c2dc449034b7c36da3ba4764",
+  "timestamp": "2026-06-20T13:41:10.573Z",
+  "baseline_generated_at": "2026-06-20T13:41:10.574Z",
+  "baseline_sha": "59281d8e25ae2e263339d432641e8fb3162ed26e",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1215,8 +1215,8 @@
         },
         "error_categories": {
           "runtime_error": 2325,
-          "assertion_fail": 780,
           "wasm_compile": 79,
+          "assertion_fail": 780,
           "other": 328,
           "null_deref": 50,
           "illegal_cast": 10,
@@ -1227,13 +1227,13 @@
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(isoYearExplicit, #, \"default referenceISOYear is #\");",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(isoYearExplicit, #, \"default referenceISOYear is #\");",
           "other:L#:## Codegen error: Symbol.toStringTag built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "null_deref:L#:## dereferencing a null pointer [in test()]"
         ]
@@ -1378,17 +1378,17 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/space-string.js",
-          "test/built-ins/JSON/isRawJSON/not-a-constructor.js"
+          "test/built-ins/JSON/parse/text-object.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: invalid array index: # @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $obj (ref null #)) (local $__arr_data_1 (ref null #)) (local $__a",
-          "other:L#:## Codegen error: JSON.isRawJSON built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # "
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
+          "other:L#:## Codegen error: JSON.isRawJSON built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair."
         ]
       },
       {
@@ -1977,16 +1977,16 @@
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
+          "test/annexB/language/global-code/switch-case-global-update.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/global-code/switch-case-global-update.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2662,7 +2662,7 @@
           "test/built-ins/SharedArrayBuffer/allocation-limit.js",
           "test/built-ins/SharedArrayBuffer/init-zero.js",
           "test/built-ins/SharedArrayBuffer/options-maxbytelength-undefined.js",
-          "test/built-ins/SharedArrayBuffer/options-maxbytelength-negative.js"
+          "test/built-ins/SharedArrayBuffer/toindex-length.js"
         ],
         "sample_signatures": [
           "other:L#:## Unsupported new expression for class: SharedArrayBuffer",
