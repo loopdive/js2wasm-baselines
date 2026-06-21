@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-21T20:05:37.330Z",
-  "baseline_generated_at": "2026-06-21T20:05:37.330Z",
-  "baseline_sha": "84edf1c4f0ab4fee77fa684da9f820cb9ce64d2c",
+  "timestamp": "2026-06-21T21:59:49.374Z",
+  "baseline_generated_at": "2026-06-21T21:59:49.374Z",
+  "baseline_sha": "f6e7aa852d2f2d98958413d519d36349009863e4",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1227,8 +1227,8 @@
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1273,7 +1273,7 @@
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(stack.adopt(resource, _ => {}), resource);",
           "other:L#:## Codegen error: AsyncDisposableStack.length built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: AsyncDisposableStack.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a nat"
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });"
         ]
       },
       {
@@ -1380,8 +1380,8 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
+          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/15.12.2-2-6.js"
         ],
         "sample_signatures": [
@@ -1563,9 +1563,9 @@
         },
         "error_categories": {
           "runtime_error": 679,
-          "assertion_fail": 1186,
+          "assertion_fail": 1185,
           "illegal_cast": 186,
-          "other": 770,
+          "other": 771,
           "promise_error": 10,
           "null_deref": 15,
           "wasm_compile": 48,
@@ -1726,8 +1726,8 @@
         },
         "error_categories": {
           "wasm_compile": 253,
-          "assertion_fail": 2756,
-          "other": 1693,
+          "assertion_fail": 2757,
+          "other": 1692,
           "illegal_cast": 171,
           "null_deref": 123,
           "runtime_error": 1169,
@@ -1903,7 +1903,7 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
           "test/built-ins/Object/create/15.2.3.5-4-55.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
@@ -2286,14 +2286,14 @@
           "test/language/arguments-object/10.6-6-4.js",
           "test/language/arguments-object/10.6-13-a-3.js",
           "test/language/arguments-object/10.6-2gs.js",
-          "test/language/arguments-object/10.6-13-c-1-s.js"
+          "test/language/arguments-object/10.5-7-b-4-s.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(called, 'called !== true');",
           "null_deref:L#:## dereferencing a null pointer [in __iife_0() ← testcase ← test]",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f_10_6_1_gs(); });",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { arguments.callee; });",
-          "assertion_fail:returned # — assert ## at L#: assert(_10_5_7_b_4_fun(#, #), '_10_5_7_b_4_fun(#, #) !== true');"
+          "assertion_fail:returned # — assert ## at L#: assert(_10_5_7_b_4_fun(#, #), '_10_5_7_b_4_fun(#, #) !== true');",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { arguments.callee; });"
         ]
       },
       {
@@ -2629,7 +2629,7 @@
           "test/language/expressions/optional-chaining/optional-call-preserves-this.js",
           "test/language/expressions/super/prop-expr-uninitialized-this-getvalue.js",
           "test/language/expressions/super/prop-expr-uninitialized-this-putvalue.js",
-          "test/language/expressions/new/spread-obj-spread-order.js"
+          "test/language/expressions/array/spread-obj-spread-order.js"
         ],
         "sample_signatures": [
           "other:L#:## ';' expected.",
