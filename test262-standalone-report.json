@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-21T02:16:53.332Z",
-  "baseline_generated_at": "2026-06-21T02:16:53.332Z",
-  "baseline_sha": "32627ea05402c755fb6fc5ae6196ddebc2b41f82",
+  "timestamp": "2026-06-21T02:37:42.413Z",
+  "baseline_generated_at": "2026-06-21T02:37:42.413Z",
+  "baseline_sha": "ba0138412cb5b0636e981e808fd5c404f47f2a23",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,22 +10,22 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 22278,
-    "fail": 11943,
-    "compile_error": 8890,
+    "pass": 22290,
+    "fail": 11988,
+    "compile_error": 8833,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 34221,
+    "compilable": 34278,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 21755,
-        "fail": 11547,
-        "compile_error": 8723,
+        "pass": 21767,
+        "fail": 11592,
+        "compile_error": 8666,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 33302,
+        "compilable": 33359,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,23 +53,23 @@
       },
       "official": {
         "total": 43135,
-        "pass": 22278,
-        "fail": 11943,
-        "compile_error": 8890,
+        "pass": 22290,
+        "fail": 11988,
+        "compile_error": 8833,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 34221,
+        "compilable": 34278,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48117,
-        "pass": 23413,
-        "fail": 12964,
-        "compile_error": 11610,
+        "pass": 23425,
+        "fail": 13009,
+        "compile_error": 11553,
         "compile_timeout": 7,
         "skip": 123,
-        "compilable": 36377,
+        "compilable": 36434,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,32 +77,32 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 22278,
-    "fail": 11943,
-    "compile_error": 8890,
+    "pass": 22290,
+    "fail": 11988,
+    "compile_error": 8833,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 34221,
+    "compilable": 34278,
     "stale": 0
   },
   "full_summary": {
     "total": 48117,
-    "pass": 23413,
-    "fail": 12964,
-    "compile_error": 11610,
+    "pass": 23425,
+    "fail": 13009,
+    "compile_error": 11553,
     "compile_timeout": 7,
     "skip": 123,
-    "compilable": 36377,
+    "compilable": 36434,
     "stale": 0
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 21274,
-    "fail": 11114,
-    "compile_error": 8214,
+    "pass": 21286,
+    "fail": 11159,
+    "compile_error": 8157,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 32388,
+    "compilable": 32445,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,12 +128,12 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 21755,
-      "fail": 11547,
-      "compile_error": 8723,
+      "pass": 21767,
+      "fail": 11592,
+      "compile_error": 8666,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 33302,
+      "compilable": 33359,
       "stale": 0
     }
   },
@@ -422,8 +422,8 @@
       "name": "built-ins/GeneratorPrototype",
       "path": "built-ins/GeneratorPrototype",
       "pass": 12,
-      "fail": 35,
-      "compile_error": 14,
+      "fail": 42,
+      "compile_error": 7,
       "compile_timeout": 0,
       "skip": 0,
       "total": 61
@@ -472,8 +472,8 @@
       "name": "built-ins/Iterator",
       "path": "built-ins/Iterator",
       "pass": 46,
-      "fail": 194,
-      "compile_error": 270,
+      "fail": 197,
+      "compile_error": 267,
       "compile_timeout": 0,
       "skip": 0,
       "total": 510
@@ -891,9 +891,9 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 7204,
-      "fail": 2538,
-      "compile_error": 1275,
+      "pass": 7208,
+      "fail": 2549,
+      "compile_error": 1260,
       "compile_timeout": 1,
       "skip": 18,
       "total": 11036
@@ -1051,9 +1051,9 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 5743,
-      "fail": 2409,
-      "compile_error": 1184,
+      "pass": 5751,
+      "fail": 2433,
+      "compile_error": 1152,
       "compile_timeout": 1,
       "skip": 0,
       "total": 9337
@@ -1080,18 +1080,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 9550,
-    "illegal_cast": 1011,
+    "assertion_fail": 9585,
+    "illegal_cast": 1015,
     "negative_test_fail": 77,
     "null_deref": 430,
     "oob": 35,
-    "other": 6119,
+    "other": 6040,
     "promise_error": 215,
     "range_error": 16,
-    "runtime_error": 6049,
+    "runtime_error": 6052,
     "type_error": 9,
-    "unreachable": 1,
-    "wasm_compile": 1062
+    "unreachable": 4,
+    "wasm_compile": 1084
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 24581,
-    "classified": 24581,
+    "total_non_pass_non_skip": 24569,
+    "classified": 24569,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1112,31 +1112,31 @@
           "#2043"
         ],
         "label": "Late-import index-shift fail-loud CE (stale captured index across flushLateImportShifts) — standalone generators, class globals",
-        "count": 231,
+        "count": 152,
         "statuses": {
           "pass": 0,
           "fail": 0,
-          "compile_error": 231,
+          "compile_error": 152,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 231
+          "total": 152
         },
         "error_categories": {
-          "other": 231
+          "other": 152
         },
         "sample_files": [
           "test/language/expressions/dynamic-import/namespace/await-ns-has-property-sym-found.js",
-          "test/language/statements/variable/dstr/ary-ptrn-elem-ary-elision-init.js",
-          "test/language/statements/for-of/generator-close-via-return.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/not-a-constructor.js",
-          "test/language/expressions/arrow-function/dstr/dflt-ary-ptrn-rest-ary-elision.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-6-a-77.js",
+          "test/built-ins/Object/defineProperties/15.2.3.7-6-a-93-3.js",
+          "test/language/expressions/assignment/destructuring/iterator-destructuring-property-reference-target-evaluation-order.js"
         ],
         "sample_signatures": [
           "other:L#:## Binary emit error: Codegen error: function index out of range — # (valid: [#, #)) at function 'fn'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/ad",
-          "other:L#:## Binary emit error: Codegen error: function index out of range — undefined (valid: [#, #)) at function 'g'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImp",
-          "other:L#:## Binary emit error: Codegen error: function index out of range — undefined (valid: [#, #)) at function 'values'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUni",
           "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'test'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/a",
-          "other:L#:## Binary emit error: Codegen error: function index out of range — # (valid: [#, #)) at function 'test'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/"
+          "other:L#:## Binary emit error: Codegen error: function index out of range — # (valid: [#, #)) at function 'test'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImports/",
+          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'MySet_size'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionImp",
+          "other:L#:## Binary emit error: Codegen error: global index out of range — -# (valid: [#, #)) at function 'RE_@@replace'. This is the late-import index-shift class (##): a captured index went stale across a deferred flushLateImportShifts/addUnionI"
         ]
       },
       {
@@ -1378,17 +1378,17 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/space-string.js",
-          "test/built-ins/JSON/isRawJSON/not-a-constructor.js"
+          "test/built-ins/JSON/parse/text-object.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'",
-          "other:L#:## Codegen error: JSON.isRawJSON built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # "
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
+          "other:L#:## Codegen error: JSON.isRawJSON built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair."
         ]
       },
       {
@@ -1629,26 +1629,27 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 4220,
+        "count": 4287,
         "statuses": {
           "pass": 0,
-          "fail": 2541,
-          "compile_error": 1678,
+          "fail": 2586,
+          "compile_error": 1700,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 4220
+          "total": 4287
         },
         "error_categories": {
           "other": 1225,
-          "wasm_compile": 305,
-          "assertion_fail": 1691,
-          "runtime_error": 374,
-          "illegal_cast": 536,
+          "wasm_compile": 327,
+          "assertion_fail": 1726,
+          "runtime_error": 377,
+          "illegal_cast": 540,
           "null_deref": 59,
           "type_error": 7,
           "range_error": 2,
           "negative_test_fail": 6,
-          "promise_error": 14
+          "promise_error": 14,
+          "unreachable": 3
         },
         "sample_files": [
           "test/language/expressions/async-generator/yield-star-getiter-sync-not-callable-symbol-throw.js",
@@ -1901,14 +1902,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
           "test/built-ins/Object/create/properties-arg-to-object-bigint.js",
-          "test/built-ins/Object/isExtensible/15.2.3.13-2-1.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex",
-          "assertion_fail:returned # — assert ## at L#: assert(Object.isExtensible(global));"
+          "runtime_error:Cannot convert object to primitive value"
         ]
       },
       {
@@ -1977,16 +1978,16 @@
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/global-code/switch-case-global-update.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
+          "test/annexB/language/global-code/switch-case-global-update.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected."
+          "other:L#:## ';' expected.",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
         ]
       },
       {
@@ -2284,14 +2285,14 @@
           "test/language/arguments-object/10.6-6-4.js",
           "test/language/arguments-object/10.6-13-a-3.js",
           "test/language/arguments-object/10.6-2gs.js",
-          "test/language/arguments-object/10.5-7-b-4-s.js"
+          "test/language/arguments-object/10.6-13-c-1-s.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert(called, 'called !== true');",
           "null_deref:L#:## dereferencing a null pointer [in __iife_0() ← testcase ← test]",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f_10_6_1_gs(); });",
-          "assertion_fail:returned # — assert ## at L#: assert(_10_5_7_b_4_fun(#, #), '_10_5_7_b_4_fun(#, #) !== true');",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { arguments.callee; });"
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { arguments.callee; });",
+          "assertion_fail:returned # — assert ## at L#: assert(_10_5_7_b_4_fun(#, #), '_10_5_7_b_4_fun(#, #) !== true');"
         ]
       },
       {
@@ -2527,8 +2528,8 @@
           "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local",
           "assertion_fail:returned # — assert ## at L#: assert(foo.call(undefined));",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) ("
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l"
         ]
       },
       {
