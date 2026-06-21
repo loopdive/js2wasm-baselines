@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-20T20:35:14.583Z",
-  "baseline_generated_at": "2026-06-20T20:35:14.583Z",
-  "baseline_sha": "a7b99fbda818675cf70dea893022a106d3569bd4",
+  "timestamp": "2026-06-21T01:59:41.031Z",
+  "baseline_generated_at": "2026-06-21T01:59:41.031Z",
+  "baseline_sha": "b2cc2cb67e14adc5f4a67be5f8af1e905f10ab22",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,22 +10,22 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 22277,
-    "fail": 11942,
-    "compile_error": 8892,
+    "pass": 22278,
+    "fail": 11943,
+    "compile_error": 8890,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 34219,
+    "compilable": 34221,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 21754,
-        "fail": 11546,
-        "compile_error": 8725,
+        "pass": 21755,
+        "fail": 11547,
+        "compile_error": 8723,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 33300,
+        "compilable": 33302,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,23 +53,23 @@
       },
       "official": {
         "total": 43135,
-        "pass": 22277,
-        "fail": 11942,
-        "compile_error": 8892,
+        "pass": 22278,
+        "fail": 11943,
+        "compile_error": 8890,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 34219,
+        "compilable": 34221,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48117,
-        "pass": 23412,
-        "fail": 12963,
-        "compile_error": 11612,
+        "pass": 23413,
+        "fail": 12964,
+        "compile_error": 11610,
         "compile_timeout": 7,
         "skip": 123,
-        "compilable": 36375,
+        "compilable": 36377,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,32 +77,32 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 22277,
-    "fail": 11942,
-    "compile_error": 8892,
+    "pass": 22278,
+    "fail": 11943,
+    "compile_error": 8890,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 34219,
+    "compilable": 34221,
     "stale": 0
   },
   "full_summary": {
     "total": 48117,
-    "pass": 23412,
-    "fail": 12963,
-    "compile_error": 11612,
+    "pass": 23413,
+    "fail": 12964,
+    "compile_error": 11610,
     "compile_timeout": 7,
     "skip": 123,
-    "compilable": 36375,
+    "compilable": 36377,
     "stale": 0
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 21273,
-    "fail": 11113,
-    "compile_error": 8216,
+    "pass": 21274,
+    "fail": 11114,
+    "compile_error": 8214,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 32386,
+    "compilable": 32388,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,12 +128,12 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 21754,
-      "fail": 11546,
-      "compile_error": 8725,
+      "pass": 21755,
+      "fail": 11547,
+      "compile_error": 8723,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 33300,
+      "compilable": 33302,
       "stale": 0
     }
   },
@@ -892,8 +892,8 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 7204,
-      "fail": 2537,
-      "compile_error": 1276,
+      "fail": 2538,
+      "compile_error": 1275,
       "compile_timeout": 1,
       "skip": 18,
       "total": 11036
@@ -1051,9 +1051,9 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 5742,
+      "pass": 5743,
       "fail": 2409,
-      "compile_error": 1185,
+      "compile_error": 1184,
       "compile_timeout": 1,
       "skip": 0,
       "total": 9337
@@ -1080,7 +1080,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 9549,
+    "assertion_fail": 9550,
     "illegal_cast": 1011,
     "negative_test_fail": 77,
     "null_deref": 430,
@@ -1091,7 +1091,7 @@
     "runtime_error": 6049,
     "type_error": 9,
     "unreachable": 1,
-    "wasm_compile": 1064
+    "wasm_compile": 1062
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 24582,
-    "classified": 24582,
+    "total_non_pass_non_skip": 24581,
+    "classified": 24581,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1227,8 +1227,8 @@
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1263,8 +1263,8 @@
         },
         "sample_files": [
           "test/built-ins/DisposableStack/prototype/adopt/returns-value.js",
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js"
         ],
@@ -1286,15 +1286,15 @@
         "count": 122,
         "statuses": {
           "pass": 0,
-          "fail": 67,
-          "compile_error": 55,
+          "fail": 68,
+          "compile_error": 54,
           "compile_timeout": 0,
           "skip": 0,
           "total": 122
         },
         "error_categories": {
-          "assertion_fail": 40,
-          "wasm_compile": 7,
+          "assertion_fail": 41,
+          "wasm_compile": 6,
           "range_error": 3,
           "null_deref": 16,
           "illegal_cast": 3,
@@ -1713,17 +1713,17 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 6346,
+        "count": 6345,
         "statuses": {
           "pass": 0,
           "fail": 3557,
-          "compile_error": 2786,
+          "compile_error": 2785,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 6346
+          "total": 6345
         },
         "error_categories": {
-          "wasm_compile": 249,
+          "wasm_compile": 248,
           "assertion_fail": 2787,
           "other": 1691,
           "illegal_cast": 214,
