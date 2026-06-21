@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-21T03:40:15.137Z",
-  "baseline_generated_at": "2026-06-21T03:40:15.137Z",
-  "baseline_sha": "93db4ec659d425c28a6fc3e647a49ccbee613713",
+  "timestamp": "2026-06-21T03:57:07.906Z",
+  "baseline_generated_at": "2026-06-21T03:57:07.906Z",
+  "baseline_sha": "6af596f4c1b3d19aaa3103c86f721b8e305f99df",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 22300,
-    "fail": 11978,
+    "pass": 22326,
+    "fail": 11952,
     "compile_error": 8833,
     "compile_timeout": 6,
     "skip": 18,
@@ -20,8 +20,8 @@
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 21777,
-        "fail": 11582,
+        "pass": 21803,
+        "fail": 11556,
         "compile_error": 8666,
         "compile_timeout": 6,
         "skip": 18,
@@ -53,8 +53,8 @@
       },
       "official": {
         "total": 43135,
-        "pass": 22300,
-        "fail": 11978,
+        "pass": 22326,
+        "fail": 11952,
         "compile_error": 8833,
         "compile_timeout": 6,
         "skip": 18,
@@ -64,8 +64,8 @@
       },
       "full": {
         "total": 48117,
-        "pass": 23435,
-        "fail": 12999,
+        "pass": 23461,
+        "fail": 12973,
         "compile_error": 11553,
         "compile_timeout": 7,
         "skip": 123,
@@ -77,8 +77,8 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 22300,
-    "fail": 11978,
+    "pass": 22326,
+    "fail": 11952,
     "compile_error": 8833,
     "compile_timeout": 6,
     "skip": 18,
@@ -87,8 +87,8 @@
   },
   "full_summary": {
     "total": 48117,
-    "pass": 23435,
-    "fail": 12999,
+    "pass": 23461,
+    "fail": 12973,
     "compile_error": 11553,
     "compile_timeout": 7,
     "skip": 123,
@@ -97,8 +97,8 @@
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 21296,
-    "fail": 11149,
+    "pass": 21322,
+    "fail": 11123,
     "compile_error": 8157,
     "compile_timeout": 6,
     "skip": 18,
@@ -128,8 +128,8 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 21777,
-      "fail": 11582,
+      "pass": 21803,
+      "fail": 11556,
       "compile_error": 8666,
       "compile_timeout": 6,
       "skip": 18,
@@ -801,8 +801,8 @@
     {
       "name": "language/arguments-object",
       "path": "language/arguments-object",
-      "pass": 165,
-      "fail": 89,
+      "pass": 191,
+      "fail": 63,
       "compile_error": 9,
       "compile_timeout": 0,
       "skip": 0,
@@ -1080,12 +1080,12 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 9575,
+    "assertion_fail": 9550,
     "illegal_cast": 1015,
     "negative_test_fail": 77,
     "null_deref": 429,
     "oob": 35,
-    "other": 6041,
+    "other": 6040,
     "promise_error": 215,
     "range_error": 16,
     "runtime_error": 6052,
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 24559,
-    "classified": 24559,
+    "total_non_pass_non_skip": 24533,
+    "classified": 24533,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1381,14 +1381,14 @@
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/space-string.js",
-          "test/built-ins/JSON/parse/text-object.js"
+          "test/built-ins/JSON/isRawJSON/not-a-constructor.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.stringify of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phas",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'",
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "other:L#:## Codegen error: JSON.isRawJSON built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair."
+          "other:L#:## Codegen error: JSON.isRawJSON built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # "
         ]
       },
       {
@@ -1609,15 +1609,15 @@
         "sample_files": [
           "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/has/return-boolean.js",
-          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Reflect/construct/length.js",
+          "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
-          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.setPrototypeOf not supported in standalone mode (## Phase C)."
         ]
       },
@@ -1629,19 +1629,19 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 4287,
+        "count": 4271,
         "statuses": {
           "pass": 0,
-          "fail": 2586,
+          "fail": 2570,
           "compile_error": 1700,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 4287
+          "total": 4271
         },
         "error_categories": {
           "other": 1225,
           "wasm_compile": 327,
-          "assertion_fail": 1726,
+          "assertion_fail": 1710,
           "runtime_error": 377,
           "illegal_cast": 540,
           "null_deref": 59,
@@ -1714,19 +1714,19 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 6344,
+        "count": 6340,
         "statuses": {
           "pass": 0,
-          "fail": 3556,
+          "fail": 3552,
           "compile_error": 2785,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 6344
+          "total": 6340
         },
         "error_categories": {
           "wasm_compile": 248,
-          "assertion_fail": 2786,
-          "other": 1692,
+          "assertion_fail": 2783,
+          "other": 1691,
           "illegal_cast": 214,
           "null_deref": 136,
           "runtime_error": 1169,
@@ -1890,8 +1890,8 @@
         "error_categories": {
           "assertion_fail": 1124,
           "other": 282,
-          "runtime_error": 390,
           "wasm_compile": 18,
+          "runtime_error": 390,
           "promise_error": 97,
           "negative_test_fail": 5,
           "illegal_cast": 3,
@@ -1901,15 +1901,15 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js",
+          "test/built-ins/Object/isExtensible/15.2.3.13-2-1.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "runtime_error:Cannot convert object to primitive value",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex",
+          "assertion_fail:returned # — assert ## at L#: assert(Object.isExtensible(global));"
         ]
       },
       {
@@ -2164,8 +2164,8 @@
           "assertion_fail": 83,
           "null_deref": 5,
           "other": 1,
-          "negative_test_fail": 4,
           "wasm_compile": 4,
+          "negative_test_fail": 4,
           "illegal_cast": 1
         },
         "sample_files": [
@@ -2227,18 +2227,18 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 617,
+        "count": 611,
         "statuses": {
           "pass": 0,
-          "fail": 604,
+          "fail": 598,
           "compile_error": 13,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 617
+          "total": 611
         },
         "error_categories": {
           "wasm_compile": 7,
-          "assertion_fail": 583,
+          "assertion_fail": 577,
           "other": 12,
           "null_deref": 9,
           "negative_test_fail": 3,
