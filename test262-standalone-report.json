@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-21T11:44:05.297Z",
-  "baseline_generated_at": "2026-06-21T11:44:05.297Z",
-  "baseline_sha": "d619ce2a9622001b859c46ebd067737676305a00",
+  "timestamp": "2026-06-21T12:05:26.536Z",
+  "baseline_generated_at": "2026-06-21T12:05:26.536Z",
+  "baseline_sha": "cf189488a31a78e1726b856e29ac649717308a9d",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,22 +10,22 @@
   },
   "summary": {
     "total": 43135,
-    "pass": 22333,
-    "fail": 11947,
-    "compile_error": 8831,
+    "pass": 22338,
+    "fail": 11951,
+    "compile_error": 8822,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 34280,
+    "compilable": 34289,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42049,
-        "pass": 21810,
-        "fail": 11551,
-        "compile_error": 8664,
+        "pass": 21815,
+        "fail": 11555,
+        "compile_error": 8655,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 33361,
+        "compilable": 33370,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,23 +53,23 @@
       },
       "official": {
         "total": 43135,
-        "pass": 22333,
-        "fail": 11947,
-        "compile_error": 8831,
+        "pass": 22338,
+        "fail": 11951,
+        "compile_error": 8822,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 34280,
+        "compilable": 34289,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48117,
-        "pass": 23468,
-        "fail": 12968,
-        "compile_error": 11551,
+        "pass": 23473,
+        "fail": 12972,
+        "compile_error": 11542,
         "compile_timeout": 7,
         "skip": 123,
-        "compilable": 36436,
+        "compilable": 36445,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,32 +77,32 @@
   },
   "official_summary": {
     "total": 43135,
-    "pass": 22333,
-    "fail": 11947,
-    "compile_error": 8831,
+    "pass": 22338,
+    "fail": 11951,
+    "compile_error": 8822,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 34280,
+    "compilable": 34289,
     "stale": 0
   },
   "full_summary": {
     "total": 48117,
-    "pass": 23468,
-    "fail": 12968,
-    "compile_error": 11551,
+    "pass": 23473,
+    "fail": 12972,
+    "compile_error": 11542,
     "compile_timeout": 7,
     "skip": 123,
-    "compilable": 36436,
+    "compilable": 36445,
     "stale": 0
   },
   "strict_summary": {
     "total": 40626,
-    "pass": 21329,
-    "fail": 11118,
-    "compile_error": 8155,
+    "pass": 21334,
+    "fail": 11122,
+    "compile_error": 8146,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 32447,
+    "compilable": 32456,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,12 +128,12 @@
     },
     "standard": {
       "total": 42049,
-      "pass": 21810,
-      "fail": 11551,
-      "compile_error": 8664,
+      "pass": 21815,
+      "fail": 11555,
+      "compile_error": 8655,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 33361,
+      "compilable": 33370,
       "stale": 0
     }
   },
@@ -552,8 +552,8 @@
       "name": "built-ins/Object",
       "path": "built-ins/Object",
       "pass": 863,
-      "fail": 1523,
-      "compile_error": 1025,
+      "fail": 1526,
+      "compile_error": 1022,
       "compile_timeout": 0,
       "skip": 0,
       "total": 3411
@@ -601,9 +601,9 @@
     {
       "name": "built-ins/Reflect",
       "path": "built-ins/Reflect",
-      "pass": 34,
-      "fail": 25,
-      "compile_error": 94,
+      "pass": 39,
+      "fail": 26,
+      "compile_error": 88,
       "compile_timeout": 0,
       "skip": 0,
       "total": 153
@@ -1080,15 +1080,15 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 9550,
-    "illegal_cast": 1015,
+    "assertion_fail": 9554,
+    "illegal_cast": 1016,
     "negative_test_fail": 77,
     "null_deref": 427,
     "oob": 35,
-    "other": 6046,
+    "other": 6033,
     "promise_error": 215,
     "range_error": 16,
-    "runtime_error": 6047,
+    "runtime_error": 6050,
     "type_error": 9,
     "unreachable": 4,
     "wasm_compile": 1078
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 24526,
-    "classified": 24526,
+    "total_non_pass_non_skip": 24521,
+    "classified": 24521,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1551,19 +1551,19 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 2992,
+        "count": 2993,
         "statuses": {
           "pass": 0,
-          "fail": 1752,
+          "fail": 1753,
           "compile_error": 1240,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 2992
+          "total": 2993
         },
         "error_categories": {
           "runtime_error": 655,
           "assertion_fail": 1167,
-          "illegal_cast": 178,
+          "illegal_cast": 179,
           "other": 926,
           "promise_error": 10,
           "null_deref": 15,
@@ -1592,33 +1592,33 @@
           "#1472"
         ],
         "label": "Reflect.* refused in standalone mode (#1472 Phase C)",
-        "count": 315,
+        "count": 306,
         "statuses": {
           "pass": 0,
           "fail": 21,
-          "compile_error": 294,
+          "compile_error": 285,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 315
+          "total": 306
         },
         "error_categories": {
-          "other": 290,
           "assertion_fail": 21,
-          "runtime_error": 4
+          "other": 278,
+          "runtime_error": 7
         },
         "sample_files": [
-          "test/built-ins/Reflect/getOwnPropertyDescriptor/undefined-own-property.js",
           "test/built-ins/Reflect/has/return-boolean.js",
           "test/built-ins/Reflect/construct/length.js",
           "test/built-ins/Reflect/enumerate/undefined.js",
-          "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js"
+          "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.js",
+          "test/built-ins/DataView/custom-proto-access-throws.js"
         ],
         "sample_signatures": [
-          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor not supported in standalone mode (## Phase C).",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
           "other:L#:## Codegen error: Reflect.construct built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
-          "other:L#:## Codegen error: Reflect.setPrototypeOf not supported in standalone mode (## Phase C)."
+          "other:L#:## Codegen error: Reflect.setPrototypeOf not supported in standalone mode (## Phase C).",
+          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C)."
         ]
       },
       {
@@ -1878,20 +1878,20 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 1922,
+        "count": 1925,
         "statuses": {
           "pass": 0,
-          "fail": 1176,
+          "fail": 1179,
           "compile_error": 746,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1922
+          "total": 1925
         },
         "error_categories": {
-          "assertion_fail": 1124,
+          "assertion_fail": 1127,
           "other": 282,
-          "wasm_compile": 18,
           "runtime_error": 390,
+          "wasm_compile": 18,
           "promise_error": 97,
           "negative_test_fail": 5,
           "illegal_cast": 3,
@@ -1901,15 +1901,15 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js",
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex",
-          "runtime_error:Cannot convert object to primitive value"
+          "runtime_error:Cannot convert object to primitive value",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
         ]
       },
       {
@@ -2227,18 +2227,18 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 610,
+        "count": 611,
         "statuses": {
           "pass": 0,
-          "fail": 597,
+          "fail": 598,
           "compile_error": 13,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 610
+          "total": 611
         },
         "error_categories": {
           "wasm_compile": 7,
-          "assertion_fail": 576,
+          "assertion_fail": 577,
           "other": 12,
           "null_deref": 9,
           "negative_test_fail": 3,
@@ -2384,28 +2384,28 @@
           "#1694"
         ],
         "label": "Promise and async standalone semantics",
-        "count": 93,
+        "count": 92,
         "statuses": {
           "pass": 0,
-          "fail": 68,
+          "fail": 67,
           "compile_error": 25,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 93
+          "total": 92
         },
         "error_categories": {
           "wasm_compile": 23,
           "promise_error": 22,
           "illegal_cast": 18,
           "null_deref": 9,
-          "other": 7,
+          "other": 6,
           "assertion_fail": 13,
           "negative_test_fail": 1
         },
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js",
           "test/built-ins/Promise/any/ctx-non-ctor.js"
         ],
@@ -2628,7 +2628,7 @@
           "test/language/expressions/optional-chaining/optional-call-preserves-this.js",
           "test/language/expressions/super/prop-expr-uninitialized-this-getvalue.js",
           "test/language/expressions/super/prop-expr-uninitialized-this-putvalue.js",
-          "test/language/expressions/new/spread-obj-spread-order.js"
+          "test/language/expressions/array/spread-obj-spread-order.js"
         ],
         "sample_signatures": [
           "other:L#:## ';' expected.",
