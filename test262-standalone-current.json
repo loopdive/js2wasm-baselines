@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-22T19:16:29.859Z",
-  "baseline_generated_at": "2026-06-22T19:16:29.859Z",
-  "baseline_sha": "21031ed6284c563c0438d461df7972743c5cbc1f",
+  "timestamp": "2026-06-22T19:23:30.118Z",
+  "baseline_generated_at": "2026-06-22T19:23:30.118Z",
+  "baseline_sha": "141fe4c3f4ec87507290db3965f1b389c180b31d",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1225,9 +1225,9 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1380,8 +1380,8 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/parse/15.12.2-2-6.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
+          "test/built-ins/JSON/parse/15.12.2-2-6.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
@@ -2163,8 +2163,8 @@
           "assertion_fail": 74,
           "null_deref": 6,
           "other": 1,
-          "wasm_compile": 4,
           "negative_test_fail": 4,
+          "wasm_compile": 4,
           "illegal_cast": 1
         },
         "sample_files": [
@@ -2529,8 +2529,8 @@
           "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local",
           "assertion_fail:returned # — assert ## at L#: assert(foo.call(undefined));",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) ("
         ]
       },
       {
