@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-22T13:02:32.802Z",
-  "baseline_generated_at": "2026-06-22T13:02:32.802Z",
-  "baseline_sha": "f4e65225aede6d0881d8714267ef3b9db7b1b920",
+  "timestamp": "2026-06-22T13:30:47.274Z",
+  "baseline_generated_at": "2026-06-22T13:30:47.274Z",
+  "baseline_sha": "59f6a47c27373e9f77c0eed2bfd96a4c490d9a2b",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,22 +10,22 @@
   },
   "summary": {
     "total": 43136,
-    "pass": 23197,
-    "fail": 13444,
-    "compile_error": 6471,
+    "pass": 23202,
+    "fail": 13447,
+    "compile_error": 6463,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 36641,
+    "compilable": 36649,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42050,
-        "pass": 22670,
-        "fail": 13018,
-        "compile_error": 6338,
+        "pass": 22675,
+        "fail": 13021,
+        "compile_error": 6330,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 35688,
+        "compilable": 35696,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -53,23 +53,23 @@
       },
       "official": {
         "total": 43136,
-        "pass": 23197,
-        "fail": 13444,
-        "compile_error": 6471,
+        "pass": 23202,
+        "fail": 13447,
+        "compile_error": 6463,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 36641,
+        "compilable": 36649,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48118,
-        "pass": 24338,
-        "fail": 14458,
-        "compile_error": 9186,
+        "pass": 24343,
+        "fail": 14461,
+        "compile_error": 9178,
         "compile_timeout": 7,
         "skip": 129,
-        "compilable": 38796,
+        "compilable": 38804,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -77,32 +77,32 @@
   },
   "official_summary": {
     "total": 43136,
-    "pass": 23197,
-    "fail": 13444,
-    "compile_error": 6471,
+    "pass": 23202,
+    "fail": 13447,
+    "compile_error": 6463,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 36641,
+    "compilable": 36649,
     "stale": 0
   },
   "full_summary": {
     "total": 48118,
-    "pass": 24338,
-    "fail": 14458,
-    "compile_error": 9186,
+    "pass": 24343,
+    "fail": 14461,
+    "compile_error": 9178,
     "compile_timeout": 7,
     "skip": 129,
-    "compilable": 38796,
+    "compilable": 38804,
     "stale": 0
   },
   "strict_summary": {
     "total": 40627,
-    "pass": 22180,
-    "fail": 12618,
-    "compile_error": 5805,
+    "pass": 22185,
+    "fail": 12621,
+    "compile_error": 5797,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 34798,
+    "compilable": 34806,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,12 +128,12 @@
     },
     "standard": {
       "total": 42050,
-      "pass": 22670,
-      "fail": 13018,
-      "compile_error": 6338,
+      "pass": 22675,
+      "fail": 13021,
+      "compile_error": 6330,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 35688,
+      "compilable": 35696,
       "stale": 0
     }
   },
@@ -591,9 +591,9 @@
     {
       "name": "built-ins/Proxy",
       "path": "built-ins/Proxy",
-      "pass": 35,
-      "fail": 167,
-      "compile_error": 109,
+      "pass": 40,
+      "fail": 170,
+      "compile_error": 101,
       "compile_timeout": 0,
       "skip": 0,
       "total": 311
@@ -1080,18 +1080,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 10158,
-    "illegal_cast": 1797,
+    "assertion_fail": 10162,
+    "illegal_cast": 1800,
     "negative_test_fail": 77,
-    "null_deref": 424,
+    "null_deref": 420,
     "oob": 35,
     "other": 3517,
     "promise_error": 200,
     "range_error": 16,
-    "runtime_error": 6244,
+    "runtime_error": 6237,
     "type_error": 18,
     "unreachable": 4,
-    "wasm_compile": 1154
+    "wasm_compile": 1153
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 23651,
-    "classified": 23651,
+    "total_non_pass_non_skip": 23646,
+    "classified": 23646,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1273,7 +1273,7 @@
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(stack.adopt(resource, _ => {}), resource);",
           "other:L#:## Codegen error: AsyncDisposableStack.length built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });"
+          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: AsyncDisposableStack.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a nat"
         ]
       },
       {
@@ -1380,15 +1380,15 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/parse/15.12.2-2-6.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
-          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
+          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'"
         ]
       },
@@ -1550,23 +1550,23 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 3875,
+        "count": 3870,
         "statuses": {
           "pass": 0,
-          "fail": 2642,
-          "compile_error": 1233,
+          "fail": 2645,
+          "compile_error": 1225,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 3875
+          "total": 3870
         },
         "error_categories": {
-          "illegal_cast": 989,
-          "runtime_error": 829,
-          "assertion_fail": 1222,
+          "illegal_cast": 992,
+          "runtime_error": 822,
+          "assertion_fail": 1226,
           "other": 755,
           "promise_error": 13,
-          "null_deref": 16,
-          "wasm_compile": 49,
+          "null_deref": 12,
+          "wasm_compile": 48,
           "negative_test_fail": 1,
           "type_error": 1
         },
@@ -1900,7 +1900,7 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
           "test/built-ins/Object/create/15.2.3.5-4-55.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
@@ -1969,23 +1969,23 @@
         },
         "error_categories": {
           "assertion_fail": 196,
-          "other": 10,
           "runtime_error": 11,
+          "other": 10,
           "wasm_compile": 3
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
           "test/annexB/language/global-code/switch-case-global-update.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
-          "other:L#:## ';' expected.",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2163,8 +2163,8 @@
           "assertion_fail": 86,
           "null_deref": 6,
           "other": 1,
-          "negative_test_fail": 4,
           "wasm_compile": 4,
+          "negative_test_fail": 4,
           "illegal_cast": 1
         },
         "sample_files": [
@@ -2403,8 +2403,8 @@
         },
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
-          "test/built-ins/Promise/all/resolve-element-function-extensible.js",
           "test/built-ins/Promise/race/same-resolve-function.js",
+          "test/built-ins/Promise/all/resolve-element-function-extensible.js",
           "test/built-ins/Promise/any/ctx-non-ctor.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js"
         ],
