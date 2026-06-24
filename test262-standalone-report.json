@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-24T21:24:21.102Z",
-  "baseline_generated_at": "2026-06-24T21:24:21.102Z",
-  "baseline_sha": "3f73d6ab341c18fedc2664aed9488c2edf629013",
+  "timestamp": "2026-06-24T22:11:42.507Z",
+  "baseline_generated_at": "2026-06-24T22:11:42.507Z",
+  "baseline_sha": "779cbf11d45c729155fbcc1c5aa97b4b33a2a615",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1088,10 +1088,10 @@
     "other": 3380,
     "promise_error": 214,
     "range_error": 16,
-    "runtime_error": 6294,
+    "runtime_error": 6302,
     "type_error": 18,
     "unreachable": 4,
-    "wasm_compile": 1135
+    "wasm_compile": 1127
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1380,9 +1380,9 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
+          "test/built-ins/JSON/parse/15.12.2-2-6.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js",
-          "test/built-ins/JSON/parse/15.12.2-2-6.js"
+          "test/built-ins/JSON/stringify/replacer-array-empty.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
@@ -1483,23 +1483,23 @@
           "total": 424
         },
         "error_categories": {
-          "assertion_fail": 129,
           "runtime_error": 164,
+          "assertion_fail": 129,
           "other": 16,
           "illegal_cast": 50,
           "wasm_compile": 20,
           "null_deref": 45
         },
         "sample_files": [
-          "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
           "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
+          "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/language/literals/regexp/S7.8.5_A2.3_T4.js",
           "test/built-ins/Proxy/has/trap-is-missing-target-is-proxy.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "runtime_error:Cannot convert object to primitive value",
+          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "runtime_error:L#:## Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert(Reflect.has(regExpProxy, \"ignoreCase\"));"
@@ -1724,10 +1724,10 @@
         },
         "error_categories": {
           "assertion_fail": 3088,
-          "wasm_compile": 272,
+          "runtime_error": 1130,
           "other": 975,
           "illegal_cast": 171,
-          "runtime_error": 1122,
+          "wasm_compile": 264,
           "promise_error": 41,
           "null_deref": 116,
           "negative_test_fail": 13,
@@ -1743,7 +1743,7 @@
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error(\"The right-hand side should not be evaluated\");",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"Subclass_new\" failed: call[#] expected type f64, found local.get of type externref @+#) [in Subclass_new()] [@+#] [wat: (func $Subclass_new (type #) (local $__self",
+          "runtime_error:L#:## Codegen error: 'class Subclass extends Number' is not yet supported in --target standalone (##). The primitive-wrapper subclass native box is not implemented yet — routing it through the host path would emit invalid Wasm (the standalo",
           "assertion_fail:returned # — assert ## at L#: assert( Object.prototype.hasOwnProperty.call(obj, 'propName'), \"The property name is taken from the 'yield' variable\" );",
           "assertion_fail:returned # — assert ## at L#: assert(sub instanceof Subclass);",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( c[x && #](), # );"
@@ -1900,7 +1900,7 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/create/15.2.3.5-4-55.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(obj.hasOwnProperty(\"a\"), false);",
@@ -1976,16 +1976,16 @@
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/global-code/switch-case-global-update.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
+          "test/annexB/language/global-code/switch-case-global-update.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected."
+          "other:L#:## ';' expected.",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
         ]
       },
       {
