@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-27T08:55:36.040Z",
-  "baseline_generated_at": "2026-06-27T08:55:36.040Z",
-  "baseline_sha": "753d027e078bc13f34350d27c911625a219eb7fb",
+  "timestamp": "2026-06-27T10:01:00.593Z",
+  "baseline_generated_at": "2026-06-27T10:01:00.594Z",
+  "baseline_sha": "e21f4f5a429d1ac33dc26053a74f6b307819eabc",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 43136,
-    "pass": 24245,
-    "fail": 12981,
+    "pass": 24249,
+    "fail": 12977,
     "compile_error": 5886,
     "compile_timeout": 6,
     "skip": 18,
@@ -20,8 +20,8 @@
     "by_category": {
       "standard": {
         "total": 42050,
-        "pass": 23724,
-        "fail": 12547,
+        "pass": 23728,
+        "fail": 12543,
         "compile_error": 5755,
         "compile_timeout": 6,
         "skip": 18,
@@ -53,8 +53,8 @@
       },
       "official": {
         "total": 43136,
-        "pass": 24245,
-        "fail": 12981,
+        "pass": 24249,
+        "fail": 12977,
         "compile_error": 5886,
         "compile_timeout": 6,
         "skip": 18,
@@ -64,8 +64,8 @@
       },
       "full": {
         "total": 48118,
-        "pass": 25385,
-        "fail": 14000,
+        "pass": 25389,
+        "fail": 13996,
         "compile_error": 8603,
         "compile_timeout": 7,
         "skip": 123,
@@ -77,8 +77,8 @@
   },
   "official_summary": {
     "total": 43136,
-    "pass": 24245,
-    "fail": 12981,
+    "pass": 24249,
+    "fail": 12977,
     "compile_error": 5886,
     "compile_timeout": 6,
     "skip": 18,
@@ -87,8 +87,8 @@
   },
   "full_summary": {
     "total": 48118,
-    "pass": 25385,
-    "fail": 14000,
+    "pass": 25389,
+    "fail": 13996,
     "compile_error": 8603,
     "compile_timeout": 7,
     "skip": 123,
@@ -97,12 +97,12 @@
   },
   "strict_summary": {
     "total": 40627,
-    "pass": 23051,
-    "fail": 12141,
-    "compile_error": 5411,
+    "pass": 23055,
+    "fail": 12136,
+    "compile_error": 5412,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 35192,
+    "compilable": 35191,
     "stale": 0
   },
   "scope_summaries": {
@@ -128,8 +128,8 @@
     },
     "standard": {
       "total": 42050,
-      "pass": 23724,
-      "fail": 12547,
+      "pass": 23728,
+      "fail": 12543,
       "compile_error": 5755,
       "compile_timeout": 6,
       "skip": 18,
@@ -891,8 +891,8 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 7493,
-      "fail": 2777,
+      "pass": 7497,
+      "fail": 2773,
       "compile_error": 747,
       "compile_timeout": 1,
       "skip": 18,
@@ -1085,10 +1085,10 @@
     "negative_test_fail": 78,
     "null_deref": 403,
     "oob": 34,
-    "other": 2564,
+    "other": 2563,
     "promise_error": 217,
     "range_error": 16,
-    "runtime_error": 6809,
+    "runtime_error": 6806,
     "type_error": 19,
     "unreachable": 4,
     "wasm_compile": 1113
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 22610,
-    "classified": 22610,
+    "total_non_pass_non_skip": 22606,
+    "classified": 22606,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1188,8 +1188,8 @@
         },
         "error_categories": {
           "runtime_error": 2463,
-          "wasm_compile": 82,
           "illegal_cast": 14,
+          "wasm_compile": 82,
           "null_deref": 51,
           "other": 184,
           "assertion_fail": 773,
@@ -1201,12 +1201,12 @@
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Duration/prototype/toLocaleString/branding.js"
+          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "illegal_cast:illegal cast [in __str_to_number() ← test]",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "null_deref:L#:## dereferencing a null pointer [in test()]",
           "other:L#:## Temporal.PlainDate argument must be a string or property bag, not object"
         ]
@@ -1612,9 +1612,9 @@
         },
         "error_categories": {
           "wasm_compile": 305,
-          "assertion_fail": 1700,
+          "assertion_fail": 1701,
           "runtime_error": 401,
-          "other": 262,
+          "other": 261,
           "illegal_cast": 461,
           "null_deref": 50,
           "type_error": 10,
@@ -1731,17 +1731,17 @@
           "#1472"
         ],
         "label": "ToPrimitive / object-to-string dispatch residuals",
-        "count": 608,
+        "count": 605,
         "statuses": {
           "pass": 0,
-          "fail": 403,
+          "fail": 400,
           "compile_error": 205,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 608
+          "total": 605
         },
         "error_categories": {
-          "runtime_error": 582,
+          "runtime_error": 579,
           "assertion_fail": 17,
           "wasm_compile": 8,
           "type_error": 1
@@ -1861,8 +1861,8 @@
         "error_categories": {
           "assertion_fail": 967,
           "other": 164,
-          "wasm_compile": 17,
           "runtime_error": 355,
+          "wasm_compile": 17,
           "promise_error": 89,
           "negative_test_fail": 5,
           "illegal_cast": 3,
@@ -1873,14 +1873,14 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(obj.hasOwnProperty(\"a\"), false);",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
+          "runtime_error:Cannot convert object to primitive value"
         ]
       },
       {
@@ -1948,16 +1948,16 @@
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
+          "test/annexB/language/global-code/switch-case-global-update.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/global-code/switch-case-global-update.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2312,18 +2312,18 @@
           "#1726"
         ],
         "label": "Lexical scope, TDZ, and declaration semantics",
-        "count": 137,
+        "count": 136,
         "statuses": {
           "pass": 0,
-          "fail": 94,
+          "fail": 93,
           "compile_error": 43,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 137
+          "total": 136
         },
         "error_categories": {
           "wasm_compile": 39,
-          "assertion_fail": 62,
+          "assertion_fail": 61,
           "promise_error": 4,
           "negative_test_fail": 13,
           "runtime_error": 4,
@@ -2415,7 +2415,7 @@
           "test/language/module-code/instn-star-props-circular.js",
           "test/language/module-code/top-level-await/syntax/early-does-not-propagate-to-fn-declaration-params.js",
           "test/language/module-code/instn-star-props-dflt-keep-indirect.js",
-          "test/language/module-code/top-level-await/new-await-parens.js"
+          "test/language/module-code/parse-err-hoist-lex-fun.js"
         ],
         "sample_signatures": [
           "other:[object WebAssembly.Exception]",
@@ -2500,8 +2500,8 @@
           "negative_test_fail:expected parse/early SyntaxError but compiled and instantiated successfully",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local",
           "assertion_fail:returned # — assert ## at L#: assert(foo.call(undefined));",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) ("
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l"
         ]
       },
       {
@@ -2562,14 +2562,14 @@
           "test/built-ins/Atomics/load/expected-return-value.js",
           "test/built-ins/SharedArrayBuffer/negative-length-throws.js",
           "test/built-ins/SharedArrayBuffer/length-is-too-large-throws.js",
-          "test/built-ins/WeakRef/undefined-newtarget-throws.js"
+          "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { FinalizationRegistry(); });",
           "illegal_cast:L#:## illegal cast [in test()]",
           "assertion_fail:returned # — assert ## at L#: assert.throws(RangeError, function() { new SharedArrayBuffer(-#); });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(RangeError, function() { // Math.pow(#, #) = # new SharedArrayBuffer(#); }, \"`length` parameter is too large\");",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { WeakRef(); });"
+          "runtime_error:L#:## WeakRef: invalid target"
         ]
       },
       {
