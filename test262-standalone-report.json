@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-29T21:24:18.318Z",
-  "baseline_generated_at": "2026-06-29T21:24:18.318Z",
-  "baseline_sha": "b32e603b92a66d435f753bd2f59142d4d8d7e81e",
+  "timestamp": "2026-06-29T21:51:58.969Z",
+  "baseline_generated_at": "2026-06-29T21:51:58.970Z",
+  "baseline_sha": "7df4e7ca9a516d0b485c75de4c2dfb9217746cd1",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 43136,
-    "pass": 24648,
-    "fail": 12624,
+    "pass": 24651,
+    "fail": 12621,
     "compile_error": 5840,
     "compile_timeout": 6,
     "skip": 18,
@@ -20,8 +20,8 @@
     "by_category": {
       "standard": {
         "total": 42050,
-        "pass": 24124,
-        "fail": 12193,
+        "pass": 24127,
+        "fail": 12190,
         "compile_error": 5709,
         "compile_timeout": 6,
         "skip": 18,
@@ -53,8 +53,8 @@
       },
       "official": {
         "total": 43136,
-        "pass": 24648,
-        "fail": 12624,
+        "pass": 24651,
+        "fail": 12621,
         "compile_error": 5840,
         "compile_timeout": 6,
         "skip": 18,
@@ -64,8 +64,8 @@
       },
       "full": {
         "total": 48118,
-        "pass": 25788,
-        "fail": 13642,
+        "pass": 25791,
+        "fail": 13639,
         "compile_error": 8558,
         "compile_timeout": 7,
         "skip": 123,
@@ -77,8 +77,8 @@
   },
   "official_summary": {
     "total": 43136,
-    "pass": 24648,
-    "fail": 12624,
+    "pass": 24651,
+    "fail": 12621,
     "compile_error": 5840,
     "compile_timeout": 6,
     "skip": 18,
@@ -87,8 +87,8 @@
   },
   "full_summary": {
     "total": 48118,
-    "pass": 25788,
-    "fail": 13642,
+    "pass": 25791,
+    "fail": 13639,
     "compile_error": 8558,
     "compile_timeout": 7,
     "skip": 123,
@@ -97,8 +97,8 @@
   },
   "strict_summary": {
     "total": 40627,
-    "pass": 23447,
-    "fail": 11787,
+    "pass": 23450,
+    "fail": 11784,
     "compile_error": 5369,
     "compile_timeout": 6,
     "skip": 18,
@@ -128,8 +128,8 @@
     },
     "standard": {
       "total": 42050,
-      "pass": 24124,
-      "fail": 12193,
+      "pass": 24127,
+      "fail": 12190,
       "compile_error": 5709,
       "compile_timeout": 6,
       "skip": 18,
@@ -1051,8 +1051,8 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 6206,
-      "fail": 2536,
+      "pass": 6209,
+      "fail": 2533,
       "compile_error": 594,
       "compile_timeout": 1,
       "skip": 0,
@@ -1080,7 +1080,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 9181,
+    "assertion_fail": 9178,
     "illegal_cast": 1837,
     "negative_test_fail": 78,
     "null_deref": 389,
@@ -1101,8 +1101,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 22207,
-    "classified": 22207,
+    "total_non_pass_non_skip": 22204,
+    "classified": 22204,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1352,15 +1352,15 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
-          "test/built-ins/JSON/parse/15.12.2-2-6.js"
+          "test/built-ins/JSON/parse/15.12.2-2-6.js",
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
-          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
+          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'"
         ]
       },
@@ -1600,18 +1600,18 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 3011,
+        "count": 3008,
         "statuses": {
           "pass": 0,
-          "fail": 2327,
+          "fail": 2324,
           "compile_error": 683,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 3011
+          "total": 3008
         },
         "error_categories": {
           "wasm_compile": 278,
-          "assertion_fail": 1512,
+          "assertion_fail": 1509,
           "runtime_error": 391,
           "other": 261,
           "illegal_cast": 492,
@@ -1860,8 +1860,8 @@
         "error_categories": {
           "assertion_fail": 924,
           "other": 164,
-          "wasm_compile": 21,
           "runtime_error": 355,
+          "wasm_compile": 21,
           "promise_error": 89,
           "negative_test_fail": 5,
           "illegal_cast": 2,
@@ -1871,15 +1871,15 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js",
+          "test/built-ins/Object/isExtensible/15.2.3.13-2-1.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex",
-          "runtime_error:Cannot convert object to primitive value"
+          "runtime_error:Cannot convert object to primitive value",
+          "assertion_fail:returned # — assert ## at L#: assert(Object.isExtensible(global));"
         ]
       },
       {
