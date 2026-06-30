@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-30T04:14:10.368Z",
-  "baseline_generated_at": "2026-06-30T04:14:10.368Z",
-  "baseline_sha": "294627de4e0fad828031a45dfb45183e8079b326",
+  "timestamp": "2026-06-30T04:21:08.373Z",
+  "baseline_generated_at": "2026-06-30T04:21:08.374Z",
+  "baseline_sha": "1586d029fa550c17508f02306cfe5406b610ec30",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1319,8 +1319,8 @@
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1997,8 +1997,8 @@
         "error_categories": {
           "assertion_fail": 928,
           "other": 164,
-          "wasm_compile": 22,
           "runtime_error": 356,
+          "wasm_compile": 22,
           "promise_error": 89,
           "negative_test_fail": 5,
           "illegal_cast": 2,
@@ -2008,15 +2008,15 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js",
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex",
-          "runtime_error:Cannot convert object to primitive value"
+          "runtime_error:Cannot convert object to primitive value",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
         ]
       },
       {
@@ -2086,15 +2086,15 @@
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/global-code/switch-case-global-update.js"
+          "test/annexB/language/global-code/switch-case-global-update.js",
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2522,8 +2522,8 @@
         },
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
-          "test/built-ins/Promise/all/resolve-element-function-extensible.js",
           "test/built-ins/Promise/race/same-resolve-function.js",
+          "test/built-ins/Promise/all/resolve-element-function-extensible.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js",
           "test/built-ins/Promise/any/ctx-non-ctor.js"
         ],
@@ -2564,7 +2564,7 @@
           "test/language/module-code/instn-star-props-circular.js",
           "test/language/module-code/top-level-await/syntax/early-does-not-propagate-to-fn-declaration-params.js",
           "test/language/module-code/instn-star-props-dflt-keep-indirect.js",
-          "test/language/module-code/top-level-await/new-await-parens.js"
+          "test/language/module-code/parse-err-hoist-lex-fun.js"
         ],
         "sample_signatures": [
           "other:[object WebAssembly.Exception]",
