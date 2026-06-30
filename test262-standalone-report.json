@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-30T10:28:47.297Z",
-  "baseline_generated_at": "2026-06-30T10:28:47.298Z",
-  "baseline_sha": "08840a03a5e82a8c9a0da1b68cb82a7ff7efa3aa",
+  "timestamp": "2026-06-30T10:42:58.003Z",
+  "baseline_generated_at": "2026-06-30T10:42:58.003Z",
+  "baseline_sha": "b909a93cc2adf0b6af62a9a3edae61ea5e429a56",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,26 +10,26 @@
   },
   "summary": {
     "total": 43136,
-    "pass": 24953,
-    "fail": 12913,
-    "compile_error": 5246,
+    "pass": 24974,
+    "fail": 12890,
+    "compile_error": 5248,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 37866,
-    "host_free_pass": 12569,
-    "leaky_pass": 12384,
+    "compilable": 37864,
+    "host_free_pass": 12571,
+    "leaky_pass": 12403,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42050,
-        "pass": 24429,
-        "fail": 12476,
-        "compile_error": 5121,
+        "pass": 24450,
+        "fail": 12453,
+        "compile_error": 5123,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 36905,
-        "host_free_pass": 12407,
-        "leaky_pass": 12022,
+        "compilable": 36903,
+        "host_free_pass": 12409,
+        "leaky_pass": 12041,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -61,27 +61,27 @@
       },
       "official": {
         "total": 43136,
-        "pass": 24953,
-        "fail": 12913,
-        "compile_error": 5246,
+        "pass": 24974,
+        "fail": 12890,
+        "compile_error": 5248,
         "compile_timeout": 6,
         "skip": 18,
-        "compilable": 37866,
-        "host_free_pass": 12569,
-        "leaky_pass": 12384,
+        "compilable": 37864,
+        "host_free_pass": 12571,
+        "leaky_pass": 12403,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48118,
-        "pass": 26093,
-        "fail": 13931,
-        "compile_error": 7964,
+        "pass": 26114,
+        "fail": 13908,
+        "compile_error": 7966,
         "compile_timeout": 7,
         "skip": 123,
-        "compilable": 40024,
-        "host_free_pass": 12901,
-        "leaky_pass": 13192,
+        "compilable": 40022,
+        "host_free_pass": 12903,
+        "leaky_pass": 13211,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -89,38 +89,38 @@
   },
   "official_summary": {
     "total": 43136,
-    "pass": 24953,
-    "fail": 12913,
-    "compile_error": 5246,
+    "pass": 24974,
+    "fail": 12890,
+    "compile_error": 5248,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 37866,
-    "host_free_pass": 12569,
-    "leaky_pass": 12384,
+    "compilable": 37864,
+    "host_free_pass": 12571,
+    "leaky_pass": 12403,
     "stale": 0
   },
   "full_summary": {
     "total": 48118,
-    "pass": 26093,
-    "fail": 13931,
-    "compile_error": 7964,
+    "pass": 26114,
+    "fail": 13908,
+    "compile_error": 7966,
     "compile_timeout": 7,
     "skip": 123,
-    "compilable": 40024,
-    "host_free_pass": 12901,
-    "leaky_pass": 13192,
+    "compilable": 40022,
+    "host_free_pass": 12903,
+    "leaky_pass": 13211,
     "stale": 0
   },
   "strict_summary": {
     "total": 40627,
-    "pass": 23750,
-    "fail": 12079,
-    "compile_error": 4774,
+    "pass": 23771,
+    "fail": 12056,
+    "compile_error": 4776,
     "compile_timeout": 6,
     "skip": 18,
-    "compilable": 35829,
-    "host_free_pass": 11967,
-    "leaky_pass": 11783,
+    "compilable": 35827,
+    "host_free_pass": 11969,
+    "leaky_pass": 11802,
     "stale": 0
   },
   "scope_summaries": {
@@ -150,14 +150,14 @@
     },
     "standard": {
       "total": 42050,
-      "pass": 24429,
-      "fail": 12476,
-      "compile_error": 5121,
+      "pass": 24450,
+      "fail": 12453,
+      "compile_error": 5123,
       "compile_timeout": 6,
       "skip": 18,
-      "compilable": 36905,
-      "host_free_pass": 12407,
-      "leaky_pass": 12022,
+      "compilable": 36903,
+      "host_free_pass": 12409,
+      "leaky_pass": 12041,
       "stale": 0
     }
   },
@@ -682,13 +682,13 @@
     {
       "name": "built-ins/RegExp",
       "path": "built-ins/RegExp",
-      "pass": 1370,
-      "fail": 412,
-      "compile_error": 97,
+      "pass": 1391,
+      "fail": 389,
+      "compile_error": 99,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1879,
-      "host_free_pass": 1253
+      "host_free_pass": 1255
     },
     {
       "name": "built-ins/RegExpStringIteratorPrototype",
@@ -1198,7 +1198,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 9389,
+    "assertion_fail": 9366,
     "illegal_cast": 1869,
     "negative_test_fail": 78,
     "null_deref": 388,
@@ -1206,10 +1206,10 @@
     "other": 2052,
     "promise_error": 192,
     "range_error": 16,
-    "runtime_error": 6798,
+    "runtime_error": 6806,
     "type_error": 19,
     "unreachable": 8,
-    "wasm_compile": 1050
+    "wasm_compile": 1044
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1219,8 +1219,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 21902,
-    "classified": 21902,
+    "total_non_pass_non_skip": 21881,
+    "classified": 21881,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1318,8 +1318,8 @@
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
         ],
         "sample_signatures": [
           "runtime_error:Cannot convert object to primitive value",
@@ -1365,7 +1365,7 @@
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(stack.adopt(resource, _ => {}), resource);",
           "other:L#:## Codegen error: AsyncDisposableStack.length built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });"
+          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: AsyncDisposableStack.prototype built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a nat"
         ]
       },
       {
@@ -1570,34 +1570,34 @@
           "#682"
         ],
         "label": "Standalone RegExp native-engine/runtime gaps: source, constructors, prototype access, result shape",
-        "count": 404,
+        "count": 383,
         "statuses": {
           "pass": 0,
-          "fail": 326,
-          "compile_error": 78,
+          "fail": 303,
+          "compile_error": 80,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 404,
+          "total": 383,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 168,
+          "assertion_fail": 145,
+          "runtime_error": 122,
           "other": 16,
-          "runtime_error": 114,
           "illegal_cast": 49,
-          "wasm_compile": 27,
+          "wasm_compile": 21,
           "null_deref": 30
         },
         "sample_files": [
-          "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
           "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
+          "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/language/literals/regexp/S7.8.5_A2.3_T4.js",
           "test/built-ins/Proxy/has/trap-is-missing-target-is-proxy.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(get.call(r), \"\", \"ignoreCase: undefined\");",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
+          "runtime_error:Cannot convert object to primitive value",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "runtime_error:L#:## Cannot convert object to primitive value",
           "assertion_fail:returned # — assert ## at L#: assert(Reflect.has(regExpProxy, \"ignoreCase\"));"
@@ -2085,15 +2085,15 @@
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/global-code/switch-case-global-update.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
+          "test/annexB/language/global-code/switch-case-global-update.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
-          "other:L#:## ';' expected."
+          "other:L#:## ';' expected.",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
         ]
       },
       {
