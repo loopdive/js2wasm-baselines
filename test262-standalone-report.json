@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-30T19:29:32.813Z",
-  "baseline_generated_at": "2026-06-30T19:29:32.813Z",
-  "baseline_sha": "0fa2e2344cd8219b4dc86b7e46ee5312fcfe4b6d",
+  "timestamp": "2026-06-30T19:53:28.786Z",
+  "baseline_generated_at": "2026-06-30T19:53:28.786Z",
+  "baseline_sha": "bd5ae6f3fa202aa660de787ce16dc90ece0c8021",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,25 +10,25 @@
   },
   "summary": {
     "total": 43136,
-    "pass": 25279,
-    "fail": 15294,
+    "pass": 25284,
+    "fail": 15289,
     "compile_error": 2539,
     "compile_timeout": 6,
     "skip": 18,
     "compilable": 40573,
-    "host_free_pass": 12650,
+    "host_free_pass": 12655,
     "leaky_pass": 12629,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42050,
-        "pass": 24755,
-        "fail": 14775,
+        "pass": 24760,
+        "fail": 14770,
         "compile_error": 2496,
         "compile_timeout": 6,
         "skip": 18,
         "compilable": 39530,
-        "host_free_pass": 12488,
+        "host_free_pass": 12493,
         "leaky_pass": 12267,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -61,26 +61,26 @@
       },
       "official": {
         "total": 43136,
-        "pass": 25279,
-        "fail": 15294,
+        "pass": 25284,
+        "fail": 15289,
         "compile_error": 2539,
         "compile_timeout": 6,
         "skip": 18,
         "compilable": 40573,
-        "host_free_pass": 12650,
+        "host_free_pass": 12655,
         "leaky_pass": 12629,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48118,
-        "pass": 26419,
-        "fail": 18794,
+        "pass": 26424,
+        "fail": 18789,
         "compile_error": 2775,
         "compile_timeout": 7,
         "skip": 123,
         "compilable": 45213,
-        "host_free_pass": 12993,
+        "host_free_pass": 12998,
         "leaky_pass": 13426,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -89,25 +89,25 @@
   },
   "official_summary": {
     "total": 43136,
-    "pass": 25279,
-    "fail": 15294,
+    "pass": 25284,
+    "fail": 15289,
     "compile_error": 2539,
     "compile_timeout": 6,
     "skip": 18,
     "compilable": 40573,
-    "host_free_pass": 12650,
+    "host_free_pass": 12655,
     "leaky_pass": 12629,
     "stale": 0
   },
   "full_summary": {
     "total": 48118,
-    "pass": 26419,
-    "fail": 18794,
+    "pass": 26424,
+    "fail": 18789,
     "compile_error": 2775,
     "compile_timeout": 7,
     "skip": 123,
     "compilable": 45213,
-    "host_free_pass": 12993,
+    "host_free_pass": 12998,
     "leaky_pass": 13426,
     "stale": 0
   },
@@ -150,13 +150,13 @@
     },
     "standard": {
       "total": 42050,
-      "pass": 24755,
-      "fail": 14775,
+      "pass": 24760,
+      "fail": 14770,
       "compile_error": 2496,
       "compile_timeout": 6,
       "skip": 18,
       "compilable": 39530,
-      "host_free_pass": 12488,
+      "host_free_pass": 12493,
       "leaky_pass": 12267,
       "stale": 0
     }
@@ -891,13 +891,13 @@
     {
       "name": "language/arguments-object",
       "path": "language/arguments-object",
-      "pass": 232,
-      "fail": 29,
+      "pass": 236,
+      "fail": 25,
       "compile_error": 2,
       "compile_timeout": 0,
       "skip": 0,
       "total": 263,
-      "host_free_pass": 92
+      "host_free_pass": 96
     },
     {
       "name": "language/asi",
@@ -990,13 +990,13 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 7783,
-      "fail": 2760,
+      "pass": 7784,
+      "fail": 2759,
       "compile_error": 474,
       "compile_timeout": 1,
       "skip": 18,
       "total": 11036,
-      "host_free_pass": 3375
+      "host_free_pass": 3376
     },
     {
       "name": "language/function-code",
@@ -1198,10 +1198,10 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 10012,
+    "assertion_fail": 10008,
     "illegal_cast": 806,
     "negative_test_fail": 78,
-    "null_deref": 389,
+    "null_deref": 388,
     "oob": 36,
     "other": 7335,
     "promise_error": 192,
@@ -1219,8 +1219,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 21576,
-    "classified": 21576,
+    "total_non_pass_non_skip": 21571,
+    "classified": 21571,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1316,8 +1316,8 @@
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1590,7 +1590,7 @@
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/language/literals/regexp/S7.8.5_A2.3_T4.js",
           "test/built-ins/Proxy/has/trap-is-missing-target-is-proxy.js",
-          "test/built-ins/RegExp/S15.10.4.1_A3_T2.js"
+          "test/built-ins/RegExp/duplicate-named-capturing-groups-syntax.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
@@ -1706,15 +1706,15 @@
           "test/built-ins/Reflect/has/return-boolean.js",
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/DataView/custom-proto-access-throws.js",
-          "test/built-ins/Reflect/get/return-value.js",
-          "test/built-ins/Reflect/set/not-a-constructor.js"
+          "test/built-ins/Reflect/set/not-a-constructor.js",
+          "test/built-ins/Reflect/get/return-value.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );",
-          "other:L#:## Codegen error: Reflect.set built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair."
+          "other:L#:## Codegen error: Reflect.set built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );"
         ]
       },
       {
@@ -2002,15 +2002,15 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js",
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( o[# * #], # );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex",
-          "other:uncaught Wasm-GC exception (non-stringifiable payload)"
+          "other:uncaught Wasm-GC exception (non-stringifiable payload)",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
         ]
       },
       {
@@ -2078,18 +2078,18 @@
           "wasm_compile": 3
         },
         "sample_files": [
-          "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
+          "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/global-code/switch-case-global-update.js"
+          "test/annexB/language/global-code/switch-case-global-update.js",
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2257,20 +2257,20 @@
           "#540"
         ],
         "label": "Assignment targets, private refs, and short-circuit semantics",
-        "count": 83,
+        "count": 82,
         "statuses": {
           "pass": 0,
-          "fail": 80,
+          "fail": 79,
           "compile_error": 3,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 83,
+          "total": 82,
           "host_free_pass": 0
         },
         "error_categories": {
           "assertion_fail": 63,
           "other": 7,
-          "null_deref": 6,
+          "null_deref": 5,
           "negative_test_fail": 4,
           "wasm_compile": 2,
           "illegal_cast": 1
@@ -2376,18 +2376,18 @@
           "#1726"
         ],
         "label": "Arguments object fidelity",
-        "count": 14,
+        "count": 10,
         "statuses": {
           "pass": 0,
-          "fail": 12,
+          "fail": 8,
           "compile_error": 2,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 14,
+          "total": 10,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 10,
+          "assertion_fail": 6,
           "other": 2,
           "wasm_compile": 2
         },
@@ -2464,8 +2464,8 @@
         },
         "error_categories": {
           "wasm_compile": 39,
-          "other": 24,
           "assertion_fail": 64,
+          "other": 24,
           "promise_error": 4,
           "negative_test_fail": 13,
           "runtime_error": 4,
@@ -2475,15 +2475,15 @@
         "sample_files": [
           "test/language/statements/const/dstr/obj-ptrn-prop-id-init-skipped.js",
           "test/language/statements/for/dstr/let-obj-ptrn-prop-obj.js",
-          "test/language/module-code/namespace/internals/delete-non-exported.js",
           "test/language/module-code/instn-local-bndng-cls.js",
+          "test/language/module-code/namespace/internals/delete-non-exported.js",
           "test/language/module-code/instn-named-bndng-cls.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type f64, found local.get of type externref @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $initCount f64) (local",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: not enough arguments on the stack for struct.new (need #, got #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $iterCount f64) (local ",
-          "other:uncaught Wasm-GC exception (non-stringifiable payload)",
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof test262; }, 'Binding is created but not initialized.');",
+          "other:uncaught Wasm-GC exception (non-stringifiable payload)",
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof D; }, 'binding is created but not initialized');"
         ]
       },
@@ -2516,8 +2516,8 @@
         },
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js",
           "test/built-ins/Promise/any/ctx-non-ctor.js"
         ],
