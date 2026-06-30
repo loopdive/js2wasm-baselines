@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-30T08:23:02.244Z",
-  "baseline_generated_at": "2026-06-30T08:23:02.244Z",
-  "baseline_sha": "17c509414ed7bb6ddbcd8339e6f1f0a5d79fada2",
+  "timestamp": "2026-06-30T09:35:15.509Z",
+  "baseline_generated_at": "2026-06-30T09:35:15.509Z",
+  "baseline_sha": "35e339ee0c630ed8ec4bd1fd955b65560ae26181",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1713,14 +1713,14 @@
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/DataView/custom-proto-access-throws.js",
           "test/built-ins/Reflect/set/not-a-constructor.js",
-          "test/built-ins/Reflect/get/return-value.js"
+          "test/built-ins/Reflect/getOwnPropertyDescriptor/not-a-constructor.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.set built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );"
+          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair."
         ]
       },
       {
@@ -2193,8 +2193,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 159,
           "runtime_error": 120,
+          "assertion_fail": 159,
           "illegal_cast": 4,
           "other": 5,
           "wasm_compile": 7,
@@ -2203,15 +2203,15 @@
           "negative_test_fail": 1
         },
         "sample_files": [
-          "test/language/function-code/10.4.3-1-98-s.js",
           "test/language/function-code/10.4.3-1-74gs.js",
+          "test/language/function-code/10.4.3-1-98-s.js",
           "test/language/expressions/arrow-function/lexical-this.js",
           "test/built-ins/Function/S15.3.5_A2_T1.js",
           "test/language/function-code/10.4.3-1-101gs.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert((function () {\"use strict\"; return f.bind(o)();})());",
           "runtime_error:Cannot convert object to primitive value",
+          "assertion_fail:returned # — assert ## at L#: assert((function () {\"use strict\"; return f.bind(o)();})());",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(f.af(), f);",
           "illegal_cast:L#:## illegal cast [in test()]",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { C(); });"
@@ -2522,8 +2522,8 @@
         },
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
-          "test/built-ins/Promise/all/resolve-element-function-extensible.js",
           "test/built-ins/Promise/race/same-resolve-function.js",
+          "test/built-ins/Promise/all/resolve-element-function-extensible.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js",
           "test/built-ins/Promise/any/ctx-non-ctor.js"
         ],
