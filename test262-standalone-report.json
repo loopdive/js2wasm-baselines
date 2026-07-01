@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-01T02:00:43.325Z",
-  "baseline_generated_at": "2026-07-01T02:00:43.326Z",
-  "baseline_sha": "1f85f956f6edd25e5bfeea0840460c05ae923efb",
+  "timestamp": "2026-07-01T02:08:24.702Z",
+  "baseline_generated_at": "2026-07-01T02:08:24.702Z",
+  "baseline_sha": "e0d9a69d18bdcc953f356249eefdd02edd9df967",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1307,23 +1307,23 @@
         },
         "error_categories": {
           "other": 2660,
-          "illegal_cast": 8,
           "wasm_compile": 70,
+          "illegal_cast": 8,
           "null_deref": 51,
           "assertion_fail": 779,
           "oob": 2
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
         ],
         "sample_signatures": [
           "other:uncaught Wasm-GC exception (non-stringifiable payload)",
-          "illegal_cast:illegal cast [in __str_to_number() ← test]",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
+          "illegal_cast:illegal cast [in __str_to_number() ← test]",
           "null_deref:L#:## dereferencing a null pointer [in test()]",
           "other:L#:## Temporal.PlainDate argument must be a string or property bag, not object"
         ]
@@ -1471,15 +1471,15 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
+          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/15.12.2-2-6.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'"
         ]
       },
@@ -1587,8 +1587,8 @@
           "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/built-ins/Proxy/has/trap-is-missing-target-is-proxy.js",
-          "test/built-ins/RegExp/duplicate-named-capturing-groups-syntax.js",
-          "test/built-ins/RegExp/S15.10.4.1_A3_T2.js"
+          "test/built-ins/RegExp/S15.10.4.1_A3_T2.js",
+          "test/built-ins/RegExp/duplicate-named-capturing-groups-syntax.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
@@ -1700,15 +1700,15 @@
         },
         "sample_files": [
           "test/built-ins/Reflect/has/return-boolean.js",
-          "test/built-ins/Reflect/construct/length.js",
           "test/built-ins/Reflect/enumerate/undefined.js",
+          "test/built-ins/Reflect/construct/length.js",
           "test/built-ins/DataView/custom-proto-access-throws.js",
           "test/built-ins/Reflect/set/not-a-constructor.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Reflect.has(o1, 'p'), true, 'true from own property');",
-          "other:uncaught Wasm-GC exception (non-stringifiable payload)",
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
+          "other:uncaught Wasm-GC exception (non-stringifiable payload)",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.set built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair."
         ]
@@ -1785,8 +1785,8 @@
         },
         "sample_files": [
           "test/language/statements/for-await-of/async-func-dstr-const-obj-ptrn-id-init-skipped.js",
-          "test/built-ins/AsyncGeneratorFunction/prototype/extensibility.js",
           "test/built-ins/AsyncGeneratorFunction/instance-name.js",
+          "test/built-ins/AsyncGeneratorFunction/prototype/extensibility.js",
           "test/built-ins/GeneratorFunction/prototype/extensibility.js",
           "test/language/statements/for-await-of/async-func-dstr-let-obj-ptrn-id-init-skipped.js"
         ],
@@ -2000,7 +2000,7 @@
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
+          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
         ],
         "sample_signatures": [
           "other:uncaught Wasm-GC exception (non-stringifiable payload)",
@@ -2069,23 +2069,23 @@
         },
         "error_categories": {
           "assertion_fail": 194,
-          "other": 34,
           "runtime_error": 8,
+          "other": 34,
           "wasm_compile": 3
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/global-code/switch-case-global-update.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js"
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
-          "other:L#:## ';' expected.",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2490,8 +2490,8 @@
         },
         "error_categories": {
           "wasm_compile": 37,
-          "assertion_fail": 86,
           "other": 37,
+          "assertion_fail": 86,
           "promise_error": 4,
           "negative_test_fail": 13,
           "runtime_error": 4,
@@ -2501,15 +2501,15 @@
         "sample_files": [
           "test/language/statements/const/dstr/obj-ptrn-prop-id-init-skipped.js",
           "test/language/statements/for/dstr/let-obj-ptrn-prop-obj.js",
-          "test/language/module-code/instn-local-bndng-cls.js",
           "test/language/module-code/namespace/internals/delete-non-exported.js",
+          "test/language/module-code/instn-local-bndng-cls.js",
           "test/language/statements/for/dstr/const-ary-ptrn-elem-id-iter-val-err.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.set[#] expected type f64, found local.get of type externref @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $initCount f64) (local",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: not enough arguments on the stack for struct.new (need #, got #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $iterCount f64) (local ",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof test262; }, 'Binding is created but not initialized.');",
           "other:uncaught Wasm-GC exception (non-stringifiable payload)",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof test262; }, 'Binding is created but not initialized.');",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();"
         ]
       },
