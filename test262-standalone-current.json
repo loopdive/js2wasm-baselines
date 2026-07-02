@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-02T22:14:57.514Z",
-  "baseline_generated_at": "2026-07-02T22:14:57.514Z",
-  "baseline_sha": "4bb2cf1c0e3b7ceac32cc11d397cc0f8cee9b2c9",
+  "timestamp": "2026-07-02T22:22:05.620Z",
+  "baseline_generated_at": "2026-07-02T22:22:05.620Z",
+  "baseline_sha": "b466b55a2dde1dacc51ad189c1380c8748b9efce",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1308,8 +1308,8 @@
         },
         "error_categories": {
           "other": 2478,
-          "wasm_compile": 68,
           "illegal_cast": 8,
+          "wasm_compile": 68,
           "null_deref": 51,
           "type_error": 182,
           "assertion_fail": 781,
@@ -1317,16 +1317,16 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: Temporal is not defined",
           "other:ReferenceError: TemporalHelpers is not defined",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "illegal_cast:illegal cast [in __str_to_number() ← test]",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "null_deref:L#:## dereferencing a null pointer [in test()]"
         ]
       },
@@ -2090,15 +2090,15 @@
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
           "test/annexB/language/global-code/switch-case-global-update.js",
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
           "test/annexB/language/comments/single-line-html-close-first-line-3.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "other:L#:## ';' expected."
         ]
       },
@@ -2596,8 +2596,8 @@
         "sample_files": [
           "test/language/module-code/instn-star-iee-cycle.js",
           "test/language/module-code/top-level-await/syntax/early-does-not-propagate-to-fn-declaration-params.js",
-          "test/language/module-code/parse-err-hoist-lex-fun.js",
           "test/language/module-code/top-level-await/new-await-parens.js",
+          "test/language/module-code/parse-err-hoist-lex-fun.js",
           "test/language/module-code/top-level-await/syntax/export-var-await-expr-obj-literal.js"
         ],
         "sample_signatures": [
@@ -2687,7 +2687,7 @@
           "negative_test_fail:expected SyntaxError but compiled with no diagnostic (early error not detected)",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.convert_i32_s of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local",
           "assertion_fail:returned # — assert ## at L#: assert(foo.call(undefined));",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.lt of type i32 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) (l"
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: local.tee[#] expected type externref, found f64.sub of type f64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $y f64) (local $z f64) ("
         ]
       },
       {
