@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-02T16:11:50.204Z",
-  "baseline_generated_at": "2026-07-02T16:11:50.204Z",
-  "baseline_sha": "10bb4e3ada94387fdc96ee962cee990bdef49046",
+  "timestamp": "2026-07-02T16:24:00.038Z",
+  "baseline_generated_at": "2026-07-02T16:24:00.038Z",
+  "baseline_sha": "18927a49fd8d1a2c6206d49c5beac156740c35e1",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1596,7 +1596,7 @@
           "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.js",
           "test/language/literals/regexp/S7.8.5_A2.3_T4.js",
           "test/built-ins/Proxy/has/trap-is-missing-target-is-proxy.js",
-          "test/built-ins/RegExp/duplicate-named-capturing-groups-syntax.js"
+          "test/built-ins/RegExp/S15.10.4.1_A3_T2.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
@@ -1844,15 +1844,15 @@
         "sample_files": [
           "test/language/expressions/class/subclass-builtins/subclass-Number.js",
           "test/language/expressions/class/dstr/meth-ary-ptrn-elem-ary-rest-init.js",
-          "test/language/expressions/array/S11.1.4_A1.4.js",
           "test/language/expressions/class/cpn-class-expr-accessors-computed-property-name-from-function-declaration.js",
+          "test/language/expressions/array/S11.1.4_A1.4.js",
           "test/language/expressions/class/elements/multiple-stacked-definitions-literal-names-asi.js"
         ],
         "sample_signatures": [
           "runtime_error:L#:## Codegen error: 'class Subclass extends Number' is not yet supported in --target standalone (##). The primitive-wrapper subclass native box is not implemented yet — routing it through the host path would emit invalid Wasm (the standalo",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(x, values);",
-          "assertion_fail:Test262Error: ##: var array = [,,,#,#]; array.toString === Array.prototype.toString. Actual: [object Object]",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( c[f()], # );",
+          "assertion_fail:Test262Error: ##: var array = [,,,#,#]; array.toString === Array.prototype.toString. Actual: [object Object]",
           "assertion_fail:returned # — assert ## at L#: assert( !Object.prototype.hasOwnProperty.call(C.prototype, \"foo\"), \"foo doesn't appear as an own property on the C prototype\" );"
         ]
       },
@@ -2090,16 +2090,16 @@
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/global-code/switch-case-global-update.js",
           "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
-          "test/annexB/language/comments/single-line-html-close-first-line-3.js"
+          "test/annexB/language/comments/single-line-html-close-first-line-3.js",
+          "test/annexB/language/global-code/switch-case-global-update.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected."
+          "other:L#:## ';' expected.",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
         ]
       },
       {
