@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-02T15:07:50.313Z",
-  "baseline_generated_at": "2026-07-02T15:07:50.313Z",
-  "baseline_sha": "57312b055c2d716862b660dab4e3b65f57aad3c3",
+  "timestamp": "2026-07-02T15:16:29.883Z",
+  "baseline_generated_at": "2026-07-02T15:16:29.883Z",
+  "baseline_sha": "ce1f904cb88652bbbdc2cda99ff8455882a3bfd4",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1317,8 +1317,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
@@ -1356,8 +1356,8 @@
         },
         "sample_files": [
           "test/built-ins/DisposableStack/prototype/adopt/returns-value.js",
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js"
         ],
@@ -1553,8 +1553,8 @@
           "test/built-ins/String/prototype/matchAll/regexp-matchAll-throws.js",
           "test/built-ins/RegExp/prototype/Symbol.replace/result-get-matched-err.js",
           "test/built-ins/RegExp/prototype/Symbol.match/get-flags-err.js",
-          "test/built-ins/RegExp/prototype/Symbol.split/name.js",
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/not-a-constructor.js"
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/not-a-constructor.js",
+          "test/built-ins/RegExp/prototype/Symbol.split/name.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Symbol.matchAll built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
@@ -1652,21 +1652,21 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 1457,
+        "count": 1463,
         "statuses": {
           "pass": 0,
-          "fail": 740,
+          "fail": 746,
           "compile_error": 717,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1457,
+          "total": 1463,
           "host_free_pass": 0
         },
         "error_categories": {
           "type_error": 78,
           "assertion_fail": 405,
           "runtime_error": 190,
-          "illegal_cast": 53,
+          "illegal_cast": 59,
           "other": 685,
           "null_deref": 10,
           "wasm_compile": 35,
@@ -2082,24 +2082,24 @@
         },
         "error_categories": {
           "assertion_fail": 194,
-          "other": 16,
           "runtime_error": 8,
+          "other": 16,
           "type_error": 16,
           "wasm_compile": 3
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/global-code/switch-case-global-update.js",
+          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js",
           "test/annexB/language/comments/single-line-html-close-first-line-3.js",
-          "test/annexB/language/expressions/assignmenttargettype/callexpression-as-for-of-lhs.js"
+          "test/annexB/language/global-code/switch-case-global-update.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "other:L#:## ';' expected.",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
         ]
       },
       {
@@ -2535,21 +2535,21 @@
           "#1694"
         ],
         "label": "Promise and async standalone semantics",
-        "count": 118,
+        "count": 112,
         "statuses": {
           "pass": 0,
-          "fail": 103,
+          "fail": 97,
           "compile_error": 15,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 118,
+          "total": 112,
           "host_free_pass": 0
         },
         "error_categories": {
           "promise_error": 56,
           "assertion_fail": 18,
           "wasm_compile": 13,
-          "illegal_cast": 10,
+          "illegal_cast": 4,
           "type_error": 8,
           "other": 9,
           "null_deref": 3,
