@@ -2,19 +2,19 @@
   {
     "edition": "≤ ES3",
     "pass": 272,
-    "fail": 2,
+    "fail": 1,
     "ce": 0,
     "skip": 0,
-    "total": 274,
-    "pct": 99
+    "total": 273,
+    "pct": 100
   },
   {
     "edition": "ES5",
-    "pass": 10116,
-    "fail": 2838,
+    "pass": 10113,
+    "fail": 2830,
     "ce": 132,
     "skip": 0,
-    "total": 13086,
+    "total": 13075,
     "pct": 77,
     "features": [
       {
@@ -58,10 +58,10 @@
   {
     "edition": "ES2015",
     "pass": 11672,
-    "fail": 3560,
+    "fail": 3549,
     "ce": 165,
     "skip": 0,
-    "total": 15397,
+    "total": 15386,
     "pct": 76,
     "features": [
       {
@@ -1463,10 +1463,10 @@
   {
     "edition": "ES2020",
     "pass": 1468,
-    "fail": 374,
+    "fail": 369,
     "ce": 41,
     "skip": 18,
-    "total": 1901,
+    "total": 1896,
     "pct": 77,
     "features": [
       {
@@ -1670,20 +1670,11 @@
       {
         "name": "arbitrary-module-namespace-names",
         "pass": 6,
-        "fail": 11,
+        "fail": 10,
         "ce": 0,
         "skip": 0,
-        "total": 17,
-        "pct": 35
-      },
-      {
-        "name": "export-star-as-namespace-from-module",
-        "pass": 5,
-        "fail": 12,
-        "ce": 0,
-        "skip": 0,
-        "total": 17,
-        "pct": 29
+        "total": 16,
+        "pct": 38
       },
       {
         "name": "String.prototype.matchAll",
@@ -1711,6 +1702,15 @@
         "skip": 0,
         "total": 14,
         "pct": 0
+      },
+      {
+        "name": "export-star-as-namespace-from-module",
+        "pass": 5,
+        "fail": 8,
+        "ce": 0,
+        "skip": 0,
+        "total": 13,
+        "pct": 38
       },
       {
         "name": "Reflect.construct",
@@ -3192,11 +3192,11 @@
   {
     "edition": "ES2025",
     "pass": 962,
-    "fail": 313,
+    "fail": 312,
     "ce": 0,
     "skip": 0,
-    "total": 1275,
-    "pct": 75,
+    "total": 1274,
+    "pct": 76,
     "features": [
       {
         "name": "iterator-helpers",
@@ -3237,11 +3237,11 @@
       {
         "name": "import-attributes",
         "pass": 69,
-        "fail": 21,
+        "fail": 20,
         "ce": 0,
         "skip": 0,
-        "total": 90,
-        "pct": 77
+        "total": 89,
+        "pct": 78
       },
       {
         "name": "dynamic-import",
@@ -3271,15 +3271,6 @@
         "pct": 67
       },
       {
-        "name": "globalThis",
-        "pass": 19,
-        "fail": 5,
-        "ce": 0,
-        "skip": 0,
-        "total": 24,
-        "pct": 79
-      },
-      {
         "name": "Symbol",
         "pass": 12,
         "fail": 12,
@@ -3287,6 +3278,15 @@
         "skip": 0,
         "total": 24,
         "pct": 50
+      },
+      {
+        "name": "globalThis",
+        "pass": 19,
+        "fail": 4,
+        "ce": 0,
+        "skip": 0,
+        "total": 23,
+        "pct": 83
       },
       {
         "name": "regexp-duplicate-named-groups",
