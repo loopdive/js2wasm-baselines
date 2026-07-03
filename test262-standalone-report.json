@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-03T05:57:34.481Z",
-  "baseline_generated_at": "2026-07-03T05:57:34.481Z",
-  "baseline_sha": "4bbd31826e984a56d430f17df8c1d82105683856",
+  "timestamp": "2026-07-03T06:06:32.068Z",
+  "baseline_generated_at": "2026-07-03T06:06:32.068Z",
+  "baseline_sha": "c9eac0c6b4ca31ed028b4a751f33a3a30526f2b7",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,26 +10,26 @@
   },
   "summary": {
     "total": 43106,
-    "pass": 25139,
-    "fail": 16066,
+    "pass": 25165,
+    "fail": 16040,
     "compile_error": 1880,
     "compile_timeout": 3,
     "skip": 18,
     "compilable": 41205,
-    "host_free_pass": 18302,
-    "leaky_pass": 6837,
+    "host_free_pass": 18312,
+    "leaky_pass": 6853,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42020,
-        "pass": 24602,
-        "fail": 15560,
+        "pass": 24628,
+        "fail": 15534,
         "compile_error": 1837,
         "compile_timeout": 3,
         "skip": 18,
         "compilable": 40162,
-        "host_free_pass": 18058,
-        "leaky_pass": 6544,
+        "host_free_pass": 18068,
+        "leaky_pass": 6560,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -61,27 +61,27 @@
       },
       "official": {
         "total": 43106,
-        "pass": 25139,
-        "fail": 16066,
+        "pass": 25165,
+        "fail": 16040,
         "compile_error": 1880,
         "compile_timeout": 3,
         "skip": 18,
         "compilable": 41205,
-        "host_free_pass": 18302,
-        "leaky_pass": 6837,
+        "host_free_pass": 18312,
+        "leaky_pass": 6853,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48088,
-        "pass": 26279,
-        "fail": 19568,
+        "pass": 26305,
+        "fail": 19542,
         "compile_error": 2114,
         "compile_timeout": 4,
         "skip": 123,
         "compilable": 45847,
-        "host_free_pass": 18653,
-        "leaky_pass": 7626,
+        "host_free_pass": 18663,
+        "leaky_pass": 7642,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -89,38 +89,38 @@
   },
   "official_summary": {
     "total": 43106,
-    "pass": 25139,
-    "fail": 16066,
+    "pass": 25165,
+    "fail": 16040,
     "compile_error": 1880,
     "compile_timeout": 3,
     "skip": 18,
     "compilable": 41205,
-    "host_free_pass": 18302,
-    "leaky_pass": 6837,
+    "host_free_pass": 18312,
+    "leaky_pass": 6853,
     "stale": 0
   },
   "full_summary": {
     "total": 48088,
-    "pass": 26279,
-    "fail": 19568,
+    "pass": 26305,
+    "fail": 19542,
     "compile_error": 2114,
     "compile_timeout": 4,
     "skip": 123,
     "compilable": 45847,
-    "host_free_pass": 18653,
-    "leaky_pass": 7626,
+    "host_free_pass": 18663,
+    "leaky_pass": 7642,
     "stale": 0
   },
   "strict_summary": {
     "total": 40597,
-    "pass": 23887,
-    "fail": 14937,
+    "pass": 23913,
+    "fail": 14911,
     "compile_error": 1752,
     "compile_timeout": 3,
     "skip": 18,
     "compilable": 38824,
-    "host_free_pass": 17571,
-    "leaky_pass": 6316,
+    "host_free_pass": 17581,
+    "leaky_pass": 6332,
     "stale": 0
   },
   "scope_summaries": {
@@ -150,14 +150,14 @@
     },
     "standard": {
       "total": 42020,
-      "pass": 24602,
-      "fail": 15560,
+      "pass": 24628,
+      "fail": 15534,
       "compile_error": 1837,
       "compile_timeout": 3,
       "skip": 18,
       "compilable": 40162,
-      "host_free_pass": 18058,
-      "leaky_pass": 6544,
+      "host_free_pass": 18068,
+      "leaky_pass": 6560,
       "stale": 0
     }
   },
@@ -990,13 +990,13 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 7930,
-      "fail": 2757,
+      "pass": 7932,
+      "fail": 2755,
       "compile_error": 330,
       "compile_timeout": 1,
       "skip": 18,
       "total": 11036,
-      "host_free_pass": 5060
+      "host_free_pass": 5062
     },
     {
       "name": "language/function-code",
@@ -1166,13 +1166,13 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 6489,
-      "fail": 2615,
+      "pass": 6513,
+      "fail": 2591,
       "compile_error": 232,
       "compile_timeout": 1,
       "skip": 0,
       "total": 9337,
-      "host_free_pass": 3715
+      "host_free_pass": 3723
     },
     {
       "name": "language/types",
@@ -1198,17 +1198,17 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 11437,
+    "assertion_fail": 11412,
     "illegal_cast": 807,
     "negative_test_fail": 79,
     "null_deref": 395,
     "oob": 40,
-    "other": 4998,
+    "other": 4999,
     "promise_error": 190,
     "range_error": 43,
     "runtime_error": 506,
     "syntax_error": 6,
-    "type_error": 2643,
+    "type_error": 2641,
     "unreachable": 10,
     "wasm_compile": 528
   },
@@ -1220,8 +1220,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 21686,
-    "classified": 21686,
+    "total_non_pass_non_skip": 21660,
+    "classified": 21660,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1308,8 +1308,8 @@
         },
         "error_categories": {
           "other": 2478,
-          "wasm_compile": 68,
           "illegal_cast": 8,
+          "wasm_compile": 68,
           "null_deref": 51,
           "type_error": 182,
           "assertion_fail": 781,
@@ -1320,13 +1320,13 @@
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/Duration/prototype/toLocaleString/branding.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: Temporal is not defined",
           "other:ReferenceError: TemporalHelpers is not defined",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "illegal_cast:illegal cast [in __str_to_number() ← test]",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
           "null_deref:L#:## dereferencing a null pointer [in test()]"
         ]
       },
@@ -1356,8 +1356,8 @@
         },
         "sample_files": [
           "test/built-ins/DisposableStack/prototype/adopt/returns-value.js",
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js"
         ],
@@ -1477,15 +1477,15 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
+          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/15.12.2-2-6.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'"
         ]
       },
@@ -1731,18 +1731,18 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 3102,
+        "count": 3086,
         "statuses": {
           "pass": 0,
-          "fail": 3013,
+          "fail": 2997,
           "compile_error": 88,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 3102,
+          "total": 3086,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1812,
+          "assertion_fail": 1796,
           "wasm_compile": 65,
           "type_error": 437,
           "other": 187,
@@ -1817,21 +1817,21 @@
           "#1364"
         ],
         "label": "Class element, prototype, private-name, and descriptor reconciliation gaps",
-        "count": 6763,
+        "count": 6755,
         "statuses": {
           "pass": 0,
-          "fail": 6541,
+          "fail": 6533,
           "compile_error": 222,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 6763,
+          "total": 6755,
           "host_free_pass": 0
         },
         "error_categories": {
           "runtime_error": 60,
-          "assertion_fail": 4468,
+          "assertion_fail": 4461,
           "other": 628,
-          "type_error": 1066,
+          "type_error": 1065,
           "illegal_cast": 197,
           "wasm_compile": 145,
           "promise_error": 25,
@@ -1988,19 +1988,19 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 2073,
+        "count": 2071,
         "statuses": {
           "pass": 0,
-          "fail": 1865,
+          "fail": 1863,
           "compile_error": 208,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 2073,
+          "total": 2071,
           "host_free_pass": 0
         },
         "error_categories": {
-          "type_error": 480,
-          "assertion_fail": 1344,
+          "type_error": 479,
+          "assertion_fail": 1343,
           "other": 127,
           "wasm_compile": 15,
           "promise_error": 88,
@@ -2225,8 +2225,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 56,
-          "assertion_fail": 158,
+          "other": 57,
+          "assertion_fail": 157,
           "type_error": 9,
           "illegal_cast": 4,
           "negative_test_fail": 2,
@@ -2503,8 +2503,8 @@
         },
         "error_categories": {
           "wasm_compile": 17,
-          "type_error": 5,
           "assertion_fail": 102,
+          "type_error": 5,
           "promise_error": 4,
           "other": 46,
           "negative_test_fail": 13,
@@ -2514,15 +2514,15 @@
         },
         "sample_files": [
           "test/language/statements/for/dstr/let-obj-ptrn-prop-obj.js",
-          "test/language/module-code/namespace/internals/delete-non-exported.js",
           "test/language/module-code/instn-local-bndng-cls.js",
+          "test/language/module-code/namespace/internals/delete-non-exported.js",
           "test/language/statements/for/dstr/const-ary-ptrn-elem-id-iter-val-err.js",
           "test/language/statements/for/dstr/const-ary-ptrn-rest-id-iter-val-err.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: not enough arguments on the stack for struct.new (need #, got #) @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $iterCount f64) (local ",
-          "type_error:TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof test262; }, 'Binding is created but not initialized.');",
+          "type_error:TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { const { w: [x, y, z] = [#, #, #] } = { w: null }; });"
         ]
