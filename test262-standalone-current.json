@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-04T10:14:51.455Z",
-  "baseline_generated_at": "2026-07-04T10:14:51.455Z",
-  "baseline_sha": "cf2fb1c405475c5115939633676c50c9ea7888ed",
+  "timestamp": "2026-07-04T11:40:12.604Z",
+  "baseline_generated_at": "2026-07-04T11:40:12.604Z",
+  "baseline_sha": "4bb86c24cb3d3155f6fcbc91d0366268cdea9dbf",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1279,8 +1279,8 @@
           "wasm_compile": 60,
           "illegal_cast": 4,
           "null_deref": 51,
-          "assertion_fail": 773,
           "type_error": 182,
+          "assertion_fail": 773,
           "oob": 2
         },
         "sample_files": [
@@ -1679,15 +1679,15 @@
         "sample_files": [
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/DataView/custom-proto-access-throws.js",
-          "test/built-ins/Reflect/get/return-value.js",
           "test/built-ins/Reflect/set/not-a-constructor.js",
+          "test/built-ins/Reflect/get/return-value.js",
           "test/built-ins/Reflect/getOwnPropertyDescriptor/not-a-constructor.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );",
           "other:L#:## Codegen error: Reflect.set built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );",
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair."
         ]
       },
@@ -1896,9 +1896,9 @@
         "sample_files": [
           "test/built-ins/TypedArray/out-of-bounds-has.js",
           "test/built-ins/TypedArray/resizable-buffer-length-tracking-1.js",
-          "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
-          "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js"
+          "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js",
+          "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: ctors is not defined",
@@ -2057,17 +2057,17 @@
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
-          "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
           "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
-          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
+          "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
+          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js",
+          "test/annexB/language/global-code/switch-case-global-no-skip-try.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
+          "other:L#:## ';' expected."
         ]
       },
       {
