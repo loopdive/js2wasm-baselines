@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-04T22:52:15.388Z",
-  "baseline_generated_at": "2026-07-04T22:52:15.388Z",
-  "baseline_sha": "7493947b2ef2e89df2a5c7b42cff3102f8768d67",
+  "timestamp": "2026-07-04T23:13:54.799Z",
+  "baseline_generated_at": "2026-07-04T23:13:54.799Z",
+  "baseline_sha": "7f90320ea76040c2d04888822ced8511ba363952",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,25 +10,25 @@
   },
   "summary": {
     "total": 43106,
-    "pass": 27390,
-    "fail": 13890,
+    "pass": 27391,
+    "fail": 13889,
     "compile_error": 1803,
     "compile_timeout": 5,
     "skip": 18,
     "compilable": 41280,
-    "host_free_pass": 20602,
+    "host_free_pass": 20603,
     "leaky_pass": 6788,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42020,
-        "pass": 27134,
-        "fail": 13101,
+        "pass": 27135,
+        "fail": 13100,
         "compile_error": 1762,
         "compile_timeout": 5,
         "skip": 18,
         "compilable": 40235,
-        "host_free_pass": 20348,
+        "host_free_pass": 20349,
         "leaky_pass": 6786,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -61,26 +61,26 @@
       },
       "official": {
         "total": 43106,
-        "pass": 27390,
-        "fail": 13890,
+        "pass": 27391,
+        "fail": 13889,
         "compile_error": 1803,
         "compile_timeout": 5,
         "skip": 18,
         "compilable": 41280,
-        "host_free_pass": 20602,
+        "host_free_pass": 20603,
         "leaky_pass": 6788,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48088,
-        "pass": 28550,
-        "fail": 17380,
+        "pass": 28551,
+        "fail": 17379,
         "compile_error": 2029,
         "compile_timeout": 6,
         "skip": 123,
         "compilable": 45930,
-        "host_free_pass": 20971,
+        "host_free_pass": 20972,
         "leaky_pass": 7579,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -89,37 +89,37 @@
   },
   "official_summary": {
     "total": 43106,
-    "pass": 27390,
-    "fail": 13890,
+    "pass": 27391,
+    "fail": 13889,
     "compile_error": 1803,
     "compile_timeout": 5,
     "skip": 18,
     "compilable": 41280,
-    "host_free_pass": 20602,
+    "host_free_pass": 20603,
     "leaky_pass": 6788,
     "stale": 0
   },
   "full_summary": {
     "total": 48088,
-    "pass": 28550,
-    "fail": 17380,
+    "pass": 28551,
+    "fail": 17379,
     "compile_error": 2029,
     "compile_timeout": 6,
     "skip": 123,
     "compilable": 45930,
-    "host_free_pass": 20971,
+    "host_free_pass": 20972,
     "leaky_pass": 7579,
     "stale": 0
   },
   "strict_summary": {
     "total": 40597,
-    "pass": 26289,
-    "fail": 12577,
+    "pass": 26290,
+    "fail": 12576,
     "compile_error": 1708,
     "compile_timeout": 5,
     "skip": 18,
     "compilable": 38866,
-    "host_free_pass": 19757,
+    "host_free_pass": 19758,
     "leaky_pass": 6532,
     "stale": 0
   },
@@ -150,13 +150,13 @@
     },
     "standard": {
       "total": 42020,
-      "pass": 27134,
-      "fail": 13101,
+      "pass": 27135,
+      "fail": 13100,
       "compile_error": 1762,
       "compile_timeout": 5,
       "skip": 18,
       "compilable": 40235,
-      "host_free_pass": 20348,
+      "host_free_pass": 20349,
       "leaky_pass": 6786,
       "stale": 0
     }
@@ -1166,13 +1166,13 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 7080,
-      "fail": 2062,
+      "pass": 7081,
+      "fail": 2061,
       "compile_error": 192,
       "compile_timeout": 3,
       "skip": 0,
       "total": 9337,
-      "host_free_pass": 4235
+      "host_free_pass": 4236
     },
     {
       "name": "language/types",
@@ -1200,7 +1200,7 @@
   "error_categories": {
     "assertion_fail": 8898,
     "illegal_cast": 766,
-    "negative_test_fail": 59,
+    "negative_test_fail": 58,
     "null_deref": 306,
     "oob": 42,
     "other": 4978,
@@ -1220,8 +1220,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 19415,
-    "classified": 19415,
+    "total_non_pass_non_skip": 19414,
+    "classified": 19414,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1279,8 +1279,8 @@
           "wasm_compile": 60,
           "illegal_cast": 4,
           "null_deref": 51,
-          "type_error": 182,
           "assertion_fail": 773,
+          "type_error": 182,
           "oob": 2
         },
         "sample_files": [
@@ -1317,22 +1317,22 @@
         },
         "error_categories": {
           "wasm_compile": 17,
-          "other": 9,
           "assertion_fail": 34,
+          "other": 9,
           "type_error": 9,
           "runtime_error": 2
         },
         "sample_files": [
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
-          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
+          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
           "test/built-ins/DisposableStack/prototype/adopt/adds-value-onDispose.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
+          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
           "type_error:TypeError: Cannot access property on null or undefined at #:#",
           "wasm_compile:L#:## [object Object] is not a function"
         ]
@@ -1682,16 +1682,16 @@
         "sample_files": [
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/DataView/custom-proto-access-throws.js",
-          "test/built-ins/Reflect/get/return-value.js",
           "test/built-ins/Reflect/getOwnPropertyDescriptor/not-a-constructor.js",
+          "test/built-ins/Reflect/get/return-value.js",
           "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/proto-from-ctor-realm.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );",
           "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver."
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );",
+          "other:L#:## Codegen error: Reflect.preventExtensions not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.preventExtensions not supported in standalone mode (## Phase C)."
         ]
       },
       {
@@ -1901,8 +1901,8 @@
           "test/built-ins/TypedArray/out-of-bounds-has.js",
           "test/built-ins/TypedArray/resizable-buffer-length-tracking-1.js",
           "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
-          "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js",
-          "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js"
+          "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js",
+          "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: ctors is not defined",
@@ -2070,8 +2070,8 @@
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
         ]
       },
       {
@@ -2172,15 +2172,15 @@
           "assertion_fail": 10
         },
         "sample_files": [
-          "test/built-ins/Math/SQRT2/value.js",
           "test/built-ins/Math/SQRT1_2/value.js",
+          "test/built-ins/Math/SQRT2/value.js",
           "test/built-ins/Math/LN2/value.js",
           "test/built-ins/Math/Symbol.toStringTag.js",
           "test/built-ins/Math/E/value.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.SQRT2, NaN);",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.SQRT1_2, NaN);",
+          "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.SQRT2, NaN);",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.LN2, NaN);",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Math[Symbol.toStringTag], 'Math');",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.E, NaN);"
@@ -2418,8 +2418,8 @@
           "assertion_fail:returned # — assert ## at L#: assert(called, 'called !== true');",
           "assertion_fail:Test262Error: ##: arguments object don't exists",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { f_10_6_1_gs(); });",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { arguments.callee; });",
-          "assertion_fail:returned # — assert ## at L#: assert(_10_5_7_b_4_fun(#, #), '_10_5_7_b_4_fun(#, #) !== true');"
+          "assertion_fail:returned # — assert ## at L#: assert(_10_5_7_b_4_fun(#, #), '_10_5_7_b_4_fun(#, #) !== true');",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { arguments.callee; });"
         ]
       },
       {
@@ -2592,14 +2592,14 @@
           "#787"
         ],
         "label": "Tail-call/control-flow loop semantics, including compile timeouts",
-        "count": 141,
+        "count": 140,
         "statuses": {
           "pass": 0,
-          "fail": 104,
+          "fail": 103,
           "compile_error": 35,
           "compile_timeout": 2,
           "skip": 0,
-          "total": 141,
+          "total": 140,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -2608,7 +2608,7 @@
           "null_deref": 11,
           "runtime_error": 7,
           "wasm_compile": 23,
-          "negative_test_fail": 3,
+          "negative_test_fail": 2,
           "other": 5,
           "illegal_cast": 6
         },
