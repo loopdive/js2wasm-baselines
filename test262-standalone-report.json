@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-04T15:36:35.405Z",
-  "baseline_generated_at": "2026-07-04T15:36:35.405Z",
-  "baseline_sha": "6cea0327e55cea2aa409b6238585469b8b9fc426",
+  "timestamp": "2026-07-04T15:47:27.657Z",
+  "baseline_generated_at": "2026-07-04T15:47:27.658Z",
+  "baseline_sha": "93b3d328fea4c4ed1c51002d8ec13d9672ec2c16",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -1286,9 +1286,9 @@
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/Duration/prototype/toLocaleString/branding.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: Temporal is not defined",
@@ -1317,22 +1317,22 @@
         },
         "error_categories": {
           "wasm_compile": 17,
-          "assertion_fail": 34,
           "other": 9,
+          "assertion_fail": 34,
           "type_error": 9,
           "runtime_error": 2
         },
         "sample_files": [
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
-          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
+          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/DisposableStack/prototype/adopt/adds-value-onDispose.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "type_error:TypeError: Cannot access property on null or undefined at #:#",
           "wasm_compile:L#:## [object Object] is not a function"
         ]
@@ -1446,8 +1446,8 @@
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
-          "test/built-ins/JSON/parse/15.12.2-2-6.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js"
+          "test/built-ins/JSON/stringify/replacer-array-empty.js",
+          "test/built-ins/JSON/parse/15.12.2-2-6.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
@@ -1656,7 +1656,7 @@
           "runtime_error:L#:## Cannot convert object to primitive value",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: Atomics.waitAsync built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: '__get_builtin' (dynamic-shape obje",
-          "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).; L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal o"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(keys[#], \"foo\");"
         ]
       },
       {
@@ -1703,18 +1703,18 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 2569,
+        "count": 2568,
         "statuses": {
           "pass": 0,
-          "fail": 2477,
+          "fail": 2476,
           "compile_error": 91,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 2569,
+          "total": 2568,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1290,
+          "assertion_fail": 1289,
           "wasm_compile": 69,
           "type_error": 445,
           "other": 181,
@@ -1901,9 +1901,9 @@
         "sample_files": [
           "test/built-ins/TypedArray/out-of-bounds-has.js",
           "test/built-ins/TypedArray/resizable-buffer-length-tracking-1.js",
-          "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js",
-          "test/built-ins/TypedArrayConstructors/internals/HasProperty/indexed-value.js"
+          "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
+          "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: ctors is not defined",
@@ -1986,14 +1986,14 @@
           "test/language/expressions/object/literal-property-name-bigint.js",
           "test/language/statements/variable/12.2.1-21-s.js",
           "test/built-ins/String/fromCharCode/S15.5.3.2_A3_T2.js",
-          "test/built-ins/Object/create/properties-arg-to-object-bigint.js"
+          "test/built-ins/Object/defineProperties/15.2.3.7-5-b-247.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(o[\"#\"], true, \"the property name must be the string representation of the numeric value.\");",
           "type_error:TypeError: Cannot access property on null or undefined",
           "other:L#:## Codegen error: String.fromCharCode built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found i64.const of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $proto ex"
+          "type_error:TypeError: Object.defineProperties unsupported descriptor shape in standalone mode (##)"
         ]
       },
       {
@@ -2062,17 +2062,17 @@
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
-          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
-          "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
+          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
+          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js",
+          "test/annexB/language/global-code/switch-case-global-no-skip-try.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "other:L#:## ';' expected."
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
         ]
       },
       {
@@ -2173,15 +2173,15 @@
           "assertion_fail": 10
         },
         "sample_files": [
-          "test/built-ins/Math/SQRT1_2/value.js",
           "test/built-ins/Math/SQRT2/value.js",
+          "test/built-ins/Math/SQRT1_2/value.js",
           "test/built-ins/Math/LN2/value.js",
           "test/built-ins/Math/Symbol.toStringTag.js",
           "test/built-ins/Math/E/value.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.SQRT1_2, NaN);",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.SQRT2, NaN);",
+          "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.SQRT1_2, NaN);",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.LN2, NaN);",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Math[Symbol.toStringTag], 'Math');",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(Math.E, NaN);"
@@ -2355,18 +2355,18 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 426,
+        "count": 427,
         "statuses": {
           "pass": 0,
-          "fail": 422,
+          "fail": 423,
           "compile_error": 4,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 426,
+          "total": 427,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 347,
+          "assertion_fail": 348,
           "type_error": 57,
           "null_deref": 10,
           "negative_test_fail": 3,
