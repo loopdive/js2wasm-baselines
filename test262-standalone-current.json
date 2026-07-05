@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-05T04:44:56.707Z",
-  "baseline_generated_at": "2026-07-05T04:44:56.707Z",
-  "baseline_sha": "3f94e3fcd528c9de127e2745c64face1239e95bd",
+  "timestamp": "2026-07-05T05:26:05.925Z",
+  "baseline_generated_at": "2026-07-05T05:26:05.925Z",
+  "baseline_sha": "ead55d11094342c81f885573a661d7ab81593b6e",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,25 +10,25 @@
   },
   "summary": {
     "total": 43106,
-    "pass": 27425,
+    "pass": 27427,
     "fail": 13876,
-    "compile_error": 1782,
+    "compile_error": 1780,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 41301,
-    "host_free_pass": 20625,
+    "compilable": 41303,
+    "host_free_pass": 20627,
     "leaky_pass": 6800,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42020,
-        "pass": 27169,
+        "pass": 27171,
         "fail": 13087,
-        "compile_error": 1741,
+        "compile_error": 1739,
         "compile_timeout": 5,
         "skip": 18,
-        "compilable": 40256,
-        "host_free_pass": 20371,
+        "compilable": 40258,
+        "host_free_pass": 20373,
         "leaky_pass": 6798,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -61,26 +61,26 @@
       },
       "official": {
         "total": 43106,
-        "pass": 27425,
+        "pass": 27427,
         "fail": 13876,
-        "compile_error": 1782,
+        "compile_error": 1780,
         "compile_timeout": 5,
         "skip": 18,
-        "compilable": 41301,
-        "host_free_pass": 20625,
+        "compilable": 41303,
+        "host_free_pass": 20627,
         "leaky_pass": 6800,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48088,
-        "pass": 28585,
+        "pass": 28587,
         "fail": 17366,
-        "compile_error": 2008,
+        "compile_error": 2006,
         "compile_timeout": 6,
         "skip": 123,
-        "compilable": 45951,
-        "host_free_pass": 20994,
+        "compilable": 45953,
+        "host_free_pass": 20996,
         "leaky_pass": 7591,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -89,37 +89,37 @@
   },
   "official_summary": {
     "total": 43106,
-    "pass": 27425,
+    "pass": 27427,
     "fail": 13876,
-    "compile_error": 1782,
+    "compile_error": 1780,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 41301,
-    "host_free_pass": 20625,
+    "compilable": 41303,
+    "host_free_pass": 20627,
     "leaky_pass": 6800,
     "stale": 0
   },
   "full_summary": {
     "total": 48088,
-    "pass": 28585,
+    "pass": 28587,
     "fail": 17366,
-    "compile_error": 2008,
+    "compile_error": 2006,
     "compile_timeout": 6,
     "skip": 123,
-    "compilable": 45951,
-    "host_free_pass": 20994,
+    "compilable": 45953,
+    "host_free_pass": 20996,
     "leaky_pass": 7591,
     "stale": 0
   },
   "strict_summary": {
     "total": 40597,
-    "pass": 26318,
+    "pass": 26320,
     "fail": 12569,
-    "compile_error": 1687,
+    "compile_error": 1685,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 38887,
-    "host_free_pass": 19774,
+    "compilable": 38889,
+    "host_free_pass": 19776,
     "leaky_pass": 6544,
     "stale": 0
   },
@@ -150,13 +150,13 @@
     },
     "standard": {
       "total": 42020,
-      "pass": 27169,
+      "pass": 27171,
       "fail": 13087,
-      "compile_error": 1741,
+      "compile_error": 1739,
       "compile_timeout": 5,
       "skip": 18,
-      "compilable": 40256,
-      "host_free_pass": 20371,
+      "compilable": 40258,
+      "host_free_pass": 20373,
       "leaky_pass": 6798,
       "stale": 0
     }
@@ -616,13 +616,13 @@
     {
       "name": "built-ins/Object",
       "path": "built-ins/Object",
-      "pass": 1713,
+      "pass": 1715,
       "fail": 1567,
-      "compile_error": 131,
+      "compile_error": 129,
       "compile_timeout": 0,
       "skip": 0,
       "total": 3411,
-      "host_free_pass": 1706
+      "host_free_pass": 1708
     },
     {
       "name": "built-ins/parseFloat",
@@ -1203,14 +1203,14 @@
     "negative_test_fail": 55,
     "null_deref": 298,
     "oob": 42,
-    "other": 5000,
+    "other": 5001,
     "promise_error": 184,
     "range_error": 44,
     "runtime_error": 509,
     "syntax_error": 6,
     "type_error": 3132,
     "unreachable": 7,
-    "wasm_compile": 446
+    "wasm_compile": 443
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1220,8 +1220,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 19380,
-    "classified": 19380,
+    "total_non_pass_non_skip": 19378,
+    "classified": 19378,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1279,14 +1279,14 @@
           "wasm_compile": 60,
           "illegal_cast": 4,
           "null_deref": 51,
-          "assertion_fail": 773,
           "type_error": 182,
+          "assertion_fail": 773,
           "oob": 2
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
           "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
@@ -1323,8 +1323,8 @@
           "runtime_error": 2
         },
         "sample_files": [
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
           "test/built-ins/DisposableStack/prototype/adopt/adds-value-onDispose.js"
@@ -1646,8 +1646,8 @@
         "sample_files": [
           "test/language/expressions/object/dstr/gen-meth-dflt-obj-ptrn-rest-skip-non-enumerable.js",
           "test/language/expressions/object/dstr/meth-dflt-obj-ptrn-rest-val-obj.js",
-          "test/built-ins/Iterator/zipKeyed/iterator-zip-iteration-strict-iterator-close-i-is-zero-abrupt-completion.js",
           "test/built-ins/Iterator/concat/return-is-not-forwarded-after-exhaustion.js",
+          "test/built-ins/Iterator/zipKeyed/iterator-zip-iteration-strict-iterator-close-i-is-zero-abrupt-completion.js",
           "test/built-ins/String/raw/template-length-throws.js"
         ],
         "sample_signatures": [
@@ -1766,8 +1766,8 @@
           "null_deref": 3
         },
         "sample_files": [
-          "test/built-ins/AsyncGeneratorFunction/prototype/extensibility.js",
           "test/built-ins/AsyncGeneratorFunction/instance-name.js",
+          "test/built-ins/AsyncGeneratorFunction/prototype/extensibility.js",
           "test/built-ins/GeneratorFunction/prototype/extensibility.js",
           "test/built-ins/GeneratorPrototype/throw/from-state-completed.js",
           "test/language/expressions/generators/eval-body-proto-realm.js"
@@ -1900,8 +1900,8 @@
         "sample_files": [
           "test/built-ins/TypedArray/out-of-bounds-has.js",
           "test/built-ins/TypedArray/resizable-buffer-length-tracking-1.js",
-          "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js",
+          "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
           "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js"
         ],
         "sample_signatures": [
@@ -1959,21 +1959,21 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 1767,
+        "count": 1765,
         "statuses": {
           "pass": 0,
           "fail": 1559,
-          "compile_error": 208,
+          "compile_error": 206,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1767,
+          "total": 1765,
           "host_free_pass": 0
         },
         "error_categories": {
           "type_error": 455,
           "assertion_fail": 1065,
-          "other": 127,
-          "wasm_compile": 15,
+          "other": 128,
+          "wasm_compile": 12,
           "promise_error": 86,
           "negative_test_fail": 4,
           "runtime_error": 7,
@@ -2030,8 +2030,8 @@
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: var object = {valueOf: function() {return #}, toString: function() {return #}}; String(object) === \"#\". Actual: [object Object]",
           "runtime_error:L#:## Cannot convert object to primitive value",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { String.fromCodePoint(Symbol()); });",
           "assertion_fail:Test262Error: ##: function __obj(){}; __str = new String(__obj); __str ==\"true\". Actual: __str ==[object Object]",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { String.fromCodePoint(Symbol()); });",
           "assertion_fail:Test262Error: ##: __str = new String(NaN); __str ==(#/\"s\")+\"\". Actual: __str ==NaN"
         ]
       },
@@ -2061,8 +2061,8 @@
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
-          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
+          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
         ],
@@ -2071,7 +2071,7 @@
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "other:L#:## ';' expected."
         ]
       },
       {
