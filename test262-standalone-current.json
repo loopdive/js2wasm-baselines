@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-05T03:24:56.942Z",
-  "baseline_generated_at": "2026-07-05T03:24:56.942Z",
-  "baseline_sha": "e66b066d439dd80170fad917daa69b4b985f697e",
+  "timestamp": "2026-07-05T03:41:01.148Z",
+  "baseline_generated_at": "2026-07-05T03:41:01.148Z",
+  "baseline_sha": "110ad93f20059e2dd242c0be7b16854ab58b89f3",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,25 +10,25 @@
   },
   "summary": {
     "total": 43106,
-    "pass": 27418,
-    "fail": 13883,
+    "pass": 27420,
+    "fail": 13881,
     "compile_error": 1782,
     "compile_timeout": 5,
     "skip": 18,
     "compilable": 41301,
-    "host_free_pass": 20618,
+    "host_free_pass": 20620,
     "leaky_pass": 6800,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42020,
-        "pass": 27162,
-        "fail": 13094,
+        "pass": 27164,
+        "fail": 13092,
         "compile_error": 1741,
         "compile_timeout": 5,
         "skip": 18,
         "compilable": 40256,
-        "host_free_pass": 20364,
+        "host_free_pass": 20366,
         "leaky_pass": 6798,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -61,26 +61,26 @@
       },
       "official": {
         "total": 43106,
-        "pass": 27418,
-        "fail": 13883,
+        "pass": 27420,
+        "fail": 13881,
         "compile_error": 1782,
         "compile_timeout": 5,
         "skip": 18,
         "compilable": 41301,
-        "host_free_pass": 20618,
+        "host_free_pass": 20620,
         "leaky_pass": 6800,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48088,
-        "pass": 28578,
-        "fail": 17373,
+        "pass": 28580,
+        "fail": 17371,
         "compile_error": 2008,
         "compile_timeout": 6,
         "skip": 123,
         "compilable": 45951,
-        "host_free_pass": 20987,
+        "host_free_pass": 20989,
         "leaky_pass": 7591,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -89,37 +89,37 @@
   },
   "official_summary": {
     "total": 43106,
-    "pass": 27418,
-    "fail": 13883,
+    "pass": 27420,
+    "fail": 13881,
     "compile_error": 1782,
     "compile_timeout": 5,
     "skip": 18,
     "compilable": 41301,
-    "host_free_pass": 20618,
+    "host_free_pass": 20620,
     "leaky_pass": 6800,
     "stale": 0
   },
   "full_summary": {
     "total": 48088,
-    "pass": 28578,
-    "fail": 17373,
+    "pass": 28580,
+    "fail": 17371,
     "compile_error": 2008,
     "compile_timeout": 6,
     "skip": 123,
     "compilable": 45951,
-    "host_free_pass": 20987,
+    "host_free_pass": 20989,
     "leaky_pass": 7591,
     "stale": 0
   },
   "strict_summary": {
     "total": 40597,
-    "pass": 26316,
-    "fail": 12571,
+    "pass": 26318,
+    "fail": 12569,
     "compile_error": 1687,
     "compile_timeout": 5,
     "skip": 18,
     "compilable": 38887,
-    "host_free_pass": 19772,
+    "host_free_pass": 19774,
     "leaky_pass": 6544,
     "stale": 0
   },
@@ -150,13 +150,13 @@
     },
     "standard": {
       "total": 42020,
-      "pass": 27162,
-      "fail": 13094,
+      "pass": 27164,
+      "fail": 13092,
       "compile_error": 1741,
       "compile_timeout": 5,
       "skip": 18,
       "compilable": 40256,
-      "host_free_pass": 20364,
+      "host_free_pass": 20366,
       "leaky_pass": 6798,
       "stale": 0
     }
@@ -990,13 +990,13 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 8599,
-      "fail": 2124,
+      "pass": 8601,
+      "fail": 2122,
       "compile_error": 294,
       "compile_timeout": 1,
       "skip": 18,
       "total": 11036,
-      "host_free_pass": 5629
+      "host_free_pass": 5631
     },
     {
       "name": "language/function-code",
@@ -1200,7 +1200,7 @@
   "error_categories": {
     "assertion_fail": 8902,
     "illegal_cast": 768,
-    "negative_test_fail": 57,
+    "negative_test_fail": 55,
     "null_deref": 306,
     "oob": 42,
     "other": 4978,
@@ -1220,8 +1220,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 19387,
-    "classified": 19387,
+    "total_non_pass_non_skip": 19385,
+    "classified": 19385,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1276,8 +1276,8 @@
         },
         "error_categories": {
           "other": 2478,
-          "illegal_cast": 4,
           "wasm_compile": 60,
+          "illegal_cast": 4,
           "null_deref": 51,
           "assertion_fail": 773,
           "type_error": 182,
@@ -1288,13 +1288,13 @@
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
-          "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
+          "test/built-ins/Temporal/Instant/prototype/toString/timezone-wrong-type.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: Temporal is not defined",
           "other:ReferenceError: TemporalHelpers is not defined",
-          "illegal_cast:illegal cast [in __str_to_number() ← test]",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
+          "illegal_cast:illegal cast [in __str_to_number() ← test]",
           "null_deref:L#:## dereferencing a null pointer [in test()]"
         ]
       },
@@ -1445,15 +1445,15 @@
         "sample_files": [
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
+          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/15.12.2-2-6.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'"
         ]
       },
@@ -1655,7 +1655,7 @@
           "runtime_error:L#:## Cannot convert object to primitive value",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "other:L#:## Codegen error: Atomics.waitAsync built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.; L#:## Codegen error: '__get_builtin' (dynamic-shape obje",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(keys[#], \"foo\");"
+          "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).; L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal o"
         ]
       },
       {
@@ -1682,16 +1682,16 @@
         "sample_files": [
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/DataView/custom-proto-access-throws.js",
-          "test/built-ins/Reflect/getOwnPropertyDescriptor/not-a-constructor.js",
           "test/built-ins/Reflect/get/return-value.js",
+          "test/built-ins/Reflect/getOwnPropertyDescriptor/not-a-constructor.js",
           "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/proto-from-ctor-realm.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).",
-          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );",
-          "other:L#:## Codegen error: Reflect.preventExtensions not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.preventExtensions not supported in standalone mode (## Phase C)."
+          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
+          "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver."
         ]
       },
       {
@@ -2070,8 +2070,8 @@
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
         ]
       },
       {
@@ -2635,20 +2635,20 @@
           "#990"
         ],
         "label": "Missing parse/early/runtime SyntaxError or ReferenceError",
-        "count": 33,
+        "count": 31,
         "statuses": {
           "pass": 0,
-          "fail": 19,
+          "fail": 17,
           "compile_error": 14,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 33,
+          "total": 31,
           "host_free_pass": 0
         },
         "error_categories": {
           "assertion_fail": 13,
           "wasm_compile": 8,
-          "negative_test_fail": 5,
+          "negative_test_fail": 3,
           "other": 6,
           "range_error": 1
         },
