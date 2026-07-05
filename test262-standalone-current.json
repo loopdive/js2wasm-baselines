@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-05T05:33:21.488Z",
-  "baseline_generated_at": "2026-07-05T05:33:21.488Z",
-  "baseline_sha": "1e11580f8dcef687c5492e5b9323487ad5e85714",
+  "timestamp": "2026-07-05T05:48:37.681Z",
+  "baseline_generated_at": "2026-07-05T05:48:37.681Z",
+  "baseline_sha": "e156b43da7dd507cc1bf763c9fc74164c0a1d150",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
@@ -10,26 +10,26 @@
   },
   "summary": {
     "total": 43106,
-    "pass": 27427,
-    "fail": 13876,
-    "compile_error": 1780,
+    "pass": 27454,
+    "fail": 13878,
+    "compile_error": 1751,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 41303,
-    "host_free_pass": 20627,
-    "leaky_pass": 6800,
+    "compilable": 41332,
+    "host_free_pass": 20634,
+    "leaky_pass": 6820,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42020,
-        "pass": 27171,
-        "fail": 13087,
-        "compile_error": 1739,
+        "pass": 27198,
+        "fail": 13089,
+        "compile_error": 1710,
         "compile_timeout": 5,
         "skip": 18,
-        "compilable": 40258,
-        "host_free_pass": 20373,
-        "leaky_pass": 6798,
+        "compilable": 40287,
+        "host_free_pass": 20380,
+        "leaky_pass": 6818,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -61,27 +61,27 @@
       },
       "official": {
         "total": 43106,
-        "pass": 27427,
-        "fail": 13876,
-        "compile_error": 1780,
+        "pass": 27454,
+        "fail": 13878,
+        "compile_error": 1751,
         "compile_timeout": 5,
         "skip": 18,
-        "compilable": 41303,
-        "host_free_pass": 20627,
-        "leaky_pass": 6800,
+        "compilable": 41332,
+        "host_free_pass": 20634,
+        "leaky_pass": 6820,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48088,
-        "pass": 28587,
-        "fail": 17366,
-        "compile_error": 2006,
+        "pass": 28614,
+        "fail": 17368,
+        "compile_error": 1977,
         "compile_timeout": 6,
         "skip": 123,
-        "compilable": 45953,
-        "host_free_pass": 20996,
-        "leaky_pass": 7591,
+        "compilable": 45982,
+        "host_free_pass": 21003,
+        "leaky_pass": 7611,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -89,38 +89,38 @@
   },
   "official_summary": {
     "total": 43106,
-    "pass": 27427,
-    "fail": 13876,
-    "compile_error": 1780,
+    "pass": 27454,
+    "fail": 13878,
+    "compile_error": 1751,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 41303,
-    "host_free_pass": 20627,
-    "leaky_pass": 6800,
+    "compilable": 41332,
+    "host_free_pass": 20634,
+    "leaky_pass": 6820,
     "stale": 0
   },
   "full_summary": {
     "total": 48088,
-    "pass": 28587,
-    "fail": 17366,
-    "compile_error": 2006,
+    "pass": 28614,
+    "fail": 17368,
+    "compile_error": 1977,
     "compile_timeout": 6,
     "skip": 123,
-    "compilable": 45953,
-    "host_free_pass": 20996,
-    "leaky_pass": 7591,
+    "compilable": 45982,
+    "host_free_pass": 21003,
+    "leaky_pass": 7611,
     "stale": 0
   },
   "strict_summary": {
     "total": 40597,
-    "pass": 26320,
-    "fail": 12569,
-    "compile_error": 1685,
+    "pass": 26346,
+    "fail": 12570,
+    "compile_error": 1658,
     "compile_timeout": 5,
     "skip": 18,
-    "compilable": 38889,
-    "host_free_pass": 19776,
-    "leaky_pass": 6544,
+    "compilable": 38916,
+    "host_free_pass": 19783,
+    "leaky_pass": 6563,
     "stale": 0
   },
   "scope_summaries": {
@@ -150,14 +150,14 @@
     },
     "standard": {
       "total": 42020,
-      "pass": 27171,
-      "fail": 13087,
-      "compile_error": 1739,
+      "pass": 27198,
+      "fail": 13089,
+      "compile_error": 1710,
       "compile_timeout": 5,
       "skip": 18,
-      "compilable": 40258,
-      "host_free_pass": 20373,
-      "leaky_pass": 6798,
+      "compilable": 40287,
+      "host_free_pass": 20380,
+      "leaky_pass": 6818,
       "stale": 0
     }
   },
@@ -682,13 +682,13 @@
     {
       "name": "built-ins/RegExp",
       "path": "built-ins/RegExp",
-      "pass": 1514,
+      "pass": 1516,
       "fail": 346,
-      "compile_error": 19,
+      "compile_error": 17,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1879,
-      "host_free_pass": 1509
+      "host_free_pass": 1511
     },
     {
       "name": "built-ins/RegExpStringIteratorPrototype",
@@ -913,13 +913,13 @@
     {
       "name": "language/block-scope",
       "path": "language/block-scope",
-      "pass": 140,
+      "pass": 142,
       "fail": 3,
-      "compile_error": 2,
+      "compile_error": 0,
       "compile_timeout": 0,
       "skip": 0,
       "total": 145,
-      "host_free_pass": 140
+      "host_free_pass": 142
     },
     {
       "name": "language/comments",
@@ -990,9 +990,9 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 8604,
-      "fail": 2119,
-      "compile_error": 294,
+      "pass": 8624,
+      "fail": 2120,
+      "compile_error": 273,
       "compile_timeout": 1,
       "skip": 18,
       "total": 11036,
@@ -1002,8 +1002,8 @@
       "name": "language/function-code",
       "path": "language/function-code",
       "pass": 120,
-      "fail": 96,
-      "compile_error": 1,
+      "fail": 97,
+      "compile_error": 0,
       "compile_timeout": 0,
       "skip": 0,
       "total": 217,
@@ -1166,13 +1166,13 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 7079,
+      "pass": 7082,
       "fail": 2048,
-      "compile_error": 207,
+      "compile_error": 204,
       "compile_timeout": 3,
       "skip": 0,
       "total": 9337,
-      "host_free_pass": 4245
+      "host_free_pass": 4248
     },
     {
       "name": "language/types",
@@ -1198,17 +1198,17 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8883,
+    "assertion_fail": 8881,
     "illegal_cast": 768,
     "negative_test_fail": 55,
     "null_deref": 298,
     "oob": 42,
-    "other": 5001,
+    "other": 5025,
     "promise_error": 184,
     "range_error": 44,
-    "runtime_error": 509,
+    "runtime_error": 459,
     "syntax_error": 6,
-    "type_error": 3132,
+    "type_error": 3133,
     "unreachable": 7,
     "wasm_compile": 443
   },
@@ -1220,8 +1220,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 19378,
-    "classified": 19378,
+    "total_non_pass_non_skip": 19351,
+    "classified": 19351,
     "unclassified_threshold": null,
     "buckets": [
       {
@@ -1242,20 +1242,18 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 131,
-          "runtime_error": 21
+          "other": 152
         },
         "sample_files": [
           "test/language/expressions/dynamic-import/catch/nested-arrow-import-catch-import-source-source-text-module.js",
           "test/language/expressions/dynamic-import/syntax/valid/nested-block-labeled-import-source-empty-str-is-valid-assign-expr.js",
-          "test/language/expressions/dynamic-import/syntax/valid/nested-async-function-import-defer-script-code-valid.js",
           "test/language/expressions/dynamic-import/syntax/valid/nested-function-import-source-script-code-valid.js",
+          "test/language/expressions/dynamic-import/syntax/valid/nested-async-function-import-defer-script-code-valid.js",
           "test/language/expressions/dynamic-import/syntax/valid/nested-async-function-await-import-defer-empty-str-is-valid-assign-expr.js"
         ],
         "sample_signatures": [
           "other:L#:## SyntaxError: import.source(...) is not supported (Stage # proposal — import-defer / source-phase-imports)",
-          "other:L#:## SyntaxError: import.defer(...) is not supported (Stage # proposal — import-defer / source-phase-imports)",
-          "runtime_error:L#:## Cannot redeclare block-scoped variable 'smoosh'; L#:## SyntaxError: import.source(...) is not supported (Stage # proposal — import-defer / source-phase-imports)"
+          "other:L#:## SyntaxError: import.defer(...) is not supported (Stage # proposal — import-defer / source-phase-imports)"
         ]
       },
       {
@@ -1285,8 +1283,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
-          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
+          "test/built-ins/Temporal/PlainDateTime/subclass.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js",
           "test/built-ins/Temporal/PlainMonthDay/refisoyear-undefined.js"
         ],
@@ -1317,22 +1315,22 @@
         },
         "error_categories": {
           "wasm_compile": 17,
-          "other": 9,
           "assertion_fail": 34,
+          "other": 9,
           "type_error": 9,
           "runtime_error": 2
         },
         "sample_files": [
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
-          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
+          "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
           "test/built-ins/DisposableStack/prototype/adopt/adds-value-onDispose.js"
         ],
         "sample_signatures": [
           "wasm_compile:L#:## Symbol(Symbol.dispose) is not a function",
-          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
+          "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
           "type_error:TypeError: Cannot access property on null or undefined at #:#",
           "wasm_compile:L#:## [object Object] is not a function"
         ]
@@ -1344,14 +1342,14 @@
           "#1512"
         ],
         "label": "Dynamic import unsupported / early errors",
-        "count": 95,
+        "count": 75,
         "statuses": {
           "pass": 0,
-          "fail": 70,
-          "compile_error": 25,
+          "fail": 71,
+          "compile_error": 4,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 95,
+          "total": 75,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1359,10 +1357,9 @@
           "range_error": 3,
           "null_deref": 14,
           "illegal_cast": 3,
-          "runtime_error": 21,
           "negative_test_fail": 1,
           "type_error": 2,
-          "other": 8,
+          "other": 9,
           "promise_error": 1,
           "wasm_compile": 1
         },
@@ -1543,14 +1540,14 @@
           "#682"
         ],
         "label": "Standalone RegExp native-engine/runtime gaps: source, constructors, prototype access, result shape",
-        "count": 237,
+        "count": 235,
         "statuses": {
           "pass": 0,
           "fail": 215,
-          "compile_error": 22,
+          "compile_error": 20,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 237,
+          "total": 235,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1561,7 +1558,7 @@
           "null_deref": 22,
           "wasm_compile": 4,
           "oob": 2,
-          "runtime_error": 3
+          "runtime_error": 1
         },
         "sample_files": [
           "test/built-ins/RegExp/from-regexp-like-get-ctor-err.js",
@@ -1682,15 +1679,15 @@
         "sample_files": [
           "test/built-ins/Reflect/enumerate/undefined.js",
           "test/built-ins/DataView/custom-proto-access-throws.js",
-          "test/built-ins/Reflect/getOwnPropertyDescriptor/not-a-constructor.js",
           "test/built-ins/Reflect/get/return-value.js",
+          "test/built-ins/Reflect/getOwnPropertyDescriptor/not-a-constructor.js",
           "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/proto-from-ctor-realm.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.hasOwnProperty not supported in standalone mode (## Phase C).",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).",
-          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( Reflect.get(o, 'p1'), 'value #', 'Return value from data descriptor' );",
+          "other:L#:## Codegen error: Reflect.getOwnPropertyDescriptor built-in static property value read is not supported in --target standalone (## / ## S6-b). Add a native built-in method closure for this pair.",
           "other:L#:## Codegen error: Reflect.preventExtensions not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.preventExtensions not supported in standalone mode (## Phase C)."
         ]
       },
@@ -1713,9 +1710,9 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1296,
+          "assertion_fail": 1295,
           "type_error": 438,
-          "other": 181,
+          "other": 182,
           "illegal_cast": 438,
           "runtime_error": 90,
           "wasm_compile": 55,
@@ -1766,8 +1763,8 @@
           "null_deref": 3
         },
         "sample_files": [
-          "test/built-ins/AsyncGeneratorFunction/prototype/extensibility.js",
           "test/built-ins/AsyncGeneratorFunction/instance-name.js",
+          "test/built-ins/AsyncGeneratorFunction/prototype/extensibility.js",
           "test/built-ins/GeneratorFunction/prototype/extensibility.js",
           "test/built-ins/GeneratorPrototype/throw/from-state-completed.js",
           "test/language/expressions/generators/eval-body-proto-realm.js"
@@ -1800,8 +1797,8 @@
         },
         "error_categories": {
           "runtime_error": 60,
-          "assertion_fail": 3426,
-          "other": 638,
+          "assertion_fail": 3425,
+          "other": 639,
           "type_error": 1089,
           "illegal_cast": 200,
           "wasm_compile": 147,
@@ -1959,18 +1956,18 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 1765,
+        "count": 1766,
         "statuses": {
           "pass": 0,
-          "fail": 1559,
+          "fail": 1560,
           "compile_error": 206,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1765,
+          "total": 1766,
           "host_free_pass": 0
         },
         "error_categories": {
-          "type_error": 455,
+          "type_error": 456,
           "assertion_fail": 1065,
           "other": 128,
           "wasm_compile": 12,
@@ -2194,14 +2191,14 @@
           "#1596"
         ],
         "label": "Function object name/length/prototype/call semantics",
-        "count": 211,
+        "count": 210,
         "statuses": {
           "pass": 0,
           "fail": 202,
-          "compile_error": 9,
+          "compile_error": 8,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 211,
+          "total": 210,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -2211,7 +2208,6 @@
           "assertion_fail": 127,
           "wasm_compile": 3,
           "null_deref": 5,
-          "runtime_error": 1,
           "range_error": 1,
           "negative_test_fail": 1
         },
@@ -2469,14 +2465,14 @@
           "#1726"
         ],
         "label": "Lexical scope, TDZ, and declaration semantics",
-        "count": 194,
+        "count": 192,
         "statuses": {
           "pass": 0,
           "fail": 179,
-          "compile_error": 13,
+          "compile_error": 11,
           "compile_timeout": 2,
           "skip": 0,
-          "total": 194,
+          "total": 192,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -2486,9 +2482,9 @@
           "wasm_compile": 9,
           "negative_test_fail": 13,
           "other": 44,
-          "runtime_error": 4,
           "range_error": 4,
-          "null_deref": 2
+          "null_deref": 2,
+          "runtime_error": 2
         },
         "sample_files": [
           "test/language/module-code/namespace/internals/delete-non-exported.js",
@@ -2592,14 +2588,14 @@
           "#787"
         ],
         "label": "Tail-call/control-flow loop semantics, including compile timeouts",
-        "count": 136,
+        "count": 133,
         "statuses": {
           "pass": 0,
           "fail": 99,
-          "compile_error": 35,
+          "compile_error": 32,
           "compile_timeout": 2,
           "skip": 0,
-          "total": 136,
+          "total": 133,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -2607,7 +2603,7 @@
           "wasm_compile": 23,
           "type_error": 1,
           "null_deref": 11,
-          "runtime_error": 7,
+          "runtime_error": 4,
           "negative_test_fail": 2,
           "other": 5,
           "illegal_cast": 6
@@ -2657,7 +2653,7 @@
           "test/language/line-terminators/S7.3_A7_T6.js",
           "test/language/directive-prologue/14.1-3-s.js",
           "test/language/expressions/import.meta/syntax/goal-script.js",
-          "test/language/line-terminators/S7.3_A7_T8.js"
+          "test/language/line-terminators/S7.3_A7_T2.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: Check Function Expression for automatic semicolon insertion",
