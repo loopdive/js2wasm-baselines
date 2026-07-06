@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-06T06:09:07.455Z",
-  "baseline_generated_at": "2026-07-06T06:09:07Z",
-  "baseline_sha": "5deefefa87bd10aaf35c485af8c85231256c36e8",
+  "timestamp": "2026-07-06T07:09:16.800Z",
+  "baseline_generated_at": "2026-07-06T07:09:16.800Z",
+  "baseline_sha": "c6c51667f13102240096e1c52851ab2306cbe76c",
   "oracle_version": 1,
   "mode": {
     "target": "standalone",
-    "include_proposals": 1,
-    "label": "official test262 + proposals"
+    "include_proposals": 0,
+    "label": "official test262 (default scope)"
   },
   "summary": {
     "total": 43106,
@@ -49,11 +49,11 @@
       "proposal": {
         "total": 4982,
         "pass": 1139,
-        "fail": 3520,
+        "fail": 3511,
         "compile_error": 226,
         "compile_timeout": 1,
-        "skip": 96,
-        "compilable": 4659,
+        "skip": 105,
+        "compilable": 4650,
         "host_free_pass": 350,
         "leaky_pass": 789,
         "stale": 0,
@@ -75,11 +75,11 @@
       "full": {
         "total": 48088,
         "pass": 25843,
-        "fail": 20143,
+        "fail": 20134,
         "compile_error": 1984,
         "compile_timeout": 4,
-        "skip": 114,
-        "compilable": 45986,
+        "skip": 123,
+        "compilable": 45977,
         "host_free_pass": 19211,
         "leaky_pass": 6632,
         "stale": 0,
@@ -102,11 +102,11 @@
   "full_summary": {
     "total": 48088,
     "pass": 25843,
-    "fail": 20143,
+    "fail": 20134,
     "compile_error": 1984,
     "compile_timeout": 4,
-    "skip": 114,
-    "compilable": 45986,
+    "skip": 123,
+    "compilable": 45977,
     "host_free_pass": 19211,
     "leaky_pass": 6632,
     "stale": 0
@@ -139,11 +139,11 @@
     "proposal": {
       "total": 4982,
       "pass": 1139,
-      "fail": 3520,
+      "fail": 3511,
       "compile_error": 226,
       "compile_timeout": 1,
-      "skip": 96,
-      "compilable": 4659,
+      "skip": 105,
+      "compilable": 4650,
       "host_free_pass": 350,
       "leaky_pass": 789,
       "stale": 0
@@ -793,10 +793,10 @@
       "name": "built-ins/Temporal",
       "path": "built-ins/Temporal",
       "pass": 943,
-      "fail": 3506,
+      "fail": 3497,
       "compile_error": 74,
       "compile_timeout": 1,
-      "skip": 0,
+      "skip": 9,
       "total": 4524,
       "host_free_pass": 155
     },
@@ -1205,7 +1205,7 @@
     "oob": 47,
     "other": 4802,
     "promise_error": 192,
-    "range_error": 54,
+    "range_error": 45,
     "runtime_error": 468,
     "syntax_error": 6,
     "type_error": 2980,
@@ -1215,13 +1215,14 @@
   "hard_errors": {},
   "skip_reasons": {
     "dynamic-import + sloppy-script var/fn redecl + fixture path (#1696)": 18,
+    "Proposal excluded from default scope: proposal feature: Temporal": 9,
     "proposal feature: import defer (no test harness)": 96
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 22131,
-    "classified": 22131,
-    "unclassified_threshold": 0,
+    "total_non_pass_non_skip": 22122,
+    "classified": 22122,
+    "unclassified_threshold": null,
     "buckets": [
       {
         "id": "import-proposal-syntax",
@@ -1261,14 +1262,14 @@
           "#661"
         ],
         "label": "Temporal proposal/polyfill gap",
-        "count": 3581,
+        "count": 3572,
         "statuses": {
           "pass": 0,
-          "fail": 3506,
+          "fail": 3497,
           "compile_error": 74,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 3581,
+          "total": 3572,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1276,9 +1277,8 @@
           "wasm_compile": 60,
           "illegal_cast": 4,
           "null_deref": 51,
-          "assertion_fail": 794,
           "type_error": 182,
-          "range_error": 9,
+          "assertion_fail": 794,
           "oob": 2
         },
         "sample_files": [
@@ -1443,8 +1443,8 @@
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
-          "test/built-ins/JSON/parse/15.12.2-2-6.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js"
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
+          "test/built-ins/JSON/parse/15.12.2-2-6.js"
         ],
         "sample_signatures": [
           "illegal_cast:L#:## illegal cast [in test()]",
@@ -2055,9 +2055,9 @@
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
-          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
+          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
           "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
         ],
         "sample_signatures": [
@@ -2466,8 +2466,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 104,
           "type_error": 5,
+          "assertion_fail": 104,
           "promise_error": 4,
           "wasm_compile": 9,
           "negative_test_fail": 13,
@@ -2477,15 +2477,15 @@
           "runtime_error": 2
         },
         "sample_files": [
-          "test/language/module-code/instn-local-bndng-cls.js",
           "test/language/module-code/namespace/internals/delete-non-exported.js",
+          "test/language/module-code/instn-local-bndng-cls.js",
           "test/language/statements/for/dstr/const-ary-ptrn-elem-id-iter-val-err.js",
           "test/language/statements/for/dstr/const-ary-ptrn-rest-id-iter-val-err.js",
           "test/language/statements/const/dstr/obj-ptrn-prop-ary-value-null.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof test262; }, 'Binding is created but not initialized.');",
           "type_error:TypeError: Cannot destructure 'null' or 'undefined'",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof test262; }, 'Binding is created but not initialized.');",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { const { w: [x, y, z] = [#, #, #] } = { w: null }; });",
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { typeof D; }, 'binding is created but not initialized');"
@@ -2520,8 +2520,8 @@
         },
         "sample_files": [
           "test/built-ins/Promise/allSettled/resolve-element-function-name.js",
-          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
+          "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js",
           "test/built-ins/Promise/any/ctx-non-ctor.js"
         ],
