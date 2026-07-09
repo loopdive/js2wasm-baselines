@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-09T14:33:26.289Z",
-  "baseline_generated_at": "2026-07-09T14:33:26.289Z",
-  "baseline_sha": "b0f94363864d5198350bb265d5ebb07a2348ed02",
+  "timestamp": "2026-07-09T14:52:13.861Z",
+  "baseline_generated_at": "2026-07-09T14:52:13.861Z",
+  "baseline_sha": "881e77a97adcc0ba98a1ba7657b376e57481ea82",
   "oracle_version": 2,
   "mode": {
     "target": "standalone",
@@ -1247,8 +1247,8 @@
         },
         "sample_files": [
           "test/language/expressions/object/method-definition/forbidden-ext/b2/async-meth-forbidden-ext-indirect-access-own-prop-caller-get.js",
-          "test/language/expressions/async-function/try-reject-finally-throw.js",
           "test/language/expressions/async-arrow-function/eval-var-scope-syntax-err.js",
+          "test/language/expressions/async-function/try-reject-finally-throw.js",
           "test/language/expressions/class/async-method-static/returns-async-function-returns-newtarget.js",
           "test/language/expressions/class/dstr/async-private-gen-meth-static-dflt-ary-ptrn-elem-id-iter-done.js"
         ],
@@ -1354,8 +1354,8 @@
           "runtime_error": 2
         },
         "sample_files": [
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
           "test/built-ins/DisposableStack/prototype/adopt/adds-value-onDispose.js"
@@ -1842,15 +1842,15 @@
         "sample_files": [
           "test/language/expressions/class/subclass-builtins/subclass-Number.js",
           "test/language/expressions/class/dstr/meth-ary-ptrn-elem-ary-rest-init.js",
-          "test/language/expressions/class/cpn-class-expr-accessors-computed-property-name-from-function-declaration.js",
           "test/language/expressions/array/S11.1.4_A1.4.js",
+          "test/language/expressions/class/cpn-class-expr-accessors-computed-property-name-from-function-declaration.js",
           "test/language/expressions/class/dstr/gen-meth-obj-ptrn-id-get-value-err.js"
         ],
         "sample_signatures": [
           "runtime_error:L#:## Codegen error: 'class Subclass extends Number' is not yet supported in --target standalone (##). The primitive-wrapper subclass native box is not implemented yet — routing it through the host path would emit invalid Wasm (the standalo",
           "assertion_fail:returned # — assert ## at L#: assert.notSameValue(x, values);",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( c[f()], # );",
           "assertion_fail:Test262Error: ##: var array = [,,,#,#]; array.toString === Array.prototype.toString. Actual: [object Object]",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( c[f()], # );",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();"
         ]
       },
@@ -2052,7 +2052,7 @@
           "test/built-ins/decodeURI/S15.1.3.1_A2.4_T1.js",
           "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.js",
           "test/built-ins/encodeURI/S15.1.3.3_A1.2_T1.js",
-          "test/built-ins/decodeURIComponent/S15.1.3.2_A2.2_T1.js"
+          "test/built-ins/encodeURIComponent/S15.1.3.4_A1.2_T1.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: var object = {valueOf: function() {return #}, toString: function() {return #}}; String(object) === \"#\". Actual: [object Object]",
@@ -2082,22 +2082,22 @@
         "error_categories": {
           "assertion_fail": 176,
           "type_error": 484,
-          "other": 16,
           "runtime_error": 8,
+          "other": 16,
           "wasm_compile": 1
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
           "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
-          "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
+          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js",
+          "test/annexB/language/global-code/switch-case-global-no-skip-try.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "other:L#:## ';' expected."
         ]
       },
@@ -2676,7 +2676,7 @@
           "test/language/line-terminators/S7.3_A7_T6.js",
           "test/language/directive-prologue/14.1-3-s.js",
           "test/language/expressions/import.meta/syntax/goal-script.js",
-          "test/language/line-terminators/S7.3_A7_T2.js"
+          "test/language/line-terminators/S7.3_A7_T8.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: Check Function Expression for automatic semicolon insertion",
