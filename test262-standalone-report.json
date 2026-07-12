@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-12T17:55:48.529Z",
-  "baseline_generated_at": "2026-07-12T17:55:48.529Z",
-  "baseline_sha": "103c10cda317c7d8c543cbdafd175fc1653b774f",
+  "timestamp": "2026-07-12T18:03:36.406Z",
+  "baseline_generated_at": "2026-07-12T18:03:36.407Z",
+  "baseline_sha": "da7b9c38912ae25d499328231807d7b32c16b039",
   "oracle_version": 3,
   "mode": {
     "target": "standalone",
@@ -1198,14 +1198,14 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 11079,
+    "assertion_fail": 11078,
     "illegal_cast": 440,
     "missing_builtin": 22,
     "missing_dependency": 73,
     "negative_test_fail": 55,
     "null_deref": 298,
     "oob": 60,
-    "other": 5086,
+    "other": 5087,
     "promise_error": 158,
     "range_error": 29,
     "runtime_error": 451,
@@ -1310,8 +1310,8 @@
         "error_categories": {
           "other": 2852,
           "assertion_fail": 1051,
-          "wasm_compile": 53,
           "illegal_cast": 2,
+          "wasm_compile": 53,
           "null_deref": 53,
           "type_error": 221,
           "oob": 2
@@ -1319,16 +1319,16 @@
         "sample_files": [
           "test/built-ins/Temporal/Now/zonedDateTimeISO/return-value.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-timezone-string-year-zero.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/subclass.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/eraYear/prop-desc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/month/prop-desc.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: Temporal is not defined",
           "assertion_fail:returned # — assert ## at L#: assert.throws( RangeError, () => instance.round({ largestUnit: \"months\", relativeTo: { year: #, month: #, day: #, timeZone } }), \"reject minus zero as extended year\" );",
           "other:ReferenceError: TemporalHelpers is not defined",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
-          "illegal_cast:illegal cast [in __str_to_number() ← test]"
+          "illegal_cast:illegal cast [in __str_to_number() ← test]",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance"
         ]
       },
       {
@@ -1350,22 +1350,22 @@
         },
         "error_categories": {
           "missing_builtin": 17,
-          "assertion_fail": 42,
           "other": 9,
+          "assertion_fail": 42,
           "type_error": 9,
           "runtime_error": 2
         },
         "sample_files": [
-          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/DisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-is-null.js",
-          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
+          "test/built-ins/DisposableStack/prototype/use/throws-if-value-missing-Symbol.dispose.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
+          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/DisposableStack/prototype/adopt/adds-value-onDispose.js"
         ],
         "sample_signatures": [
           "missing_builtin:L#:## Symbol(Symbol.dispose) is not a function",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "type_error:TypeError: Cannot access property on null or undefined at #:#",
           "missing_builtin:L#:## [object Object] is not a function"
         ]
@@ -1477,17 +1477,17 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
+          "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/space-string.js",
-          "test/built-ins/JSON/stringify/value-number-object.js"
+          "test/built-ins/JSON/parse/text-object.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
-          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
+          "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(new Number(#)), '#');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(hint, 'string');"
         ]
       },
       {
@@ -1664,8 +1664,8 @@
         },
         "error_categories": {
           "runtime_error": 190,
-          "other": 454,
-          "assertion_fail": 157,
+          "other": 453,
+          "assertion_fail": 158,
           "null_deref": 10,
           "type_error": 26,
           "wasm_compile": 3,
@@ -1692,18 +1692,18 @@
           "#1472"
         ],
         "label": "Reflect.* refused in standalone mode (#1472 Phase C)",
-        "count": 256,
+        "count": 257,
         "statuses": {
           "pass": 0,
-          "fail": 72,
+          "fail": 73,
           "compile_error": 184,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 256,
+          "total": 257,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 60,
+          "assertion_fail": 61,
           "other": 184,
           "type_error": 12
         },
@@ -1741,9 +1741,9 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1791,
+          "assertion_fail": 1790,
           "type_error": 316,
-          "other": 152,
+          "other": 153,
           "illegal_cast": 99,
           "wasm_compile": 46,
           "promise_error": 14,
@@ -1866,18 +1866,18 @@
           "#1472"
         ],
         "label": "ToPrimitive / object-to-string dispatch residuals",
-        "count": 76,
+        "count": 75,
         "statuses": {
           "pass": 0,
-          "fail": 76,
+          "fail": 75,
           "compile_error": 0,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 76,
+          "total": 75,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 43,
+          "assertion_fail": 42,
           "runtime_error": 20,
           "type_error": 13
         },
@@ -1904,24 +1904,24 @@
           "#1654"
         ],
         "label": "Array, TypedArray, DataView, and buffer semantics",
-        "count": 642,
+        "count": 641,
         "statuses": {
           "pass": 0,
-          "fail": 628,
+          "fail": 627,
           "compile_error": 14,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 642,
+          "total": 641,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 385,
+          "assertion_fail": 383,
           "illegal_cast": 51,
           "type_error": 157,
           "promise_error": 4,
           "runtime_error": 3,
           "null_deref": 8,
-          "other": 16,
+          "other": 17,
           "oob": 8,
           "wasm_compile": 6,
           "range_error": 4
@@ -2075,18 +2075,18 @@
           "#1050"
         ],
         "label": "Annex B function/eval semantics",
-        "count": 685,
+        "count": 686,
         "statuses": {
           "pass": 0,
-          "fail": 666,
+          "fail": 667,
           "compile_error": 19,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 685,
+          "total": 686,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 175,
+          "assertion_fail": 176,
           "type_error": 484,
           "runtime_error": 8,
           "other": 17,
@@ -2103,8 +2103,8 @@
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(typeof f, 'function');",
-          "runtime_error:L#:## Invalid left-hand side in for-in/for-of"
+          "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
+          "other:L#:## ';' expected."
         ]
       },
       {
@@ -2562,8 +2562,8 @@
           "test/built-ins/Promise/allSettled/resolve-element-function-name.js",
           "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
-          "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js",
-          "test/built-ins/Promise/all/iter-next-val-err-reject.js"
+          "test/built-ins/Promise/all/iter-next-val-err-reject.js",
+          "test/built-ins/Promise/allSettled/reject-element-function-multiple-calls.js"
         ],
         "sample_signatures": [
           "promise_error:L#:## Promise resolve or reject function is not callable",
@@ -2683,7 +2683,7 @@
           "test/language/line-terminators/S7.3_A7_T6.js",
           "test/language/directive-prologue/14.1-3-s.js",
           "test/language/expressions/import.meta/syntax/goal-script.js",
-          "test/language/line-terminators/S7.3_A7_T8.js"
+          "test/language/line-terminators/S7.3_A7_T2.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: Check Function Expression for automatic semicolon insertion",
