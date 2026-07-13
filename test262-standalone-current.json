@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-13T07:30:33.109Z",
-  "baseline_generated_at": "2026-07-13T07:30:33.109Z",
-  "baseline_sha": "aa64ec9b6509bd146eacf6d623b8841ecb7a876f",
+  "timestamp": "2026-07-13T07:42:25.375Z",
+  "baseline_generated_at": "2026-07-13T07:42:25.375Z",
+  "baseline_sha": "3f525385204ca31ca7d071cf76fed3663546f6ee",
   "oracle_version": 3,
   "mode": {
     "target": "standalone",
@@ -1198,14 +1198,14 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 11133,
+    "assertion_fail": 11132,
     "illegal_cast": 400,
     "missing_builtin": 25,
     "missing_dependency": 73,
     "negative_test_fail": 55,
     "null_deref": 292,
     "oob": 49,
-    "other": 5009,
+    "other": 5010,
     "promise_error": 159,
     "range_error": 29,
     "runtime_error": 278,
@@ -1308,10 +1308,10 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 2852,
-          "assertion_fail": 1051,
-          "wasm_compile": 53,
+          "other": 2853,
+          "assertion_fail": 1050,
           "illegal_cast": 2,
+          "wasm_compile": 53,
           "null_deref": 53,
           "type_error": 221,
           "oob": 2
@@ -1327,8 +1327,8 @@
           "other:ReferenceError: Temporal is not defined",
           "assertion_fail:returned # — assert ## at L#: assert.throws( RangeError, () => instance.round({ largestUnit: \"months\", relativeTo: { year: #, month: #, day: #, timeZone } }), \"reject minus zero as extended year\" );",
           "other:ReferenceError: TemporalHelpers is not defined",
-          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance",
-          "illegal_cast:illegal cast [in __str_to_number() ← test]"
+          "illegal_cast:illegal cast [in __str_to_number() ← test]",
+          "wasm_compile:L#:## invalid Wasm binary (WebAssembly.instantiate(): Compiling function ##:\"test\" failed: extern.convert_any[#] expected type shared anyref, found array.get of type i64 @+#) [in test()] [@+#] [wat: (func $test (result f64) (local $instance"
         ]
       },
       {
@@ -1367,7 +1367,7 @@
           "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
           "type_error:TypeError: Cannot access property on null or undefined at #:#",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(DisposableStack.prototype[Symbol.dispose], DisposableStack.prototype.dispose);"
+          "missing_builtin:L#:## [object Object] is not a function"
         ]
       },
       {
@@ -1477,15 +1477,15 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/space-wrong-type.js",
-          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
+          "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/stringify/space-string.js",
           "test/built-ins/JSON/parse/text-object.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(hint, 'string');"
         ]
@@ -1572,18 +1572,18 @@
           "#682"
         ],
         "label": "Standalone RegExp native-engine/runtime gaps: source, constructors, prototype access, result shape",
-        "count": 256,
+        "count": 255,
         "statuses": {
           "pass": 0,
-          "fail": 240,
+          "fail": 239,
           "compile_error": 16,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 256,
+          "total": 255,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 180,
+          "assertion_fail": 179,
           "other": 12,
           "illegal_cast": 33,
           "type_error": 6,
@@ -1616,20 +1616,20 @@
           "#1914"
         ],
         "label": "Residual standalone RegExp failures not matched by the narrower RegExp sub-buckets",
-        "count": 60,
+        "count": 61,
         "statuses": {
           "pass": 0,
-          "fail": 50,
+          "fail": 51,
           "compile_error": 10,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 60,
+          "total": 61,
           "host_free_pass": 0
         },
         "error_categories": {
           "type_error": 46,
           "range_error": 3,
-          "other": 11
+          "other": 12
         },
         "sample_files": [
           "test/built-ins/RegExp/prototype/flags/coercion-ignoreCase.js",
@@ -1663,26 +1663,26 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 454,
-          "assertion_fail": 157,
+          "other": 453,
+          "assertion_fail": 158,
           "null_deref": 10,
           "type_error": 24,
           "runtime_error": 20,
           "illegal_cast": 8
         },
         "sample_files": [
-          "test/built-ins/Atomics/wait/bigint/was-woken-before-timeout.js",
           "test/built-ins/Atomics/waitAsync/bigint/value-not-equal-agent.js",
           "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-xor.js",
+          "test/built-ins/Atomics/wait/bigint/was-woken-before-timeout.js",
           "test/built-ins/Atomics/notify/count-from-nans.js",
           "test/built-ins/Atomics/store/bigint/good-views.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
-          "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).; L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal o",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(keys[#], \"foo\");",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(_handler, handler, 'handler is context');",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { delete p.attr; });"
+          "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).; L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal o",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { delete p.attr; });",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(_handler, handler, 'handler is context');"
         ]
       },
       {
@@ -1702,8 +1702,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 64,
-          "other": 184,
+          "assertion_fail": 63,
+          "other": 185,
           "type_error": 12
         },
         "sample_files": [
@@ -1740,9 +1740,9 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1854,
+          "assertion_fail": 1853,
           "type_error": 318,
-          "other": 152,
+          "other": 153,
           "illegal_cast": 95,
           "wasm_compile": 46,
           "promise_error": 14,
@@ -1795,8 +1795,8 @@
         },
         "sample_files": [
           "test/language/statements/for-await-of/async-func-dstr-const-obj-ptrn-id-init-skipped.js",
-          "test/built-ins/AsyncGeneratorFunction/instance-name.js",
           "test/built-ins/AsyncGeneratorFunction/prototype/extensibility.js",
+          "test/built-ins/AsyncGeneratorFunction/instance-name.js",
           "test/built-ins/GeneratorFunction/prototype/extensibility.js",
           "test/language/expressions/generators/invoke-as-constructor.js"
         ],
@@ -2000,10 +2000,10 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1176,
+          "assertion_fail": 1177,
           "type_error": 479,
           "wasm_compile": 3,
-          "other": 20,
+          "other": 19,
           "missing_dependency": 8,
           "negative_test_fail": 4,
           "runtime_error": 7,
@@ -2086,16 +2086,16 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 175,
+          "assertion_fail": 176,
           "type_error": 484,
           "runtime_error": 8,
-          "other": 17,
+          "other": 16,
           "wasm_compile": 1
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
-          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
+          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
           "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
         ],
@@ -2601,7 +2601,7 @@
           "test/language/module-code/top-level-await/syntax/early-does-not-propagate-to-fn-declaration-params.js",
           "test/language/module-code/top-level-await/new-await-parens.js",
           "test/language/module-code/parse-err-hoist-lex-fun.js",
-          "test/language/module-code/instn-star-props-dflt-skip.js"
+          "test/language/module-code/export-expname-binding-index.js"
         ],
         "sample_signatures": [
           "other:[object WebAssembly.Exception]",
@@ -2683,7 +2683,7 @@
           "test/language/line-terminators/S7.3_A7_T6.js",
           "test/language/directive-prologue/14.1-3-s.js",
           "test/language/expressions/import.meta/syntax/goal-script.js",
-          "test/language/line-terminators/S7.3_A7_T8.js"
+          "test/language/line-terminators/S7.3_A7_T2.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: Check Function Expression for automatic semicolon insertion",
