@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-14T11:43:27.227Z",
-  "baseline_generated_at": "2026-07-14T11:43:27.228Z",
-  "baseline_sha": "d6360a089ff9a13d8366efa0740c1ea3c822f12a",
+  "timestamp": "2026-07-14T11:51:45.632Z",
+  "baseline_generated_at": "2026-07-14T11:51:45.632Z",
+  "baseline_sha": "5233cf45fc090d08a6e613a715442f35997a5c18",
   "oracle_version": 3,
   "mode": {
     "target": "standalone",
@@ -1198,14 +1198,14 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 11387,
+    "assertion_fail": 11388,
     "illegal_cast": 572,
     "missing_builtin": 36,
     "missing_dependency": 77,
     "negative_test_fail": 55,
     "null_deref": 340,
     "oob": 49,
-    "other": 4596,
+    "other": 4595,
     "promise_error": 156,
     "range_error": 28,
     "runtime_error": 251,
@@ -1283,15 +1283,15 @@
           "test/built-ins/Number/string-numeric-separator-literal-dot-dds-nsl-dd-ep.js",
           "test/built-ins/Number/string-numeric-separator-literal-oil-ods-nsl-ods.js",
           "test/built-ins/Number/string-numeric-separator-literal-hil-hd-nsl-hd.js",
-          "test/built-ins/Number/string-numeric-separator-literal-sign-plus-dds-nsl-dd.js",
-          "test/built-ins/Number/string-numeric-separator-literal-nzd-nsl-dd.js"
+          "test/built-ins/Number/string-numeric-separator-literal-nzd-nsl-dd.js",
+          "test/built-ins/Number/string-numeric-separator-literal-sign-plus-dds-nsl-dd.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Number(\".10_1e2\"), NaN, \".10_1e2\");",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Number(\"0o01_00\"), NaN, \"0o01_00\");",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(Number(\"0x#_1\"), NaN, \"0x#_1\");",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(Number(\"+123456789_0\"), NaN, \"+123456789_0\");",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(Number(\"1_1\"), NaN, \"1_1\");"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(Number(\"1_1\"), NaN, \"1_1\");",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(Number(\"+123456789_0\"), NaN, \"+123456789_0\");"
         ]
       },
       {
@@ -1384,24 +1384,24 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 49,
           "other": 8,
+          "assertion_fail": 49,
           "missing_builtin": 1,
           "type_error": 2
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/AsyncDisposableStack/newtarget-prototype-is-not-object.js",
+          "test/built-ins/AsyncDisposableStack/undefined-newtarget-throws.js",
           "test/built-ins/AsyncDisposableStack/prototype/disposed/getter.js",
-          "test/built-ins/DisposableStack/prototype/adopt/puts-value-onDispose-on-top-of-stack.js",
-          "test/built-ins/DisposableStack/prototype/Symbol.dispose.js"
+          "test/built-ins/DisposableStack/prototype/Symbol.dispose.js",
+          "test/built-ins/DisposableStack/prototype/adopt/puts-value-onDispose-on-top-of-stack.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "other:L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone mode (## Phase C).; L#:## Codegen error: Reflect.construct not supported in standalone",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { AsyncDisposableStack(); });",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( typeof descriptor.set, 'undefined', 'typeof descriptor.set is undefined' );",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(disposed[#][#], dispose2, 'Expected dispose2 to be the first onDispose invoked');",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(DisposableStack.prototype[Symbol.dispose], DisposableStack.prototype.dispose);"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(DisposableStack.prototype[Symbol.dispose], DisposableStack.prototype.dispose);",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(disposed[#][#], dispose2, 'Expected dispose2 to be the first onDispose invoked');"
         ]
       },
       {
@@ -1699,8 +1699,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 122,
-          "assertion_fail": 159,
+          "other": 121,
+          "assertion_fail": 160,
           "type_error": 23,
           "null_deref": 10,
           "runtime_error": 14,
@@ -2129,15 +2129,15 @@
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
-          "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
           "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
-          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
+          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js",
+          "test/annexB/language/global-code/switch-case-global-no-skip-try.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.throws(ReferenceError, function() { f; }, 'An initialized binding is not created following evaluation');",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue( f, undefined, 'Initialized binding created prior to evaluation' );",
           "runtime_error:L#:## Invalid left-hand side in for-in/for-of",
           "other:L#:## ';' expected."
         ]
@@ -2204,15 +2204,15 @@
           "null_deref": 3
         },
         "sample_files": [
-          "test/built-ins/parseInt/S15.1.2.2_A4.2_T1.js",
           "test/built-ins/parseInt/S15.1.2.2_A2_T1.js",
+          "test/built-ins/parseInt/S15.1.2.2_A4.2_T1.js",
           "test/language/expressions/equals/bigint-and-number-extremes.js",
           "test/built-ins/parseInt/S15.1.2.2_A7.1_T2.js",
           "test/language/expressions/bitwise-xor/bigint-and-number.js"
         ],
         "sample_signatures": [
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(parseInt(\"#\", #), NaN, 'parseInt(\"#\", #) must return NaN');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(parseInt(\"\\u0009\"), NaN, 'parseInt(\"\\\\u0009\") must return NaN');",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(parseInt(\"#\", #), NaN, 'parseInt(\"#\", #) must return NaN');",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( 0x#n == Number.MAX_VALUE, true, 'The result of (0x#",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(parseInt(\"$0x\"), NaN, 'parseInt(\"$0x\") must return NaN');",
           "missing_dependency:L#:## No dependency provided for extern class \"BigInt\""
@@ -2440,15 +2440,15 @@
         },
         "sample_files": [
           "test/language/expressions/addition/order-of-evaluation.js",
-          "test/language/expressions/async-function/try-reject-finally-throw.js",
           "test/language/expressions/async-arrow-function/eval-var-scope-syntax-err.js",
+          "test/language/expressions/async-function/try-reject-finally-throw.js",
           "test/language/expressions/call/eval-spread-empty.js",
           "test/language/expressions/exponentiation/exp-operator-evaluation-order.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error(\"should not be evaluated\");",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(value, \"override\", \"Exception thrown in finally block\");",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error('function should not be resolved');",
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(value, \"override\", \"Exception thrown in finally block\");",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(capture[#], \"right\", \"Expected the 2nd element captured to be 'right'\");"
         ]
@@ -2515,15 +2515,15 @@
           "other": 2
         },
         "sample_files": [
-          "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-xor.js",
           "test/built-ins/Atomics/wait/bigint/was-woken-before-timeout.js",
+          "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-xor.js",
           "test/built-ins/Atomics/store/bigint/good-views.js",
           "test/language/expressions/left-shift/bigint-non-primitive.js",
           "test/language/expressions/does-not-equals/bigint-and-string.js"
         ],
         "sample_signatures": [
-          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
           "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
           "illegal_cast:L#:## illegal cast [in __closure_2() ← testWithBigIntTypedArrayConstructors ← test]",
           "missing_dependency:L#:## No dependency provided for extern class \"BigInt\"",
           "oob:L#:## array element access out of bounds [in __str_to_number() ← test]"
