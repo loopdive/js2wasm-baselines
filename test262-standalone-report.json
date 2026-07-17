@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-17T00:06:23.627Z",
-  "baseline_generated_at": "2026-07-17T00:06:23.627Z",
-  "baseline_sha": "31899cc048c572d7d853cae1ea86be878707e733",
+  "timestamp": "2026-07-17T00:19:40.573Z",
+  "baseline_generated_at": "2026-07-17T00:19:40.574Z",
+  "baseline_sha": "1db134ff63158e0aa396ea67bd70dd113fb56e96",
   "oracle_version": 6,
   "mode": {
     "target": "standalone",
@@ -12,8 +12,8 @@
     "total": 43106,
     "pass": 24676,
     "fail": 11900,
-    "compile_error": 6500,
-    "compile_timeout": 11,
+    "compile_error": 6499,
+    "compile_timeout": 12,
     "skip": 19,
     "compilable": 36576,
     "host_free_pass": 24676,
@@ -23,8 +23,8 @@
         "total": 42020,
         "pass": 24413,
         "fail": 11151,
-        "compile_error": 6426,
-        "compile_timeout": 11,
+        "compile_error": 6425,
+        "compile_timeout": 12,
         "skip": 19,
         "compilable": 35564,
         "host_free_pass": 24413,
@@ -59,8 +59,8 @@
         "total": 43106,
         "pass": 24676,
         "fail": 11900,
-        "compile_error": 6500,
-        "compile_timeout": 11,
+        "compile_error": 6499,
+        "compile_timeout": 12,
         "skip": 19,
         "compilable": 36576,
         "host_free_pass": 24676,
@@ -71,8 +71,8 @@
         "total": 48088,
         "pass": 24911,
         "fail": 15843,
-        "compile_error": 7201,
-        "compile_timeout": 11,
+        "compile_error": 7200,
+        "compile_timeout": 12,
         "skip": 122,
         "compilable": 40754,
         "host_free_pass": 24911,
@@ -85,8 +85,8 @@
     "total": 43106,
     "pass": 24676,
     "fail": 11900,
-    "compile_error": 6500,
-    "compile_timeout": 11,
+    "compile_error": 6499,
+    "compile_timeout": 12,
     "skip": 19,
     "compilable": 36576,
     "host_free_pass": 24676,
@@ -96,8 +96,8 @@
     "total": 48088,
     "pass": 24911,
     "fail": 15843,
-    "compile_error": 7201,
-    "compile_timeout": 11,
+    "compile_error": 7200,
+    "compile_timeout": 12,
     "skip": 122,
     "compilable": 40754,
     "host_free_pass": 24911,
@@ -107,8 +107,8 @@
     "total": 40597,
     "pass": 23771,
     "fail": 10521,
-    "compile_error": 6275,
-    "compile_timeout": 11,
+    "compile_error": 6274,
+    "compile_timeout": 12,
     "skip": 19,
     "compilable": 34292,
     "host_free_pass": 23771,
@@ -141,8 +141,8 @@
       "total": 42020,
       "pass": 24413,
       "fail": 11151,
-      "compile_error": 6426,
-      "compile_timeout": 11,
+      "compile_error": 6425,
+      "compile_timeout": 12,
       "skip": 19,
       "compilable": 35564,
       "host_free_pass": 24413,
@@ -650,8 +650,8 @@
       "path": "built-ins/Proxy",
       "pass": 63,
       "fail": 198,
-      "compile_error": 50,
-      "compile_timeout": 0,
+      "compile_error": 49,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 311,
       "host_free_pass": 63
@@ -1186,13 +1186,13 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 10378,
+    "assertion_fail": 10380,
     "host_import_leak": 6197,
     "illegal_cast": 253,
     "negative_test_fail": 55,
     "null_deref": 251,
     "oob": 41,
-    "other": 3615,
+    "other": 3612,
     "promise_error": 13,
     "range_error": 25,
     "runtime_error": 78,
@@ -1461,14 +1461,14 @@
           "test/built-ins/JSON/parse/reviver-array-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-array-empty.js",
           "test/built-ins/JSON/stringify/space-string.js",
-          "test/built-ins/JSON/stringify/value-number-object.js"
+          "test/built-ins/JSON/parse/text-object.js"
         ],
         "sample_signatures": [
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj), JSON.stringify(obj, null, null));",
           "assertion_fail:returned # — assert ## at L#: throw new Test262Error();",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue( JSON.stringify([#, {a: #}], []), '[#,{}]' );",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(obj, null, ' '), [ '{' , ' \"a1\": {' , ' \"b1\": [' , ' #,' , ' #,' , ' #,' , ' #' , ' ],' , ' \"b2\": {' , ' \"c1\": #,' , ' \"c2\": #'",
-          "assertion_fail:returned # — assert ## at L#: assert.sameValue(JSON.stringify(new Number(#)), '#');"
+          "assertion_fail:returned # — assert ## at L#: assert.sameValue(hint, 'string');"
         ]
       },
       {
@@ -1527,8 +1527,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 24,
-          "assertion_fail": 162,
+          "other": 25,
+          "assertion_fail": 161,
           "host_import_leak": 24,
           "type_error": 10,
           "illegal_cast": 2
@@ -1642,14 +1642,14 @@
         "statuses": {
           "pass": 0,
           "fail": 202,
-          "compile_error": 137,
-          "compile_timeout": 0,
+          "compile_error": 136,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 339,
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 122,
+          "other": 121,
           "assertion_fail": 160,
           "type_error": 23,
           "null_deref": 10,
@@ -1659,15 +1659,15 @@
         "sample_files": [
           "test/built-ins/Proxy/getOwnPropertyDescriptor/null-handler.js",
           "test/built-ins/Proxy/ownKeys/trap-is-undefined.js",
-          "test/built-ins/Proxy/deleteProperty/trap-is-not-callable.js",
           "test/built-ins/Proxy/has/call-in-prototype-index.js",
+          "test/built-ins/Proxy/deleteProperty/trap-is-not-callable.js",
           "test/built-ins/Uint8Array/fromHex/illegal-characters.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Proxy not supported in standalone mode (## Phase C).; L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal o",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(keys[#], \"foo\");",
-          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { delete p.attr; });",
           "assertion_fail:returned # — assert ## at L#: assert.sameValue(_handler, handler, 'handler is context');",
+          "assertion_fail:returned # — assert ## at L#: assert.throws(TypeError, function() { delete p.attr; });",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct"
         ]
       },
@@ -1727,11 +1727,11 @@
         },
         "error_categories": {
           "host_import_leak": 4036,
-          "assertion_fail": 509,
+          "assertion_fail": 511,
           "type_error": 128,
           "wasm_compile": 11,
           "illegal_cast": 49,
-          "other": 14,
+          "other": 12,
           "null_deref": 9,
           "unreachable": 1
         },
@@ -1812,10 +1812,10 @@
         },
         "error_categories": {
           "runtime_error": 41,
-          "assertion_fail": 4196,
+          "assertion_fail": 4197,
           "host_import_leak": 441,
           "type_error": 510,
-          "other": 119,
+          "other": 118,
           "illegal_cast": 129,
           "wasm_compile": 46,
           "null_deref": 83,
@@ -2076,9 +2076,9 @@
         },
         "sample_files": [
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
-          "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
-          "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
           "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
+          "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
+          "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
           "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
         ],
         "sample_signatures": [
@@ -2459,8 +2459,8 @@
           "other": 2
         },
         "sample_files": [
-          "test/built-ins/Atomics/wait/bigint/was-woken-before-timeout.js",
           "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-xor.js",
+          "test/built-ins/Atomics/wait/bigint/was-woken-before-timeout.js",
           "test/built-ins/Atomics/store/bigint/good-views.js",
           "test/language/expressions/left-shift/bigint-non-primitive.js",
           "test/built-ins/BigInt/tostring-throws.js"
@@ -2508,7 +2508,7 @@
           "test/language/module-code/namespace/internals/delete-non-exported.js",
           "test/language/module-code/instn-local-bndng-cls.js",
           "test/language/expressions/prefix-decrement/operator-prefix-decrement-x-calls-putvalue-lhs-newvalue--1.js",
-          "test/built-ins/Atomics/sub/validate-arraytype-before-index-coercion.js"
+          "test/built-ins/Atomics/add/validate-arraytype-before-value-coercion.js"
         ],
         "sample_signatures": [
           "other:ReferenceError: nonAtomicsFriendlyTypedArrayConstructors is not defined",
@@ -2545,15 +2545,15 @@
           "other": 5
         },
         "sample_files": [
-          "test/built-ins/Promise/allSettled/resolve-element-function-name.js",
           "test/built-ins/Promise/any/iter-arg-is-string-resolve.js",
+          "test/built-ins/Promise/allSettled/resolve-element-function-name.js",
           "test/built-ins/Promise/race/same-resolve-function.js",
           "test/built-ins/Promise/all/resolve-element-function-extensible.js",
           "test/built-ins/Promise/all/iter-next-val-err-reject.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::Promise_allSettled, env::__js_array_new, env::__js_array_push (##)",
           "host_import_leak:standalone target emitted host imports: env::Promise_any, env::Promise_then2 (##)",
+          "host_import_leak:standalone target emitted host imports: env::Promise_allSettled, env::__js_array_new, env::__js_array_push (##)",
           "host_import_leak:standalone target emitted host imports: env::Promise_race, env::__js_array_new, env::__js_array_push (##)",
           "host_import_leak:standalone target emitted host imports: env::Promise_all, env::__js_array_new, env::__js_array_push (##)",
           "null_deref:L#:## dereferencing a null pointer [in __closure_8() ← __then_reject_1 ← __drain_microtasks ← test]"
@@ -2587,7 +2587,7 @@
           "test/language/module-code/top-level-await/syntax/early-does-not-propagate-to-fn-declaration-params.js",
           "test/language/module-code/top-level-await/new-await-parens.js",
           "test/language/module-code/parse-err-hoist-lex-fun.js",
-          "test/language/module-code/instn-star-props-dflt-skip.js"
+          "test/language/module-code/export-expname-binding-index.js"
         ],
         "sample_signatures": [
           "other:[object WebAssembly.Exception]",
@@ -2670,7 +2670,7 @@
           "test/language/line-terminators/S7.3_A7_T6.js",
           "test/language/directive-prologue/14.1-3-s.js",
           "test/language/expressions/import.meta/syntax/goal-script.js",
-          "test/language/line-terminators/S7.3_A7_T2.js"
+          "test/language/line-terminators/S7.3_A7_T8.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: Check Function Expression for automatic semicolon insertion",
