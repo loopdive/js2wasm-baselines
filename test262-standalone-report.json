@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-18T14:04:27.133Z",
-  "baseline_generated_at": "2026-07-18T14:04:27.133Z",
-  "baseline_sha": "03ca4729ad4f35ab829d3d8cccb2bc722378e7ae",
+  "timestamp": "2026-07-18T14:59:03.054Z",
+  "baseline_generated_at": "2026-07-18T14:59:03.054Z",
+  "baseline_sha": "c8c6c9f26bf06b43ed39efa853b4a1fec31aa645",
   "oracle_version": 8,
   "mode": {
     "target": "standalone",
-    "include_proposals": 1,
-    "label": "official test262 + proposals"
+    "include_proposals": 0,
+    "label": "official test262 (default scope)"
   },
   "summary": {
     "total": 43106,
@@ -1203,7 +1203,7 @@
     "target": "standalone",
     "total_non_pass_non_skip": 43472,
     "classified": 43472,
-    "unclassified_threshold": 0,
+    "unclassified_threshold": null,
     "buckets": [
       {
         "id": "late-import-index-shift",
@@ -1260,8 +1260,8 @@
         },
         "sample_files": [
           "test/built-ins/Number/string-numeric-separator-literal-dot-dds-nsl-dd-ep.js",
-          "test/built-ins/parseFloat/tonumber-numeric-separator-literal-nzd-nsl-dd-one-of.js",
           "test/built-ins/parseFloat/tonumber-numeric-separator-literal-dd-dot-dd-ep-sign-minus-dd-nsl-dd.js",
+          "test/built-ins/parseFloat/tonumber-numeric-separator-literal-nzd-nsl-dd-one-of.js",
           "test/built-ins/Number/string-numeric-separator-literal-oil-ods-nsl-ods.js",
           "test/language/literals/numeric/numeric-separators/numeric-separator-literal-dds-nsl-dd.js"
         ],
@@ -1470,8 +1470,8 @@
         "sample_files": [
           "test/built-ins/JSON/15.12-0-3.js",
           "test/built-ins/JSON/parse/15.12.2-2-2.js",
-          "test/built-ins/JSON/parse/15.12.1.1-g2-3.js",
           "test/built-ins/JSON/stringify/space-wrong-type.js",
+          "test/built-ins/JSON/parse/15.12.1.1-g2-3.js",
           "test/built-ins/JSON/stringify/replacer-function-result.js"
         ],
         "sample_signatures": [
@@ -1807,8 +1807,8 @@
           "test/language/expressions/logical-assignment/left-hand-side-private-reference-data-property-short-circuit-or.js",
           "test/language/expressions/class/accessor-name-inst/literal-string-hex-escape.js",
           "test/language/expressions/class/async-gen-method/forbidden-ext/b2/cls-expr-async-gen-meth-forbidden-ext-indirect-access-prop-caller.js",
-          "test/language/expressions/class/elements/after-same-line-method-rs-privatename-identifier-initializer-alt.js",
-          "test/language/expressions/class/elements/new-sc-line-gen-static-private-methods.js"
+          "test/language/expressions/class/elements/new-sc-line-gen-static-private-methods.js",
+          "test/language/expressions/class/elements/after-same-line-method-rs-privatename-identifier-initializer-alt.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::console_log_externref, env::structuredClone (##)",
@@ -1878,10 +1878,10 @@
         },
         "sample_files": [
           "test/built-ins/TypedArray/out-of-bounds-has.js",
-          "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
           "test/built-ins/TypedArray/resizable-buffer-length-tracking-1.js",
-          "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js",
-          "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js"
+          "test/built-ins/TypedArrayConstructors/ctors/buffer-arg/defined-length-sab.js",
+          "test/built-ins/TypedArrayConstructors/internals/Set/detached-buffer.js",
+          "test/built-ins/TypedArrayConstructors/ctors/typedarray-arg/same-ctor-returns-new-cloned-typedarray.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__array_concat_any, env::__js_array_new, env::__js_array_push, env::console_log_externref, env::structuredClone (##)",
@@ -1955,7 +1955,7 @@
           "test/language/expressions/object/dstr/meth-dflt-ary-init-iter-close.js",
           "test/language/expressions/object/dstr/async-gen-meth-dflt-ary-ptrn-rest-ary-elision.js",
           "test/language/expressions/object/cpn-obj-lit-computed-property-name-from-multiplicative-expression-mult.js",
-          "test/language/expressions/object/dstr/async-gen-meth-ary-ptrn-elem-id-init-fn-name-gen.js"
+          "test/language/expressions/object/dstr/meth-ary-ptrn-elem-obj-id.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::console_log_externref, env::structuredClone (##)",
@@ -2029,8 +2029,8 @@
           "test/annexB/language/global-code/if-decl-no-else-global-skip-early-err-try.js",
           "test/annexB/language/function-code/switch-dflt-func-existing-var-no-init.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js",
-          "test/annexB/language/global-code/switch-case-global-no-skip-try.js",
-          "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-update.js"
+          "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-block-scoping.js",
+          "test/annexB/language/global-code/switch-case-global-no-skip-try.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::console_log_externref, env::structuredClone (##)",
@@ -2132,7 +2132,7 @@
           "test/built-ins/Math/fround/ties.js",
           "test/built-ins/Math/pow/applying-the-exp-operator_A5.js",
           "test/built-ins/Math/atanh/name.js",
-          "test/built-ins/Math/random/name.js"
+          "test/built-ins/Math/sqrt/length.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::console_log_externref, env::structuredClone (##)",
@@ -2337,8 +2337,8 @@
         "sample_files": [
           "test/language/arguments-object/mapped/mapped-arguments-nonwritable-nonconfigurable-1.js",
           "test/language/arguments-object/cls-decl-async-gen-func-args-trailing-comma-spread-operator.js",
-          "test/language/arguments-object/mapped/nonwritable-nonenumerable-nonconfigurable-descriptors-set-by-arguments.js",
           "test/language/arguments-object/10.6-13-a-2.js",
+          "test/language/arguments-object/mapped/nonwritable-nonenumerable-nonconfigurable-descriptors-set-by-arguments.js",
           "test/language/arguments-object/10.6-14-c-1-s.js"
         ],
         "sample_signatures": [
@@ -2484,7 +2484,7 @@
           "test/language/module-code/instn-named-err-not-found-dflt.js",
           "test/language/module-code/top-level-await/syntax/if-block-await-expr-nested.js",
           "test/language/module-code/instn-local-bndng-cls.js",
-          "test/language/module-code/top-level-await/await-expr-func-expression.js"
+          "test/language/module-code/top-level-await/syntax/export-dflt-assign-expr-await-expr-obj-literal.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::console_log_externref, env::structuredClone (##)",
@@ -2590,9 +2590,9 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-ltr.js",
-          "test/language/identifiers/part-unicode-11.0.0-escaped.js",
           "test/language/identifiers/vals-rus-alpha-lower-via-escape-hex4.js",
-          "test/language/identifiers/part-unicode-12.0.0-class.js",
+          "test/language/identifiers/part-unicode-11.0.0-escaped.js",
+          "test/language/identifiers/part-digits.js",
           "test/language/identifiers/part-unicode-16.0.0-escaped.js"
         ],
         "sample_signatures": [
@@ -2702,8 +2702,8 @@
           "test/built-ins/Atomics/notify/count-from-nans.js",
           "test/built-ins/Atomics/isLockFree/length.js",
           "test/built-ins/Atomics/notify/bad-range.js",
-          "test/built-ins/Atomics/add/name.js",
-          "test/built-ins/Atomics/and/name.js"
+          "test/built-ins/Atomics/and/name.js",
+          "test/built-ins/Atomics/sub/name.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::console_log_externref, env::structuredClone (##)",
