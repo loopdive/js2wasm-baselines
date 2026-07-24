@@ -545,8 +545,6 @@
     "tests/issue-2022.test.ts :: #2022 `+` uses ToPrimitive(default), not string hint string + obj with valueOf uses valueOf",
     "tests/issue-2045-escape-demotion.test.ts :: #2045 B.3 — callee param receiving a non-linear-backed argument `new Uint8Array(arrayBuffer)` view arg compiles + runs",
     "tests/issue-2046.test.ts :: #2046 standalone Reflect spec gaps sloppy delete also honors freeze (shared __delete_property)",
-    "tests/issue-2047.test.ts :: #2047 unify standalone Array.isArray byte carriers are false even when a real array carrier coexists",
-    "tests/issue-2047.test.ts :: #2047 unify standalone Array.isArray returns false for ArrayBuffer / DataView / Uint8Array carriers (§7.2.2)",
     "tests/issue-2049.test.ts :: #2049 o?.m(args) routes to optional-call codegen void-returning method via optional chain runs its side effect when non-null",
     "tests/issue-2055.test.ts :: #2055 relational i32 hint must not truncate a fractional f64 operand all four relational ops with a fractional bound",
     "tests/issue-2055.test.ts :: #2055 relational i32 hint must not truncate a fractional f64 operand fractional literal on the left (2.5 > i)",
