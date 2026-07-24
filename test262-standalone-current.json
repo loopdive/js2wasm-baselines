@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-07-24T10:10:51.849Z",
-  "baseline_generated_at": "2026-07-24T10:10:51.850Z",
-  "baseline_sha": "e730799ee9e44fd1f699933ec40765bc27e0fb48",
+  "timestamp": "2026-07-24T11:08:46.209Z",
+  "baseline_generated_at": "2026-07-24T11:08:46.209Z",
+  "baseline_sha": "d39f2a7b0eef67d6f975da61bef5e6bd2fc49e9d",
   "oracle_version": 10,
   "mode": {
     "target": "standalone",
@@ -11,35 +11,35 @@
   "summary": {
     "total": 43106,
     "pass": 27138,
-    "fail": 10958,
-    "compile_error": 4964,
-    "compile_timeout": 27,
+    "fail": 10961,
+    "compile_error": 4962,
+    "compile_timeout": 26,
     "skip": 19,
-    "compilable": 38096,
+    "compilable": 38099,
     "host_free_pass": 27138,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42020,
-        "pass": 26842,
-        "fail": 10234,
-        "compile_error": 4898,
-        "compile_timeout": 27,
+        "pass": 26843,
+        "fail": 10237,
+        "compile_error": 4896,
+        "compile_timeout": 25,
         "skip": 19,
-        "compilable": 37076,
-        "host_free_pass": 26842,
+        "compilable": 37080,
+        "host_free_pass": 26843,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
       "annex_b": {
         "total": 1086,
-        "pass": 296,
+        "pass": 295,
         "fail": 724,
         "compile_error": 66,
-        "compile_timeout": 0,
+        "compile_timeout": 1,
         "skip": 0,
-        "compilable": 1020,
-        "host_free_pass": 296,
+        "compilable": 1019,
+        "host_free_pass": 295,
         "stale": 0,
         "label": "Annex B (legacy web compat)"
       },
@@ -58,11 +58,11 @@
       "official": {
         "total": 43106,
         "pass": 27138,
-        "fail": 10958,
-        "compile_error": 4964,
-        "compile_timeout": 27,
+        "fail": 10961,
+        "compile_error": 4962,
+        "compile_timeout": 26,
         "skip": 19,
-        "compilable": 38096,
+        "compilable": 38099,
         "host_free_pass": 27138,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48088,
         "pass": 27602,
-        "fail": 13275,
-        "compile_error": 7076,
-        "compile_timeout": 27,
+        "fail": 13278,
+        "compile_error": 7074,
+        "compile_timeout": 26,
         "skip": 108,
-        "compilable": 40877,
+        "compilable": 40880,
         "host_free_pass": 27602,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,46 +84,46 @@
   "official_summary": {
     "total": 43106,
     "pass": 27138,
-    "fail": 10958,
-    "compile_error": 4964,
-    "compile_timeout": 27,
+    "fail": 10961,
+    "compile_error": 4962,
+    "compile_timeout": 26,
     "skip": 19,
-    "compilable": 38096,
+    "compilable": 38099,
     "host_free_pass": 27138,
     "stale": 0
   },
   "full_summary": {
     "total": 48088,
     "pass": 27602,
-    "fail": 13275,
-    "compile_error": 7076,
-    "compile_timeout": 27,
+    "fail": 13278,
+    "compile_error": 7074,
+    "compile_timeout": 26,
     "skip": 108,
-    "compilable": 40877,
+    "compilable": 40880,
     "host_free_pass": 27602,
     "stale": 0
   },
   "strict_summary": {
     "total": 40597,
-    "pass": 25987,
-    "fail": 9768,
-    "compile_error": 4796,
-    "compile_timeout": 27,
+    "pass": 25990,
+    "fail": 9771,
+    "compile_error": 4795,
+    "compile_timeout": 22,
     "skip": 19,
-    "compilable": 35755,
-    "host_free_pass": 25987,
+    "compilable": 35761,
+    "host_free_pass": 25990,
     "stale": 0
   },
   "scope_summaries": {
     "annex_b": {
       "total": 1086,
-      "pass": 296,
+      "pass": 295,
       "fail": 724,
       "compile_error": 66,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 0,
-      "compilable": 1020,
-      "host_free_pass": 296,
+      "compilable": 1019,
+      "host_free_pass": 295,
       "stale": 0
     },
     "proposal": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42020,
-      "pass": 26842,
-      "fail": 10234,
-      "compile_error": 4898,
-      "compile_timeout": 27,
+      "pass": 26843,
+      "fail": 10237,
+      "compile_error": 4896,
+      "compile_timeout": 25,
       "skip": 19,
-      "compilable": 37076,
-      "host_free_pass": 26842,
+      "compilable": 37080,
+      "host_free_pass": 26843,
       "stale": 0
     }
   },
@@ -164,13 +164,13 @@
     {
       "name": "annexB/language",
       "path": "annexB/language",
-      "pass": 193,
+      "pass": 192,
       "fail": 641,
       "compile_error": 11,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 845,
-      "host_free_pass": 193
+      "host_free_pass": 192
     },
     {
       "name": "built-ins/AbstractModuleSource",
@@ -276,8 +276,8 @@
       "path": "built-ins/AsyncGeneratorPrototype",
       "pass": 3,
       "fail": 3,
-      "compile_error": 41,
-      "compile_timeout": 1,
+      "compile_error": 42,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 48,
       "host_free_pass": 3
@@ -408,8 +408,8 @@
       "path": "built-ins/Error",
       "pass": 13,
       "fail": 29,
-      "compile_error": 15,
-      "compile_timeout": 1,
+      "compile_error": 16,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 58,
       "host_free_pass": 13
@@ -462,9 +462,9 @@
       "name": "built-ins/GeneratorPrototype",
       "path": "built-ins/GeneratorPrototype",
       "pass": 17,
-      "fail": 41,
+      "fail": 42,
       "compile_error": 2,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 61,
       "host_free_pass": 17
@@ -639,8 +639,8 @@
       "path": "built-ins/Promise",
       "pass": 256,
       "fail": 235,
-      "compile_error": 157,
-      "compile_timeout": 4,
+      "compile_error": 158,
+      "compile_timeout": 3,
       "skip": 0,
       "total": 652,
       "host_free_pass": 256
@@ -649,9 +649,9 @@
       "name": "built-ins/Proxy",
       "path": "built-ins/Proxy",
       "pass": 161,
-      "fail": 101,
+      "fail": 102,
       "compile_error": 48,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 311,
       "host_free_pass": 161
@@ -659,24 +659,24 @@
     {
       "name": "built-ins/Reflect",
       "path": "built-ins/Reflect",
-      "pass": 97,
-      "fail": 25,
+      "pass": 98,
+      "fail": 26,
       "compile_error": 29,
-      "compile_timeout": 2,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 153,
-      "host_free_pass": 97
+      "host_free_pass": 98
     },
     {
       "name": "built-ins/RegExp",
       "path": "built-ins/RegExp",
-      "pass": 1557,
+      "pass": 1559,
       "fail": 234,
       "compile_error": 84,
-      "compile_timeout": 4,
+      "compile_timeout": 2,
       "skip": 0,
       "total": 1879,
-      "host_free_pass": 1557
+      "host_free_pass": 1559
     },
     {
       "name": "built-ins/RegExpStringIteratorPrototype",
@@ -802,20 +802,20 @@
     {
       "name": "built-ins/TypedArray",
       "path": "built-ins/TypedArray",
-      "pass": 317,
+      "pass": 318,
       "fail": 932,
-      "compile_error": 187,
+      "compile_error": 186,
       "compile_timeout": 2,
       "skip": 0,
       "total": 1438,
-      "host_free_pass": 317
+      "host_free_pass": 318
     },
     {
       "name": "built-ins/TypedArrayConstructors",
       "path": "built-ins/TypedArrayConstructors",
       "pass": 298,
-      "fail": 358,
-      "compile_error": 79,
+      "fail": 359,
+      "compile_error": 78,
       "compile_timeout": 1,
       "skip": 0,
       "total": 736,
@@ -879,13 +879,13 @@
     {
       "name": "language/arguments-object",
       "path": "language/arguments-object",
-      "pass": 107,
+      "pass": 106,
       "fail": 61,
       "compile_error": 95,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 263,
-      "host_free_pass": 107
+      "host_free_pass": 106
     },
     {
       "name": "language/asi",
@@ -956,13 +956,13 @@
     {
       "name": "language/eval-code",
       "path": "language/eval-code",
-      "pass": 251,
-      "fail": 56,
+      "pass": 250,
+      "fail": 55,
       "compile_error": 40,
-      "compile_timeout": 0,
+      "compile_timeout": 2,
       "skip": 0,
       "total": 347,
-      "host_free_pass": 251
+      "host_free_pass": 250
     },
     {
       "name": "language/export",
@@ -978,35 +978,35 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 7563,
+      "pass": 7564,
       "fail": 1655,
-      "compile_error": 1796,
+      "compile_error": 1795,
       "compile_timeout": 4,
       "skip": 18,
       "total": 11036,
-      "host_free_pass": 7563
+      "host_free_pass": 7564
     },
     {
       "name": "language/function-code",
       "path": "language/function-code",
-      "pass": 97,
+      "pass": 96,
       "fail": 120,
       "compile_error": 0,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 217,
-      "host_free_pass": 97
+      "host_free_pass": 96
     },
     {
       "name": "language/future-reserved-words",
       "path": "language/future-reserved-words",
-      "pass": 55,
+      "pass": 54,
       "fail": 0,
       "compile_error": 0,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 55,
-      "host_free_pass": 55
+      "host_free_pass": 54
     },
     {
       "name": "language/global-code",
@@ -1089,9 +1089,9 @@
       "name": "language/module-code",
       "path": "language/module-code",
       "pass": 396,
-      "fail": 77,
+      "fail": 76,
       "compile_error": 119,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 592,
       "host_free_pass": 396
@@ -1155,9 +1155,9 @@
       "name": "language/statements",
       "path": "language/statements",
       "pass": 6600,
-      "fail": 1574,
-      "compile_error": 1161,
-      "compile_timeout": 1,
+      "fail": 1575,
+      "compile_error": 1159,
+      "compile_timeout": 2,
       "skip": 1,
       "total": 9337,
       "host_free_pass": 6600
@@ -1186,18 +1186,18 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 7573,
-    "host_import_leak": 3620,
+    "assertion_fail": 7575,
+    "host_import_leak": 3619,
     "illegal_cast": 376,
     "negative_test_fail": 22,
     "null_deref": 287,
     "oob": 37,
-    "other": 5011,
+    "other": 5010,
     "promise_error": 65,
     "range_error": 14,
     "runtime_error": 299,
     "syntax_error": 9,
-    "type_error": 2869,
+    "type_error": 2870,
     "wasm_compile": 166
   },
   "hard_errors": {},
@@ -1309,17 +1309,17 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/prototype/total/relativeto-argument-propertybag-calendar-invalid-iso-string.js",
-          "test/built-ins/Temporal/Duration/prototype/round/relativeto-infinity-throws-rangeerror.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/since/same-epoch-nanoseconds.js",
+          "test/built-ins/Temporal/PlainDate/prototype/subtract/argument-duration-max-plus-min-date.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/until-since.js",
-          "test/built-ins/Temporal/PlainDate/prototype/subtract/argument-duration-max-plus-min-date.js"
+          "test/built-ins/Temporal/Duration/prototype/round/relativeto-infinity-throws-rangeerror.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/since/same-epoch-nanoseconds.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: empty string is not a valid calendar ID Expected a undefined to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.; L#:#",
           "other:ReferenceError: Temporal is not defined",
           "assertion_fail:Test262Error: null is not a valid calendar Expected a undefined to be thrown but no exception was thrown at all",
-          "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)"
+          "assertion_fail:Test262Error: should throw RangeError when the duration has non-zero years (positive) Expected a undefined to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -1486,14 +1486,14 @@
           "#1539"
         ],
         "label": "Standalone RegExp Phase 2d: u/v/d flags, Unicode escapes, lookaround, modifiers",
-        "count": 60,
+        "count": 59,
         "statuses": {
           "pass": 0,
           "fail": 57,
           "compile_error": 0,
-          "compile_timeout": 3,
+          "compile_timeout": 2,
           "skip": 0,
-          "total": 60,
+          "total": 59,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1503,14 +1503,14 @@
         },
         "sample_files": [
           "test/built-ins/RegExp/unicodeSets/generated/character-property-escape-intersection-string-literal.js",
-          "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Meetei_Mayek.js",
+          "test/built-ins/RegExp/unicodeSets/generated/character-class-union-character-class.js",
           "test/built-ins/RegExp/unicodeSets/generated/property-of-strings-escape-union-character-property-escape.js",
           "test/built-ins/RegExp/unicodeSets/generated/rgi-emoji-13.1.js",
           "test/built-ins/RegExp/unicodeSets/generated/rgi-emoji-16.0.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: `[p{ASCII_Hex_Digit}&&q{#|#|#|#️⃣}]` should match # (U+null)",
-          "compile_timeout:timeout (10s)",
+          "compile_timeout:timeout (30s)",
           "assertion_fail:Test262Error: `[p{Emoji_Keycap_Sequence}p{ASCII_Hex_Digit}]` should match #️⃣ (U+null U+null U+null)",
           "assertion_fail:Test262Error: `\\p{RGI_Emoji}` should match ❤️‍🔥 (U+null U+null U+null U+null)",
           "assertion_fail:Test262Error: `\\p{RGI_Emoji}` should match 🇨🇶 (U+null U+null)"
@@ -1576,22 +1576,22 @@
         },
         "error_categories": {
           "assertion_fail": 141,
-          "other": 46,
           "null_deref": 3,
+          "other": 46,
           "wasm_compile": 8,
           "type_error": 6
         },
         "sample_files": [
           "test/built-ins/RegExp/prototype/hasIndices/prop-desc.js",
-          "test/built-ins/RegExp/S15.10.4.1_A8_T10.js",
           "test/built-ins/RegExp/named-groups/functional-replace-global.js",
+          "test/built-ins/RegExp/S15.10.4.1_A8_T10.js",
           "test/built-ins/RegExp/S15.10.2.10_A3.1_T2.js",
           "test/built-ins/RegExp/S15.10.3.1_A1_T5.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: obj should have an own property hasIndices",
-          "other:L#:## Codegen error: standalone RegExp engine does not support dynamic constructor patterns (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does not s",
           "null_deref:dereferencing a null pointer [in __module_init()]",
+          "other:L#:## Codegen error: standalone RegExp engine does not support dynamic constructor patterns (## Phase 2a). Use a supported pattern/flag set, or recompile without --target standalone.; L#:## Codegen error: standalone RegExp engine does not s",
           "assertion_fail:Test262Error: The value of result is expected to be true Expected SameValue(«false», «true») to be true",
           "assertion_fail:Test262Error: The value of __instance.indicator is expected to be # Expected SameValue(«undefined», «#») to be true"
         ]
@@ -1606,14 +1606,14 @@
           "#1914"
         ],
         "label": "Residual standalone RegExp failures not matched by the narrower RegExp sub-buckets",
-        "count": 132,
+        "count": 131,
         "statuses": {
           "pass": 0,
           "fail": 50,
           "compile_error": 81,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
-          "total": 132,
+          "total": 131,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1626,15 +1626,15 @@
           "test/built-ins/String/prototype/search/cstm-search-on-number-primitive.js",
           "test/language/module-code/top-level-await/syntax/for-await-expr-regexp.js",
           "test/built-ins/String/prototype/search/cstm-search-on-bigint-primitive.js",
-          "test/built-ins/RegExp/early-err-modifiers-should-not-case-fold-i.js",
-          "test/language/module-code/top-level-await/syntax/if-block-await-expr-regexp.js"
+          "test/language/module-code/top-level-await/syntax/if-block-await-expr-regexp.js",
+          "test/annexB/built-ins/RegExp/prototype/compile/pattern-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: String.prototype.search(...) with a RegExp or symbol-protocol search value is not supported in --target standalone (##). Use a supported backend-created static RegExp or native string-only overload, or recompile without",
           "other:ReferenceError: await is not defined",
-          "compile_timeout:strict rerun: timeout (30s)",
           "host_import_leak:standalone target emitted host imports: env::RegExp_compile (##)",
-          "type_error:TypeError: Method called on incompatible receiver (RegExp brand check failed)"
+          "type_error:TypeError: Method called on incompatible receiver (RegExp brand check failed)",
+          "type_error:TypeError: Cannot access property on null or undefined"
         ]
       },
       {
@@ -1646,9 +1646,9 @@
         "count": 268,
         "statuses": {
           "pass": 0,
-          "fail": 137,
+          "fail": 138,
           "compile_error": 130,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 268,
           "host_free_pass": 0
@@ -1656,7 +1656,7 @@
         "error_categories": {
           "illegal_cast": 33,
           "other": 104,
-          "assertion_fail": 33,
+          "assertion_fail": 34,
           "type_error": 57,
           "null_deref": 12,
           "runtime_error": 10,
@@ -1684,21 +1684,21 @@
           "#1472"
         ],
         "label": "Reflect.* refused in standalone mode (#1472 Phase C)",
-        "count": 154,
+        "count": 153,
         "statuses": {
           "pass": 0,
-          "fail": 31,
+          "fail": 32,
           "compile_error": 121,
-          "compile_timeout": 2,
+          "compile_timeout": 0,
           "skip": 0,
-          "total": 154,
+          "total": 153,
           "host_free_pass": 0
         },
         "error_categories": {
           "runtime_error": 45,
           "type_error": 10,
           "other": 74,
-          "assertion_fail": 21,
+          "assertion_fail": 22,
           "wasm_compile": 1,
           "host_import_leak": 1
         },
@@ -1725,18 +1725,18 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 2316,
+        "count": 2315,
         "statuses": {
           "pass": 0,
           "fail": 329,
-          "compile_error": 1985,
+          "compile_error": 1984,
           "compile_timeout": 2,
           "skip": 0,
-          "total": 2316,
+          "total": 2315,
           "host_free_pass": 0
         },
         "error_categories": {
-          "host_import_leak": 1946,
+          "host_import_leak": 1945,
           "promise_error": 8,
           "type_error": 168,
           "assertion_fail": 120,
@@ -1749,15 +1749,15 @@
         "sample_files": [
           "test/built-ins/Array/fromAsync/async-iterable-input.js",
           "test/language/expressions/generators/dstr/dflt-obj-ptrn-prop-id.js",
-          "test/language/expressions/class/elements/after-same-line-static-async-gen-rs-privatename-identifier-initializer.js",
           "test/language/expressions/class/async-gen-method/yield-star-async-next.js",
+          "test/language/expressions/class/elements/after-same-line-static-async-gen-rs-privatename-identifier-initializer.js",
           "test/language/expressions/class/async-gen-method/yield-star-async-throw.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::Promise_then2, env::__array_from_async, env::__create_async_generator, env::__gen_create_buffer, env::__gen_yield_star, env::__get_caught_exception (##)",
           "host_import_leak:standalone target emitted host imports: env::__create_generator, env::__gen_create_buffer, env::__gen_next, env::__get_caught_exception (##)",
-          "host_import_leak:standalone target emitted host imports: env::__gen_result_done, env::__gen_result_value (##)",
           "host_import_leak:standalone target emitted host imports: env::Promise_catch, env::Promise_reject, env::Promise_resolve, env::Promise_then, env::Promise_then2, env::__create_async_generator, env::__gen_create_buffer, env::__gen_next, env::__gen_result_done, ",
+          "host_import_leak:standalone target emitted host imports: env::__gen_result_done, env::__gen_result_value (##)",
           "host_import_leak:standalone target emitted host imports: env::Promise_all, env::Promise_reject, env::Promise_resolve, env::Promise_then, env::Promise_then2, env::__create_async_generator, env::__gen_create_buffer, env::__gen_next, env::__gen_result_done, en"
         ]
       },
@@ -1768,14 +1768,14 @@
           "#1665"
         ],
         "label": "Generators and async iteration",
-        "count": 747,
+        "count": 746,
         "statuses": {
           "pass": 0,
-          "fail": 355,
+          "fail": 356,
           "compile_error": 389,
-          "compile_timeout": 3,
+          "compile_timeout": 1,
           "skip": 0,
-          "total": 747,
+          "total": 746,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1784,7 +1784,7 @@
           "runtime_error": 49,
           "promise_error": 15,
           "illegal_cast": 16,
-          "assertion_fail": 81,
+          "assertion_fail": 82,
           "null_deref": 8,
           "wasm_compile": 14,
           "host_import_leak": 10,
@@ -1839,15 +1839,15 @@
         },
         "sample_files": [
           "test/built-ins/Array/prototype/some/15.4.4.17-4-9.js",
-          "test/built-ins/Array/prototype/every/15.4.4.16-7-c-i-29.js",
           "test/built-ins/Array/prototype/forEach/resizable-buffer-grow-mid-iteration.js",
           "test/built-ins/Array/prototype/findIndex/resizable-buffer-shrink-mid-iteration.js",
+          "test/built-ins/Array/prototype/every/15.4.4.16-7-c-i-29.js",
           "test/built-ins/Array/prototype/copyWithin/prop-desc.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: accessed !== true",
-          "assertion_fail:Test262Error: Array.prototype.every.call(obj, callbackfn) Expected SameValue(«true», «false») to be true",
           "host_import_leak:standalone target emitted host imports: env::__array_concat_any, env::__js_array_new, env::__js_array_push (##)",
+          "assertion_fail:Test262Error: Array.prototype.every.call(obj, callbackfn) Expected SameValue(«true», «false») to be true",
           "assertion_fail:Test262Error: obj should have an own property copyWithin",
           "assertion_fail:Test262Error: callCnt Expected SameValue(«#», «#») to be true"
         ]
@@ -1903,16 +1903,16 @@
         "count": 588,
         "statuses": {
           "pass": 0,
-          "fail": 429,
-          "compile_error": 158,
+          "fail": 430,
+          "compile_error": 157,
           "compile_timeout": 1,
           "skip": 0,
           "total": 588,
           "host_free_pass": 0
         },
         "error_categories": {
-          "host_import_leak": 145,
-          "type_error": 207,
+          "host_import_leak": 144,
+          "type_error": 208,
           "illegal_cast": 4,
           "assertion_fail": 176,
           "oob": 7,
@@ -2070,19 +2070,19 @@
           "#1050"
         ],
         "label": "Annex B function/eval semantics",
-        "count": 658,
+        "count": 659,
         "statuses": {
           "pass": 0,
           "fail": 646,
           "compile_error": 12,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
-          "total": 658,
+          "total": 659,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 148,
           "type_error": 488,
+          "assertion_fail": 148,
           "illegal_cast": 3,
           "other": 14,
           "wasm_compile": 3,
@@ -2090,15 +2090,15 @@
           "null_deref": 1
         },
         "sample_files": [
-          "test/annexB/language/global-code/if-decl-else-stmt-global-skip-early-err-switch.js",
           "test/annexB/language/eval-code/direct/global-if-stmt-else-decl-eval-global-existing-non-enumerable-global-init.js",
+          "test/annexB/language/global-code/if-decl-else-stmt-global-skip-early-err-switch.js",
           "test/annexB/language/eval-code/indirect/global-if-decl-no-else-eval-global-existing-var-no-init.js",
           "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-existing-block-fn-update.js",
           "test/annexB/language/eval-code/direct/global-switch-dflt-eval-global-skip-early-err.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: An initialized binding is not created prior to evaluation Expected a undefined to be thrown but no exception was thrown at all",
           "type_error:TypeError: Object method called on null or undefined",
+          "assertion_fail:Test262Error: An initialized binding is not created prior to evaluation Expected a undefined to be thrown but no exception was thrown at all",
           "type_error:TypeError: dynamic eval is not supported in standalone mode (##)",
           "assertion_fail:Test262Error: Initialized binding created prior to evaluation Expected SameValue(«[object Object]», «undefined») to be true",
           "illegal_cast:illegal cast [in f() ← __module_init]"
@@ -2222,14 +2222,14 @@
           "#1596"
         ],
         "label": "Function object name/length/prototype/call semantics",
-        "count": 187,
+        "count": 188,
         "statuses": {
           "pass": 0,
           "fail": 179,
           "compile_error": 8,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
-          "total": 187,
+          "total": 188,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -2378,19 +2378,19 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 340,
+        "count": 341,
         "statuses": {
           "pass": 0,
-          "fail": 323,
+          "fail": 322,
           "compile_error": 17,
-          "compile_timeout": 0,
+          "compile_timeout": 2,
           "skip": 0,
-          "total": 340,
+          "total": 341,
           "host_free_pass": 0
         },
         "error_categories": {
           "other": 39,
-          "assertion_fail": 210,
+          "assertion_fail": 209,
           "type_error": 69,
           "promise_error": 3,
           "illegal_cast": 8,
@@ -2420,14 +2420,14 @@
           "#1726"
         ],
         "label": "Arguments object fidelity",
-        "count": 8,
+        "count": 9,
         "statuses": {
           "pass": 0,
           "fail": 8,
           "compile_error": 0,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
-          "total": 8,
+          "total": 9,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -2436,17 +2436,17 @@
         },
         "sample_files": [
           "test/language/arguments-object/S10.6_A3_T1.js",
+          "test/language/arguments-object/mapped/enumerable-configurable-accessor-descriptor.js",
           "test/language/arguments-object/S10.6_A5_T1.js",
           "test/language/arguments-object/10.6-6-3.js",
-          "test/language/arguments-object/S10.6_A5_T4.js",
-          "test/language/arguments-object/S10.6_A4.js"
+          "test/language/arguments-object/S10.6_A5_T4.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: arguments object doesn't exists",
+          "compile_timeout:timeout (30s)",
           "null_deref:dereferencing a null pointer [in testcase() ← __module_init]",
           "assertion_fail:Test262Error: ##: arguments object don't exists",
-          "assertion_fail:Test262Error: ##: arguments doesn't exists",
-          "assertion_fail:Test262Error: _10_5_7_b_4_fun(#, #) !== true"
+          "assertion_fail:Test262Error: ##: arguments doesn't exists"
         ]
       },
       {
@@ -2499,21 +2499,21 @@
           "#1726"
         ],
         "label": "Lexical scope, TDZ, and declaration semantics",
-        "count": 147,
+        "count": 146,
         "statuses": {
           "pass": 0,
-          "fail": 128,
+          "fail": 127,
           "compile_error": 18,
           "compile_timeout": 1,
           "skip": 0,
-          "total": 147,
+          "total": 146,
           "host_free_pass": 0
         },
         "error_categories": {
           "null_deref": 16,
           "negative_test_fail": 11,
           "other": 50,
-          "assertion_fail": 56,
+          "assertion_fail": 55,
           "host_import_leak": 10,
           "wasm_compile": 1,
           "runtime_error": 1,
@@ -2542,21 +2542,21 @@
           "#1694"
         ],
         "label": "Promise and async standalone semantics",
-        "count": 438,
+        "count": 437,
         "statuses": {
           "pass": 0,
           "fail": 283,
-          "compile_error": 150,
-          "compile_timeout": 5,
+          "compile_error": 151,
+          "compile_timeout": 3,
           "skip": 0,
-          "total": 438,
+          "total": 437,
           "host_free_pass": 0
         },
         "error_categories": {
           "null_deref": 46,
           "other": 42,
           "assertion_fail": 70,
-          "host_import_leak": 121,
+          "host_import_leak": 122,
           "illegal_cast": 95,
           "type_error": 29,
           "promise_error": 24,
@@ -2624,21 +2624,21 @@
           "#787"
         ],
         "label": "Tail-call/control-flow loop semantics, including compile timeouts",
-        "count": 100,
+        "count": 103,
         "statuses": {
           "pass": 0,
-          "fail": 62,
-          "compile_error": 37,
-          "compile_timeout": 1,
+          "fail": 63,
+          "compile_error": 36,
+          "compile_timeout": 4,
           "skip": 0,
-          "total": 100,
+          "total": 103,
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 8,
+          "other": 7,
           "null_deref": 8,
           "runtime_error": 4,
-          "assertion_fail": 46,
+          "assertion_fail": 47,
           "wasm_compile": 17,
           "host_import_leak": 11,
           "type_error": 4,
@@ -2826,21 +2826,21 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 38,
           "host_import_leak": 72,
+          "other": 38,
           "type_error": 26,
           "wasm_compile": 1
         },
         "sample_files": [
-          "test/built-ins/Atomics/wait/good-views.js",
           "test/built-ins/Atomics/or/good-views.js",
+          "test/built-ins/Atomics/wait/good-views.js",
           "test/built-ins/Atomics/xor/validate-arraytype-before-value-coercion.js",
           "test/built-ins/Atomics/and/descriptor.js",
           "test/built-ins/Atomics/wait/false-for-timeout-agent.js"
         ],
         "sample_signatures": [
-          "other:L#:## Signature declarations can only be used in TypeScript files.; L#:## Type annotations can only be used in TypeScript files.; L#:## Type annotations can only be used in TypeScript files.; L#:## Type annotations can only be used in TypeS",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
+          "other:L#:## Signature declarations can only be used in TypeScript files.; L#:## Type annotations can only be used in TypeScript files.; L#:## Type annotations can only be used in TypeScript files.; L#:## Type annotations can only be used in TypeS",
           "type_error:TypeError: Cannot convert undefined or null to object",
           "other:L#:## Missing import for constructor: SharedArrayBuffer_new; L#:## Missing import for constructor: SharedArrayBuffer_new",
           "type_error:TypeError: Atomics.compareExchange requires a shared integer TypedArray, which is unsupported in --target standalone"
