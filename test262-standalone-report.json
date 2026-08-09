@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-09T22:14:23.251Z",
-  "baseline_generated_at": "2026-08-09T22:14:23.252Z",
-  "baseline_sha": "eda1ffb400122d38830dba6bb4ef0f5636f43f0f",
+  "timestamp": "2026-08-09T23:24:12.777Z",
+  "baseline_generated_at": "2026-08-09T23:24:12.777Z",
+  "baseline_sha": "8c35f68e4467a43ea19ee6431a6d40446be8730f",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1282,8 +1282,8 @@
         },
         "error_categories": {
           "other": 2655,
-          "host_import_leak": 505,
           "null_deref": 18,
+          "host_import_leak": 505,
           "assertion_fail": 1120,
           "type_error": 239,
           "runtime_error": 8,
@@ -1294,16 +1294,16 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
-          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.",
           "other:ReferenceError: Temporal is not defined",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
           "null_deref:dereferencing a null pointer [in __module_init()]",
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_time_from_string_field (##)"
         ]
       },
@@ -1815,8 +1815,8 @@
           "ES2018": 405,
           "ES2022": 449,
           "ES2015": 594,
-          "ES2027": 174,
           "ES2026": 34,
+          "ES2027": 174,
           "ES2025": 270,
           "ES2019": 10,
           "ES2020": 5,
@@ -2894,9 +2894,9 @@
         "sample_signatures": [
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
+          "host_import_leak:standalone target emitted host imports: env::f (##)",
           "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
-          "host_import_leak:standalone target emitted host imports: env::f (##)"
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
         ]
       },
       {
