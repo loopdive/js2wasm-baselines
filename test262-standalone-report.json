@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-09T21:27:15.270Z",
-  "baseline_generated_at": "2026-08-09T21:27:15.270Z",
-  "baseline_sha": "b042a2b1797c20cd7c2f3c647ccca8f429d47384",
+  "timestamp": "2026-08-09T22:14:23.251Z",
+  "baseline_generated_at": "2026-08-09T22:14:23.252Z",
+  "baseline_sha": "eda1ffb400122d38830dba6bb4ef0f5636f43f0f",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1282,8 +1282,8 @@
         },
         "error_categories": {
           "other": 2655,
-          "null_deref": 18,
           "host_import_leak": 505,
+          "null_deref": 18,
           "assertion_fail": 1120,
           "type_error": 239,
           "runtime_error": 8,
@@ -1293,17 +1293,17 @@
           "Proposals": 4547
         },
         "sample_files": [
+          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.",
           "other:ReferenceError: Temporal is not defined",
-          "null_deref:dereferencing a null pointer [in __module_init()]",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
+          "null_deref:dereferencing a null pointer [in __module_init()]",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_time_from_string_field (##)"
         ]
       },
@@ -1728,7 +1728,7 @@
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "type_error:TypeError: Reflect.deleteProperty called on non-object"
+          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C)."
         ]
       },
       {
@@ -1815,8 +1815,8 @@
           "ES2018": 405,
           "ES2022": 449,
           "ES2015": 594,
-          "ES2026": 34,
           "ES2027": 174,
+          "ES2026": 34,
           "ES2025": 270,
           "ES2019": 10,
           "ES2020": 5,
@@ -2347,15 +2347,15 @@
           "ES2025": 1
         },
         "sample_files": [
-          "test/built-ins/Number/prototype/S15.7.3.1_A2_T1.js",
           "test/built-ins/Number/prototype/valueOf/S15.7.4.4_A2_T05.js",
+          "test/built-ins/Number/prototype/S15.7.3.1_A2_T1.js",
           "test/language/expressions/does-not-equals/bigint-and-number-extremes.js",
           "test/built-ins/Number/prototype/toPrecision/undefined-precision-arg.js",
           "test/language/expressions/greater-than-or-equal/bigint-and-number-extremes.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Number.prototype.toString() must return \"[object Number]\" Expected SameValue(«null», «\"[object Number]\"») to be true",
           "assertion_fail:Test262Error: The result of evaluating (e instanceof TypeError) is expected to be true",
+          "assertion_fail:Test262Error: Number.prototype.toString() must return \"[object Number]\" Expected SameValue(«null», «\"[object Number]\"») to be true",
           "assertion_fail:Test262Error: The result of (0x#n != Number.MAX_VALUE) is false Expected SameValue(«true», «false») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«\"#.000000e+#\"», «\"#\"») to be true",
           "assertion_fail:Test262Error: The result of (0x#n >= Number.MAX_VALUE) is true Expected SameValue(«false», «true») to be true"
@@ -2686,7 +2686,7 @@
           "other:strict rerun: Test262Error: ##: arguments object doesn't exists",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
-          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]"
+          "assertion_fail:Test262Error: length descriptor should be writable; length descriptor should be configurable"
         ]
       },
       {
@@ -2894,9 +2894,9 @@
         "sample_signatures": [
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
-          "host_import_leak:standalone target emitted host imports: env::f (##)",
           "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
+          "host_import_leak:standalone target emitted host imports: env::f (##)"
         ]
       },
       {
@@ -3018,8 +3018,8 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-16.0.0-class.js",
-          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-16.0.0.js",
+          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js"
         ],
