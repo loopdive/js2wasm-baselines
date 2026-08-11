@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-11T22:25:09.582Z",
-  "baseline_generated_at": "2026-08-11T22:25:09.582Z",
-  "baseline_sha": "803ab26e36c2dea1ae617614ff60ecdec714acf3",
+  "timestamp": "2026-08-11T22:58:05.091Z",
+  "baseline_generated_at": "2026-08-11T22:58:05.091Z",
+  "baseline_sha": "3ab8c79ce77fa758fa8814c6c236b8dcb1c19de4",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -10,24 +10,24 @@
   },
   "summary": {
     "total": 43621,
-    "pass": 29256,
-    "fail": 10156,
+    "pass": 29265,
+    "fail": 10147,
     "compile_error": 4182,
     "compile_timeout": 8,
     "skip": 19,
     "compilable": 39412,
-    "host_free_pass": 29256,
+    "host_free_pass": 29265,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
-        "pass": 28447,
-        "fail": 9933,
+        "pass": 28456,
+        "fail": 9924,
         "compile_error": 4128,
         "compile_timeout": 8,
         "skip": 19,
         "compilable": 38380,
-        "host_free_pass": 28447,
+        "host_free_pass": 28456,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -57,25 +57,25 @@
       },
       "official": {
         "total": 43621,
-        "pass": 29256,
-        "fail": 10156,
+        "pass": 29265,
+        "fail": 10147,
         "compile_error": 4182,
         "compile_timeout": 8,
         "skip": 19,
         "compilable": 39412,
-        "host_free_pass": 29256,
+        "host_free_pass": 29265,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 29555,
-        "fail": 12731,
+        "pass": 29564,
+        "fail": 12722,
         "compile_error": 6326,
         "compile_timeout": 8,
         "skip": 115,
         "compilable": 42286,
-        "host_free_pass": 29555,
+        "host_free_pass": 29564,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -83,35 +83,35 @@
   },
   "official_summary": {
     "total": 43621,
-    "pass": 29256,
-    "fail": 10156,
+    "pass": 29265,
+    "fail": 10147,
     "compile_error": 4182,
     "compile_timeout": 8,
     "skip": 19,
     "compilable": 39412,
-    "host_free_pass": 29256,
+    "host_free_pass": 29265,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 29555,
-    "fail": 12731,
+    "pass": 29564,
+    "fail": 12722,
     "compile_error": 6326,
     "compile_timeout": 8,
     "skip": 115,
     "compilable": 42286,
-    "host_free_pass": 29555,
+    "host_free_pass": 29564,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 27329,
-    "fail": 9747,
+    "pass": 27330,
+    "fail": 9746,
     "compile_error": 4009,
     "compile_timeout": 6,
     "skip": 19,
     "compilable": 37076,
-    "host_free_pass": 27329,
+    "host_free_pass": 27330,
     "stale": 0
   },
   "scope_summaries": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42535,
-      "pass": 28447,
-      "fail": 9933,
+      "pass": 28456,
+      "fail": 9924,
       "compile_error": 4128,
       "compile_timeout": 8,
       "skip": 19,
       "compilable": 38380,
-      "host_free_pass": 28447,
+      "host_free_pass": 28456,
       "stale": 0
     }
   },
@@ -439,13 +439,13 @@
     {
       "name": "built-ins/Function",
       "path": "built-ins/Function",
-      "pass": 303,
-      "fail": 181,
+      "pass": 312,
+      "fail": 172,
       "compile_error": 25,
       "compile_timeout": 0,
       "skip": 0,
       "total": 509,
-      "host_free_pass": 303
+      "host_free_pass": 312
     },
     {
       "name": "built-ins/GeneratorFunction",
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8116,
+    "assertion_fail": 8107,
     "host_import_leak": 3117,
     "illegal_cast": 245,
     "negative_test_fail": 14,
@@ -1219,8 +1219,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 19065,
-    "classified": 19065,
+    "total_non_pass_non_skip": 19056,
+    "classified": 19056,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1293,9 +1293,9 @@
           "Proposals": 4547
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
+          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
@@ -1718,8 +1718,8 @@
         },
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-rest-getter-abrupt-get-error.js",
-          "test/built-ins/Promise/allKeyed/reject-first.js",
           "test/built-ins/Promise/allSettledKeyed/non-enumerable-properties-only.js",
+          "test/built-ins/Promise/allKeyed/reject-first.js",
           "test/built-ins/Function/prototype/S15.3.3.1_A1.js",
           "test/built-ins/Proxy/getPrototypeOf/not-extensible-same-proto.js"
         ],
@@ -2020,8 +2020,8 @@
         "error_categories": {
           "host_import_leak": 754,
           "assertion_fail": 2127,
-          "type_error": 404,
           "wasm_compile": 46,
+          "type_error": 404,
           "oob": 17,
           "null_deref": 54,
           "other": 131,
@@ -2407,18 +2407,18 @@
           "#1596"
         ],
         "label": "Function object name/length/prototype/call semantics",
-        "count": 192,
+        "count": 183,
         "statuses": {
           "pass": 0,
-          "fail": 184,
+          "fail": 175,
           "compile_error": 8,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 192,
+          "total": 183,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 146,
+          "assertion_fail": 137,
           "null_deref": 27,
           "type_error": 4,
           "host_import_leak": 4,
@@ -2429,7 +2429,7 @@
           "ES2015": 57,
           "Unclassified (untagged)": 27,
           "ES2017": 5,
-          "ES5": 98,
+          "ES5": 89,
           "ES2018": 2,
           "ES2022": 1,
           "ES2020": 2
@@ -2685,7 +2685,7 @@
           "other:strict rerun: Test262Error: ##: arguments object doesn't exists",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
-          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]"
+          "assertion_fail:Test262Error: length descriptor should be writable; length descriptor should be configurable"
         ]
       },
       {
@@ -3138,31 +3138,31 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "host_import_leak": 132,
           "assertion_fail": 7,
+          "host_import_leak": 132,
           "null_deref": 8,
           "type_error": 27,
           "other": 2,
           "wasm_compile": 1
         },
         "by_edition": {
-          "ES2017": 148,
           "ES2022": 20,
+          "ES2017": 148,
           "ES2027": 9
         },
         "sample_files": [
-          "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
+          "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/exchange/immutable-buffer.js",
-          "test/built-ins/Atomics/xor/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/and/non-shared-bufferdata.js"
+          "test/built-ins/Atomics/and/non-shared-bufferdata.js",
+          "test/built-ins/Atomics/xor/non-shared-bufferdata.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "assertion_fail:Test262Error: Expected a RangeError but got a undefined",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "null_deref:dereferencing a null pointer [in testWithAllTypedArrayConstructors() ← __module_init]",
-          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
