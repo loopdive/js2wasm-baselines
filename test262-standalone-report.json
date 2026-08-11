@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-11T20:47:17.820Z",
-  "baseline_generated_at": "2026-08-11T20:47:17.820Z",
-  "baseline_sha": "ebba42dfff7ceb1f4f30c6086b4fb241022e849f",
+  "timestamp": "2026-08-11T21:11:55.918Z",
+  "baseline_generated_at": "2026-08-11T21:11:55.918Z",
+  "baseline_sha": "49a6ff9a06c1ab48b23a0f7d9c4392a1299df75b",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1282,8 +1282,8 @@
         },
         "error_categories": {
           "other": 2657,
-          "assertion_fail": 1130,
           "host_import_leak": 505,
+          "assertion_fail": 1130,
           "type_error": 243,
           "null_deref": 2,
           "runtime_error": 8,
@@ -1293,17 +1293,17 @@
           "Proposals": 4547
         },
         "sample_files": [
-          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
-          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
+          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.",
           "other:ReferenceError: Temporal is not defined",
-          "assertion_fail:Test262Error: string with years > max is out of range (first argument) Expected a RangeError but got a undefined",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
+          "assertion_fail:Test262Error: string with years > max is out of range (first argument) Expected a RangeError but got a undefined",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_time_from_string_field (##)"
         ]
       },
@@ -1727,8 +1727,8 @@
           "host_import_leak:standalone target emitted host imports: env::__extern_rest_object (##)",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «[object Object]») to be true",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C)."
+          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -1862,8 +1862,8 @@
           "wasm_compile": 7,
           "type_error": 47,
           "null_deref": 6,
-          "illegal_cast": 18,
           "promise_error": 15,
+          "illegal_cast": 18,
           "negative_test_fail": 2,
           "host_import_leak": 9,
           "range_error": 2
@@ -2893,9 +2893,9 @@
         "sample_signatures": [
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
-          "host_import_leak:standalone target emitted host imports: env::f (##)",
           "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
+          "host_import_leak:standalone target emitted host imports: env::f (##)"
         ]
       },
       {
