@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-11T23:22:39.477Z",
-  "baseline_generated_at": "2026-08-11T23:22:39.477Z",
-  "baseline_sha": "8cfa419dc4d003a38d8f63d5ff2c715590b222f2",
+  "timestamp": "2026-08-11T23:42:27.532Z",
+  "baseline_generated_at": "2026-08-11T23:42:27.532Z",
+  "baseline_sha": "526f6120a014d1512d46a54cf3e3be08f0333b0a",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1294,9 +1294,9 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
-          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
+          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
@@ -1721,13 +1721,13 @@
           "test/built-ins/Promise/allKeyed/reject-first.js",
           "test/built-ins/Promise/allSettledKeyed/non-enumerable-properties-only.js",
           "test/built-ins/Function/prototype/S15.3.3.1_A1.js",
-          "test/built-ins/Proxy/apply/trap-is-missing-target-is-proxy.js"
+          "test/built-ins/Proxy/getPrototypeOf/not-extensible-same-proto.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__extern_rest_object (##)",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
-          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «[object Object]») to be true",
+          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
@@ -2048,7 +2048,7 @@
           "test/built-ins/Array/prototype/every/resizable-buffer-grow-mid-iteration.js",
           "test/built-ins/Array/prototype/forEach/15.4.4.18-7-b-12.js",
           "test/built-ins/Array/fromAsync/non-iterable-input-with-thenable-sync-mapped-callback-err.js",
-          "test/built-ins/Array/prototype/some/15.4.4.17-7-b-12.js"
+          "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__array_concat_any, env::__js_array_new, env::__js_array_push (##)",
@@ -2155,8 +2155,8 @@
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-id-init-fn-name-fn.js",
           "test/language/expressions/assignment/fn-name-lhs-cover.js",
-          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-obj-ptrn-prop-obj.js",
+          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-dflt-obj-ptrn-prop-obj.js"
         ],
         "sample_signatures": [
@@ -2685,7 +2685,7 @@
           "other:strict rerun: Test262Error: ##: arguments object doesn't exists",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
-          "assertion_fail:Test262Error: length descriptor should be writable; length descriptor should be configurable"
+          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]"
         ]
       },
       {
@@ -3154,15 +3154,15 @@
           "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
           "test/built-ins/Atomics/exchange/immutable-buffer.js",
-          "test/built-ins/Atomics/and/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/xor/non-shared-bufferdata.js"
+          "test/built-ins/Atomics/xor/non-shared-bufferdata.js",
+          "test/built-ins/Atomics/and/non-shared-bufferdata.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "assertion_fail:Test262Error: Expected a RangeError but got a undefined",
           "null_deref:dereferencing a null pointer [in testWithAllTypedArrayConstructors() ← __module_init]",
-          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
