@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-12T14:41:21.477Z",
-  "baseline_generated_at": "2026-08-12T14:41:21.478Z",
-  "baseline_sha": "10ab0a25a4aceafe46f43c983b8268def7171c3a",
+  "timestamp": "2026-08-12T18:35:25.996Z",
+  "baseline_generated_at": "2026-08-12T18:35:25.996Z",
+  "baseline_sha": "6b269eb8ce8b8a99c5bc13932094a6b7be9bdd7b",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1282,8 +1282,8 @@
         },
         "error_categories": {
           "other": 2657,
-          "host_import_leak": 505,
           "assertion_fail": 1130,
+          "host_import_leak": 505,
           "type_error": 243,
           "null_deref": 2,
           "runtime_error": 8,
@@ -1293,17 +1293,17 @@
           "Proposals": 4547
         },
         "sample_files": [
-          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
+          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.",
           "other:ReferenceError: Temporal is not defined",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
           "assertion_fail:Test262Error: string with years > max is out of range (first argument) Expected a RangeError but got a undefined",
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_time_from_string_field (##)"
         ]
       },
@@ -1470,14 +1470,14 @@
           "test/built-ins/JSON/stringify/value-bigint-replacer.js",
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/parse/reviver-object-non-configurable-prop-delete.js",
-          "test/built-ins/JSON/parse/reviver-array-get-prop-from-prototype.js"
+          "test/built-ins/JSON/stringify/value-bigint-order.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported in --target standalone/wasi (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «\"\\\"bigint\\\"\"») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «#») to be true",
-          "assertion_fail:Test262Error: Expected true but got false"
+          "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)"
         ]
       },
       {
@@ -1815,9 +1815,9 @@
           "ES2018": 402,
           "ES2022": 449,
           "ES2015": 598,
-          "ES2025": 276,
           "ES2027": 174,
           "ES2026": 34,
+          "ES2025": 276,
           "ES2019": 10,
           "ES2020": 5,
           "Unclassified (untagged)": 6,
@@ -2300,14 +2300,14 @@
           "test/built-ins/Date/prototype/toJSON/to-primitive-abrupt.js",
           "test/built-ins/Date/prototype/toTemporalInstant/this-value-invalid-date.js",
           "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-non-callable.js"
+          "test/built-ins/Date/value-to-primitive-result-string.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot convert undefined or null to object",
           "assertion_fail:Test262Error: Expected a undefined but got a different error constructor with the same name",
           "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
-          "assertion_fail:Test262Error: `valueOf` is used as a fallback when `toString` is not callable Expected SameValue(«null», «\"valueOf test262\"») to be true"
+          "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true"
         ]
       },
       {
@@ -2479,8 +2479,8 @@
         },
         "sample_files": [
           "test/built-ins/Symbol/isConcatSpreadable/prop-desc.js",
-          "test/built-ins/Symbol/prototype/Symbol.toPrimitive/length.js",
           "test/built-ins/Symbol/prototype/Symbol.toPrimitive/name.js",
+          "test/built-ins/Symbol/prototype/Symbol.toPrimitive/length.js",
           "test/built-ins/Symbol/search/cross-realm.js",
           "test/built-ins/Symbol/replace/cross-realm.js"
         ],
@@ -2722,8 +2722,8 @@
         "sample_files": [
           "test/language/expressions/multiplication/bigint-wrapped-values.js",
           "test/built-ins/Atomics/waitAsync/bigint/bad-range.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
           "test/built-ins/Atomics/add/bigint/good-views.js",
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
           "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-exchange.js"
         ],
         "sample_signatures": [
@@ -2891,8 +2891,8 @@
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
           "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
-          "host_import_leak:standalone target emitted host imports: env::f (##)"
+          "host_import_leak:standalone target emitted host imports: env::f (##)",
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
         ]
       },
       {
@@ -3012,8 +3012,8 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-16.0.0-class.js",
-          "test/language/identifiers/part-unicode-16.0.0.js",
           "test/language/identifiers/start-unicode-17.0.0.js",
+          "test/language/identifiers/part-unicode-16.0.0.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js"
         ],
