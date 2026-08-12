@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-12T02:29:45.855Z",
-  "baseline_generated_at": "2026-08-12T02:29:45.855Z",
-  "baseline_sha": "ed4214d010605669e86ff04350c4ed189a1bbad0",
+  "timestamp": "2026-08-12T02:57:17.841Z",
+  "baseline_generated_at": "2026-08-12T02:57:17.841Z",
+  "baseline_sha": "514b55dfa20cf13c67b617a103f5201f9bd44ccb",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -10,24 +10,24 @@
   },
   "summary": {
     "total": 43621,
-    "pass": 29358,
-    "fail": 10054,
+    "pass": 29386,
+    "fail": 10026,
     "compile_error": 4182,
     "compile_timeout": 8,
     "skip": 19,
     "compilable": 39412,
-    "host_free_pass": 29358,
+    "host_free_pass": 29386,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
-        "pass": 28533,
-        "fail": 9847,
+        "pass": 28561,
+        "fail": 9819,
         "compile_error": 4128,
         "compile_timeout": 8,
         "skip": 19,
         "compilable": 38380,
-        "host_free_pass": 28533,
+        "host_free_pass": 28561,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -57,25 +57,25 @@
       },
       "official": {
         "total": 43621,
-        "pass": 29358,
-        "fail": 10054,
+        "pass": 29386,
+        "fail": 10026,
         "compile_error": 4182,
         "compile_timeout": 8,
         "skip": 19,
         "compilable": 39412,
-        "host_free_pass": 29358,
+        "host_free_pass": 29386,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 29657,
-        "fail": 12629,
+        "pass": 29685,
+        "fail": 12601,
         "compile_error": 6326,
         "compile_timeout": 8,
         "skip": 115,
         "compilable": 42286,
-        "host_free_pass": 29657,
+        "host_free_pass": 29685,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -83,35 +83,35 @@
   },
   "official_summary": {
     "total": 43621,
-    "pass": 29358,
-    "fail": 10054,
+    "pass": 29386,
+    "fail": 10026,
     "compile_error": 4182,
     "compile_timeout": 8,
     "skip": 19,
     "compilable": 39412,
-    "host_free_pass": 29358,
+    "host_free_pass": 29386,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 29657,
-    "fail": 12629,
+    "pass": 29685,
+    "fail": 12601,
     "compile_error": 6326,
     "compile_timeout": 8,
     "skip": 115,
     "compilable": 42286,
-    "host_free_pass": 29657,
+    "host_free_pass": 29685,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 27407,
-    "fail": 9669,
+    "pass": 27435,
+    "fail": 9641,
     "compile_error": 4009,
     "compile_timeout": 6,
     "skip": 19,
     "compilable": 37076,
-    "host_free_pass": 27407,
+    "host_free_pass": 27435,
     "stale": 0
   },
   "scope_summaries": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42535,
-      "pass": 28533,
-      "fail": 9847,
+      "pass": 28561,
+      "fail": 9819,
       "compile_error": 4128,
       "compile_timeout": 8,
       "skip": 19,
       "compilable": 38380,
-      "host_free_pass": 28533,
+      "host_free_pass": 28561,
       "stale": 0
     }
   },
@@ -208,13 +208,13 @@
     {
       "name": "built-ins/ArrayBuffer",
       "path": "built-ins/ArrayBuffer",
-      "pass": 71,
-      "fail": 132,
+      "pass": 99,
+      "fail": 104,
       "compile_error": 18,
       "compile_timeout": 0,
       "skip": 0,
       "total": 221,
-      "host_free_pass": 71
+      "host_free_pass": 99
     },
     {
       "name": "built-ins/ArrayIteratorPrototype",
@@ -1197,12 +1197,12 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 8099,
+    "assertion_fail": 8072,
     "host_import_leak": 3117,
     "illegal_cast": 245,
     "negative_test_fail": 14,
     "null_deref": 282,
-    "oob": 22,
+    "oob": 21,
     "other": 5057,
     "promise_error": 86,
     "range_error": 13,
@@ -1219,8 +1219,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 18963,
-    "classified": 18963,
+    "total_non_pass_non_skip": 18935,
+    "classified": 18935,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1250,8 +1250,8 @@
           "Proposals": 156
         },
         "sample_files": [
-          "test/language/expressions/dynamic-import/syntax/valid/nested-function-import-source-empty-str-is-valid-assign-expr.js",
           "test/language/expressions/dynamic-import/catch/nested-block-import-catch-import-source-specifier-tostring.js",
+          "test/language/expressions/dynamic-import/syntax/valid/nested-function-import-source-empty-str-is-valid-assign-expr.js",
           "test/language/expressions/dynamic-import/catch/nested-block-labeled-import-source-specifier-tostring.js",
           "test/language/expressions/dynamic-import/catch/nested-function-import-catch-import-source-specifier-tostring.js",
           "test/language/expressions/dynamic-import/syntax/valid/nested-while-import-source-script-code-valid.js"
@@ -1294,10 +1294,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
-          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-halfCeil.js"
+          "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.",
@@ -2007,29 +2007,29 @@
           "#1654"
         ],
         "label": "Array, TypedArray, DataView, and buffer semantics",
-        "count": 3503,
+        "count": 3475,
         "statuses": {
           "pass": 0,
-          "fail": 2663,
+          "fail": 2635,
           "compile_error": 837,
           "compile_timeout": 3,
           "skip": 0,
-          "total": 3503,
+          "total": 3475,
           "host_free_pass": 0
         },
         "error_categories": {
           "host_import_leak": 754,
-          "assertion_fail": 2138,
+          "assertion_fail": 2111,
           "type_error": 404,
           "wasm_compile": 46,
-          "oob": 18,
+          "oob": 17,
           "null_deref": 54,
           "other": 42,
           "illegal_cast": 38,
           "range_error": 6
         },
         "by_edition": {
-          "ES2022": 359,
+          "ES2022": 344,
           "Unclassified (untagged)": 896,
           "ES2026": 121,
           "ES2020": 550,
@@ -2037,7 +2037,7 @@
           "ES2015": 997,
           "ES5": 82,
           "ES2016": 24,
-          "ES2024": 156,
+          "ES2024": 143,
           "ES2027": 52,
           "ES2019": 24,
           "ES2017": 68,
@@ -2155,8 +2155,8 @@
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-id-init-fn-name-fn.js",
           "test/language/expressions/assignment/fn-name-lhs-cover.js",
-          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-obj-ptrn-prop-obj.js",
+          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-dflt-obj-ptrn-prop-obj.js"
         ],
         "sample_signatures": [
@@ -2685,7 +2685,7 @@
           "other:strict rerun: Test262Error: ##: arguments object doesn't exists",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
-          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]"
+          "assertion_fail:Test262Error: length descriptor should be writable; length descriptor should be configurable"
         ]
       },
       {
@@ -2724,8 +2724,8 @@
         "sample_files": [
           "test/language/expressions/multiplication/bigint-wrapped-values.js",
           "test/built-ins/Atomics/waitAsync/bigint/bad-range.js",
-          "test/built-ins/Atomics/add/bigint/good-views.js",
           "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/add/bigint/good-views.js",
           "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-exchange.js"
         ],
         "sample_signatures": [
@@ -2839,8 +2839,8 @@
           "test/language/expressions/object/method-definition/async-gen-yield-star-getiter-sync-returns-abrupt.js",
           "test/built-ins/Promise/any/invoke-resolve-get-once-no-calls.js",
           "test/built-ins/Promise/all/iter-arg-is-undefined-reject.js",
-          "test/built-ins/Promise/any/invoke-resolve-return.js",
-          "test/built-ins/Promise/allSettled/invoke-resolve-get-error.js"
+          "test/built-ins/Promise/allSettled/invoke-resolve-get-error.js",
+          "test/built-ins/Promise/any/invoke-resolve-return.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
@@ -2892,9 +2892,9 @@
         "sample_signatures": [
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
+          "host_import_leak:standalone target emitted host imports: env::f (##)",
           "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
-          "host_import_leak:standalone target emitted host imports: env::f (##)"
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
         ]
       },
       {
@@ -3015,8 +3015,8 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-16.0.0-class.js",
-          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-16.0.0.js",
+          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js"
         ],
@@ -3138,31 +3138,31 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "host_import_leak": 132,
           "assertion_fail": 7,
+          "host_import_leak": 132,
           "null_deref": 8,
           "type_error": 27,
           "other": 2,
           "wasm_compile": 1
         },
         "by_edition": {
-          "ES2017": 148,
           "ES2022": 20,
+          "ES2017": 148,
           "ES2027": 9
         },
         "sample_files": [
-          "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
+          "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/exchange/immutable-buffer.js",
-          "test/built-ins/Atomics/and/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/xor/non-shared-bufferdata.js"
+          "test/built-ins/Atomics/xor/non-shared-bufferdata.js",
+          "test/built-ins/Atomics/and/non-shared-bufferdata.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "assertion_fail:Test262Error: Expected a RangeError but got a undefined",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "null_deref:dereferencing a null pointer [in testWithAllTypedArrayConstructors() ← __module_init]",
-          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
