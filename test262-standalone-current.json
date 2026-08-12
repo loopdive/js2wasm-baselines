@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-12T03:17:03.908Z",
-  "baseline_generated_at": "2026-08-12T03:17:03.908Z",
-  "baseline_sha": "f89581d317a3f4f6ff12b8bd35c1205e453801e0",
+  "timestamp": "2026-08-12T04:36:52.839Z",
+  "baseline_generated_at": "2026-08-12T04:36:52.839Z",
+  "baseline_sha": "1a4405cca30dfbc99006f3160310c21588d26031",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1727,8 +1727,8 @@
           "host_import_leak:standalone target emitted host imports: env::__extern_rest_object (##)",
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «[object Object]») to be true",
-          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
+          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C)."
         ]
       },
       {
@@ -1815,8 +1815,8 @@
           "ES2018": 402,
           "ES2022": 449,
           "ES2015": 598,
-          "ES2027": 174,
           "ES2026": 34,
+          "ES2027": 174,
           "ES2025": 276,
           "ES2019": 10,
           "ES2020": 5,
@@ -2155,8 +2155,8 @@
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-id-init-fn-name-fn.js",
           "test/language/expressions/assignment/fn-name-lhs-cover.js",
-          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-obj-ptrn-prop-obj.js",
+          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-dflt-obj-ptrn-prop-obj.js"
         ],
         "sample_signatures": [
