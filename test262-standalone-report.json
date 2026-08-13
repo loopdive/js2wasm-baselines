@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-13T09:23:42.315Z",
-  "baseline_generated_at": "2026-08-13T09:23:42.315Z",
-  "baseline_sha": "993a6d9f2c08a2a788eec9c830b8eb6a57a15b64",
+  "timestamp": "2026-08-13T09:50:45.435Z",
+  "baseline_generated_at": "2026-08-13T09:50:45.435Z",
+  "baseline_sha": "f8d47c3a3cfb38f84e2b9df2a0c21f4ff2287b23",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 29671,
-    "fail": 9790,
-    "compile_error": 4126,
-    "compile_timeout": 15,
+    "fail": 9789,
+    "compile_error": 4123,
+    "compile_timeout": 19,
     "skip": 19,
-    "compilable": 39461,
+    "compilable": 39460,
     "host_free_pass": 29671,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 28789,
-        "fail": 9633,
-        "compile_error": 4079,
-        "compile_timeout": 15,
+        "fail": 9632,
+        "compile_error": 4076,
+        "compile_timeout": 19,
         "skip": 19,
-        "compilable": 38422,
+        "compilable": 38421,
         "host_free_pass": 28789,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 29671,
-        "fail": 9790,
-        "compile_error": 4126,
-        "compile_timeout": 15,
+        "fail": 9789,
+        "compile_error": 4123,
+        "compile_timeout": 19,
         "skip": 19,
-        "compilable": 39461,
+        "compilable": 39460,
         "host_free_pass": 29671,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 29970,
-        "fail": 12365,
-        "compile_error": 6270,
-        "compile_timeout": 15,
+        "fail": 12364,
+        "compile_error": 6267,
+        "compile_timeout": 19,
         "skip": 115,
-        "compilable": 42335,
+        "compilable": 42334,
         "host_free_pass": 29970,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 29671,
-    "fail": 9790,
-    "compile_error": 4126,
-    "compile_timeout": 15,
+    "fail": 9789,
+    "compile_error": 4123,
+    "compile_timeout": 19,
     "skip": 19,
-    "compilable": 39461,
+    "compilable": 39460,
     "host_free_pass": 29671,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 29970,
-    "fail": 12365,
-    "compile_error": 6270,
-    "compile_timeout": 15,
+    "fail": 12364,
+    "compile_error": 6267,
+    "compile_timeout": 19,
     "skip": 115,
-    "compilable": 42335,
+    "compilable": 42334,
     "host_free_pass": 29970,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 27638,
-    "fail": 9447,
-    "compile_error": 3993,
-    "compile_timeout": 13,
+    "fail": 9446,
+    "compile_error": 3990,
+    "compile_timeout": 17,
     "skip": 19,
-    "compilable": 37085,
+    "compilable": 37084,
     "host_free_pass": 27638,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 28789,
-      "fail": 9633,
-      "compile_error": 4079,
-      "compile_timeout": 15,
+      "fail": 9632,
+      "compile_error": 4076,
+      "compile_timeout": 19,
       "skip": 19,
-      "compilable": 38422,
+      "compilable": 38421,
       "host_free_pass": 28789,
       "stale": 0
     }
@@ -198,8 +198,8 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 1716,
-      "fail": 1108,
-      "compile_error": 251,
+      "fail": 1107,
+      "compile_error": 252,
       "compile_timeout": 7,
       "skip": 0,
       "total": 3082,
@@ -606,8 +606,8 @@
       "path": "built-ins/Object",
       "pass": 3022,
       "fail": 353,
-      "compile_error": 36,
-      "compile_timeout": 0,
+      "compile_error": 35,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 3411,
       "host_free_pass": 3022
@@ -804,8 +804,8 @@
       "path": "built-ins/TypedArray",
       "pass": 138,
       "fail": 883,
-      "compile_error": 422,
-      "compile_timeout": 3,
+      "compile_error": 420,
+      "compile_timeout": 5,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 138
@@ -815,8 +815,8 @@
       "path": "built-ins/TypedArrayConstructors",
       "pass": 233,
       "fail": 345,
-      "compile_error": 160,
-      "compile_timeout": 0,
+      "compile_error": 159,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 738,
       "host_free_pass": 233
@@ -1209,7 +1209,7 @@
     "runtime_error": 207,
     "syntax_error": 20,
     "type_error": 1615,
-    "wasm_compile": 241
+    "wasm_compile": 237
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1282,8 +1282,8 @@
         },
         "error_categories": {
           "other": 2657,
-          "host_import_leak": 505,
           "assertion_fail": 1130,
+          "host_import_leak": 505,
           "type_error": 243,
           "null_deref": 2,
           "runtime_error": 8,
@@ -1293,17 +1293,17 @@
           "Proposals": 4547
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
-          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
+          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.",
           "other:ReferenceError: Temporal is not defined",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
           "assertion_fail:Test262Error: string with years > max is out of range (first argument) Expected a RangeError but got a undefined",
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_time_from_string_field (##)"
         ]
       },
@@ -1337,8 +1337,8 @@
         "sample_files": [
           "test/built-ins/DisposableStack/prototype/disposed/this-not-object-throw.js",
           "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/this-does-not-have-internal-asyncdisposablestate-rejects.js",
-          "test/built-ins/AsyncDisposableStack/prototype/use/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/this-not-object-rejects.js",
+          "test/built-ins/AsyncDisposableStack/prototype/use/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/explicit-await-for-undefined.js"
         ],
         "sample_signatures": [
@@ -1718,8 +1718,8 @@
         },
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-rest-getter-abrupt-get-error.js",
-          "test/built-ins/Promise/allKeyed/reject-first.js",
           "test/built-ins/Promise/allSettledKeyed/non-enumerable-properties-only.js",
+          "test/built-ins/Promise/allKeyed/reject-first.js",
           "test/built-ins/Proxy/getPrototypeOf/not-extensible-same-proto.js",
           "test/built-ins/Proxy/construct/return-not-object-throws-number-realm.js"
         ],
@@ -1816,8 +1816,8 @@
           "ES2022": 449,
           "ES2015": 598,
           "ES2026": 34,
-          "ES2027": 174,
           "ES2025": 276,
+          "ES2027": 174,
           "ES2019": 10,
           "ES2020": 5,
           "Unclassified (untagged)": 6,
@@ -2010,9 +2010,9 @@
         "count": 3418,
         "statuses": {
           "pass": 0,
-          "fail": 2578,
-          "compile_error": 830,
-          "compile_timeout": 10,
+          "fail": 2577,
+          "compile_error": 828,
+          "compile_timeout": 13,
           "skip": 0,
           "total": 3418,
           "host_free_pass": 0
@@ -2020,7 +2020,7 @@
         "error_categories": {
           "assertion_fail": 2099,
           "host_import_leak": 610,
-          "wasm_compile": 183,
+          "wasm_compile": 180,
           "type_error": 357,
           "oob": 17,
           "null_deref": 54,
@@ -2117,8 +2117,8 @@
         "statuses": {
           "pass": 0,
           "fail": 782,
-          "compile_error": 122,
-          "compile_timeout": 0,
+          "compile_error": 121,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 904,
           "host_free_pass": 0
@@ -2130,8 +2130,8 @@
           "null_deref": 6,
           "other": 46,
           "promise_error": 32,
-          "wasm_compile": 7,
           "runtime_error": 24,
+          "wasm_compile": 6,
           "illegal_cast": 7
         },
         "by_edition": {
@@ -2299,14 +2299,14 @@
           "test/built-ins/Date/prototype/toJSON/to-primitive-abrupt.js",
           "test/built-ins/Date/prototype/toTemporalInstant/this-value-invalid-date.js",
           "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-non-callable.js"
+          "test/built-ins/Date/value-to-primitive-result-string.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot convert undefined or null to object",
           "assertion_fail:Test262Error: Expected a undefined but got a different error constructor with the same name",
           "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
-          "assertion_fail:Test262Error: `valueOf` is used as a fallback when `toString` is not callable Expected SameValue(«null», «\"valueOf test262\"») to be true"
+          "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true"
         ]
       },
       {
@@ -2684,7 +2684,7 @@
           "other:strict rerun: Test262Error: ##: arguments object doesn't exists",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
-          "assertion_fail:Test262Error: length descriptor should be writable; length descriptor should be configurable"
+          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]"
         ]
       },
       {
@@ -2723,8 +2723,8 @@
         "sample_files": [
           "test/language/expressions/multiplication/bigint-wrapped-values.js",
           "test/built-ins/Atomics/waitAsync/bigint/bad-range.js",
-          "test/built-ins/Atomics/add/bigint/good-views.js",
           "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/add/bigint/good-views.js",
           "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-exchange.js"
         ],
         "sample_signatures": [
@@ -3012,8 +3012,8 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-16.0.0-class.js",
-          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-16.0.0.js",
+          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js"
         ],
