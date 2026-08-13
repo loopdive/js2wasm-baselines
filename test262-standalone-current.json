@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-13T11:28:33.742Z",
-  "baseline_generated_at": "2026-08-13T11:28:33.742Z",
-  "baseline_sha": "f69abcf6007edef4db8a0e8b35baa0c45455099e",
+  "timestamp": "2026-08-13T12:07:35.461Z",
+  "baseline_generated_at": "2026-08-13T12:07:35.461Z",
+  "baseline_sha": "3cf8c3f7c8d711f0f9dfec7bfd0c2b44729c5e61",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -12,8 +12,8 @@
     "total": 43621,
     "pass": 29668,
     "fail": 9794,
-    "compile_error": 4128,
-    "compile_timeout": 12,
+    "compile_error": 4126,
+    "compile_timeout": 14,
     "skip": 19,
     "compilable": 39462,
     "host_free_pass": 29668,
@@ -23,8 +23,8 @@
         "total": 42535,
         "pass": 28786,
         "fail": 9637,
-        "compile_error": 4081,
-        "compile_timeout": 12,
+        "compile_error": 4079,
+        "compile_timeout": 14,
         "skip": 19,
         "compilable": 38423,
         "host_free_pass": 28786,
@@ -59,8 +59,8 @@
         "total": 43621,
         "pass": 29668,
         "fail": 9794,
-        "compile_error": 4128,
-        "compile_timeout": 12,
+        "compile_error": 4126,
+        "compile_timeout": 14,
         "skip": 19,
         "compilable": 39462,
         "host_free_pass": 29668,
@@ -71,8 +71,8 @@
         "total": 48735,
         "pass": 29967,
         "fail": 12369,
-        "compile_error": 6272,
-        "compile_timeout": 12,
+        "compile_error": 6270,
+        "compile_timeout": 14,
         "skip": 115,
         "compilable": 42336,
         "host_free_pass": 29967,
@@ -85,8 +85,8 @@
     "total": 43621,
     "pass": 29668,
     "fail": 9794,
-    "compile_error": 4128,
-    "compile_timeout": 12,
+    "compile_error": 4126,
+    "compile_timeout": 14,
     "skip": 19,
     "compilable": 39462,
     "host_free_pass": 29668,
@@ -96,8 +96,8 @@
     "total": 48735,
     "pass": 29967,
     "fail": 12369,
-    "compile_error": 6272,
-    "compile_timeout": 12,
+    "compile_error": 6270,
+    "compile_timeout": 14,
     "skip": 115,
     "compilable": 42336,
     "host_free_pass": 29967,
@@ -107,8 +107,8 @@
     "total": 41110,
     "pass": 27636,
     "fail": 9450,
-    "compile_error": 3995,
-    "compile_timeout": 10,
+    "compile_error": 3993,
+    "compile_timeout": 12,
     "skip": 19,
     "compilable": 37086,
     "host_free_pass": 27636,
@@ -141,8 +141,8 @@
       "total": 42535,
       "pass": 28786,
       "fail": 9637,
-      "compile_error": 4081,
-      "compile_timeout": 12,
+      "compile_error": 4079,
+      "compile_timeout": 14,
       "skip": 19,
       "compilable": 38423,
       "host_free_pass": 28786,
@@ -199,8 +199,8 @@
       "path": "built-ins/Array",
       "pass": 1712,
       "fail": 1112,
-      "compile_error": 251,
-      "compile_timeout": 7,
+      "compile_error": 250,
+      "compile_timeout": 8,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 1712
@@ -804,8 +804,8 @@
       "path": "built-ins/TypedArray",
       "pass": 138,
       "fail": 883,
-      "compile_error": 424,
-      "compile_timeout": 1,
+      "compile_error": 423,
+      "compile_timeout": 2,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 138
@@ -1209,7 +1209,7 @@
     "runtime_error": 207,
     "syntax_error": 20,
     "type_error": 1615,
-    "wasm_compile": 243
+    "wasm_compile": 241
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1293,11 +1293,11 @@
           "Proposals": 4547
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
-          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
-          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-halfCeil.js"
+          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
+          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
+          "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.get with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor getters would bind `this` to the target instead of the receiver.",
@@ -1728,7 +1728,7 @@
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "type_error:TypeError: Reflect.deleteProperty called on non-object"
+          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C)."
         ]
       },
       {
@@ -1816,8 +1816,8 @@
           "ES2022": 449,
           "ES2015": 598,
           "ES2026": 34,
-          "ES2025": 276,
           "ES2027": 174,
+          "ES2025": 276,
           "ES2019": 10,
           "ES2020": 5,
           "Unclassified (untagged)": 6,
@@ -2011,8 +2011,8 @@
         "statuses": {
           "pass": 0,
           "fail": 2582,
-          "compile_error": 832,
-          "compile_timeout": 8,
+          "compile_error": 830,
+          "compile_timeout": 10,
           "skip": 0,
           "total": 3422,
           "host_free_pass": 0
@@ -2020,7 +2020,7 @@
         "error_categories": {
           "assertion_fail": 2097,
           "host_import_leak": 610,
-          "wasm_compile": 185,
+          "wasm_compile": 183,
           "type_error": 357,
           "oob": 17,
           "null_deref": 54,
@@ -2046,8 +2046,8 @@
         "sample_files": [
           "test/built-ins/Array/prototype/forEach/15.4.4.18-7-b-12.js",
           "test/built-ins/Array/fromAsync/non-iterable-input-with-thenable-sync-mapped-callback-err.js",
-          "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js",
           "test/built-ins/Array/prototype/some/15.4.4.17-7-b-12.js",
+          "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js",
           "test/built-ins/Array/prototype/find/resizable-buffer.js"
         ],
         "sample_signatures": [
@@ -2055,7 +2055,7 @@
           "host_import_leak:standalone target emitted host imports: env::Promise_then2, env::__array_from_async (##)",
           "assertion_fail:Test262Error: Array.prototype.some.call(arr, callbackfn) !== true",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.Module(): Compiling function ##:\"subClass\" failed: call[#] expected type externref, found call_ref of type f64 @+#) [in subClass()] [@+#] [wat: (func $subClass (param (ref null #)) (result externref) (",
-          "assertion_fail:Test262Error: Array.prototype.every.call(obj, callbackfn, thisArg) !== true"
+          "assertion_fail:Test262Error: `findLast` property value Expected SameValue(«undefined», «true») to be true"
         ]
       },
       {
@@ -2155,8 +2155,8 @@
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-id-init-fn-name-fn.js",
           "test/language/expressions/assignment/fn-name-lhs-cover.js",
-          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-obj-ptrn-prop-obj.js",
+          "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
           "test/language/expressions/object/dstr/gen-meth-dflt-obj-ptrn-prop-obj.js"
         ],
         "sample_signatures": [
@@ -2723,8 +2723,8 @@
         "sample_files": [
           "test/language/expressions/multiplication/bigint-wrapped-values.js",
           "test/built-ins/Atomics/waitAsync/bigint/bad-range.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
           "test/built-ins/Atomics/add/bigint/good-views.js",
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
           "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-exchange.js"
         ],
         "sample_signatures": [
@@ -2838,8 +2838,8 @@
           "test/language/expressions/object/method-definition/async-gen-yield-star-getiter-sync-returns-abrupt.js",
           "test/built-ins/Promise/any/invoke-resolve-get-once-no-calls.js",
           "test/built-ins/Promise/all/iter-arg-is-undefined-reject.js",
-          "test/built-ins/Promise/any/invoke-resolve-return.js",
-          "test/built-ins/Promise/allSettled/invoke-resolve-get-error.js"
+          "test/built-ins/Promise/allSettled/invoke-resolve-get-error.js",
+          "test/built-ins/Promise/any/invoke-resolve-return.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
@@ -2891,9 +2891,9 @@
         "sample_signatures": [
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
+          "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
           "host_import_leak:standalone target emitted host imports: env::f (##)",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
-          "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier."
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
         ]
       },
       {
@@ -3011,8 +3011,8 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-16.0.0-class.js",
-          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-16.0.0.js",
+          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js"
         ],
@@ -3134,28 +3134,28 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 7,
           "host_import_leak": 132,
+          "assertion_fail": 7,
           "null_deref": 8,
           "type_error": 27,
           "other": 2,
           "wasm_compile": 1
         },
         "by_edition": {
-          "ES2022": 20,
           "ES2017": 148,
+          "ES2022": 20,
           "ES2027": 9
         },
         "sample_files": [
-          "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
           "test/built-ins/Atomics/store/bad-range.js",
+          "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
           "test/built-ins/Atomics/exchange/immutable-buffer.js",
           "test/built-ins/Atomics/and/non-shared-bufferdata.js",
           "test/built-ins/Atomics/xor/non-shared-bufferdata.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Expected a RangeError but got a undefined",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
+          "assertion_fail:Test262Error: Expected a RangeError but got a undefined",
           "null_deref:dereferencing a null pointer [in testWithAllTypedArrayConstructors() ← __module_init]",
           "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone",
           "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone"
