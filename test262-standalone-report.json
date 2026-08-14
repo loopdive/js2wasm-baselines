@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-14T01:33:55.882Z",
-  "baseline_generated_at": "2026-08-14T01:33:55.882Z",
-  "baseline_sha": "089199fdb3df6499f52c8b25568cff9ff5457d53",
+  "timestamp": "2026-08-14T01:53:33.996Z",
+  "baseline_generated_at": "2026-08-14T01:53:33.996Z",
+  "baseline_sha": "82161c37517ca62644109ca81b51ab5a5f1d929b",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 30010,
-    "fail": 9924,
-    "compile_error": 3650,
-    "compile_timeout": 18,
+    "fail": 9926,
+    "compile_error": 3654,
+    "compile_timeout": 12,
     "skip": 19,
-    "compilable": 39934,
+    "compilable": 39936,
     "host_free_pass": 30010,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 29126,
-        "fail": 9743,
-        "compile_error": 3629,
-        "compile_timeout": 18,
+        "fail": 9745,
+        "compile_error": 3633,
+        "compile_timeout": 12,
         "skip": 19,
-        "compilable": 38869,
+        "compilable": 38871,
         "host_free_pass": 29126,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 30010,
-        "fail": 9924,
-        "compile_error": 3650,
-        "compile_timeout": 18,
+        "fail": 9926,
+        "compile_error": 3654,
+        "compile_timeout": 12,
         "skip": 19,
-        "compilable": 39934,
+        "compilable": 39936,
         "host_free_pass": 30010,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 30309,
-        "fail": 12500,
-        "compile_error": 5793,
-        "compile_timeout": 18,
+        "fail": 12502,
+        "compile_error": 5797,
+        "compile_timeout": 12,
         "skip": 115,
-        "compilable": 42809,
+        "compilable": 42811,
         "host_free_pass": 30309,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 30010,
-    "fail": 9924,
-    "compile_error": 3650,
-    "compile_timeout": 18,
+    "fail": 9926,
+    "compile_error": 3654,
+    "compile_timeout": 12,
     "skip": 19,
-    "compilable": 39934,
+    "compilable": 39936,
     "host_free_pass": 30010,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 30309,
-    "fail": 12500,
-    "compile_error": 5793,
-    "compile_timeout": 18,
+    "fail": 12502,
+    "compile_error": 5797,
+    "compile_timeout": 12,
     "skip": 115,
-    "compilable": 42809,
+    "compilable": 42811,
     "host_free_pass": 30309,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 27977,
-    "fail": 9575,
-    "compile_error": 3523,
-    "compile_timeout": 16,
+    "fail": 9577,
+    "compile_error": 3527,
+    "compile_timeout": 10,
     "skip": 19,
-    "compilable": 37552,
+    "compilable": 37554,
     "host_free_pass": 27977,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 29126,
-      "fail": 9743,
-      "compile_error": 3629,
-      "compile_timeout": 18,
+      "fail": 9745,
+      "compile_error": 3633,
+      "compile_timeout": 12,
       "skip": 19,
-      "compilable": 38869,
+      "compilable": 38871,
       "host_free_pass": 29126,
       "stale": 0
     }
@@ -198,9 +198,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 1737,
-      "fail": 1105,
-      "compile_error": 231,
-      "compile_timeout": 9,
+      "fail": 1107,
+      "compile_error": 234,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 1737
@@ -804,8 +804,8 @@
       "path": "built-ins/TypedArray",
       "pass": 174,
       "fail": 1087,
-      "compile_error": 180,
-      "compile_timeout": 5,
+      "compile_error": 181,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 174
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 7888,
+    "assertion_fail": 7889,
     "host_import_leak": 4044,
     "illegal_cast": 257,
     "negative_test_fail": 14,
@@ -1209,7 +1209,7 @@
     "runtime_error": 207,
     "syntax_error": 20,
     "type_error": 1695,
-    "wasm_compile": 245
+    "wasm_compile": 250
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1251,8 +1251,8 @@
           "Proposals": 156
         },
         "sample_files": [
-          "test/language/expressions/dynamic-import/syntax/valid/nested-function-import-source-empty-str-is-valid-assign-expr.js",
           "test/language/expressions/dynamic-import/catch/nested-block-import-catch-import-source-specifier-tostring.js",
+          "test/language/expressions/dynamic-import/syntax/valid/nested-function-import-source-empty-str-is-valid-assign-expr.js",
           "test/language/expressions/dynamic-import/catch/nested-block-labeled-import-source-specifier-tostring.js",
           "test/language/expressions/dynamic-import/catch/nested-function-import-catch-import-source-specifier-tostring.js",
           "test/language/expressions/dynamic-import/syntax/valid/nested-while-import-source-script-code-valid.js"
@@ -1468,15 +1468,15 @@
         "sample_files": [
           "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/stringify/value-bigint-replacer.js",
-          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/parse/reviver-object-non-configurable-prop-delete.js",
+          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/stringify/value-bigint-order.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «\"\\\"bigint\\\"\"») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «#») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
           "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)"
         ]
       },
@@ -1723,7 +1723,7 @@
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «[object Object]») to be true",
           "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "type_error:TypeError: Cannot perform operation on a proxy that has been revoked"
+          "assertion_fail:Test262Error: attr should be an own property"
         ]
       },
       {
@@ -2004,17 +2004,17 @@
         "count": 3337,
         "statuses": {
           "pass": 0,
-          "fail": 2820,
-          "compile_error": 503,
-          "compile_timeout": 14,
+          "fail": 2822,
+          "compile_error": 507,
+          "compile_timeout": 8,
           "skip": 0,
           "total": 3337,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 2300,
+          "assertion_fail": 2301,
           "host_import_leak": 283,
-          "wasm_compile": 181,
+          "wasm_compile": 186,
           "type_error": 358,
           "oob": 17,
           "null_deref": 78,
@@ -2026,8 +2026,8 @@
           "Unclassified (untagged)": 844,
           "ES2026": 121,
           "ES2022": 344,
-          "ES2020": 543,
           "ES2023": 159,
+          "ES2020": 543,
           "ES2015": 965,
           "ES5": 66,
           "ES2016": 26,
@@ -2040,8 +2040,8 @@
         "sample_files": [
           "test/built-ins/Array/prototype/forEach/15.4.4.18-7-b-12.js",
           "test/built-ins/Array/fromAsync/non-iterable-input-with-thenable-sync-mapped-callback-err.js",
-          "test/built-ins/Array/prototype/some/15.4.4.17-7-b-12.js",
           "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js",
+          "test/built-ins/Array/prototype/some/15.4.4.17-7-b-12.js",
           "test/built-ins/Array/prototype/find/resizable-buffer.js"
         ],
         "sample_signatures": [
@@ -2049,7 +2049,7 @@
           "host_import_leak:standalone target emitted host imports: env::__array_from_async (##)",
           "assertion_fail:Test262Error: Array.prototype.some.call(arr, callbackfn) !== true",
           "wasm_compile:L#:## invalid Wasm binary (WebAssembly.Module(): Compiling function ##:\"subClass\" failed: call[#] expected type externref, found call_ref of type f64 @+#) [in subClass()] [@+#] [wat: (func $subClass (param (ref null #)) (result externref) (",
-          "assertion_fail:Test262Error: Array.prototype.every.call(obj, callbackfn, thisArg) !== true"
+          "assertion_fail:Test262Error: `findLast` property value Expected SameValue(«undefined», «true») to be true"
         ]
       },
       {
@@ -2149,8 +2149,8 @@
         "sample_files": [
           "test/language/expressions/assignment/dstr/obj-id-init-fn-name-fn.js",
           "test/language/expressions/assignment/fn-name-lhs-cover.js",
-          "test/language/expressions/object/dstr/gen-meth-obj-ptrn-prop-obj.js",
           "test/language/expressions/assignment/dstr/obj-prop-elem-init-fn-name-cover.js",
+          "test/language/expressions/object/dstr/gen-meth-obj-ptrn-prop-obj.js",
           "test/language/expressions/object/dstr/gen-meth-dflt-obj-ptrn-prop-obj.js"
         ],
         "sample_signatures": [
@@ -2293,14 +2293,14 @@
           "test/built-ins/Date/prototype/toJSON/to-primitive-abrupt.js",
           "test/built-ins/Date/prototype/toTemporalInstant/this-value-invalid-date.js",
           "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-non-callable.js"
+          "test/built-ins/Date/value-to-primitive-result-string.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot convert undefined or null to object",
           "assertion_fail:Test262Error: Expected a undefined but got a different error constructor with the same name",
           "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
-          "assertion_fail:Test262Error: `valueOf` is used as a fallback when `toString` is not callable Expected SameValue(«null», «\"valueOf test262\"») to be true"
+          "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true"
         ]
       },
       {
@@ -2339,15 +2339,15 @@
           "ES2025": 1
         },
         "sample_files": [
-          "test/built-ins/Number/prototype/valueOf/S15.7.4.4_A2_T05.js",
           "test/built-ins/Number/prototype/S15.7.3.1_A2_T1.js",
+          "test/built-ins/Number/prototype/valueOf/S15.7.4.4_A2_T05.js",
           "test/language/expressions/does-not-equals/bigint-and-number-extremes.js",
           "test/built-ins/Number/prototype/toPrecision/undefined-precision-arg.js",
           "test/language/expressions/greater-than-or-equal/bigint-and-number-extremes.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: The result of evaluating (e instanceof TypeError) is expected to be true",
           "assertion_fail:Test262Error: Number.prototype.toString() must return \"[object Number]\" Expected SameValue(«null», «\"[object Number]\"») to be true",
+          "assertion_fail:Test262Error: The result of evaluating (e instanceof TypeError) is expected to be true",
           "assertion_fail:Test262Error: The result of (0x#n != Number.MAX_VALUE) is false Expected SameValue(«true», «false») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«\"#.000000e+#\"», «\"#\"») to be true",
           "assertion_fail:Test262Error: The result of (0x#n >= Number.MAX_VALUE) is true Expected SameValue(«false», «true») to be true"
@@ -2721,8 +2721,8 @@
         "sample_files": [
           "test/language/expressions/multiplication/bigint-wrapped-values.js",
           "test/built-ins/Atomics/waitAsync/bigint/bad-range.js",
-          "test/built-ins/Atomics/add/bigint/good-views.js",
           "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/add/bigint/good-views.js",
           "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-exchange.js"
         ],
         "sample_signatures": [
@@ -2890,9 +2890,9 @@
         "sample_signatures": [
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
-          "host_import_leak:standalone target emitted host imports: env::f (##)",
+          "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
           "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
-          "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier."
+          "host_import_leak:standalone target emitted host imports: env::f (##)"
         ]
       },
       {
@@ -3149,15 +3149,15 @@
           "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
           "test/built-ins/Atomics/exchange/immutable-buffer.js",
-          "test/built-ins/Atomics/and/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/xor/non-shared-bufferdata.js"
+          "test/built-ins/Atomics/xor/non-shared-bufferdata.js",
+          "test/built-ins/Atomics/and/non-shared-bufferdata.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "assertion_fail:Test262Error: Expected a RangeError but got a undefined",
           "null_deref:dereferencing a null pointer [in testWithAllTypedArrayConstructors() ← __module_init]",
-          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
