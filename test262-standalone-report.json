@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-14T08:47:39.217Z",
-  "baseline_generated_at": "2026-08-14T08:47:39.217Z",
-  "baseline_sha": "989a9fc414fc159a7e47fcbea9bc3742f14dacd1",
+  "timestamp": "2026-08-14T09:22:56.625Z",
+  "baseline_generated_at": "2026-08-14T09:22:56.625Z",
+  "baseline_sha": "a7c393afe0737f91ec19cca23e373d3e6571e36d",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 30334,
-    "fail": 9612,
-    "compile_error": 3649,
+    "fail": 9611,
+    "compile_error": 3650,
     "compile_timeout": 7,
     "skip": 19,
-    "compilable": 39946,
+    "compilable": 39945,
     "host_free_pass": 30334,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 29450,
-        "fail": 9431,
-        "compile_error": 3628,
+        "fail": 9430,
+        "compile_error": 3629,
         "compile_timeout": 7,
         "skip": 19,
-        "compilable": 38881,
+        "compilable": 38880,
         "host_free_pass": 29450,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 30334,
-        "fail": 9612,
-        "compile_error": 3649,
+        "fail": 9611,
+        "compile_error": 3650,
         "compile_timeout": 7,
         "skip": 19,
-        "compilable": 39946,
+        "compilable": 39945,
         "host_free_pass": 30334,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 30703,
-        "fail": 12118,
-        "compile_error": 5792,
+        "fail": 12117,
+        "compile_error": 5793,
         "compile_timeout": 7,
         "skip": 115,
-        "compilable": 42821,
+        "compilable": 42820,
         "host_free_pass": 30703,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 30334,
-    "fail": 9612,
-    "compile_error": 3649,
+    "fail": 9611,
+    "compile_error": 3650,
     "compile_timeout": 7,
     "skip": 19,
-    "compilable": 39946,
+    "compilable": 39945,
     "host_free_pass": 30334,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 30703,
-    "fail": 12118,
-    "compile_error": 5792,
+    "fail": 12117,
+    "compile_error": 5793,
     "compile_timeout": 7,
     "skip": 115,
-    "compilable": 42821,
+    "compilable": 42820,
     "host_free_pass": 30703,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 28299,
-    "fail": 9265,
-    "compile_error": 3522,
+    "fail": 9264,
+    "compile_error": 3523,
     "compile_timeout": 5,
     "skip": 19,
-    "compilable": 37564,
+    "compilable": 37563,
     "host_free_pass": 28299,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 29450,
-      "fail": 9431,
-      "compile_error": 3628,
+      "fail": 9430,
+      "compile_error": 3629,
       "compile_timeout": 7,
       "skip": 19,
-      "compilable": 38881,
+      "compilable": 38880,
       "host_free_pass": 29450,
       "stale": 0
     }
@@ -198,8 +198,8 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 1740,
-      "fail": 1104,
-      "compile_error": 235,
+      "fail": 1103,
+      "compile_error": 236,
       "compile_timeout": 3,
       "skip": 0,
       "total": 3082,
@@ -1293,10 +1293,10 @@
           "Proposals": 4477
         },
         "sample_files": [
-          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
+          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
+          "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
         "sample_signatures": [
@@ -1467,16 +1467,16 @@
         "sample_files": [
           "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/stringify/value-bigint-replacer.js",
-          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
           "test/built-ins/JSON/parse/reviver-object-non-configurable-prop-delete.js",
-          "test/built-ins/JSON/parse/reviver-array-get-prop-from-prototype.js"
+          "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
+          "test/built-ins/JSON/stringify/value-bigint-order.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «\"\\\"bigint\\\"\"») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «#») to be true",
-          "assertion_fail:Test262Error: Expected true but got false"
+          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
+          "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)"
         ]
       },
       {
@@ -1560,15 +1560,15 @@
         },
         "sample_files": [
           "test/built-ins/RegExp/prototype/Symbol.replace/get-global-err.js",
-          "test/built-ins/RegExp/prototype/Symbol.replace/result-coerce-length.js",
           "test/built-ins/RegExp/prototype/Symbol.match/builtin-failure-y-set-lastindex-err.js",
+          "test/built-ins/RegExp/prototype/Symbol.replace/result-coerce-length.js",
           "test/built-ins/RegExp/prototype/Symbol.split/coerce-flags.js",
           "test/built-ins/RegExp/prototype/Symbol.match/not-a-constructor.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a undefined but got a different error constructor with the same name",
-          "assertion_fail:Test262Error: Expected SameValue(«\"\"», «\"foobar$#\"») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
+          "assertion_fail:Test262Error: Expected SameValue(«\"\"», «\"foobar$#\"») to be true",
           "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: isConstructor invoked with a non-function value"
         ]
@@ -1716,14 +1716,14 @@
           "test/built-ins/Promise/allSettledKeyed/non-enumerable-properties-only.js",
           "test/built-ins/Proxy/getPrototypeOf/not-extensible-same-proto.js",
           "test/built-ins/Proxy/apply/trap-is-missing-target-is-proxy.js",
-          "test/built-ins/Proxy/construct/return-not-object-throws-number-realm.js"
+          "test/built-ins/Proxy/getOwnPropertyDescriptor/trap-is-undefined.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«», «[object Object]») to be true",
           "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "null_deref:dereferencing a null pointer [in __module_init()]"
+          "null_deref:dereferencing a null pointer [in __module_init()]",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -1744,8 +1744,8 @@
         },
         "error_categories": {
           "other": 40,
-          "type_error": 21,
           "runtime_error": 44,
+          "type_error": 21,
           "assertion_fail": 36
         },
         "by_edition": {
@@ -1763,15 +1763,15 @@
         "sample_files": [
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-out-of-bounds-receiver-is-not-object.js",
           "test/built-ins/Iterator/proto-from-ctor-realm.js",
-          "test/built-ins/TypedArrayConstructors/internals/OwnPropertyKeys/BigInt/integer-indexes.js",
           "test/built-ins/TypedArrayConstructors/ctors-bigint/buffer-arg/custom-proto-access-throws-sab.js",
+          "test/built-ins/TypedArrayConstructors/internals/OwnPropertyKeys/BigInt/integer-indexes.js",
           "test/built-ins/Function/prototype/bind/get-fn-realm.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
           "other:L#:## Codegen error: standalone Reflect.construct distinct NewTarget is not implemented for this target carrier (##).",
-          "type_error:TypeError: Reflect.ownKeys called on non-object",
           "runtime_error:L#:## Codegen error: standalone Reflect.construct cannot preserve an arbitrary distinct NewTarget without a statically-resolved NewTarget.prototype assignment (##).",
+          "type_error:TypeError: Reflect.ownKeys called on non-object",
           "type_error:TypeError: Reflect.getOwnPropertyDescriptor called on non-object"
         ]
       },
@@ -1808,8 +1808,8 @@
           "ES2022": 449,
           "ES2015": 595,
           "ES2026": 40,
-          "ES2027": 173,
           "ES2025": 275,
+          "ES2027": 173,
           "ES2019": 11,
           "ES2020": 2,
           "Unclassified (untagged)": 6,
@@ -2003,8 +2003,8 @@
         "count": 3268,
         "statuses": {
           "pass": 0,
-          "fail": 2753,
-          "compile_error": 512,
+          "fail": 2752,
+          "compile_error": 513,
           "compile_timeout": 3,
           "skip": 0,
           "total": 3268,
@@ -2041,7 +2041,7 @@
           "test/built-ins/Array/prototype/every/resizable-buffer-grow-mid-iteration.js",
           "test/built-ins/Array/prototype/forEach/15.4.4.18-7-b-12.js",
           "test/built-ins/Array/fromAsync/non-iterable-input-with-thenable-sync-mapped-callback-err.js",
-          "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js"
+          "test/built-ins/Array/prototype/some/15.4.4.17-7-b-12.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__array_concat_any, env::__js_array_new, env::__js_array_push (##)",
@@ -2338,15 +2338,15 @@
           "ES2025": 1
         },
         "sample_files": [
-          "test/built-ins/Number/prototype/valueOf/S15.7.4.4_A2_T05.js",
           "test/built-ins/Number/prototype/S15.7.3.1_A2_T1.js",
+          "test/built-ins/Number/prototype/valueOf/S15.7.4.4_A2_T05.js",
           "test/language/expressions/does-not-equals/bigint-and-number-extremes.js",
           "test/built-ins/Number/prototype/toPrecision/undefined-precision-arg.js",
           "test/language/expressions/greater-than-or-equal/bigint-and-number-extremes.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: The result of evaluating (e instanceof TypeError) is expected to be true",
           "assertion_fail:Test262Error: Number.prototype.toString() must return \"[object Number]\" Expected SameValue(«null», «\"[object Number]\"») to be true",
+          "assertion_fail:Test262Error: The result of evaluating (e instanceof TypeError) is expected to be true",
           "assertion_fail:Test262Error: The result of (0x#n != Number.MAX_VALUE) is false Expected SameValue(«true», «false») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«\"#.000000e+#\"», «\"#\"») to be true",
           "assertion_fail:Test262Error: The result of (0x#n >= Number.MAX_VALUE) is true Expected SameValue(«false», «true») to be true"
@@ -2667,8 +2667,8 @@
         "sample_files": [
           "test/language/arguments-object/mapped/nonconfigurable-descriptors-set-value-by-arguments.js",
           "test/language/arguments-object/S10.6_A3_T1.js",
-          "test/language/arguments-object/mapped/nonconfigurable-descriptors-with-param-assign.js",
           "test/language/arguments-object/10.6-14-c-4-s.js",
+          "test/language/arguments-object/mapped/nonconfigurable-descriptors-with-param-assign.js",
           "test/language/arguments-object/S10.6_A2.js"
         ],
         "sample_signatures": [
@@ -3128,30 +3128,30 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "host_import_leak": 132,
           "assertion_fail": 15,
+          "host_import_leak": 132,
           "type_error": 27,
           "other": 2,
           "wasm_compile": 1
         },
         "by_edition": {
-          "ES2017": 148,
           "ES2022": 20,
+          "ES2017": 148,
           "ES2027": 9
         },
         "sample_files": [
-          "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
+          "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/exchange/immutable-buffer.js",
-          "test/built-ins/Atomics/and/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/xor/non-shared-bufferdata.js"
+          "test/built-ins/Atomics/xor/non-shared-bufferdata.js",
+          "test/built-ins/Atomics/and/non-shared-bufferdata.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "assertion_fail:Test262Error: Expected a RangeError but got a [object Object]",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "assertion_fail:Test262Error: no arg factories match include [object Object] and exclude [object Object]",
-          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
