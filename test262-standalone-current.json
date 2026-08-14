@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-14T01:53:33.996Z",
-  "baseline_generated_at": "2026-08-14T01:53:33.996Z",
-  "baseline_sha": "82161c37517ca62644109ca81b51ab5a5f1d929b",
+  "timestamp": "2026-08-14T02:55:08.420Z",
+  "baseline_generated_at": "2026-08-14T02:55:08.420Z",
+  "baseline_sha": "5c2414c1f590a482782ae3870741b9dc672ff6ae",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -12,8 +12,8 @@
     "total": 43621,
     "pass": 30010,
     "fail": 9926,
-    "compile_error": 3654,
-    "compile_timeout": 12,
+    "compile_error": 3652,
+    "compile_timeout": 14,
     "skip": 19,
     "compilable": 39936,
     "host_free_pass": 30010,
@@ -23,8 +23,8 @@
         "total": 42535,
         "pass": 29126,
         "fail": 9745,
-        "compile_error": 3633,
-        "compile_timeout": 12,
+        "compile_error": 3631,
+        "compile_timeout": 14,
         "skip": 19,
         "compilable": 38871,
         "host_free_pass": 29126,
@@ -59,8 +59,8 @@
         "total": 43621,
         "pass": 30010,
         "fail": 9926,
-        "compile_error": 3654,
-        "compile_timeout": 12,
+        "compile_error": 3652,
+        "compile_timeout": 14,
         "skip": 19,
         "compilable": 39936,
         "host_free_pass": 30010,
@@ -71,8 +71,8 @@
         "total": 48735,
         "pass": 30309,
         "fail": 12502,
-        "compile_error": 5797,
-        "compile_timeout": 12,
+        "compile_error": 5795,
+        "compile_timeout": 14,
         "skip": 115,
         "compilable": 42811,
         "host_free_pass": 30309,
@@ -85,8 +85,8 @@
     "total": 43621,
     "pass": 30010,
     "fail": 9926,
-    "compile_error": 3654,
-    "compile_timeout": 12,
+    "compile_error": 3652,
+    "compile_timeout": 14,
     "skip": 19,
     "compilable": 39936,
     "host_free_pass": 30010,
@@ -96,8 +96,8 @@
     "total": 48735,
     "pass": 30309,
     "fail": 12502,
-    "compile_error": 5797,
-    "compile_timeout": 12,
+    "compile_error": 5795,
+    "compile_timeout": 14,
     "skip": 115,
     "compilable": 42811,
     "host_free_pass": 30309,
@@ -107,8 +107,8 @@
     "total": 41110,
     "pass": 27977,
     "fail": 9577,
-    "compile_error": 3527,
-    "compile_timeout": 10,
+    "compile_error": 3525,
+    "compile_timeout": 12,
     "skip": 19,
     "compilable": 37554,
     "host_free_pass": 27977,
@@ -141,8 +141,8 @@
       "total": 42535,
       "pass": 29126,
       "fail": 9745,
-      "compile_error": 3633,
-      "compile_timeout": 12,
+      "compile_error": 3631,
+      "compile_timeout": 14,
       "skip": 19,
       "compilable": 38871,
       "host_free_pass": 29126,
@@ -199,8 +199,8 @@
       "path": "built-ins/Array",
       "pass": 1737,
       "fail": 1107,
-      "compile_error": 234,
-      "compile_timeout": 4,
+      "compile_error": 232,
+      "compile_timeout": 6,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 1737
@@ -1209,7 +1209,7 @@
     "runtime_error": 207,
     "syntax_error": 20,
     "type_error": 1695,
-    "wasm_compile": 250
+    "wasm_compile": 248
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1295,8 +1295,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
-          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
+          "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
@@ -1339,8 +1339,8 @@
           "test/built-ins/DisposableStack/prototype/disposed/this-not-object-throw.js",
           "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/this-does-not-have-internal-asyncdisposablestate-rejects.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/not-a-constructor.js",
-          "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/this-not-object-rejects.js",
-          "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/explicit-await-for-undefined.js"
+          "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/explicit-await-for-undefined.js",
+          "test/built-ins/AsyncDisposableStack/prototype/disposeAsync/this-not-object-rejects.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
@@ -1468,15 +1468,15 @@
         "sample_files": [
           "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/stringify/value-bigint-replacer.js",
-          "test/built-ins/JSON/parse/reviver-object-non-configurable-prop-delete.js",
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
+          "test/built-ins/JSON/parse/reviver-object-non-configurable-prop-delete.js",
           "test/built-ins/JSON/stringify/value-bigint-order.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «\"\\\"bigint\\\"\"») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «#») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «#») to be true",
           "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)"
         ]
       },
@@ -1715,15 +1715,15 @@
           "test/built-ins/Promise/allKeyed/reject-first.js",
           "test/built-ins/Promise/allSettledKeyed/non-enumerable-properties-only.js",
           "test/built-ins/Proxy/getPrototypeOf/not-extensible-same-proto.js",
-          "test/built-ins/Proxy/apply/trap-is-missing-target-is-proxy.js",
-          "test/built-ins/Proxy/construct/return-not-object-throws-number-realm.js"
+          "test/built-ins/Proxy/construct/return-not-object-throws-number-realm.js",
+          "test/built-ins/Proxy/apply/trap-is-missing-target-is-proxy.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «[object Object]») to be true",
-          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "assertion_fail:Test262Error: attr should be an own property"
+          "other:L#:## Codegen error: Reflect.apply not supported in standalone mode (## Phase C).",
+          "type_error:TypeError: Cannot perform operation on a proxy that has been revoked"
         ]
       },
       {
@@ -2005,8 +2005,8 @@
         "statuses": {
           "pass": 0,
           "fail": 2822,
-          "compile_error": 507,
-          "compile_timeout": 8,
+          "compile_error": 505,
+          "compile_timeout": 10,
           "skip": 0,
           "total": 3337,
           "host_free_pass": 0
@@ -2014,7 +2014,7 @@
         "error_categories": {
           "assertion_fail": 2301,
           "host_import_leak": 283,
-          "wasm_compile": 186,
+          "wasm_compile": 184,
           "type_error": 358,
           "oob": 17,
           "null_deref": 78,
@@ -2040,8 +2040,8 @@
         "sample_files": [
           "test/built-ins/Array/prototype/forEach/15.4.4.18-7-b-12.js",
           "test/built-ins/Array/fromAsync/non-iterable-input-with-thenable-sync-mapped-callback-err.js",
-          "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js",
           "test/built-ins/Array/prototype/some/15.4.4.17-7-b-12.js",
+          "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js",
           "test/built-ins/Array/prototype/find/resizable-buffer.js"
         ],
         "sample_signatures": [
@@ -2293,14 +2293,14 @@
           "test/built-ins/Date/prototype/toJSON/to-primitive-abrupt.js",
           "test/built-ins/Date/prototype/toTemporalInstant/this-value-invalid-date.js",
           "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
-          "test/built-ins/Date/value-to-primitive-result-string.js"
+          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-non-callable.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot convert undefined or null to object",
           "assertion_fail:Test262Error: Expected a undefined but got a different error constructor with the same name",
           "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true"
+          "assertion_fail:Test262Error: `valueOf` is used as a fallback when `toString` is not callable Expected SameValue(«null», «\"valueOf test262\"») to be true"
         ]
       },
       {
@@ -2339,15 +2339,15 @@
           "ES2025": 1
         },
         "sample_files": [
-          "test/built-ins/Number/prototype/S15.7.3.1_A2_T1.js",
           "test/built-ins/Number/prototype/valueOf/S15.7.4.4_A2_T05.js",
+          "test/built-ins/Number/prototype/S15.7.3.1_A2_T1.js",
           "test/language/expressions/does-not-equals/bigint-and-number-extremes.js",
           "test/built-ins/Number/prototype/toPrecision/undefined-precision-arg.js",
           "test/language/expressions/greater-than-or-equal/bigint-and-number-extremes.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Number.prototype.toString() must return \"[object Number]\" Expected SameValue(«null», «\"[object Number]\"») to be true",
           "assertion_fail:Test262Error: The result of evaluating (e instanceof TypeError) is expected to be true",
+          "assertion_fail:Test262Error: Number.prototype.toString() must return \"[object Number]\" Expected SameValue(«null», «\"[object Number]\"») to be true",
           "assertion_fail:Test262Error: The result of (0x#n != Number.MAX_VALUE) is false Expected SameValue(«true», «false») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«\"#.000000e+#\"», «\"#\"») to be true",
           "assertion_fail:Test262Error: The result of (0x#n >= Number.MAX_VALUE) is true Expected SameValue(«false», «true») to be true"
@@ -2891,8 +2891,8 @@
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
           "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
-          "host_import_leak:standalone target emitted host imports: env::f (##)"
+          "host_import_leak:standalone target emitted host imports: env::f (##)",
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
         ]
       },
       {
@@ -3010,8 +3010,8 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-16.0.0-class.js",
-          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-16.0.0.js",
+          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js"
         ],
@@ -3149,15 +3149,15 @@
           "test/built-ins/Atomics/store/bad-range.js",
           "test/built-ins/Atomics/notify/retrieve-length-before-index-coercion-non-shared.js",
           "test/built-ins/Atomics/exchange/immutable-buffer.js",
-          "test/built-ins/Atomics/xor/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/and/non-shared-bufferdata.js"
+          "test/built-ins/Atomics/and/non-shared-bufferdata.js",
+          "test/built-ins/Atomics/xor/non-shared-bufferdata.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "assertion_fail:Test262Error: Expected a RangeError but got a undefined",
           "null_deref:dereferencing a null pointer [in testWithAllTypedArrayConstructors() ← __module_init]",
-          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.and requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Atomics.xor requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
