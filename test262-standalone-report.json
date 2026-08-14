@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-14T08:19:49.653Z",
-  "baseline_generated_at": "2026-08-14T08:19:49.653Z",
-  "baseline_sha": "cf39ee39da23d40bf574c91bfd96ebf1a792c326",
+  "timestamp": "2026-08-14T08:47:39.217Z",
+  "baseline_generated_at": "2026-08-14T08:47:39.217Z",
+  "baseline_sha": "989a9fc414fc159a7e47fcbea9bc3742f14dacd1",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1293,9 +1293,9 @@
           "Proposals": 4477
         },
         "sample_files": [
-          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/Instant/prototype/since/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainYearMonth/from/argument-string-time-separators.js",
+          "test/built-ins/Temporal/Duration/prototype/round/options-read-before-algorithmic-validation.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/roundingincrement-undefined.js",
           "test/built-ins/Temporal/Instant/prototype/until/roundingincrement-undefined.js"
         ],
@@ -1467,16 +1467,16 @@
         "sample_files": [
           "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/stringify/value-bigint-replacer.js",
-          "test/built-ins/JSON/parse/reviver-object-non-configurable-prop-delete.js",
           "test/built-ins/JSON/parse/reviver-forward-modifies-object.js",
-          "test/built-ins/JSON/stringify/value-bigint-order.js"
+          "test/built-ins/JSON/parse/reviver-object-non-configurable-prop-delete.js",
+          "test/built-ins/JSON/parse/reviver-array-get-prop-from-prototype.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «\"\\\"bigint\\\"\"») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «#») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
-          "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)"
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «#») to be true",
+          "assertion_fail:Test262Error: Expected true but got false"
         ]
       },
       {
@@ -2041,7 +2041,7 @@
           "test/built-ins/Array/prototype/every/resizable-buffer-grow-mid-iteration.js",
           "test/built-ins/Array/prototype/forEach/15.4.4.18-7-b-12.js",
           "test/built-ins/Array/fromAsync/non-iterable-input-with-thenable-sync-mapped-callback-err.js",
-          "test/built-ins/Array/prototype/some/15.4.4.17-7-b-12.js"
+          "test/built-ins/Array/fromAsync/thisarg-primitive-strict.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__array_concat_any, env::__js_array_new, env::__js_array_push (##)",
@@ -2885,8 +2885,8 @@
           "runtime_error:Cannot read properties of undefined (reading 'kind')",
           "other:[object WebAssembly.Exception]",
           "other:L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## ',' expected.; L#:## Unexpected keyword or identifier.",
-          "host_import_leak:standalone target emitted host imports: env::f (##)",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected."
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.",
+          "host_import_leak:standalone target emitted host imports: env::f (##)"
         ]
       },
       {
@@ -3005,8 +3005,8 @@
         },
         "sample_files": [
           "test/language/identifiers/start-unicode-16.0.0-class.js",
-          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-16.0.0.js",
+          "test/language/identifiers/start-unicode-17.0.0.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js"
         ],
