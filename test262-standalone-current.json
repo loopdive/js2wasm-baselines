@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T12:45:13.269Z",
-  "baseline_generated_at": "2026-08-15T12:45:13.270Z",
-  "baseline_sha": "b75cddd3a489d36acb53abfef01ad1e8fca8b57c",
+  "timestamp": "2026-08-15T13:04:57.135Z",
+  "baseline_generated_at": "2026-08-15T13:04:57.135Z",
+  "baseline_sha": "1680e97aca07f50c752beea93648c3e438bb3e61",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1292,11 +1292,11 @@
           "Proposals": 4471
         },
         "sample_files": [
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1763,7 +1763,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/Symbol.toStringTag.js"
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2010,8 +2010,8 @@
         "error_categories": {
           "assertion_fail": 2259,
           "null_deref": 65,
-          "host_import_leak": 447,
           "type_error": 357,
+          "host_import_leak": 447,
           "oob": 17,
           "illegal_cast": 46,
           "other": 45,
@@ -2038,14 +2038,14 @@
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
+          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "null_deref:dereferencing a null pointer [in __closure_123() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected SameValue(«true», «false») to be true (Testing with Float64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «\"obj2\"») to be true (Testing with BigInt64Array and makeArray.)"
+          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true (Testing with Float64Array and makeArray.)"
         ]
       },
       {
@@ -2826,15 +2826,15 @@
         "sample_files": [
           "test/language/expressions/object/method-definition/async-gen-yield-star-next-then-get-abrupt.js",
           "test/built-ins/Promise/any/invoke-resolve-get-error.js",
-          "test/built-ins/Promise/any/ctx-ctor-throws.js",
           "test/built-ins/Promise/resolve/resolve-self.js",
+          "test/built-ins/Promise/any/ctx-ctor-throws.js",
           "test/built-ins/Promise/allSettled/iter-assigned-true-reject.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Object method called on null or undefined",
-          "host_import_leak:standalone target emitted host imports: env::Promise_any (##)",
           "type_error:TypeError: Promise.resolve is not yet implemented in --target standalone",
+          "host_import_leak:standalone target emitted host imports: env::Promise_any (##)",
           "illegal_cast:async continuation threw before completion: illegal cast [in __then_reject_7() ← __drain_microtasks]"
         ]
       },
@@ -3137,8 +3137,8 @@
         },
         "sample_files": [
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
-          "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
         ],
