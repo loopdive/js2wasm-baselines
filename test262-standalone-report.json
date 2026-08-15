@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T10:40:04.035Z",
-  "baseline_generated_at": "2026-08-15T10:40:04.035Z",
-  "baseline_sha": "1a8e0196e618141f877b802d240c2278789537a9",
+  "timestamp": "2026-08-15T11:03:12.872Z",
+  "baseline_generated_at": "2026-08-15T11:03:12.872Z",
+  "baseline_sha": "0779fe7e41670c252cc0b39651f5db46bc4b5c76",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -10,24 +10,24 @@
   },
   "summary": {
     "total": 43621,
-    "pass": 30421,
-    "fail": 9570,
+    "pass": 30423,
+    "fail": 9568,
     "compile_error": 3604,
     "compile_timeout": 7,
     "skip": 19,
     "compilable": 39991,
-    "host_free_pass": 30421,
+    "host_free_pass": 30423,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
-        "pass": 29537,
-        "fail": 9389,
+        "pass": 29539,
+        "fail": 9387,
         "compile_error": 3583,
         "compile_timeout": 7,
         "skip": 19,
         "compilable": 38926,
-        "host_free_pass": 29537,
+        "host_free_pass": 29539,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -57,25 +57,25 @@
       },
       "official": {
         "total": 43621,
-        "pass": 30421,
-        "fail": 9570,
+        "pass": 30423,
+        "fail": 9568,
         "compile_error": 3604,
         "compile_timeout": 7,
         "skip": 19,
         "compilable": 39991,
-        "host_free_pass": 30421,
+        "host_free_pass": 30423,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 30796,
-        "fail": 12094,
+        "pass": 30798,
+        "fail": 12092,
         "compile_error": 5723,
         "compile_timeout": 7,
         "skip": 115,
         "compilable": 42890,
-        "host_free_pass": 30796,
+        "host_free_pass": 30798,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -83,35 +83,35 @@
   },
   "official_summary": {
     "total": 43621,
-    "pass": 30421,
-    "fail": 9570,
+    "pass": 30423,
+    "fail": 9568,
     "compile_error": 3604,
     "compile_timeout": 7,
     "skip": 19,
     "compilable": 39991,
-    "host_free_pass": 30421,
+    "host_free_pass": 30423,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 30796,
-    "fail": 12094,
+    "pass": 30798,
+    "fail": 12092,
     "compile_error": 5723,
     "compile_timeout": 7,
     "skip": 115,
     "compilable": 42890,
-    "host_free_pass": 30796,
+    "host_free_pass": 30798,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 28389,
-    "fail": 9216,
+    "pass": 28391,
+    "fail": 9214,
     "compile_error": 3481,
     "compile_timeout": 5,
     "skip": 19,
     "compilable": 37605,
-    "host_free_pass": 28389,
+    "host_free_pass": 28391,
     "stale": 0
   },
   "scope_summaries": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42535,
-      "pass": 29537,
-      "fail": 9389,
+      "pass": 29539,
+      "fail": 9387,
       "compile_error": 3583,
       "compile_timeout": 7,
       "skip": 19,
       "compilable": 38926,
-      "host_free_pass": 29537,
+      "host_free_pass": 29539,
       "stale": 0
     }
   },
@@ -604,13 +604,13 @@
     {
       "name": "built-ins/Object",
       "path": "built-ins/Object",
-      "pass": 3031,
-      "fail": 347,
+      "pass": 3033,
+      "fail": 345,
       "compile_error": 33,
       "compile_timeout": 0,
       "skip": 0,
       "total": 3411,
-      "host_free_pass": 3031
+      "host_free_pass": 3033
     },
     {
       "name": "built-ins/parseFloat",
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 7743,
+    "assertion_fail": 7741,
     "host_import_leak": 4171,
     "illegal_cast": 236,
     "negative_test_fail": 14,
@@ -1219,8 +1219,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 17824,
-    "classified": 17824,
+    "total_non_pass_non_skip": 17822,
+    "classified": 17822,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1466,15 +1466,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/parse/text-object.js",
-          "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
+          "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
+          "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«\"undefined\"», «\"object\"») to be true"
         ]
       },
@@ -1569,7 +1569,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support String.prototype.match with dynamic RegExp flags (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target.; L#:## Codegen error: standalone RegExp eng",
           "host_import_leak:standalone target emitted host imports: env::Object_set_constructor (##)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
-          "other:L#:## Codegen error: standalone RegExp engine does not support @@replace with a function (or non-string) replacer (## follow-up) (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target."
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -1763,7 +1763,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
+          "test/built-ins/Reflect/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2045,7 +2045,7 @@
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
           "null_deref:dereferencing a null pointer [in __closure_123() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected SameValue(«true», «false») to be true (Testing with Float64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «\"obj2\"») to be true (Testing with BigInt64Array and makeArray.)"
+          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true (Testing with Float64Array and makeArray.)"
         ]
       },
       {
@@ -2103,18 +2103,18 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 836,
+        "count": 834,
         "statuses": {
           "pass": 0,
-          "fail": 718,
+          "fail": 716,
           "compile_error": 118,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 836,
+          "total": 834,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 535,
+          "assertion_fail": 533,
           "other": 42,
           "type_error": 126,
           "runtime_error": 24,
@@ -2129,7 +2129,7 @@
           "ES2015": 255,
           "ES2027": 101,
           "Unclassified (untagged)": 109,
-          "ES5": 169,
+          "ES5": 167,
           "ES2017": 17,
           "ES2021": 17,
           "ES2022": 30,
@@ -2478,7 +2478,7 @@
           "type_error:TypeError: Cannot convert undefined or null to object",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «undefined») to be true",
           "type_error:TypeError: Symbol.prototype.valueOf is not yet implemented in --target standalone",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true"
+          "assertion_fail:Test262Error: hint: number Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -2713,14 +2713,14 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/or/bigint/bad-range.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)"
         ]
       },
@@ -3004,7 +3004,7 @@
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0-class.js"
+          "test/language/identifiers/start-unicode-16.0.0-escaped.js"
         ],
         "sample_signatures": [
           "other:L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode; L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode",
@@ -3052,7 +3052,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
