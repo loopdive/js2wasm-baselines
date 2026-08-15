@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T13:50:00.198Z",
-  "baseline_generated_at": "2026-08-15T13:50:00.198Z",
-  "baseline_sha": "4a338d5e16e07762184d793e666d73c9141eca18",
+  "timestamp": "2026-08-15T14:05:17.568Z",
+  "baseline_generated_at": "2026-08-15T14:05:17.568Z",
+  "baseline_sha": "0b50dada381422047694482d801b090cd00b9c49",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1302,8 +1302,8 @@
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_from_string_field (##)",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
-          "other:ReferenceError: Temporal is not defined"
+          "other:ReferenceError: Temporal is not defined",
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)"
         ]
       },
       {
@@ -1466,15 +1466,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/parse/text-object.js",
-          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"undefined\"», «\"object\"») to be true"
         ]
       },
@@ -1560,8 +1560,8 @@
         "sample_files": [
           "test/built-ins/RegExp/prototype/Symbol.split/length.js",
           "test/built-ins/RegExp/prototype/Symbol.match/coerce-global.js",
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.match/u-advance-after-empty.js"
         ],
         "sample_signatures": [
@@ -2022,8 +2022,8 @@
           "ES2024": 114,
           "ES2015": 910,
           "ES2020": 539,
-          "ES2022": 344,
           "ES2023": 156,
+          "ES2022": 344,
           "Unclassified (untagged)": 842,
           "ES5": 60,
           "ES2026": 116,
@@ -2037,8 +2037,8 @@
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
-          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
+          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js",
+          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2286,15 +2286,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
+          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «false») to be true"
         ]
@@ -2664,14 +2664,14 @@
           "test/language/arguments-object/S10.6_A2.js",
           "test/language/arguments-object/mapped/nonconfigurable-descriptors-with-param-assign.js",
           "test/language/arguments-object/mapped/nonconfigurable-nonenumerable-nonwritable-descriptors-set-by-arguments.js",
-          "test/language/arguments-object/10.6-6-4.js",
-          "test/language/arguments-object/S10.6_A5_T3.js"
+          "test/language/arguments-object/S10.6_A5_T3.js",
+          "test/language/arguments-object/10.6-6-4.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
           "assertion_fail:Test262Error: # descriptor value should be #",
-          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]",
           "assertion_fail:Test262Error: ##: arguments object don't exists",
+          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
@@ -2713,14 +2713,14 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/or/bigint/bad-range.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)"
         ]
       },
@@ -3004,7 +3004,7 @@
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0-class.js"
+          "test/language/identifiers/start-unicode-16.0.0-escaped.js"
         ],
         "sample_signatures": [
           "other:L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode; L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode",
@@ -3052,7 +3052,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
