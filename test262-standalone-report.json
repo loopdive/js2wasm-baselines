@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T19:48:59.465Z",
-  "baseline_generated_at": "2026-08-15T19:48:59.465Z",
-  "baseline_sha": "60d1db4f2a316228fcb1edb60a120cec2f0eff54",
+  "timestamp": "2026-08-15T20:02:39.396Z",
+  "baseline_generated_at": "2026-08-15T20:02:39.396Z",
+  "baseline_sha": "f20589187d15ffae9560c9e543351b343ff33e6f",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 30682,
-    "fail": 9509,
+    "fail": 9508,
     "compile_error": 3404,
-    "compile_timeout": 7,
+    "compile_timeout": 8,
     "skip": 19,
-    "compilable": 40191,
+    "compilable": 40190,
     "host_free_pass": 30682,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 29720,
-        "fail": 9406,
+        "fail": 9405,
         "compile_error": 3383,
-        "compile_timeout": 7,
+        "compile_timeout": 8,
         "skip": 19,
-        "compilable": 39126,
+        "compilable": 39125,
         "host_free_pass": 29720,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 30682,
-        "fail": 9509,
+        "fail": 9508,
         "compile_error": 3404,
-        "compile_timeout": 7,
+        "compile_timeout": 8,
         "skip": 19,
-        "compilable": 40191,
+        "compilable": 40190,
         "host_free_pass": 30682,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 31057,
-        "fail": 12033,
+        "fail": 12032,
         "compile_error": 5523,
-        "compile_timeout": 7,
+        "compile_timeout": 8,
         "skip": 115,
-        "compilable": 43090,
+        "compilable": 43089,
         "host_free_pass": 31057,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 30682,
-    "fail": 9509,
+    "fail": 9508,
     "compile_error": 3404,
-    "compile_timeout": 7,
+    "compile_timeout": 8,
     "skip": 19,
-    "compilable": 40191,
+    "compilable": 40190,
     "host_free_pass": 30682,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 31057,
-    "fail": 12033,
+    "fail": 12032,
     "compile_error": 5523,
-    "compile_timeout": 7,
+    "compile_timeout": 8,
     "skip": 115,
-    "compilable": 43090,
+    "compilable": 43089,
     "host_free_pass": 31057,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 28637,
-    "fail": 9167,
+    "fail": 9166,
     "compile_error": 3282,
-    "compile_timeout": 5,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 37804,
+    "compilable": 37803,
     "host_free_pass": 28637,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 29720,
-      "fail": 9406,
+      "fail": 9405,
       "compile_error": 3383,
-      "compile_timeout": 7,
+      "compile_timeout": 8,
       "skip": 19,
-      "compilable": 39126,
+      "compilable": 39125,
       "host_free_pass": 29720,
       "stale": 0
     }
@@ -198,9 +198,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 1761,
-      "fail": 1187,
+      "fail": 1186,
       "compile_error": 131,
-      "compile_timeout": 3,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 1761
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 7685,
+    "assertion_fail": 7684,
     "host_import_leak": 3971,
     "illegal_cast": 243,
     "negative_test_fail": 14,
@@ -1292,9 +1292,9 @@
           "Proposals": 4471
         },
         "sample_files": [
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
@@ -2000,15 +2000,15 @@
         "count": 3251,
         "statuses": {
           "pass": 0,
-          "fail": 2930,
+          "fail": 2929,
           "compile_error": 318,
-          "compile_timeout": 3,
+          "compile_timeout": 4,
           "skip": 0,
           "total": 3251,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 2350,
+          "assertion_fail": 2349,
           "null_deref": 69,
           "type_error": 413,
           "other": 48,
@@ -2022,8 +2022,8 @@
           "ES2024": 114,
           "ES2015": 901,
           "ES2020": 540,
-          "ES2022": 343,
           "ES2023": 156,
+          "ES2022": 343,
           "Unclassified (untagged)": 842,
           "ES5": 60,
           "ES2026": 116,
@@ -3048,14 +3048,14 @@
           "test/built-ins/Atomics/notify/count-symbol-throws.js",
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js",
-          "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js"
+          "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::WeakRef_new (##)",
-          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new (##)",
           "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new, env::FinalizationRegistry_register (##)",
+          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new (##)",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
