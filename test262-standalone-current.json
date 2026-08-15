@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T22:26:03.764Z",
-  "baseline_generated_at": "2026-08-15T22:26:03.764Z",
-  "baseline_sha": "c975735455e730423b8e0e41400503f4d5f3b66a",
+  "timestamp": "2026-08-15T22:47:50.888Z",
+  "baseline_generated_at": "2026-08-15T22:47:50.889Z",
+  "baseline_sha": "6b8b70aaae7cdf001a54b20dd12d1545f15eed82",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 30721,
-    "fail": 9469,
+    "fail": 9470,
     "compile_error": 3404,
-    "compile_timeout": 8,
+    "compile_timeout": 7,
     "skip": 19,
-    "compilable": 40190,
+    "compilable": 40191,
     "host_free_pass": 30721,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 29759,
-        "fail": 9366,
+        "fail": 9367,
         "compile_error": 3383,
-        "compile_timeout": 8,
+        "compile_timeout": 7,
         "skip": 19,
-        "compilable": 39125,
+        "compilable": 39126,
         "host_free_pass": 29759,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 30721,
-        "fail": 9469,
+        "fail": 9470,
         "compile_error": 3404,
-        "compile_timeout": 8,
+        "compile_timeout": 7,
         "skip": 19,
-        "compilable": 40190,
+        "compilable": 40191,
         "host_free_pass": 30721,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 31088,
-        "fail": 11993,
+        "fail": 11994,
         "compile_error": 5531,
-        "compile_timeout": 8,
+        "compile_timeout": 7,
         "skip": 115,
-        "compilable": 43081,
+        "compilable": 43082,
         "host_free_pass": 31088,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 30721,
-    "fail": 9469,
+    "fail": 9470,
     "compile_error": 3404,
-    "compile_timeout": 8,
+    "compile_timeout": 7,
     "skip": 19,
-    "compilable": 40190,
+    "compilable": 40191,
     "host_free_pass": 30721,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 31088,
-    "fail": 11993,
+    "fail": 11994,
     "compile_error": 5531,
-    "compile_timeout": 8,
+    "compile_timeout": 7,
     "skip": 115,
-    "compilable": 43081,
+    "compilable": 43082,
     "host_free_pass": 31088,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 28671,
-    "fail": 9132,
+    "fail": 9133,
     "compile_error": 3282,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 37803,
+    "compilable": 37804,
     "host_free_pass": 28671,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 29759,
-      "fail": 9366,
+      "fail": 9367,
       "compile_error": 3383,
-      "compile_timeout": 8,
+      "compile_timeout": 7,
       "skip": 19,
-      "compilable": 39125,
+      "compilable": 39126,
       "host_free_pass": 29759,
       "stale": 0
     }
@@ -198,9 +198,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 1761,
-      "fail": 1186,
+      "fail": 1187,
       "compile_error": 131,
-      "compile_timeout": 4,
+      "compile_timeout": 3,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 1761
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 7674,
+    "assertion_fail": 7675,
     "host_import_leak": 3971,
     "illegal_cast": 243,
     "negative_test_fail": 14,
@@ -1292,9 +1292,9 @@
           "Proposals": 4471
         },
         "sample_files": [
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
@@ -1466,15 +1466,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/parse/text-object.js",
-          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"undefined\"», «\"object\"») to be true"
         ]
       },
@@ -1560,8 +1560,8 @@
         "sample_files": [
           "test/built-ins/RegExp/prototype/Symbol.split/length.js",
           "test/built-ins/RegExp/prototype/Symbol.match/coerce-global.js",
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.match/u-advance-after-empty.js"
         ],
         "sample_signatures": [
@@ -1569,7 +1569,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support String.prototype.match with dynamic RegExp flags (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target.; L#:## Codegen error: standalone RegExp eng",
           "host_import_leak:standalone target emitted host imports: env::Object_set_constructor (##)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
+          "other:L#:## Codegen error: standalone RegExp engine does not support @@replace with a function (or non-string) replacer (## follow-up) (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target."
         ]
       },
       {
@@ -1763,7 +1763,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
+          "test/built-ins/Reflect/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2000,15 +2000,15 @@
         "count": 3251,
         "statuses": {
           "pass": 0,
-          "fail": 2929,
+          "fail": 2930,
           "compile_error": 318,
-          "compile_timeout": 4,
+          "compile_timeout": 3,
           "skip": 0,
           "total": 3251,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 2349,
+          "assertion_fail": 2350,
           "null_deref": 69,
           "type_error": 413,
           "other": 48,
@@ -2022,8 +2022,8 @@
           "ES2024": 114,
           "ES2015": 901,
           "ES2020": 540,
-          "ES2022": 343,
           "ES2023": 156,
+          "ES2022": 343,
           "Unclassified (untagged)": 842,
           "ES5": 60,
           "ES2026": 116,
@@ -2035,15 +2035,15 @@
         },
         "sample_files": [
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
-          "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
+          "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
+          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
-          "null_deref:dereferencing a null pointer [in __closure_123() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
+          "null_deref:dereferencing a null pointer [in __closure_123() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected SameValue(«true», «false») to be true (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true (Testing with Float64Array and makeArray.)"
         ]
@@ -2200,15 +2200,15 @@
           "test/built-ins/String/prototype/substring/S15.5.4.15_A3_T11.js",
           "test/built-ins/String/prototype/repeat/count-less-than-zero-throws.js",
           "test/built-ins/String/fromCharCode/touint16-tonumber-throws-bigint.js",
-          "test/built-ins/String/prototype/isWellFormed/to-string.js",
-          "test/built-ins/String/prototype/charCodeAt/S15.5.4.5_A1.1.js"
+          "test/built-ins/String/prototype/charCodeAt/S15.5.4.5_A1.1.js",
+          "test/built-ins/String/prototype/isWellFormed/to-string.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: __instance = new Boolean(); __instance.substring = String.prototype.substring; __instance.substring(new Array(), new Boolean(#)) === \"f\". Actual:",
           "assertion_fail:Test262Error: Thrown value was not an object!",
           "assertion_fail:Test262Error: ToNumber throws when argument is BigInt, and String.fromCharCode must propagate it. Expected a TypeError to be thrown but no exception was thrown at all",
-          "assertion_fail:Test262Error: coerces the receiver to a string Expected a Test262Error to be thrown but no exception was thrown at all",
-          "assertion_fail:Test262Error: ##: __instance.charCodeAt(eval(\"#\"),true,null,{})=== 0x#. Actual: __instance.charCodeAt(eval(\"#\"),true,null,{})===NaN"
+          "assertion_fail:Test262Error: ##: __instance.charCodeAt(eval(\"#\"),true,null,{})=== 0x#. Actual: __instance.charCodeAt(eval(\"#\"),true,null,{})===NaN",
+          "assertion_fail:Test262Error: coerces the receiver to a string Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -2477,7 +2477,7 @@
           "type_error:TypeError: Cannot convert undefined or null to object",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «undefined») to be true",
           "type_error:TypeError: Symbol.prototype.valueOf is not yet implemented in --target standalone",
-          "assertion_fail:Test262Error: hint: number Expected a TypeError to be thrown but no exception was thrown at all"
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true"
         ]
       },
       {
@@ -2663,14 +2663,14 @@
           "test/language/arguments-object/S10.6_A2.js",
           "test/language/arguments-object/mapped/nonconfigurable-descriptors-with-param-assign.js",
           "test/language/arguments-object/mapped/nonconfigurable-nonenumerable-nonwritable-descriptors-set-by-arguments.js",
-          "test/language/arguments-object/10.6-6-4.js",
-          "test/language/arguments-object/S10.6_A5_T3.js"
+          "test/language/arguments-object/S10.6_A5_T3.js",
+          "test/language/arguments-object/10.6-6-4.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
           "assertion_fail:Test262Error: # descriptor value should be #",
-          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]",
           "assertion_fail:Test262Error: ##: arguments object don't exists",
+          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
@@ -3047,14 +3047,14 @@
           "test/built-ins/Atomics/notify/count-symbol-throws.js",
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
-          "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js",
+          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::WeakRef_new (##)",
-          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new, env::FinalizationRegistry_register (##)",
           "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new, env::FinalizationRegistry_register (##)",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
