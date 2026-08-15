@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T13:04:57.135Z",
-  "baseline_generated_at": "2026-08-15T13:04:57.135Z",
-  "baseline_sha": "1680e97aca07f50c752beea93648c3e438bb3e61",
+  "timestamp": "2026-08-15T13:19:48.756Z",
+  "baseline_generated_at": "2026-08-15T13:19:48.756Z",
+  "baseline_sha": "20fc4df2710ec9c23de1f1c58a33633a59141e5d",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1292,11 +1292,11 @@
           "Proposals": 4471
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
+          "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1713,14 +1713,14 @@
           "test/built-ins/Promise/allKeyed/symbol-keys.js",
           "test/built-ins/Uint8Array/fromBase64/alphabet.js",
           "test/built-ins/Proxy/get/trap-is-undefined-receiver.js",
-          "test/built-ins/Proxy/set/call-parameters-prototype-index.js",
-          "test/built-ins/Proxy/has/trap-is-not-callable.js"
+          "test/built-ins/Proxy/has/trap-is-not-callable.js",
+          "test/built-ins/Proxy/set/call-parameters-prototype-index.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
-          "assertion_fail:Test262Error: handler object is the trap context Expected SameValue(«undefined», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
+          "assertion_fail:Test262Error: handler object is the trap context Expected SameValue(«undefined», «[object Object]») to be true",
           "null_deref:dereferencing a null pointer [in __module_init()]"
         ]
       },
@@ -1763,7 +1763,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
+          "test/built-ins/Reflect/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2010,8 +2010,8 @@
         "error_categories": {
           "assertion_fail": 2259,
           "null_deref": 65,
-          "type_error": 357,
           "host_import_leak": 447,
+          "type_error": 357,
           "oob": 17,
           "illegal_cast": 46,
           "other": 45,
@@ -2022,8 +2022,8 @@
           "ES2024": 114,
           "ES2015": 910,
           "ES2020": 539,
-          "ES2022": 344,
           "ES2023": 156,
+          "ES2022": 344,
           "Unclassified (untagged)": 842,
           "ES5": 60,
           "ES2026": 116,
@@ -2035,15 +2035,15 @@
         },
         "sample_files": [
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
-          "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
+          "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
+          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
-          "null_deref:dereferencing a null pointer [in __closure_123() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
+          "null_deref:dereferencing a null pointer [in __closure_123() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected SameValue(«true», «false») to be true (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true (Testing with Float64Array and makeArray.)"
         ]
@@ -2286,15 +2286,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
+          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «false») to be true"
         ]
@@ -2426,8 +2426,8 @@
           "test/built-ins/Function/prototype/toString/proxy-async-method-definition.js",
           "test/built-ins/Function/15.3.5.4_2-20gs.js",
           "test/language/expressions/arrow-function/prototype-rules.js",
-          "test/built-ins/Function/prototype/toString/proxy-class.js",
-          "test/built-ins/Function/15.3.5.4_2-8gs.js"
+          "test/built-ins/Function/15.3.5.4_2-8gs.js",
+          "test/built-ins/Function/prototype/toString/proxy-class.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Conforms to NativeFunction Syntax: \"[object Object]\"",
@@ -3004,7 +3004,7 @@
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/start-unicode-16.0.0-escaped.js"
+          "test/language/identifiers/part-unicode-17.0.0-class.js"
         ],
         "sample_signatures": [
           "other:L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode; L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode",
@@ -3051,14 +3051,14 @@
           "test/built-ins/Atomics/notify/count-symbol-throws.js",
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
-          "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js",
+          "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::WeakRef_new (##)",
-          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new, env::FinalizationRegistry_register (##)",
           "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new, env::FinalizationRegistry_register (##)",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
