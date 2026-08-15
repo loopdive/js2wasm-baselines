@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T11:03:12.872Z",
-  "baseline_generated_at": "2026-08-15T11:03:12.872Z",
-  "baseline_sha": "0779fe7e41670c252cc0b39651f5db46bc4b5c76",
+  "timestamp": "2026-08-15T11:29:53.558Z",
+  "baseline_generated_at": "2026-08-15T11:29:53.558Z",
+  "baseline_sha": "b8b79128e72f36791488d2631508d09d19223351",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1292,9 +1292,9 @@
           "Proposals": 4471
         },
         "sample_files": [
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
@@ -1466,15 +1466,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/parse/text-object.js",
-          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"undefined\"», «\"object\"») to be true"
         ]
       },
@@ -2010,8 +2010,8 @@
         "error_categories": {
           "assertion_fail": 2259,
           "null_deref": 65,
-          "host_import_leak": 447,
           "type_error": 357,
+          "host_import_leak": 447,
           "oob": 17,
           "illegal_cast": 46,
           "other": 45,
@@ -2286,15 +2286,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
+          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«[object Object]», «false») to be true"
         ]
@@ -2426,8 +2426,8 @@
           "test/built-ins/Function/prototype/toString/proxy-async-method-definition.js",
           "test/built-ins/Function/15.3.5.4_2-20gs.js",
           "test/language/expressions/arrow-function/prototype-rules.js",
-          "test/built-ins/Function/prototype/toString/proxy-class.js",
-          "test/built-ins/Function/15.3.5.4_2-8gs.js"
+          "test/built-ins/Function/15.3.5.4_2-8gs.js",
+          "test/built-ins/Function/prototype/toString/proxy-class.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Conforms to NativeFunction Syntax: \"[object Object]\"",
@@ -3052,7 +3052,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
@@ -3136,8 +3136,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
