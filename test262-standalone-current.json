@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-15T22:47:50.888Z",
-  "baseline_generated_at": "2026-08-15T22:47:50.889Z",
-  "baseline_sha": "6b8b70aaae7cdf001a54b20dd12d1545f15eed82",
+  "timestamp": "2026-08-15T23:02:04.208Z",
+  "baseline_generated_at": "2026-08-15T23:02:04.208Z",
+  "baseline_sha": "fe8ab310f38bccbcb6e31824388954ee70a18583",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1569,7 +1569,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support String.prototype.match with dynamic RegExp flags (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target.; L#:## Codegen error: standalone RegExp eng",
           "host_import_leak:standalone target emitted host imports: env::Object_set_constructor (##)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
-          "other:L#:## Codegen error: standalone RegExp engine does not support @@replace with a function (or non-string) replacer (## follow-up) (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target."
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -1763,7 +1763,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/Symbol.toStringTag.js"
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2022,8 +2022,8 @@
           "ES2024": 114,
           "ES2015": 901,
           "ES2020": 540,
-          "ES2023": 156,
           "ES2022": 343,
+          "ES2023": 156,
           "Unclassified (untagged)": 842,
           "ES5": 60,
           "ES2026": 116,
@@ -2200,15 +2200,15 @@
           "test/built-ins/String/prototype/substring/S15.5.4.15_A3_T11.js",
           "test/built-ins/String/prototype/repeat/count-less-than-zero-throws.js",
           "test/built-ins/String/fromCharCode/touint16-tonumber-throws-bigint.js",
-          "test/built-ins/String/prototype/charCodeAt/S15.5.4.5_A1.1.js",
-          "test/built-ins/String/prototype/isWellFormed/to-string.js"
+          "test/built-ins/String/prototype/isWellFormed/to-string.js",
+          "test/built-ins/String/prototype/charCodeAt/S15.5.4.5_A1.1.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: __instance = new Boolean(); __instance.substring = String.prototype.substring; __instance.substring(new Array(), new Boolean(#)) === \"f\". Actual:",
           "assertion_fail:Test262Error: Thrown value was not an object!",
           "assertion_fail:Test262Error: ToNumber throws when argument is BigInt, and String.fromCharCode must propagate it. Expected a TypeError to be thrown but no exception was thrown at all",
-          "assertion_fail:Test262Error: ##: __instance.charCodeAt(eval(\"#\"),true,null,{})=== 0x#. Actual: __instance.charCodeAt(eval(\"#\"),true,null,{})===NaN",
-          "assertion_fail:Test262Error: coerces the receiver to a string Expected a Test262Error to be thrown but no exception was thrown at all"
+          "assertion_fail:Test262Error: coerces the receiver to a string Expected a Test262Error to be thrown but no exception was thrown at all",
+          "assertion_fail:Test262Error: ##: __instance.charCodeAt(eval(\"#\"),true,null,{})=== 0x#. Actual: __instance.charCodeAt(eval(\"#\"),true,null,{})===NaN"
         ]
       },
       {
@@ -2425,8 +2425,8 @@
           "test/built-ins/Function/prototype/toString/proxy-async-method-definition.js",
           "test/built-ins/Function/15.3.5.4_2-20gs.js",
           "test/language/expressions/arrow-function/prototype-rules.js",
-          "test/built-ins/Function/15.3.5.4_2-8gs.js",
-          "test/built-ins/Function/prototype/toString/proxy-class.js"
+          "test/built-ins/Function/prototype/toString/proxy-class.js",
+          "test/built-ins/Function/15.3.5.4_2-8gs.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Conforms to NativeFunction Syntax: \"[object Object]\"",
@@ -3047,14 +3047,14 @@
           "test/built-ins/Atomics/notify/count-symbol-throws.js",
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::WeakRef_new (##)",
-          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new (##)",
           "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new, env::FinalizationRegistry_register (##)",
+          "host_import_leak:standalone target emitted host imports: env::FinalizationRegistry_new (##)",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
