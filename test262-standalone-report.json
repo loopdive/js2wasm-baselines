@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-16T03:57:35.724Z",
-  "baseline_generated_at": "2026-08-16T03:57:35.724Z",
-  "baseline_sha": "c1a617d3e2ee561e1021058897406d0f5f1d2c41",
+  "timestamp": "2026-08-16T04:19:30.127Z",
+  "baseline_generated_at": "2026-08-16T04:19:30.127Z",
+  "baseline_sha": "67ffce0a1c9a674d31bb3e419b5a1bc6a3a73ebf",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1292,11 +1292,11 @@
           "Proposals": 4471
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1569,7 +1569,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support String.prototype.match with dynamic RegExp flags (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target.; L#:## Codegen error: standalone RegExp eng",
           "host_import_leak:standalone target emitted host imports: env::Object_set_constructor (##)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
-          "other:L#:## Codegen error: standalone RegExp engine does not support @@replace with a function (or non-string) replacer (## follow-up) (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target."
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -1763,7 +1763,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
+          "test/built-ins/Reflect/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2022,8 +2022,8 @@
           "ES2024": 114,
           "ES2015": 781,
           "ES2020": 539,
-          "ES2022": 340,
           "ES2023": 138,
+          "ES2022": 340,
           "Unclassified (untagged)": 839,
           "ES5": 60,
           "ES2026": 116,
@@ -2662,14 +2662,14 @@
           "test/language/arguments-object/S10.6_A2.js",
           "test/language/arguments-object/mapped/nonconfigurable-descriptors-with-param-assign.js",
           "test/language/arguments-object/mapped/nonconfigurable-nonenumerable-nonwritable-descriptors-set-by-arguments.js",
-          "test/language/arguments-object/10.6-6-4.js",
-          "test/language/arguments-object/S10.6_A5_T3.js"
+          "test/language/arguments-object/S10.6_A5_T3.js",
+          "test/language/arguments-object/10.6-6-4.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: ##: arguments doesn't exists",
           "assertion_fail:Test262Error: # descriptor value should be #",
-          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]",
           "assertion_fail:Test262Error: ##: arguments object don't exists",
+          "null_deref:dereferencing a null pointer [in testcase() ← __module_init]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
@@ -2880,7 +2880,7 @@
           "assertion_fail:Test262Error: Expected true but got false",
           "other:[object WebAssembly.Exception]",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or ident"
+          "other:L#:## ':' expected.; L#:## '=>' expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected."
         ]
       },
       {
@@ -2901,26 +2901,26 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 55,
           "type_error": 4,
+          "assertion_fail": 55,
           "other": 9,
           "illegal_cast": 1
         },
         "by_edition": {
-          "ES2027": 13,
           "ES5": 42,
+          "ES2027": 13,
           "ES2015": 18
         },
         "sample_files": [
-          "test/language/statements/using/syntax/using-invalid-assignment-statement-body-for-of.js",
           "test/language/statements/function/13.2-18-1.js",
+          "test/language/statements/using/syntax/using-invalid-assignment-statement-body-for-of.js",
           "test/language/comments/S7.4_A5.js",
           "test/language/statements/await-using/syntax/await-using-allowed-at-top-level-of-module.js",
           "test/language/statements/function/S13.2.2_A15_T2.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "type_error:TypeError: Cannot destructure 'null' or 'undefined'",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "compile_timeout:timeout (10s)",
           "other:L#:## 'await using' declarations are not allowed at the top level of scripts",
           "assertion_fail:Test262Error: ##: obj.prop === \"A\". Actual: obj.prop ===null"
@@ -2999,7 +2999,7 @@
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/start-unicode-16.0.0-escaped.js"
+          "test/language/identifiers/part-unicode-17.0.0-class.js"
         ],
         "sample_signatures": [
           "other:L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode; L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode",
@@ -3131,8 +3131,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
