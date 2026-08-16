@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-16T09:49:54.320Z",
-  "baseline_generated_at": "2026-08-16T09:49:54.320Z",
-  "baseline_sha": "dffa81e2ba9e642e88c053f07fd56adaa602f081",
+  "timestamp": "2026-08-16T10:04:43.964Z",
+  "baseline_generated_at": "2026-08-16T10:04:43.964Z",
+  "baseline_sha": "8ef9a6bd8b02a3a9ec47541f39735d44a42fff09",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1292,11 +1292,11 @@
           "Proposals": 4471
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -2022,8 +2022,8 @@
           "ES2024": 114,
           "ES2015": 781,
           "ES2020": 539,
-          "ES2023": 138,
           "ES2022": 340,
+          "ES2023": 138,
           "Unclassified (untagged)": 839,
           "ES5": 60,
           "ES2026": 116,
@@ -3046,7 +3046,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
