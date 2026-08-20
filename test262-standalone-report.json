@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-20T21:05:32.667Z",
-  "baseline_generated_at": "2026-08-20T21:05:32.667Z",
-  "baseline_sha": "9ebd74d7d657a94fc0c92563261c3eb93c0bfdd9",
+  "timestamp": "2026-08-20T21:27:03.447Z",
+  "baseline_generated_at": "2026-08-20T21:27:03.447Z",
+  "baseline_sha": "8400ee968e3aad9a0be3b45e9720f4425a208425",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 31445,
-    "fail": 8761,
+    "fail": 8762,
     "compile_error": 3390,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 40206,
+    "compilable": 40207,
     "host_free_pass": 31445,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 30461,
-        "fail": 8680,
+        "fail": 8681,
         "compile_error": 3369,
-        "compile_timeout": 6,
+        "compile_timeout": 5,
         "skip": 19,
-        "compilable": 39141,
+        "compilable": 39142,
         "host_free_pass": 30461,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 31445,
-        "fail": 8761,
+        "fail": 8762,
         "compile_error": 3390,
-        "compile_timeout": 6,
+        "compile_timeout": 5,
         "skip": 19,
-        "compilable": 40206,
+        "compilable": 40207,
         "host_free_pass": 31445,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 31812,
-        "fail": 11285,
+        "fail": 11286,
         "compile_error": 5517,
-        "compile_timeout": 6,
+        "compile_timeout": 5,
         "skip": 115,
-        "compilable": 43097,
+        "compilable": 43098,
         "host_free_pass": 31812,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,22 +84,22 @@
   "official_summary": {
     "total": 43621,
     "pass": 31445,
-    "fail": 8761,
+    "fail": 8762,
     "compile_error": 3390,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 40206,
+    "compilable": 40207,
     "host_free_pass": 31445,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 31812,
-    "fail": 11285,
+    "fail": 11286,
     "compile_error": 5517,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 115,
-    "compilable": 43097,
+    "compilable": 43098,
     "host_free_pass": 31812,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 30461,
-      "fail": 8680,
+      "fail": 8681,
       "compile_error": 3369,
-      "compile_timeout": 6,
+      "compile_timeout": 5,
       "skip": 19,
-      "compilable": 39141,
+      "compilable": 39142,
       "host_free_pass": 30461,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8368,
-      "fail": 1543,
+      "fail": 1544,
       "compile_error": 1172,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8368
@@ -1293,8 +1293,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
@@ -1302,8 +1302,8 @@
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_from_string_field (##)",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
-          "other:ReferenceError: Temporal is not defined"
+          "other:ReferenceError: Temporal is not defined",
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)"
         ]
       },
       {
@@ -2035,15 +2035,15 @@
         },
         "sample_files": [
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
-          "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
+          "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
+          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
           "null_deref:dereferencing a null pointer [in __closure_134() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected SameValue(«true», «false») to be true (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true (Testing with Float64Array and makeArray.)"
         ]
@@ -2582,9 +2582,9 @@
         "count": 506,
         "statuses": {
           "pass": 0,
-          "fail": 496,
+          "fail": 497,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 506,
           "host_free_pass": 0
@@ -2706,14 +2706,14 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/or/bigint/bad-range.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)"
         ]
       },
@@ -3126,8 +3126,8 @@
         },
         "sample_files": [
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
-          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
+          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
         ],
