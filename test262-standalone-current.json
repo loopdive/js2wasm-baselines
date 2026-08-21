@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-21T21:33:17.805Z",
-  "baseline_generated_at": "2026-08-21T21:33:17.805Z",
-  "baseline_sha": "540064dfb02e4ff68b21c632aeffbd0aaa669695",
+  "timestamp": "2026-08-21T22:10:27.801Z",
+  "baseline_generated_at": "2026-08-21T22:10:27.802Z",
+  "baseline_sha": "ea1cb282962a13ceb04632b1d48d4d7cc50eaf9c",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1292,10 +1292,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1465,15 +1465,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/parse/text-object.js",
-          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: [[Set]] should not be called."
         ]
       },
@@ -1901,8 +1901,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "runtime_error": 44,
           "assertion_fail": 997,
+          "runtime_error": 44,
           "type_error": 240,
           "other": 232,
           "illegal_cast": 7,
@@ -1921,15 +1921,15 @@
           "ES5": 3
         },
         "sample_files": [
-          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
+          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/async-gen-method/yield-star-getiter-async-undefined-sync-get-abrupt.js",
           "test/language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js",
           "test/language/expressions/class/async-method/dflt-params-ref-later.js"
         ],
         "sample_signatures": [
-          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
+          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Cannot read properties of undefined (reading 'access')",
           "other:Test262:AsyncTestFailure:Test262Error: [object Object]"
@@ -2019,8 +2019,8 @@
         "by_edition": {
           "ES2024": 113,
           "ES2015": 783,
-          "ES2022": 342,
           "ES2023": 131,
+          "ES2022": 342,
           "ES2020": 541,
           "Unclassified (untagged)": 686,
           "ES5": 31,
@@ -2420,8 +2420,8 @@
         "sample_files": [
           "test/built-ins/Function/prototype/toString/proxy-async-method-definition.js",
           "test/language/expressions/arrow-function/prototype-rules.js",
-          "test/built-ins/Function/15.3.5.4_2-8gs.js",
           "test/built-ins/Function/prototype/toString/proxy-class.js",
+          "test/built-ins/Function/15.3.5.4_2-8gs.js",
           "test/built-ins/Function/call-bind-this-realm-undef.js"
         ],
         "sample_signatures": [
@@ -2704,14 +2704,14 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/or/bigint/bad-range.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__new_BigInt (##)",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)"
         ]
       },
@@ -3039,7 +3039,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
