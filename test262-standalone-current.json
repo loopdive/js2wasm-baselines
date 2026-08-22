@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-22T04:20:24.265Z",
-  "baseline_generated_at": "2026-08-22T04:20:24.266Z",
-  "baseline_sha": "f811202f0f409fbfdddfb994f89188abe80b925f",
+  "timestamp": "2026-08-22T08:19:55.046Z",
+  "baseline_generated_at": "2026-08-22T08:19:55.047Z",
+  "baseline_sha": "4feb990a1baa2bff53eb62954eabce0fdf021103",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 31553,
-    "fail": 8675,
+    "fail": 8676,
     "compile_error": 3367,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40228,
+    "compilable": 40229,
     "host_free_pass": 31553,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 30574,
-        "fail": 8589,
+        "fail": 8590,
         "compile_error": 3346,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 39163,
+        "compilable": 39164,
         "host_free_pass": 30574,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 31553,
-        "fail": 8675,
+        "fail": 8676,
         "compile_error": 3367,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 40228,
+        "compilable": 40229,
         "host_free_pass": 31553,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 31941,
-        "fail": 11178,
+        "fail": 11179,
         "compile_error": 5494,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 115,
-        "compilable": 43119,
+        "compilable": 43120,
         "host_free_pass": 31941,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 31553,
-    "fail": 8675,
+    "fail": 8676,
     "compile_error": 3367,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40228,
+    "compilable": 40229,
     "host_free_pass": 31553,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 31941,
-    "fail": 11178,
+    "fail": 11179,
     "compile_error": 5494,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 115,
-    "compilable": 43119,
+    "compilable": 43120,
     "host_free_pass": 31941,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 29410,
-    "fail": 8422,
+    "fail": 8423,
     "compile_error": 3253,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 37832,
+    "compilable": 37833,
     "host_free_pass": 29410,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 30574,
-      "fail": 8589,
+      "fail": 8590,
       "compile_error": 3346,
-      "compile_timeout": 7,
+      "compile_timeout": 6,
       "skip": 19,
-      "compilable": 39163,
+      "compilable": 39164,
       "host_free_pass": 30574,
       "stale": 0
     }
@@ -198,9 +198,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 1950,
-      "fail": 1006,
+      "fail": 1007,
       "compile_error": 122,
-      "compile_timeout": 4,
+      "compile_timeout": 3,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 1950
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 7011,
+    "assertion_fail": 7012,
     "host_import_leak": 3972,
     "illegal_cast": 118,
     "negative_test_fail": 14,
@@ -1291,11 +1291,11 @@
           "Proposals": 4450
         },
         "sample_files": [
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1335,8 +1335,8 @@
         "sample_files": [
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
-          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
+          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
@@ -1465,15 +1465,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/parse/text-object.js",
-          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: [[Set]] should not be called."
         ]
       },
@@ -1901,8 +1901,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 997,
           "runtime_error": 44,
+          "assertion_fail": 997,
           "type_error": 240,
           "other": 232,
           "illegal_cast": 7,
@@ -1921,15 +1921,15 @@
           "ES5": 3
         },
         "sample_files": [
-          "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
           "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
+          "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
           "test/language/expressions/class/async-gen-method/yield-star-getiter-async-undefined-sync-get-abrupt.js",
           "test/language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js",
           "test/language/expressions/class/async-method/dflt-params-ref-later.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
           "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
+          "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Cannot read properties of undefined (reading 'access')",
           "other:Test262:AsyncTestFailure:Test262Error: [object Object]"
@@ -1998,15 +1998,15 @@
         "count": 2921,
         "statuses": {
           "pass": 0,
-          "fail": 2608,
+          "fail": 2609,
           "compile_error": 309,
-          "compile_timeout": 4,
+          "compile_timeout": 3,
           "skip": 0,
           "total": 2921,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 2099,
+          "assertion_fail": 2100,
           "null_deref": 67,
           "other": 45,
           "oob": 25,
@@ -2019,8 +2019,8 @@
         "by_edition": {
           "ES2024": 113,
           "ES2015": 783,
-          "ES2023": 131,
           "ES2022": 342,
+          "ES2023": 131,
           "ES2020": 541,
           "Unclassified (untagged)": 685,
           "ES5": 31,
@@ -2284,15 +2284,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
+          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «false») to be true"
         ]
@@ -2892,27 +2892,27 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "type_error": 4,
           "assertion_fail": 40,
+          "type_error": 4,
           "other": 9,
           "illegal_cast": 1,
           "null_deref": 2
         },
         "by_edition": {
-          "ES5": 24,
           "ES2027": 13,
+          "ES5": 24,
           "ES2015": 21
         },
         "sample_files": [
-          "test/language/statements/function/13.2-18-1.js",
           "test/language/statements/using/syntax/using-invalid-assignment-statement-body-for-of.js",
+          "test/language/statements/function/13.2-18-1.js",
           "test/language/comments/S7.4_A5.js",
           "test/language/statements/await-using/syntax/await-using-allowed-at-top-level-of-module.js",
           "test/language/statements/function/S13_A2_T2.js"
         ],
         "sample_signatures": [
-          "type_error:TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
+          "type_error:TypeError: Cannot destructure 'null' or 'undefined'",
           "compile_timeout:timeout (10s)",
           "other:L#:## 'await using' declarations are not allowed at the top level of scripts",
           "assertion_fail:Test262Error: ##: x === \"#\". Actual: x ===#"
