@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-22T02:54:05.504Z",
-  "baseline_generated_at": "2026-08-22T02:54:05.505Z",
-  "baseline_sha": "f8ff7491d897d99709b32a549ed7e5e6a374dd88",
+  "timestamp": "2026-08-22T03:36:23.208Z",
+  "baseline_generated_at": "2026-08-22T03:36:23.208Z",
+  "baseline_sha": "4b75842312e6c04c49d2ea9474673b48caf1c308",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1295,7 +1295,7 @@
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1333,15 +1333,15 @@
           "ES2027": 101
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: [object Object] should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -1761,7 +1761,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
+          "test/built-ins/Reflect/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
