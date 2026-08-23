@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-23T17:11:37.304Z",
-  "baseline_generated_at": "2026-08-23T17:11:37.304Z",
-  "baseline_sha": "16eba04e897d127700eea0af12e7797e6fbb36cc",
+  "timestamp": "2026-08-23T17:30:59.159Z",
+  "baseline_generated_at": "2026-08-23T17:30:59.160Z",
+  "baseline_sha": "cd2f6499fcf43b01b51bf90562a706d7b1b18dc9",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 31866,
-    "fail": 8474,
+    "fail": 8475,
     "compile_error": 3256,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 40340,
+    "compilable": 40341,
     "host_free_pass": 31866,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 30883,
-        "fail": 8393,
+        "fail": 8394,
         "compile_error": 3234,
-        "compile_timeout": 6,
+        "compile_timeout": 5,
         "skip": 19,
-        "compilable": 39276,
+        "compilable": 39277,
         "host_free_pass": 30883,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 31866,
-        "fail": 8474,
+        "fail": 8475,
         "compile_error": 3256,
-        "compile_timeout": 6,
+        "compile_timeout": 5,
         "skip": 19,
-        "compilable": 40340,
+        "compilable": 40341,
         "host_free_pass": 31866,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32254,
-        "fail": 10977,
+        "fail": 10978,
         "compile_error": 5383,
-        "compile_timeout": 6,
+        "compile_timeout": 5,
         "skip": 115,
-        "compilable": 43231,
+        "compilable": 43232,
         "host_free_pass": 32254,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,22 +84,22 @@
   "official_summary": {
     "total": 43621,
     "pass": 31866,
-    "fail": 8474,
+    "fail": 8475,
     "compile_error": 3256,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 40340,
+    "compilable": 40341,
     "host_free_pass": 31866,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32254,
-    "fail": 10977,
+    "fail": 10978,
     "compile_error": 5383,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 115,
-    "compilable": 43231,
+    "compilable": 43232,
     "host_free_pass": 32254,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 30883,
-      "fail": 8393,
+      "fail": 8394,
       "compile_error": 3234,
-      "compile_timeout": 6,
+      "compile_timeout": 5,
       "skip": 19,
-      "compilable": 39276,
+      "compilable": 39277,
       "host_free_pass": 30883,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8390,
-      "fail": 1560,
+      "fail": 1561,
       "compile_error": 1133,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8390
@@ -1707,14 +1707,14 @@
         "sample_files": [
           "test/built-ins/Promise/allKeyed/symbol-keys.js",
           "test/built-ins/Uint8Array/fromBase64/alphabet.js",
-          "test/built-ins/Proxy/get/trap-is-undefined-receiver.js",
           "test/built-ins/Proxy/set/call-parameters-prototype-index.js",
+          "test/built-ins/Proxy/get/trap-is-undefined-receiver.js",
           "test/built-ins/Proxy/has/trap-is-not-callable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
           "assertion_fail:Test262Error: handler object is the trap context Expected SameValue(«undefined», «[object Object]») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "null_deref:dereferencing a null pointer [in __module_init()]"
         ]
@@ -2031,8 +2031,8 @@
         "sample_files": [
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
+          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
-          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
         ],
         "sample_signatures": [
@@ -2573,9 +2573,9 @@
         "count": 495,
         "statuses": {
           "pass": 0,
-          "fail": 485,
+          "fail": 486,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 495,
           "host_free_pass": 0
@@ -3024,7 +3024,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
@@ -3106,8 +3106,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
