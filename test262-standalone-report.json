@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-23T22:07:47.904Z",
-  "baseline_generated_at": "2026-08-23T22:07:47.904Z",
-  "baseline_sha": "76109a3e8defb97176551ca40f76e65ad1bde35b",
+  "timestamp": "2026-08-23T22:25:43.249Z",
+  "baseline_generated_at": "2026-08-23T22:25:43.249Z",
+  "baseline_sha": "717c9655862202c3b163d3de350339b75db8d7a7",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 31903,
-    "fail": 8436,
+    "fail": 8437,
     "compile_error": 3256,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40339,
+    "compilable": 40340,
     "host_free_pass": 31903,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 30920,
-        "fail": 8355,
+        "fail": 8356,
         "compile_error": 3234,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 39275,
+        "compilable": 39276,
         "host_free_pass": 30920,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 31903,
-        "fail": 8436,
+        "fail": 8437,
         "compile_error": 3256,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 40339,
+        "compilable": 40340,
         "host_free_pass": 31903,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32291,
-        "fail": 10939,
+        "fail": 10940,
         "compile_error": 5383,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 115,
-        "compilable": 43230,
+        "compilable": 43231,
         "host_free_pass": 32291,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 31903,
-    "fail": 8436,
+    "fail": 8437,
     "compile_error": 3256,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40339,
+    "compilable": 40340,
     "host_free_pass": 31903,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32291,
-    "fail": 10939,
+    "fail": 10940,
     "compile_error": 5383,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 115,
-    "compilable": 43230,
+    "compilable": 43231,
     "host_free_pass": 32291,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 29751,
-    "fail": 8192,
+    "fail": 8193,
     "compile_error": 3142,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 37943,
+    "compilable": 37944,
     "host_free_pass": 29751,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 30920,
-      "fail": 8355,
+      "fail": 8356,
       "compile_error": 3234,
-      "compile_timeout": 7,
+      "compile_timeout": 6,
       "skip": 19,
-      "compilable": 39275,
+      "compilable": 39276,
       "host_free_pass": 30920,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8396,
-      "fail": 1553,
+      "fail": 1554,
       "compile_error": 1133,
-      "compile_timeout": 2,
+      "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8396
@@ -1205,7 +1205,7 @@
     "oob": 17,
     "other": 3319,
     "promise_error": 43,
-    "range_error": 10,
+    "range_error": 11,
     "runtime_error": 224,
     "syntax_error": 20,
     "type_error": 1846,
@@ -1291,18 +1291,18 @@
           "Proposals": 4450
         },
         "sample_files": [
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_from_string_field (##)",
-          "other:ReferenceError: Temporal is not defined",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)"
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
+          "other:ReferenceError: Temporal is not defined"
         ]
       },
       {
@@ -1333,15 +1333,15 @@
           "ES2027": 99
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol() should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -2030,8 +2030,8 @@
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js",
-          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js"
+          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
+          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2051,9 +2051,9 @@
         "count": 49,
         "statuses": {
           "pass": 0,
-          "fail": 39,
+          "fail": 40,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 49,
           "host_free_pass": 0
@@ -2063,6 +2063,7 @@
           "host_import_leak": 8,
           "type_error": 2,
           "other": 1,
+          "range_error": 1,
           "wasm_compile": 1
         },
         "by_edition": {
@@ -3099,8 +3100,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
