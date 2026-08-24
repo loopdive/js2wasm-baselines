@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-24T03:14:26.258Z",
-  "baseline_generated_at": "2026-08-24T03:14:26.258Z",
-  "baseline_sha": "f4cf55de0de51d10e58c97a08c52ce455984704d",
+  "timestamp": "2026-08-24T08:32:23.389Z",
+  "baseline_generated_at": "2026-08-24T08:32:23.389Z",
+  "baseline_sha": "1278e2effe497ff1223d02feec49bb09fd48ca05",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 31915,
-    "fail": 8419,
+    "fail": 8418,
     "compile_error": 3256,
-    "compile_timeout": 12,
+    "compile_timeout": 13,
     "skip": 19,
-    "compilable": 40334,
+    "compilable": 40333,
     "host_free_pass": 31915,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 30932,
-        "fail": 8340,
+        "fail": 8339,
         "compile_error": 3234,
-        "compile_timeout": 10,
+        "compile_timeout": 11,
         "skip": 19,
-        "compilable": 39272,
+        "compilable": 39271,
         "host_free_pass": 30932,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 31915,
-        "fail": 8419,
+        "fail": 8418,
         "compile_error": 3256,
-        "compile_timeout": 12,
+        "compile_timeout": 13,
         "skip": 19,
-        "compilable": 40334,
+        "compilable": 40333,
         "host_free_pass": 31915,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32303,
-        "fail": 10922,
+        "fail": 10921,
         "compile_error": 5383,
-        "compile_timeout": 12,
+        "compile_timeout": 13,
         "skip": 115,
-        "compilable": 43225,
+        "compilable": 43224,
         "host_free_pass": 32303,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 31915,
-    "fail": 8419,
+    "fail": 8418,
     "compile_error": 3256,
-    "compile_timeout": 12,
+    "compile_timeout": 13,
     "skip": 19,
-    "compilable": 40334,
+    "compilable": 40333,
     "host_free_pass": 31915,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32303,
-    "fail": 10922,
+    "fail": 10921,
     "compile_error": 5383,
-    "compile_timeout": 12,
+    "compile_timeout": 13,
     "skip": 115,
-    "compilable": 43225,
+    "compilable": 43224,
     "host_free_pass": 32303,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 29763,
-    "fail": 8175,
+    "fail": 8174,
     "compile_error": 3142,
-    "compile_timeout": 11,
+    "compile_timeout": 12,
     "skip": 19,
-    "compilable": 37938,
+    "compilable": 37937,
     "host_free_pass": 29763,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 30932,
-      "fail": 8340,
+      "fail": 8339,
       "compile_error": 3234,
-      "compile_timeout": 10,
+      "compile_timeout": 11,
       "skip": 19,
-      "compilable": 39272,
+      "compilable": 39271,
       "host_free_pass": 30932,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8400,
-      "fail": 1550,
+      "fail": 1549,
       "compile_error": 1133,
-      "compile_timeout": 1,
+      "compile_timeout": 2,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8400
@@ -1205,7 +1205,7 @@
     "oob": 17,
     "other": 3290,
     "promise_error": 72,
-    "range_error": 11,
+    "range_error": 10,
     "runtime_error": 224,
     "syntax_error": 20,
     "type_error": 1847,
@@ -1292,8 +1292,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
@@ -1335,8 +1335,8 @@
         "sample_files": [
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
-          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
+          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
@@ -2033,7 +2033,7 @@
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
+          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2053,9 +2053,9 @@
         "count": 49,
         "statuses": {
           "pass": 0,
-          "fail": 40,
+          "fail": 39,
           "compile_error": 9,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 49,
           "host_free_pass": 0
@@ -2065,7 +2065,6 @@
           "host_import_leak": 8,
           "type_error": 2,
           "other": 1,
-          "range_error": 1,
           "wasm_compile": 1
         },
         "by_edition": {
