@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-25T12:55:25.793Z",
-  "baseline_generated_at": "2026-08-25T12:55:25.793Z",
-  "baseline_sha": "21c94b7075b8522bb771415e009f8db2ef9e78e3",
+  "timestamp": "2026-08-25T13:12:30.044Z",
+  "baseline_generated_at": "2026-08-25T13:12:30.044Z",
+  "baseline_sha": "2ac130ac4d33f56964d3c7dde5f39babccce8253",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -198,9 +198,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 1983,
-      "fail": 975,
+      "fail": 974,
       "compile_error": 121,
-      "compile_timeout": 3,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 1983
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8408,
-      "fail": 1541,
+      "fail": 1542,
       "compile_error": 1133,
-      "compile_timeout": 2,
+      "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8408
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 6511,
+    "assertion_fail": 6510,
     "host_import_leak": 3901,
     "illegal_cast": 252,
     "negative_test_fail": 12,
@@ -1205,7 +1205,7 @@
     "oob": 9,
     "other": 3285,
     "promise_error": 72,
-    "range_error": 10,
+    "range_error": 11,
     "runtime_error": 224,
     "syntax_error": 20,
     "type_error": 1785,
@@ -1295,7 +1295,7 @@
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1333,15 +1333,15 @@
           "ES2027": 99
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol() should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -1756,7 +1756,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/Symbol.toStringTag.js"
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -1896,8 +1896,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 971,
           "runtime_error": 44,
+          "assertion_fail": 971,
           "type_error": 248,
           "other": 232,
           "illegal_cast": 7,
@@ -1916,15 +1916,15 @@
           "ES5": 2
         },
         "sample_files": [
-          "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
           "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
+          "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
           "test/language/expressions/class/async-gen-method/yield-star-getiter-async-undefined-sync-get-abrupt.js",
           "test/language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js",
           "test/language/expressions/class/async-method/dflt-params-ref-later.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
           "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
+          "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Cannot read properties of undefined (reading 'access')",
           "other:Test262:AsyncTestFailure:Test262Error: Test262Error: function should not be resolved"
@@ -1993,15 +1993,15 @@
         "count": 2861,
         "statuses": {
           "pass": 0,
-          "fail": 2558,
+          "fail": 2557,
           "compile_error": 300,
-          "compile_timeout": 3,
+          "compile_timeout": 4,
           "skip": 0,
           "total": 2861,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1939,
+          "assertion_fail": 1938,
           "null_deref": 38,
           "illegal_cast": 185,
           "type_error": 369,
@@ -2031,7 +2031,7 @@
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
+          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2051,9 +2051,9 @@
         "count": 49,
         "statuses": {
           "pass": 0,
-          "fail": 39,
+          "fail": 40,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 49,
           "host_free_pass": 0
@@ -2063,6 +2063,7 @@
           "host_import_leak": 8,
           "type_error": 2,
           "other": 1,
+          "range_error": 1,
           "wasm_compile": 1
         },
         "by_edition": {
@@ -2797,8 +2798,8 @@
           "test/built-ins/Promise/any/invoke-resolve-get-error.js",
           "test/built-ins/Promise/resolve/resolve-self.js",
           "test/built-ins/Promise/any/ctx-ctor-throws.js",
-          "test/built-ins/Promise/any/capability-reject-throws-no-close.js",
-          "test/built-ins/Promise/race/reject-immed.js"
+          "test/built-ins/Promise/race/reject-immed.js",
+          "test/built-ins/Promise/any/capability-reject-throws-no-close.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Object method called on null or undefined",
@@ -2967,7 +2968,7 @@
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/expressions/object/method-definition/yield-as-function-expression-binding-identifier.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0-class.js"
+          "test/language/identifiers/start-unicode-16.0.0-escaped.js"
         ],
         "sample_signatures": [
           "other:L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode; L#:## 'yield' is a reserved word and may not be used as an identifier in strict mode",
@@ -3105,8 +3106,8 @@
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)",
           "type_error:TypeError: Atomics.exchange requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Cannot convert undefined or null to object"
+          "type_error:TypeError: Cannot convert undefined or null to object",
+          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
