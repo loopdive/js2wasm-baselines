@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-25T14:36:07.703Z",
-  "baseline_generated_at": "2026-08-25T14:36:07.703Z",
-  "baseline_sha": "67991aafc1afe864e61879eb458d55aed5a6543d",
+  "timestamp": "2026-08-25T15:17:00.303Z",
+  "baseline_generated_at": "2026-08-25T15:17:00.303Z",
+  "baseline_sha": "03d0e488f01528d07d3198db36964eab1c492fe2",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -10,24 +10,24 @@
   },
   "summary": {
     "total": 43621,
-    "pass": 32034,
-    "fail": 8318,
+    "pass": 32043,
+    "fail": 8309,
     "compile_error": 3244,
     "compile_timeout": 6,
     "skip": 19,
     "compilable": 40352,
-    "host_free_pass": 32034,
+    "host_free_pass": 32043,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
-        "pass": 31036,
-        "fail": 8251,
+        "pass": 31045,
+        "fail": 8242,
         "compile_error": 3223,
         "compile_timeout": 6,
         "skip": 19,
         "compilable": 39287,
-        "host_free_pass": 31036,
+        "host_free_pass": 31045,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -57,25 +57,25 @@
       },
       "official": {
         "total": 43621,
-        "pass": 32034,
-        "fail": 8318,
+        "pass": 32043,
+        "fail": 8309,
         "compile_error": 3244,
         "compile_timeout": 6,
         "skip": 19,
         "compilable": 40352,
-        "host_free_pass": 32034,
+        "host_free_pass": 32043,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 32422,
-        "fail": 10821,
+        "pass": 32431,
+        "fail": 10812,
         "compile_error": 5371,
         "compile_timeout": 6,
         "skip": 115,
         "compilable": 43243,
-        "host_free_pass": 32422,
+        "host_free_pass": 32431,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -83,35 +83,35 @@
   },
   "official_summary": {
     "total": 43621,
-    "pass": 32034,
-    "fail": 8318,
+    "pass": 32043,
+    "fail": 8309,
     "compile_error": 3244,
     "compile_timeout": 6,
     "skip": 19,
     "compilable": 40352,
-    "host_free_pass": 32034,
+    "host_free_pass": 32043,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 32422,
-    "fail": 10821,
+    "pass": 32431,
+    "fail": 10812,
     "compile_error": 5371,
     "compile_timeout": 6,
     "skip": 115,
     "compilable": 43243,
-    "host_free_pass": 32422,
+    "host_free_pass": 32431,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 29879,
-    "fail": 8076,
+    "pass": 29887,
+    "fail": 8068,
     "compile_error": 3131,
     "compile_timeout": 5,
     "skip": 19,
     "compilable": 37955,
-    "host_free_pass": 29879,
+    "host_free_pass": 29887,
     "stale": 0
   },
   "scope_summaries": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42535,
-      "pass": 31036,
-      "fail": 8251,
+      "pass": 31045,
+      "fail": 8242,
       "compile_error": 3223,
       "compile_timeout": 6,
       "skip": 19,
       "compilable": 39287,
-      "host_free_pass": 31036,
+      "host_free_pass": 31045,
       "stale": 0
     }
   },
@@ -989,13 +989,13 @@
     {
       "name": "language/expressions",
       "path": "language/expressions",
-      "pass": 8409,
-      "fail": 1541,
+      "pass": 8418,
+      "fail": 1532,
       "compile_error": 1133,
       "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
-      "host_free_pass": 8409
+      "host_free_pass": 8418
     },
     {
       "name": "language/function-code",
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 6502,
+    "assertion_fail": 6493,
     "host_import_leak": 3901,
     "illegal_cast": 252,
     "negative_test_fail": 7,
@@ -1219,8 +1219,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 16198,
-    "classified": 16198,
+    "total_non_pass_non_skip": 16189,
+    "classified": 16189,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1293,8 +1293,8 @@
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
@@ -2093,18 +2093,18 @@
           "#1466"
         ],
         "label": "Object/property/destructuring semantic mismatches behind the object model",
-        "count": 630,
+        "count": 621,
         "statuses": {
           "pass": 0,
-          "fail": 567,
+          "fail": 558,
           "compile_error": 63,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 630,
+          "total": 621,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 344,
+          "assertion_fail": 335,
           "other": 34,
           "type_error": 171,
           "runtime_error": 25,
@@ -2113,7 +2113,7 @@
           "wasm_compile": 1
         },
         "by_edition": {
-          "ES2018": 50,
+          "ES2018": 41,
           "ES2015": 266,
           "ES2027": 33,
           "Unclassified (untagged)": 108,
@@ -3094,8 +3094,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
