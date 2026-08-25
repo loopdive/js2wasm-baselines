@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-24T22:54:44.308Z",
-  "baseline_generated_at": "2026-08-24T22:54:44.308Z",
-  "baseline_sha": "4692808b5e4e2ef288ef5b3b4b79d76d9db2a839",
+  "timestamp": "2026-08-25T01:25:09.113Z",
+  "baseline_generated_at": "2026-08-25T01:25:09.114Z",
+  "baseline_sha": "c92de0893c3960d3b1903e36853a650f723d979e",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 31938,
-    "fail": 8396,
+    "fail": 8397,
     "compile_error": 3256,
-    "compile_timeout": 12,
+    "compile_timeout": 11,
     "skip": 19,
-    "compilable": 40334,
+    "compilable": 40335,
     "host_free_pass": 31938,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 30955,
-        "fail": 8317,
+        "fail": 8318,
         "compile_error": 3234,
-        "compile_timeout": 10,
+        "compile_timeout": 9,
         "skip": 19,
-        "compilable": 39272,
+        "compilable": 39273,
         "host_free_pass": 30955,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 31938,
-        "fail": 8396,
+        "fail": 8397,
         "compile_error": 3256,
-        "compile_timeout": 12,
+        "compile_timeout": 11,
         "skip": 19,
-        "compilable": 40334,
+        "compilable": 40335,
         "host_free_pass": 31938,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32326,
-        "fail": 10899,
+        "fail": 10900,
         "compile_error": 5383,
-        "compile_timeout": 12,
+        "compile_timeout": 11,
         "skip": 115,
-        "compilable": 43225,
+        "compilable": 43226,
         "host_free_pass": 32326,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,22 +84,22 @@
   "official_summary": {
     "total": 43621,
     "pass": 31938,
-    "fail": 8396,
+    "fail": 8397,
     "compile_error": 3256,
-    "compile_timeout": 12,
+    "compile_timeout": 11,
     "skip": 19,
-    "compilable": 40334,
+    "compilable": 40335,
     "host_free_pass": 31938,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32326,
-    "fail": 10899,
+    "fail": 10900,
     "compile_error": 5383,
-    "compile_timeout": 12,
+    "compile_timeout": 11,
     "skip": 115,
-    "compilable": 43225,
+    "compilable": 43226,
     "host_free_pass": 32326,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 30955,
-      "fail": 8317,
+      "fail": 8318,
       "compile_error": 3234,
-      "compile_timeout": 10,
+      "compile_timeout": 9,
       "skip": 19,
-      "compilable": 39272,
+      "compilable": 39273,
       "host_free_pass": 30955,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8400,
-      "fail": 1550,
+      "fail": 1551,
       "compile_error": 1133,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8400
@@ -1291,9 +1291,9 @@
           "Proposals": 4450
         },
         "sample_files": [
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
         ],
@@ -1333,15 +1333,15 @@
           "ES2027": 99
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
-          "test/built-ins/AsyncDisposableStack/prototype/Symbol.toStringTag.js"
+          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol() should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -1463,15 +1463,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/parse/text-object.js",
-          "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
+          "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
-          "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
+          "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
           "assertion_fail:Test262Error: [[Set]] should not be called."
         ]
       },
@@ -2033,7 +2033,7 @@
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
+          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2571,9 +2571,9 @@
         "count": 619,
         "statuses": {
           "pass": 0,
-          "fail": 609,
+          "fail": 610,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 619,
           "host_free_pass": 0
@@ -2690,15 +2690,15 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js"
+          "test/built-ins/Atomics/or/bigint/bad-range.js",
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot mix BigInt and other types, use explicit conversions",
           "assertion_fail:Test262Error: Object(0b101n) >>> Object(1n) throws TypeError Expected a TypeError to be thrown but no exception was thrown at all",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)"
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
+          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
@@ -3016,7 +3016,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
