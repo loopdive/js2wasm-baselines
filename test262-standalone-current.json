@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-25T04:45:38.565Z",
-  "baseline_generated_at": "2026-08-25T04:45:38.565Z",
-  "baseline_sha": "56afab8c32ffdf11cdd8c72e36a3299144b9622b",
+  "timestamp": "2026-08-25T05:14:41.472Z",
+  "baseline_generated_at": "2026-08-25T05:14:41.473Z",
+  "baseline_sha": "b086b1552b0a800a1f7a1cc8cabc299b20a84832",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 31967,
-    "fail": 8374,
+    "fail": 8373,
     "compile_error": 3255,
-    "compile_timeout": 6,
+    "compile_timeout": 7,
     "skip": 19,
-    "compilable": 40341,
+    "compilable": 40340,
     "host_free_pass": 31967,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 30980,
-        "fail": 8296,
+        "fail": 8295,
         "compile_error": 3234,
-        "compile_timeout": 6,
+        "compile_timeout": 7,
         "skip": 19,
-        "compilable": 39276,
+        "compilable": 39275,
         "host_free_pass": 30980,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 31967,
-        "fail": 8374,
+        "fail": 8373,
         "compile_error": 3255,
-        "compile_timeout": 6,
+        "compile_timeout": 7,
         "skip": 19,
-        "compilable": 40341,
+        "compilable": 40340,
         "host_free_pass": 31967,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32355,
-        "fail": 10877,
+        "fail": 10876,
         "compile_error": 5382,
-        "compile_timeout": 6,
+        "compile_timeout": 7,
         "skip": 115,
-        "compilable": 43232,
+        "compilable": 43231,
         "host_free_pass": 32355,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 31967,
-    "fail": 8374,
+    "fail": 8373,
     "compile_error": 3255,
-    "compile_timeout": 6,
+    "compile_timeout": 7,
     "skip": 19,
-    "compilable": 40341,
+    "compilable": 40340,
     "host_free_pass": 31967,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32355,
-    "fail": 10877,
+    "fail": 10876,
     "compile_error": 5382,
-    "compile_timeout": 6,
+    "compile_timeout": 7,
     "skip": 115,
-    "compilable": 43232,
+    "compilable": 43231,
     "host_free_pass": 32355,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 29813,
-    "fail": 8131,
+    "fail": 8130,
     "compile_error": 3142,
-    "compile_timeout": 5,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 37944,
+    "compilable": 37943,
     "host_free_pass": 29813,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 30980,
-      "fail": 8296,
+      "fail": 8295,
       "compile_error": 3234,
-      "compile_timeout": 6,
+      "compile_timeout": 7,
       "skip": 19,
-      "compilable": 39276,
+      "compilable": 39275,
       "host_free_pass": 30980,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8404,
-      "fail": 1546,
+      "fail": 1545,
       "compile_error": 1133,
-      "compile_timeout": 1,
+      "compile_timeout": 2,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8404
@@ -1205,7 +1205,7 @@
     "oob": 17,
     "other": 3286,
     "promise_error": 72,
-    "range_error": 11,
+    "range_error": 10,
     "runtime_error": 224,
     "syntax_error": 20,
     "type_error": 1849,
@@ -1295,7 +1295,7 @@
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1333,15 +1333,15 @@
           "ES2027": 99
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol() should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -1665,7 +1665,7 @@
           "type_error:TypeError: Unsupported dynamic regular expression pattern",
           "other:L#:## Codegen error: standalone RegExp engine does not support duplicate capture group name 'x' (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target.; L#:## Codegen error: standalone RegExp engine does not sup",
           "other:L#:## Codegen error: native generator lowering currently supports only sequential numeric yields in standalone/WASI targets (##). Recompile with a JS host target for complex generator shapes.",
-          "other:ReferenceError: await is not defined"
+          "host_import_leak:standalone target emitted host imports: env::RegExp_compile (##)"
         ]
       },
       {
@@ -2032,7 +2032,7 @@
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
+          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2052,9 +2052,9 @@
         "count": 49,
         "statuses": {
           "pass": 0,
-          "fail": 40,
+          "fail": 39,
           "compile_error": 9,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 49,
           "host_free_pass": 0
@@ -2064,7 +2064,6 @@
           "host_import_leak": 8,
           "type_error": 2,
           "other": 1,
-          "range_error": 1,
           "wasm_compile": 1
         },
         "by_edition": {
@@ -2688,15 +2687,15 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js"
+          "test/built-ins/Atomics/or/bigint/bad-range.js",
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot mix BigInt and other types, use explicit conversions",
           "assertion_fail:Test262Error: Object(0b101n) >>> Object(1n) throws TypeError Expected a TypeError to be thrown but no exception was thrown at all",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)"
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
+          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
@@ -2797,15 +2796,15 @@
         },
         "sample_files": [
           "test/built-ins/Promise/any/invoke-resolve-get-error.js",
-          "test/built-ins/Promise/any/ctx-ctor-throws.js",
           "test/built-ins/Promise/resolve/resolve-self.js",
+          "test/built-ins/Promise/any/ctx-ctor-throws.js",
           "test/built-ins/Promise/race/reject-immed.js",
           "test/built-ins/Promise/any/capability-reject-throws-no-close.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Object method called on null or undefined",
-          "host_import_leak:standalone target emitted host imports: env::Promise_any (##)",
           "type_error:TypeError: Promise.resolve is not yet implemented in --target standalone",
+          "host_import_leak:standalone target emitted host imports: env::Promise_any (##)",
           "promise_error:Test262:AsyncTestFailure:Test262Error: The promise should not be fulfilled.",
           "other:requested new array is too large"
         ]
