@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-25T17:32:59.349Z",
-  "baseline_generated_at": "2026-08-25T17:32:59.349Z",
-  "baseline_sha": "8f3d52864d81703fc993b5511523e3bc5590abcd",
+  "timestamp": "2026-08-25T17:55:12.562Z",
+  "baseline_generated_at": "2026-08-25T17:55:12.562Z",
+  "baseline_sha": "b982574b6d5a6393b4505331e630d963e4c6fce0",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -10,24 +10,24 @@
   },
   "summary": {
     "total": 43621,
-    "pass": 32059,
-    "fail": 8291,
+    "pass": 32062,
+    "fail": 8288,
     "compile_error": 3246,
     "compile_timeout": 6,
     "skip": 19,
     "compilable": 40350,
-    "host_free_pass": 32059,
+    "host_free_pass": 32062,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
-        "pass": 31061,
-        "fail": 8224,
+        "pass": 31064,
+        "fail": 8221,
         "compile_error": 3225,
         "compile_timeout": 6,
         "skip": 19,
         "compilable": 39285,
-        "host_free_pass": 31061,
+        "host_free_pass": 31064,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -57,25 +57,25 @@
       },
       "official": {
         "total": 43621,
-        "pass": 32059,
-        "fail": 8291,
+        "pass": 32062,
+        "fail": 8288,
         "compile_error": 3246,
         "compile_timeout": 6,
         "skip": 19,
         "compilable": 40350,
-        "host_free_pass": 32059,
+        "host_free_pass": 32062,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 32447,
-        "fail": 10794,
+        "pass": 32450,
+        "fail": 10791,
         "compile_error": 5373,
         "compile_timeout": 6,
         "skip": 115,
         "compilable": 43241,
-        "host_free_pass": 32447,
+        "host_free_pass": 32450,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -83,35 +83,35 @@
   },
   "official_summary": {
     "total": 43621,
-    "pass": 32059,
-    "fail": 8291,
+    "pass": 32062,
+    "fail": 8288,
     "compile_error": 3246,
     "compile_timeout": 6,
     "skip": 19,
     "compilable": 40350,
-    "host_free_pass": 32059,
+    "host_free_pass": 32062,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 32447,
-    "fail": 10794,
+    "pass": 32450,
+    "fail": 10791,
     "compile_error": 5373,
     "compile_timeout": 6,
     "skip": 115,
     "compilable": 43241,
-    "host_free_pass": 32447,
+    "host_free_pass": 32450,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 29903,
-    "fail": 8050,
+    "pass": 29906,
+    "fail": 8047,
     "compile_error": 3133,
     "compile_timeout": 5,
     "skip": 19,
     "compilable": 37953,
-    "host_free_pass": 29903,
+    "host_free_pass": 29906,
     "stale": 0
   },
   "scope_summaries": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42535,
-      "pass": 31061,
-      "fail": 8224,
+      "pass": 31064,
+      "fail": 8221,
       "compile_error": 3225,
       "compile_timeout": 6,
       "skip": 19,
       "compilable": 39285,
-      "host_free_pass": 31061,
+      "host_free_pass": 31064,
       "stale": 0
     }
   },
@@ -1165,13 +1165,13 @@
     {
       "name": "language/statements",
       "path": "language/statements",
-      "pass": 7272,
-      "fail": 1401,
+      "pass": 7275,
+      "fail": 1398,
       "compile_error": 673,
       "compile_timeout": 0,
       "skip": 1,
       "total": 9347,
-      "host_free_pass": 7272
+      "host_free_pass": 7275
     },
     {
       "name": "language/types",
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 6477,
+    "assertion_fail": 6474,
     "host_import_leak": 3901,
     "illegal_cast": 252,
     "negative_test_fail": 7,
@@ -1219,8 +1219,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 16173,
-    "classified": 16173,
+    "total_non_pass_non_skip": 16170,
+    "classified": 16170,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1292,10 +1292,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
+          "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1335,8 +1335,8 @@
         "sample_files": [
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
-          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
+          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
@@ -1756,7 +1756,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/Symbol.toStringTag.js"
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -1774,20 +1774,20 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 1857,
+        "count": 1854,
         "statuses": {
           "pass": 0,
-          "fail": 769,
+          "fail": 766,
           "compile_error": 1088,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1857,
+          "total": 1854,
           "host_free_pass": 0
         },
         "error_categories": {
           "promise_error": 9,
           "host_import_leak": 1055,
-          "assertion_fail": 478,
+          "assertion_fail": 475,
           "type_error": 223,
           "other": 68,
           "illegal_cast": 7,
@@ -1798,7 +1798,7 @@
         "by_edition": {
           "ES2018": 399,
           "ES2022": 449,
-          "ES2015": 516,
+          "ES2015": 513,
           "ES2027": 161,
           "ES2025": 274,
           "ES2019": 11,
@@ -2796,8 +2796,8 @@
           "test/built-ins/Promise/any/invoke-resolve-get-error.js",
           "test/built-ins/Promise/resolve/resolve-self.js",
           "test/built-ins/Promise/any/ctx-ctor-throws.js",
-          "test/built-ins/Promise/race/reject-immed.js",
-          "test/built-ins/Promise/any/capability-reject-throws-no-close.js"
+          "test/built-ins/Promise/any/capability-reject-throws-no-close.js",
+          "test/built-ins/Promise/race/reject-immed.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Object method called on null or undefined",
