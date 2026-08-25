@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-25T04:25:09.891Z",
-  "baseline_generated_at": "2026-08-25T04:25:09.891Z",
-  "baseline_sha": "a1e65f5b16894f610b32519f297ef554f95e6d1d",
+  "timestamp": "2026-08-25T04:45:38.565Z",
+  "baseline_generated_at": "2026-08-25T04:45:38.565Z",
+  "baseline_sha": "56afab8c32ffdf11cdd8c72e36a3299144b9622b",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1292,10 +1292,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1665,7 +1665,7 @@
           "type_error:TypeError: Unsupported dynamic regular expression pattern",
           "other:L#:## Codegen error: standalone RegExp engine does not support duplicate capture group name 'x' (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target.; L#:## Codegen error: standalone RegExp engine does not sup",
           "other:L#:## Codegen error: native generator lowering currently supports only sequential numeric yields in standalone/WASI targets (##). Recompile with a JS host target for complex generator shapes.",
-          "host_import_leak:standalone target emitted host imports: env::RegExp_compile (##)"
+          "other:ReferenceError: await is not defined"
         ]
       },
       {
@@ -1897,8 +1897,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "runtime_error": 44,
           "assertion_fail": 975,
+          "runtime_error": 44,
           "type_error": 248,
           "other": 232,
           "illegal_cast": 7,
@@ -1917,15 +1917,15 @@
           "ES5": 2
         },
         "sample_files": [
-          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
+          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/async-gen-method/yield-star-getiter-async-undefined-sync-get-abrupt.js",
           "test/language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js",
           "test/language/expressions/class/async-method/dflt-params-ref-later.js"
         ],
         "sample_signatures": [
-          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
+          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Cannot read properties of undefined (reading 'access')",
           "other:Test262:AsyncTestFailure:Test262Error: Test262Error: function should not be resolved"
@@ -1972,15 +1972,15 @@
           "test/built-ins/isFinite/toprimitive-result-is-object-throws.js",
           "test/built-ins/isNaN/toprimitive-valid-result.js",
           "test/language/expressions/left-shift/bigint-toprimitive.js",
-          "test/built-ins/Error/error-message-tostring-symbol.js",
-          "test/built-ins/isNaN/toprimitive-call-abrupt.js"
+          "test/built-ins/isNaN/toprimitive-call-abrupt.js",
+          "test/built-ins/Error/error-message-tostring-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: toPrimitive is called - non-NaN number Expected SameValue(«NaN», «#») to be true",
           "type_error:TypeError: Cannot mix BigInt and other types, use explicit conversions",
-          "assertion_fail:Test262Error: If _message_ is a Symbol, Error must throw TypeError Expected a TypeError to be thrown but no exception was thrown at all",
-          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
+          "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
+          "assertion_fail:Test262Error: If _message_ is a Symbol, Error must throw TypeError Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -2032,7 +2032,7 @@
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
+          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2688,15 +2688,15 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
+          "test/built-ins/Atomics/or/bigint/bad-range.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot mix BigInt and other types, use explicit conversions",
           "assertion_fail:Test262Error: Object(0b101n) >>> Object(1n) throws TypeError Expected a TypeError to be thrown but no exception was thrown at all",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
-          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)"
         ]
       },
       {
@@ -2797,15 +2797,15 @@
         },
         "sample_files": [
           "test/built-ins/Promise/any/invoke-resolve-get-error.js",
-          "test/built-ins/Promise/resolve/resolve-self.js",
           "test/built-ins/Promise/any/ctx-ctor-throws.js",
+          "test/built-ins/Promise/resolve/resolve-self.js",
           "test/built-ins/Promise/race/reject-immed.js",
           "test/built-ins/Promise/any/capability-reject-throws-no-close.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Object method called on null or undefined",
-          "type_error:TypeError: Promise.resolve is not yet implemented in --target standalone",
           "host_import_leak:standalone target emitted host imports: env::Promise_any (##)",
+          "type_error:TypeError: Promise.resolve is not yet implemented in --target standalone",
           "promise_error:Test262:AsyncTestFailure:Test262Error: The promise should not be fulfilled.",
           "other:requested new array is too large"
         ]
@@ -3014,7 +3014,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
