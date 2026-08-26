@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-26T05:37:10.831Z",
-  "baseline_generated_at": "2026-08-26T05:37:10.832Z",
-  "baseline_sha": "3a318da81e34ca67c197b04f0dec1f5b1d8743fa",
+  "timestamp": "2026-08-26T06:10:03.952Z",
+  "baseline_generated_at": "2026-08-26T06:10:03.953Z",
+  "baseline_sha": "439c83e3fce3c4962e53bca98362f38ad1809177",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 32084,
-    "fail": 8264,
+    "fail": 8265,
     "compile_error": 3247,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40348,
+    "compilable": 40349,
     "host_free_pass": 32084,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 31086,
-        "fail": 8197,
+        "fail": 8198,
         "compile_error": 3226,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 39283,
+        "compilable": 39284,
         "host_free_pass": 31086,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 32084,
-        "fail": 8264,
+        "fail": 8265,
         "compile_error": 3247,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 40348,
+        "compilable": 40349,
         "host_free_pass": 32084,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32472,
-        "fail": 10767,
+        "fail": 10768,
         "compile_error": 5374,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 115,
-        "compilable": 43239,
+        "compilable": 43240,
         "host_free_pass": 32472,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 32084,
-    "fail": 8264,
+    "fail": 8265,
     "compile_error": 3247,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40348,
+    "compilable": 40349,
     "host_free_pass": 32084,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32472,
-    "fail": 10767,
+    "fail": 10768,
     "compile_error": 5374,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 115,
-    "compilable": 43239,
+    "compilable": 43240,
     "host_free_pass": 32472,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 29925,
-    "fail": 8026,
+    "fail": 8027,
     "compile_error": 3134,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 37951,
+    "compilable": 37952,
     "host_free_pass": 29925,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 31086,
-      "fail": 8197,
+      "fail": 8198,
       "compile_error": 3226,
-      "compile_timeout": 7,
+      "compile_timeout": 6,
       "skip": 19,
-      "compilable": 39283,
+      "compilable": 39284,
       "host_free_pass": 31086,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8416,
-      "fail": 1533,
+      "fail": 1534,
       "compile_error": 1133,
-      "compile_timeout": 2,
+      "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8416
@@ -1205,7 +1205,7 @@
     "oob": 9,
     "other": 3284,
     "promise_error": 72,
-    "range_error": 19,
+    "range_error": 20,
     "runtime_error": 224,
     "syntax_error": 20,
     "type_error": 1776,
@@ -1292,9 +1292,9 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1755,7 +1755,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
+          "test/built-ins/Reflect/set/symbol-property.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2028,7 +2028,7 @@
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
+          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2048,9 +2048,9 @@
         "count": 50,
         "statuses": {
           "pass": 0,
-          "fail": 40,
+          "fail": 41,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 50,
           "host_free_pass": 0
@@ -2060,7 +2060,7 @@
           "host_import_leak": 8,
           "type_error": 2,
           "other": 1,
-          "range_error": 1,
+          "range_error": 2,
           "wasm_compile": 1
         },
         "by_edition": {
@@ -2266,15 +2266,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
           "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
+          "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
+          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «false») to be true"
         ]
@@ -3012,7 +3012,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
@@ -3094,8 +3094,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
