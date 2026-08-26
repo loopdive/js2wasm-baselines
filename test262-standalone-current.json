@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-26T06:38:12.634Z",
-  "baseline_generated_at": "2026-08-26T06:38:12.634Z",
-  "baseline_sha": "b534d4a29cfbd6a2a404085f1abdbbd65610b3d5",
+  "timestamp": "2026-08-26T07:37:43.216Z",
+  "baseline_generated_at": "2026-08-26T07:37:43.216Z",
+  "baseline_sha": "8c6d9d8fac210bc5203d52d711ef72cd5107641b",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 32084,
-    "fail": 8265,
+    "fail": 8264,
     "compile_error": 3247,
-    "compile_timeout": 6,
+    "compile_timeout": 7,
     "skip": 19,
-    "compilable": 40349,
+    "compilable": 40348,
     "host_free_pass": 32084,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 31086,
-        "fail": 8198,
+        "fail": 8197,
         "compile_error": 3226,
-        "compile_timeout": 6,
+        "compile_timeout": 7,
         "skip": 19,
-        "compilable": 39284,
+        "compilable": 39283,
         "host_free_pass": 31086,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 32084,
-        "fail": 8265,
+        "fail": 8264,
         "compile_error": 3247,
-        "compile_timeout": 6,
+        "compile_timeout": 7,
         "skip": 19,
-        "compilable": 40349,
+        "compilable": 40348,
         "host_free_pass": 32084,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32472,
-        "fail": 10768,
+        "fail": 10767,
         "compile_error": 5374,
-        "compile_timeout": 6,
+        "compile_timeout": 7,
         "skip": 115,
-        "compilable": 43240,
+        "compilable": 43239,
         "host_free_pass": 32472,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 32084,
-    "fail": 8265,
+    "fail": 8264,
     "compile_error": 3247,
-    "compile_timeout": 6,
+    "compile_timeout": 7,
     "skip": 19,
-    "compilable": 40349,
+    "compilable": 40348,
     "host_free_pass": 32084,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32472,
-    "fail": 10768,
+    "fail": 10767,
     "compile_error": 5374,
-    "compile_timeout": 6,
+    "compile_timeout": 7,
     "skip": 115,
-    "compilable": 43240,
+    "compilable": 43239,
     "host_free_pass": 32472,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 29925,
-    "fail": 8027,
+    "fail": 8026,
     "compile_error": 3134,
-    "compile_timeout": 5,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 37952,
+    "compilable": 37951,
     "host_free_pass": 29925,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 31086,
-      "fail": 8198,
+      "fail": 8197,
       "compile_error": 3226,
-      "compile_timeout": 6,
+      "compile_timeout": 7,
       "skip": 19,
-      "compilable": 39284,
+      "compilable": 39283,
       "host_free_pass": 31086,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8416,
-      "fail": 1534,
+      "fail": 1533,
       "compile_error": 1133,
-      "compile_timeout": 1,
+      "compile_timeout": 2,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8416
@@ -1205,7 +1205,7 @@
     "oob": 9,
     "other": 3284,
     "promise_error": 72,
-    "range_error": 20,
+    "range_error": 19,
     "runtime_error": 224,
     "syntax_error": 20,
     "type_error": 1776,
@@ -1755,7 +1755,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/Reflect/setPrototypeOf/target-is-symbol-throws.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/Symbol.toStringTag.js"
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2028,7 +2028,7 @@
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
-          "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
+          "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
@@ -2048,9 +2048,9 @@
         "count": 50,
         "statuses": {
           "pass": 0,
-          "fail": 41,
+          "fail": 40,
           "compile_error": 9,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 50,
           "host_free_pass": 0
@@ -2060,7 +2060,7 @@
           "host_import_leak": 8,
           "type_error": 2,
           "other": 1,
-          "range_error": 2,
+          "range_error": 1,
           "wasm_compile": 1
         },
         "by_edition": {
@@ -2796,8 +2796,8 @@
           "test/built-ins/Promise/any/invoke-resolve-get-error.js",
           "test/built-ins/Promise/resolve/resolve-self.js",
           "test/built-ins/Promise/any/ctx-ctor-throws.js",
-          "test/built-ins/Promise/any/capability-reject-throws-no-close.js",
-          "test/built-ins/Promise/race/reject-immed.js"
+          "test/built-ins/Promise/race/reject-immed.js",
+          "test/built-ins/Promise/any/capability-reject-throws-no-close.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Object method called on null or undefined",
