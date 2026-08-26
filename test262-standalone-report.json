@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-26T04:23:30.257Z",
-  "baseline_generated_at": "2026-08-26T04:23:30.257Z",
-  "baseline_sha": "9a25a6c327b81b4e9a83e16c9c637d27f27c8d9c",
+  "timestamp": "2026-08-26T04:43:05.702Z",
+  "baseline_generated_at": "2026-08-26T04:43:05.702Z",
+  "baseline_sha": "6a5f67238d2525dd1bc00e92f24525a7f11a9d45",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 32084,
-    "fail": 8264,
+    "fail": 8265,
     "compile_error": 3247,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40348,
+    "compilable": 40349,
     "host_free_pass": 32084,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 31086,
-        "fail": 8197,
+        "fail": 8198,
         "compile_error": 3226,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 39283,
+        "compilable": 39284,
         "host_free_pass": 31086,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 32084,
-        "fail": 8264,
+        "fail": 8265,
         "compile_error": 3247,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 19,
-        "compilable": 40348,
+        "compilable": 40349,
         "host_free_pass": 32084,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32472,
-        "fail": 10767,
+        "fail": 10768,
         "compile_error": 5374,
-        "compile_timeout": 7,
+        "compile_timeout": 6,
         "skip": 115,
-        "compilable": 43239,
+        "compilable": 43240,
         "host_free_pass": 32472,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 32084,
-    "fail": 8264,
+    "fail": 8265,
     "compile_error": 3247,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 19,
-    "compilable": 40348,
+    "compilable": 40349,
     "host_free_pass": 32084,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32472,
-    "fail": 10767,
+    "fail": 10768,
     "compile_error": 5374,
-    "compile_timeout": 7,
+    "compile_timeout": 6,
     "skip": 115,
-    "compilable": 43239,
+    "compilable": 43240,
     "host_free_pass": 32472,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 29925,
-    "fail": 8026,
+    "fail": 8027,
     "compile_error": 3134,
-    "compile_timeout": 6,
+    "compile_timeout": 5,
     "skip": 19,
-    "compilable": 37951,
+    "compilable": 37952,
     "host_free_pass": 29925,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 31086,
-      "fail": 8197,
+      "fail": 8198,
       "compile_error": 3226,
-      "compile_timeout": 7,
+      "compile_timeout": 6,
       "skip": 19,
-      "compilable": 39283,
+      "compilable": 39284,
       "host_free_pass": 31086,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8416,
-      "fail": 1533,
+      "fail": 1534,
       "compile_error": 1133,
-      "compile_timeout": 2,
+      "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8416
@@ -1205,7 +1205,7 @@
     "oob": 9,
     "other": 3284,
     "promise_error": 72,
-    "range_error": 19,
+    "range_error": 20,
     "runtime_error": 224,
     "syntax_error": 20,
     "type_error": 1776,
@@ -1291,11 +1291,11 @@
           "Proposals": 4450
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1337,7 +1337,7 @@
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
-          "test/built-ins/AsyncDisposableStack/prototype/Symbol.toStringTag.js"
+          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
@@ -1460,15 +1460,15 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
-          "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/parse/reviver-object-define-prop-err.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: [[Set]] should not be called."
         ]
@@ -1761,8 +1761,8 @@
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
           "runtime_error:L#:## Codegen error: standalone Reflect.construct cannot preserve an arbitrary distinct NewTarget without a statically-resolved NewTarget.prototype assignment (##).",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.; L#:## Code",
-          "assertion_fail:Test262Error: Symbol() should be an own property"
+          "assertion_fail:Test262Error: Symbol() should be an own property",
+          "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.; L#:## Code"
         ]
       },
       {
@@ -2048,9 +2048,9 @@
         "count": 50,
         "statuses": {
           "pass": 0,
-          "fail": 40,
+          "fail": 41,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 50,
           "host_free_pass": 0
@@ -2060,7 +2060,7 @@
           "host_import_leak": 8,
           "type_error": 2,
           "other": 1,
-          "range_error": 1,
+          "range_error": 2,
           "wasm_compile": 1
         },
         "by_edition": {
@@ -2266,15 +2266,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
           "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
+          "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
+          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «false») to be true"
         ]
@@ -2796,8 +2796,8 @@
           "test/built-ins/Promise/any/invoke-resolve-get-error.js",
           "test/built-ins/Promise/resolve/resolve-self.js",
           "test/built-ins/Promise/any/ctx-ctor-throws.js",
-          "test/built-ins/Promise/any/capability-reject-throws-no-close.js",
-          "test/built-ins/Promise/race/reject-immed.js"
+          "test/built-ins/Promise/race/reject-immed.js",
+          "test/built-ins/Promise/any/capability-reject-throws-no-close.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Object method called on null or undefined",
