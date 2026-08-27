@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-27T20:38:14.967Z",
-  "baseline_generated_at": "2026-08-27T20:38:14.967Z",
-  "baseline_sha": "893d0a17ed47b7f6c4f7084cc532adf250e80275",
+  "timestamp": "2026-08-27T21:17:19.382Z",
+  "baseline_generated_at": "2026-08-27T21:17:19.383Z",
+  "baseline_sha": "14dfc8c10561544570498c159a3ca27e91142a6b",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -10,24 +10,24 @@
   },
   "summary": {
     "total": 43621,
-    "pass": 32837,
+    "pass": 32838,
     "fail": 7589,
-    "compile_error": 3165,
+    "compile_error": 3164,
     "compile_timeout": 12,
     "skip": 18,
-    "compilable": 40426,
-    "host_free_pass": 32837,
+    "compilable": 40427,
+    "host_free_pass": 32838,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
-        "pass": 31832,
+        "pass": 31833,
         "fail": 7529,
-        "compile_error": 3144,
+        "compile_error": 3143,
         "compile_timeout": 12,
         "skip": 18,
-        "compilable": 39361,
-        "host_free_pass": 31832,
+        "compilable": 39362,
+        "host_free_pass": 31833,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -57,25 +57,25 @@
       },
       "official": {
         "total": 43621,
-        "pass": 32837,
+        "pass": 32838,
         "fail": 7589,
-        "compile_error": 3165,
+        "compile_error": 3164,
         "compile_timeout": 12,
         "skip": 18,
-        "compilable": 40426,
-        "host_free_pass": 32837,
+        "compilable": 40427,
+        "host_free_pass": 32838,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 33225,
+        "pass": 33226,
         "fail": 10092,
-        "compile_error": 5292,
+        "compile_error": 5291,
         "compile_timeout": 12,
         "skip": 114,
-        "compilable": 43317,
-        "host_free_pass": 33225,
+        "compilable": 43318,
+        "host_free_pass": 33226,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -83,35 +83,35 @@
   },
   "official_summary": {
     "total": 43621,
-    "pass": 32837,
+    "pass": 32838,
     "fail": 7589,
-    "compile_error": 3165,
+    "compile_error": 3164,
     "compile_timeout": 12,
     "skip": 18,
-    "compilable": 40426,
-    "host_free_pass": 32837,
+    "compilable": 40427,
+    "host_free_pass": 32838,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 33225,
+    "pass": 33226,
     "fail": 10092,
-    "compile_error": 5292,
+    "compile_error": 5291,
     "compile_timeout": 12,
     "skip": 114,
-    "compilable": 43317,
-    "host_free_pass": 33225,
+    "compilable": 43318,
+    "host_free_pass": 33226,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 30652,
+    "pass": 30653,
     "fail": 7377,
-    "compile_error": 3052,
+    "compile_error": 3051,
     "compile_timeout": 11,
     "skip": 18,
-    "compilable": 38029,
-    "host_free_pass": 30652,
+    "compilable": 38030,
+    "host_free_pass": 30653,
     "stale": 0
   },
   "scope_summaries": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42535,
-      "pass": 31832,
+      "pass": 31833,
       "fail": 7529,
-      "compile_error": 3144,
+      "compile_error": 3143,
       "compile_timeout": 12,
       "skip": 18,
-      "compilable": 39361,
-      "host_free_pass": 31832,
+      "compilable": 39362,
+      "host_free_pass": 31833,
       "stale": 0
     }
   },
@@ -208,13 +208,13 @@
     {
       "name": "built-ins/ArrayBuffer",
       "path": "built-ins/ArrayBuffer",
-      "pass": 110,
+      "pass": 111,
       "fail": 93,
-      "compile_error": 18,
+      "compile_error": 17,
       "compile_timeout": 0,
       "skip": 0,
       "total": 221,
-      "host_free_pass": 110
+      "host_free_pass": 111
     },
     {
       "name": "built-ins/ArrayIteratorPrototype",
@@ -1203,7 +1203,7 @@
     "negative_test_fail": 8,
     "null_deref": 43,
     "oob": 6,
-    "other": 3206,
+    "other": 3205,
     "promise_error": 75,
     "range_error": 20,
     "runtime_error": 221,
@@ -1218,8 +1218,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 15396,
-    "classified": 15396,
+    "total_non_pass_non_skip": 15395,
+    "classified": 15395,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1290,8 +1290,8 @@
           "Proposals": 4450
         },
         "sample_files": [
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
@@ -1300,8 +1300,8 @@
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_from_string_field (##)",
-          "other:ReferenceError: Temporal is not defined",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)"
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
+          "other:ReferenceError: Temporal is not defined"
         ]
       },
       {
@@ -1668,18 +1668,18 @@
           "#1472"
         ],
         "label": "Standalone dynamic object/property operation gate",
-        "count": 274,
+        "count": 273,
         "statuses": {
           "pass": 0,
           "fail": 168,
-          "compile_error": 106,
+          "compile_error": 105,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 274,
+          "total": 273,
           "host_free_pass": 0
         },
         "error_categories": {
-          "other": 95,
+          "other": 94,
           "assertion_fail": 136,
           "type_error": 21,
           "illegal_cast": 1,
@@ -1690,7 +1690,7 @@
         "by_edition": {
           "ES2027": 56,
           "ES2026": 15,
-          "ES2015": 188,
+          "ES2015": 187,
           "ES2016": 1,
           "ES2024": 7,
           "ES2025": 5,
@@ -1909,15 +1909,15 @@
         },
         "sample_files": [
           "test/language/expressions/class/dstr/async-gen-meth-dflt-obj-ptrn-prop-eval-err.js",
-          "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
           "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
+          "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
           "test/language/expressions/class/async-gen-method/yield-star-getiter-async-undefined-sync-get-abrupt.js",
           "test/language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a Test262Error but got a TypeError",
-          "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
           "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
+          "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Cannot read properties of undefined (reading 'access')"
         ]
