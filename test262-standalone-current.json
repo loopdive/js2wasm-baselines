@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-27T15:26:23.060Z",
-  "baseline_generated_at": "2026-08-27T15:26:23.061Z",
-  "baseline_sha": "2a7548ca819248df332986cde2cff81e65042bff",
+  "timestamp": "2026-08-27T15:49:55.905Z",
+  "baseline_generated_at": "2026-08-27T15:49:55.905Z",
+  "baseline_sha": "6e3fdf2166a33d76260791b8df0bb4bf5f503324",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -12,8 +12,8 @@
     "total": 43621,
     "pass": 32827,
     "fail": 7600,
-    "compile_error": 3167,
-    "compile_timeout": 9,
+    "compile_error": 3165,
+    "compile_timeout": 11,
     "skip": 18,
     "compilable": 40427,
     "host_free_pass": 32827,
@@ -23,8 +23,8 @@
         "total": 42535,
         "pass": 31822,
         "fail": 7540,
-        "compile_error": 3146,
-        "compile_timeout": 9,
+        "compile_error": 3144,
+        "compile_timeout": 11,
         "skip": 18,
         "compilable": 39362,
         "host_free_pass": 31822,
@@ -59,8 +59,8 @@
         "total": 43621,
         "pass": 32827,
         "fail": 7600,
-        "compile_error": 3167,
-        "compile_timeout": 9,
+        "compile_error": 3165,
+        "compile_timeout": 11,
         "skip": 18,
         "compilable": 40427,
         "host_free_pass": 32827,
@@ -71,8 +71,8 @@
         "total": 48735,
         "pass": 33215,
         "fail": 10103,
-        "compile_error": 5294,
-        "compile_timeout": 9,
+        "compile_error": 5292,
+        "compile_timeout": 11,
         "skip": 114,
         "compilable": 43318,
         "host_free_pass": 33215,
@@ -85,8 +85,8 @@
     "total": 43621,
     "pass": 32827,
     "fail": 7600,
-    "compile_error": 3167,
-    "compile_timeout": 9,
+    "compile_error": 3165,
+    "compile_timeout": 11,
     "skip": 18,
     "compilable": 40427,
     "host_free_pass": 32827,
@@ -96,8 +96,8 @@
     "total": 48735,
     "pass": 33215,
     "fail": 10103,
-    "compile_error": 5294,
-    "compile_timeout": 9,
+    "compile_error": 5292,
+    "compile_timeout": 11,
     "skip": 114,
     "compilable": 43318,
     "host_free_pass": 33215,
@@ -106,11 +106,11 @@
   "strict_summary": {
     "total": 41110,
     "pass": 30642,
-    "fail": 7388,
-    "compile_error": 3054,
-    "compile_timeout": 8,
+    "fail": 7387,
+    "compile_error": 3052,
+    "compile_timeout": 11,
     "skip": 18,
-    "compilable": 38030,
+    "compilable": 38029,
     "host_free_pass": 30642,
     "stale": 0
   },
@@ -141,8 +141,8 @@
       "total": 42535,
       "pass": 31822,
       "fail": 7540,
-      "compile_error": 3146,
-      "compile_timeout": 9,
+      "compile_error": 3144,
+      "compile_timeout": 11,
       "skip": 18,
       "compilable": 39362,
       "host_free_pass": 31822,
@@ -199,8 +199,8 @@
       "path": "built-ins/Array",
       "pass": 2051,
       "fail": 893,
-      "compile_error": 133,
-      "compile_timeout": 5,
+      "compile_error": 132,
+      "compile_timeout": 6,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 2051
@@ -298,8 +298,8 @@
       "path": "built-ins/Atomics",
       "pass": 64,
       "fail": 63,
-      "compile_error": 262,
-      "compile_timeout": 0,
+      "compile_error": 261,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 389,
       "host_free_pass": 64
@@ -803,9 +803,9 @@
       "name": "built-ins/TypedArray",
       "path": "built-ins/TypedArray",
       "pass": 443,
-      "fail": 909,
+      "fail": 908,
       "compile_error": 91,
-      "compile_timeout": 3,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 443
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8604,
-      "fail": 1370,
+      "fail": 1371,
       "compile_error": 1109,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8604
@@ -1199,7 +1199,7 @@
   "error_categories": {
     "assertion_fail": 6010,
     "host_import_leak": 3807,
-    "illegal_cast": 248,
+    "illegal_cast": 247,
     "negative_test_fail": 8,
     "null_deref": 47,
     "oob": 6,
@@ -1209,7 +1209,7 @@
     "runtime_error": 222,
     "syntax_error": 20,
     "type_error": 1654,
-    "wasm_compile": 74
+    "wasm_compile": 72
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1290,10 +1290,10 @@
           "Proposals": 4450
         },
         "sample_files": [
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1332,15 +1332,15 @@
           "ES2027": 95
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/prototype/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol() should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -1458,15 +1458,15 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
-          "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js",
           "test/built-ins/JSON/stringify/value-function.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: [[Set]] should not be called.",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true"
         ]
@@ -1553,8 +1553,8 @@
           "test/built-ins/RegExp/prototype/Symbol.split/length.js",
           "test/built-ins/RegExp/prototype/Symbol.match/coerce-global.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
-          "test/built-ins/RegExp/prototype/Symbol.match/u-advance-after-empty.js"
+          "test/built-ins/RegExp/prototype/Symbol.match/u-advance-after-empty.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot convert undefined or null to object",
@@ -1701,14 +1701,14 @@
           "test/built-ins/Promise/allKeyed/symbol-keys.js",
           "test/built-ins/Uint8Array/fromBase64/alphabet.js",
           "test/built-ins/Proxy/get/trap-is-undefined-receiver.js",
-          "test/built-ins/Proxy/has/trap-is-not-callable.js",
-          "test/built-ins/Proxy/set/call-parameters-prototype-index.js"
+          "test/built-ins/Proxy/set/call-parameters-prototype-index.js",
+          "test/built-ins/Proxy/has/trap-is-not-callable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: handler object is the trap context Expected SameValue(«undefined», «[object Object]») to be true",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Actual [] and expected [#, #, #] should have the same contents. getOwnPropertyDescriptor: key present on [[ProxyTarget]]"
         ]
       },
@@ -1984,9 +1984,9 @@
         "count": 2706,
         "statuses": {
           "pass": 0,
-          "fail": 2386,
-          "compile_error": 312,
-          "compile_timeout": 8,
+          "fail": 2385,
+          "compile_error": 311,
+          "compile_timeout": 10,
           "skip": 0,
           "total": 2706,
           "host_free_pass": 0
@@ -1995,8 +1995,8 @@
           "assertion_fail": 1829,
           "null_deref": 19,
           "type_error": 340,
-          "illegal_cast": 179,
-          "wasm_compile": 31,
+          "illegal_cast": 178,
+          "wasm_compile": 30,
           "host_import_leak": 256,
           "other": 37,
           "range_error": 3,
@@ -2545,9 +2545,9 @@
         "count": 587,
         "statuses": {
           "pass": 0,
-          "fail": 577,
+          "fail": 578,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 587,
           "host_free_pass": 0
@@ -2636,8 +2636,8 @@
         "statuses": {
           "pass": 0,
           "fail": 65,
-          "compile_error": 82,
-          "compile_timeout": 0,
+          "compile_error": 81,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 147,
           "host_free_pass": 0
@@ -2649,7 +2649,6 @@
           "other": 2,
           "syntax_error": 6,
           "illegal_cast": 3,
-          "wasm_compile": 1,
           "range_error": 1,
           "oob": 2
         },
@@ -2987,7 +2986,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
@@ -3079,8 +3078,8 @@
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)",
           "type_error:TypeError: Atomics.exchange requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Cannot convert undefined or null to object",
-          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone"
+          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone",
+          "type_error:TypeError: Cannot convert undefined or null to object"
         ]
       },
       {
