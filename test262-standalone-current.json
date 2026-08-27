@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-27T11:10:48.131Z",
-  "baseline_generated_at": "2026-08-27T11:10:48.131Z",
-  "baseline_sha": "0d25094e953381672e1b161cc5c4337234b6cad6",
+  "timestamp": "2026-08-27T12:48:44.580Z",
+  "baseline_generated_at": "2026-08-27T12:48:44.580Z",
+  "baseline_sha": "12805b623fe623178245ffaef8bfae0a860edb41",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -12,8 +12,8 @@
     "total": 43621,
     "pass": 32719,
     "fail": 7707,
-    "compile_error": 3164,
-    "compile_timeout": 13,
+    "compile_error": 3163,
+    "compile_timeout": 14,
     "skip": 18,
     "compilable": 40426,
     "host_free_pass": 32719,
@@ -23,8 +23,8 @@
         "total": 42535,
         "pass": 31714,
         "fail": 7647,
-        "compile_error": 3143,
-        "compile_timeout": 13,
+        "compile_error": 3142,
+        "compile_timeout": 14,
         "skip": 18,
         "compilable": 39361,
         "host_free_pass": 31714,
@@ -59,8 +59,8 @@
         "total": 43621,
         "pass": 32719,
         "fail": 7707,
-        "compile_error": 3164,
-        "compile_timeout": 13,
+        "compile_error": 3163,
+        "compile_timeout": 14,
         "skip": 18,
         "compilable": 40426,
         "host_free_pass": 32719,
@@ -71,8 +71,8 @@
         "total": 48735,
         "pass": 33107,
         "fail": 10210,
-        "compile_error": 5291,
-        "compile_timeout": 13,
+        "compile_error": 5290,
+        "compile_timeout": 14,
         "skip": 114,
         "compilable": 43317,
         "host_free_pass": 33107,
@@ -85,8 +85,8 @@
     "total": 43621,
     "pass": 32719,
     "fail": 7707,
-    "compile_error": 3164,
-    "compile_timeout": 13,
+    "compile_error": 3163,
+    "compile_timeout": 14,
     "skip": 18,
     "compilable": 40426,
     "host_free_pass": 32719,
@@ -96,8 +96,8 @@
     "total": 48735,
     "pass": 33107,
     "fail": 10210,
-    "compile_error": 5291,
-    "compile_timeout": 13,
+    "compile_error": 5290,
+    "compile_timeout": 14,
     "skip": 114,
     "compilable": 43317,
     "host_free_pass": 33107,
@@ -107,8 +107,8 @@
     "total": 41110,
     "pass": 30534,
     "fail": 7495,
-    "compile_error": 3051,
-    "compile_timeout": 12,
+    "compile_error": 3050,
+    "compile_timeout": 13,
     "skip": 18,
     "compilable": 38029,
     "host_free_pass": 30534,
@@ -141,8 +141,8 @@
       "total": 42535,
       "pass": 31714,
       "fail": 7647,
-      "compile_error": 3143,
-      "compile_timeout": 13,
+      "compile_error": 3142,
+      "compile_timeout": 14,
       "skip": 18,
       "compilable": 39361,
       "host_free_pass": 31714,
@@ -298,8 +298,8 @@
       "path": "built-ins/Atomics",
       "pass": 64,
       "fail": 63,
-      "compile_error": 262,
-      "compile_timeout": 0,
+      "compile_error": 261,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 389,
       "host_free_pass": 64
@@ -1209,7 +1209,7 @@
     "runtime_error": 222,
     "syntax_error": 20,
     "type_error": 1656,
-    "wasm_compile": 71
+    "wasm_compile": 70
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1291,8 +1291,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
@@ -1452,8 +1452,8 @@
         },
         "by_edition": {
           "Unclassified (untagged)": 38,
-          "ES2015": 13,
           "ES2026": 6,
+          "ES2015": 13,
           "ES2020": 7
         },
         "sample_files": [
@@ -2636,8 +2636,8 @@
         "statuses": {
           "pass": 0,
           "fail": 65,
-          "compile_error": 82,
-          "compile_timeout": 0,
+          "compile_error": 81,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 147,
           "host_free_pass": 0
@@ -2649,7 +2649,6 @@
           "other": 2,
           "syntax_error": 6,
           "illegal_cast": 3,
-          "wasm_compile": 1,
           "range_error": 1,
           "oob": 2
         },
@@ -2987,7 +2986,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
