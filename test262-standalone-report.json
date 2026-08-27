@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-27T09:33:52.660Z",
-  "baseline_generated_at": "2026-08-27T09:33:52.660Z",
-  "baseline_sha": "7173302acc83add18ab900a5e5f5223f7a9d5aa5",
+  "timestamp": "2026-08-27T10:00:52.235Z",
+  "baseline_generated_at": "2026-08-27T10:00:52.235Z",
+  "baseline_sha": "8c0033daa50f8d08a49976500e4f62e1440882ce",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -12,8 +12,8 @@
     "total": 43621,
     "pass": 32579,
     "fail": 7848,
-    "compile_error": 3164,
-    "compile_timeout": 12,
+    "compile_error": 3166,
+    "compile_timeout": 10,
     "skip": 18,
     "compilable": 40427,
     "host_free_pass": 32579,
@@ -23,8 +23,8 @@
         "total": 42535,
         "pass": 31574,
         "fail": 7788,
-        "compile_error": 3143,
-        "compile_timeout": 12,
+        "compile_error": 3145,
+        "compile_timeout": 10,
         "skip": 18,
         "compilable": 39362,
         "host_free_pass": 31574,
@@ -59,8 +59,8 @@
         "total": 43621,
         "pass": 32579,
         "fail": 7848,
-        "compile_error": 3164,
-        "compile_timeout": 12,
+        "compile_error": 3166,
+        "compile_timeout": 10,
         "skip": 18,
         "compilable": 40427,
         "host_free_pass": 32579,
@@ -71,8 +71,8 @@
         "total": 48735,
         "pass": 32967,
         "fail": 10351,
-        "compile_error": 5291,
-        "compile_timeout": 12,
+        "compile_error": 5293,
+        "compile_timeout": 10,
         "skip": 114,
         "compilable": 43318,
         "host_free_pass": 32967,
@@ -85,8 +85,8 @@
     "total": 43621,
     "pass": 32579,
     "fail": 7848,
-    "compile_error": 3164,
-    "compile_timeout": 12,
+    "compile_error": 3166,
+    "compile_timeout": 10,
     "skip": 18,
     "compilable": 40427,
     "host_free_pass": 32579,
@@ -96,8 +96,8 @@
     "total": 48735,
     "pass": 32967,
     "fail": 10351,
-    "compile_error": 5291,
-    "compile_timeout": 12,
+    "compile_error": 5293,
+    "compile_timeout": 10,
     "skip": 114,
     "compilable": 43318,
     "host_free_pass": 32967,
@@ -107,8 +107,8 @@
     "total": 41110,
     "pass": 30394,
     "fail": 7635,
-    "compile_error": 3051,
-    "compile_timeout": 12,
+    "compile_error": 3053,
+    "compile_timeout": 10,
     "skip": 18,
     "compilable": 38029,
     "host_free_pass": 30394,
@@ -141,8 +141,8 @@
       "total": 42535,
       "pass": 31574,
       "fail": 7788,
-      "compile_error": 3143,
-      "compile_timeout": 12,
+      "compile_error": 3145,
+      "compile_timeout": 10,
       "skip": 18,
       "compilable": 39362,
       "host_free_pass": 31574,
@@ -298,8 +298,8 @@
       "path": "built-ins/Atomics",
       "pass": 64,
       "fail": 63,
-      "compile_error": 261,
-      "compile_timeout": 1,
+      "compile_error": 262,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 389,
       "host_free_pass": 64
@@ -804,8 +804,8 @@
       "path": "built-ins/TypedArray",
       "pass": 443,
       "fail": 908,
-      "compile_error": 90,
-      "compile_timeout": 5,
+      "compile_error": 91,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 443
@@ -1209,7 +1209,7 @@
     "runtime_error": 222,
     "syntax_error": 20,
     "type_error": 1657,
-    "wasm_compile": 71
+    "wasm_compile": 73
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1252,8 +1252,8 @@
           "test/language/expressions/dynamic-import/syntax/valid/nested-if-import-defer-empty-str-is-valid-assign-expr.js",
           "test/language/expressions/dynamic-import/syntax/valid/top-level-import-source-empty-str-is-valid-assign-expr.js",
           "test/language/expressions/dynamic-import/catch/nested-else-import-catch-import-source-source-text-module.js",
-          "test/language/expressions/dynamic-import/syntax/valid/nested-arrow-assignment-expression-import-source-empty-str-is-valid-assign-expr.js",
-          "test/language/expressions/dynamic-import/syntax/valid/nested-async-arrow-function-await-import-defer-script-code-valid.js"
+          "test/language/expressions/dynamic-import/syntax/valid/nested-async-arrow-function-await-import-defer-script-code-valid.js",
+          "test/language/expressions/dynamic-import/syntax/valid/nested-arrow-assignment-expression-import-source-empty-str-is-valid-assign-expr.js"
         ],
         "sample_signatures": [
           "other:L#:## SyntaxError: import.defer(...) is not supported (Stage # proposal — import-defer / source-phase-imports)",
@@ -1291,8 +1291,8 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
@@ -1300,8 +1300,8 @@
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_from_string_field (##)",
-          "other:ReferenceError: Temporal is not defined",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)"
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
+          "other:ReferenceError: Temporal is not defined"
         ]
       },
       {
@@ -1751,7 +1751,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
           "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js",
-          "test/built-ins/Reflect/set/different-property-descriptors.js"
+          "test/built-ins/Reflect/set/symbol-property.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -1985,8 +1985,8 @@
         "statuses": {
           "pass": 0,
           "fail": 2387,
-          "compile_error": 310,
-          "compile_timeout": 11,
+          "compile_error": 311,
+          "compile_timeout": 10,
           "skip": 0,
           "total": 2708,
           "host_free_pass": 0
@@ -1996,7 +1996,7 @@
           "null_deref": 19,
           "type_error": 340,
           "illegal_cast": 178,
-          "wasm_compile": 29,
+          "wasm_compile": 30,
           "host_import_leak": 256,
           "other": 37,
           "range_error": 3,
@@ -2255,15 +2255,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
           "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
+          "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
+          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «false») to be true"
         ]
@@ -2430,14 +2430,14 @@
           "test/built-ins/Symbol/matchAll/prop-desc.js",
           "test/built-ins/Symbol/replace/prop-desc.js",
           "test/built-ins/Symbol/prototype/valueOf/this-val-symbol.js",
-          "test/built-ins/Symbol/prototype/constructor.js",
-          "test/built-ins/Symbol/prototype/Symbol.toPrimitive/redefined-symbol-wrapper-ordinary-toprimitive.js"
+          "test/built-ins/Symbol/prototype/Symbol.toPrimitive/redefined-symbol-wrapper-ordinary-toprimitive.js",
+          "test/built-ins/Symbol/prototype/constructor.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot convert undefined or null to object",
           "type_error:TypeError: Symbol.prototype.valueOf is not yet implemented in --target standalone",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
           "assertion_fail:Test262Error: hint: number Expected a TypeError to be thrown but no exception was thrown at all",
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«\"\"», «\"toStringvalueOf\"») to be true"
         ]
       },
@@ -2636,8 +2636,8 @@
         "statuses": {
           "pass": 0,
           "fail": 65,
-          "compile_error": 81,
-          "compile_timeout": 1,
+          "compile_error": 82,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 147,
           "host_free_pass": 0
@@ -2649,6 +2649,7 @@
           "other": 2,
           "syntax_error": 6,
           "illegal_cast": 3,
+          "wasm_compile": 1,
           "range_error": 1,
           "oob": 2
         },
@@ -2662,15 +2663,15 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js"
+          "test/built-ins/Atomics/or/bigint/bad-range.js",
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot mix BigInt and other types, use explicit conversions",
           "assertion_fail:Test262Error: Object(0b101n) >>> Object(1n) throws TypeError Expected a TypeError to be thrown but no exception was thrown at all",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)"
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
+          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
