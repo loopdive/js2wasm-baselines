@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-27T23:05:55.297Z",
-  "baseline_generated_at": "2026-08-27T23:05:55.297Z",
-  "baseline_sha": "698ecb8f1661454037eaed810cb2a6770f6acf7f",
+  "timestamp": "2026-08-27T23:34:24.598Z",
+  "baseline_generated_at": "2026-08-27T23:34:24.598Z",
+  "baseline_sha": "22aaa47f54119317e2a6ba785c71cbb223dcd3c5",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 32842,
-    "fail": 7587,
-    "compile_error": 3163,
-    "compile_timeout": 11,
+    "fail": 7585,
+    "compile_error": 3164,
+    "compile_timeout": 12,
     "skip": 18,
-    "compilable": 40429,
+    "compilable": 40427,
     "host_free_pass": 32842,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 31837,
-        "fail": 7527,
-        "compile_error": 3142,
-        "compile_timeout": 11,
+        "fail": 7525,
+        "compile_error": 3143,
+        "compile_timeout": 12,
         "skip": 18,
-        "compilable": 39364,
+        "compilable": 39362,
         "host_free_pass": 31837,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 32842,
-        "fail": 7587,
-        "compile_error": 3163,
-        "compile_timeout": 11,
+        "fail": 7585,
+        "compile_error": 3164,
+        "compile_timeout": 12,
         "skip": 18,
-        "compilable": 40429,
+        "compilable": 40427,
         "host_free_pass": 32842,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 33230,
-        "fail": 10090,
-        "compile_error": 5290,
-        "compile_timeout": 11,
+        "fail": 10088,
+        "compile_error": 5291,
+        "compile_timeout": 12,
         "skip": 114,
-        "compilable": 43320,
+        "compilable": 43318,
         "host_free_pass": 33230,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 43621,
     "pass": 32842,
-    "fail": 7587,
-    "compile_error": 3163,
-    "compile_timeout": 11,
+    "fail": 7585,
+    "compile_error": 3164,
+    "compile_timeout": 12,
     "skip": 18,
-    "compilable": 40429,
+    "compilable": 40427,
     "host_free_pass": 32842,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 33230,
-    "fail": 10090,
-    "compile_error": 5290,
-    "compile_timeout": 11,
+    "fail": 10088,
+    "compile_error": 5291,
+    "compile_timeout": 12,
     "skip": 114,
-    "compilable": 43320,
+    "compilable": 43318,
     "host_free_pass": 33230,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
     "pass": 30657,
-    "fail": 7374,
-    "compile_error": 3050,
+    "fail": 7373,
+    "compile_error": 3051,
     "compile_timeout": 11,
     "skip": 18,
-    "compilable": 38031,
+    "compilable": 38030,
     "host_free_pass": 30657,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 31837,
-      "fail": 7527,
-      "compile_error": 3142,
-      "compile_timeout": 11,
+      "fail": 7525,
+      "compile_error": 3143,
+      "compile_timeout": 12,
       "skip": 18,
-      "compilable": 39364,
+      "compilable": 39362,
       "host_free_pass": 31837,
       "stale": 0
     }
@@ -198,9 +198,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 2051,
-      "fail": 892,
+      "fail": 893,
       "compile_error": 132,
-      "compile_timeout": 7,
+      "compile_timeout": 6,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 2051
@@ -803,9 +803,9 @@
       "name": "built-ins/TypedArray",
       "path": "built-ins/TypedArray",
       "pass": 443,
-      "fail": 910,
-      "compile_error": 90,
-      "compile_timeout": 3,
+      "fail": 908,
+      "compile_error": 91,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 443
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8604,
-      "fail": 1371,
+      "fail": 1370,
       "compile_error": 1109,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8604
@@ -1197,9 +1197,9 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 6004,
+    "assertion_fail": 6005,
     "host_import_leak": 3807,
-    "illegal_cast": 249,
+    "illegal_cast": 247,
     "negative_test_fail": 8,
     "null_deref": 43,
     "oob": 6,
@@ -1209,7 +1209,7 @@
     "runtime_error": 221,
     "syntax_error": 20,
     "type_error": 1650,
-    "wasm_compile": 71
+    "wasm_compile": 72
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1290,9 +1290,9 @@
           "Proposals": 4450
         },
         "sample_files": [
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
           "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
         ],
@@ -1300,8 +1300,8 @@
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals, env::__temporal_plain_date_from_string_field (##)",
-          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)",
-          "other:ReferenceError: Temporal is not defined"
+          "other:ReferenceError: Temporal is not defined",
+          "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_from_string_field (##)"
         ]
       },
       {
@@ -1984,19 +1984,19 @@
         "count": 2706,
         "statuses": {
           "pass": 0,
-          "fail": 2386,
-          "compile_error": 310,
+          "fail": 2385,
+          "compile_error": 311,
           "compile_timeout": 10,
           "skip": 0,
           "total": 2706,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1832,
+          "assertion_fail": 1833,
           "null_deref": 15,
+          "illegal_cast": 178,
           "type_error": 340,
-          "illegal_cast": 180,
-          "wasm_compile": 29,
+          "wasm_compile": 30,
           "host_import_leak": 256,
           "other": 37,
           "range_error": 3,
@@ -2545,9 +2545,9 @@
         "count": 587,
         "statuses": {
           "pass": 0,
-          "fail": 578,
+          "fail": 577,
           "compile_error": 9,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 587,
           "host_free_pass": 0
@@ -2662,15 +2662,15 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js"
+          "test/built-ins/Atomics/or/bigint/bad-range.js",
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot mix BigInt and other types, use explicit conversions",
           "assertion_fail:Test262Error: Object(0b101n) >>> Object(1n) throws TypeError Expected a TypeError to be thrown but no exception was thrown at all",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)"
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
+          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
@@ -3068,8 +3068,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
