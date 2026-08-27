@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-27T03:21:07.636Z",
-  "baseline_generated_at": "2026-08-27T03:21:07.636Z",
-  "baseline_sha": "de35a52d978e328d46a9929b5438837385ddea5b",
+  "timestamp": "2026-08-27T03:45:59.964Z",
+  "baseline_generated_at": "2026-08-27T03:45:59.964Z",
+  "baseline_sha": "fcede269da81724397dd00bd854e3830446620f5",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,35 +11,35 @@
   "summary": {
     "total": 43621,
     "pass": 32386,
-    "fail": 7949,
+    "fail": 7948,
     "compile_error": 3250,
-    "compile_timeout": 17,
+    "compile_timeout": 18,
     "skip": 19,
-    "compilable": 40335,
+    "compilable": 40334,
     "host_free_pass": 32386,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
-        "pass": 31382,
-        "fail": 7889,
+        "pass": 31383,
+        "fail": 7888,
         "compile_error": 3229,
         "compile_timeout": 16,
         "skip": 19,
         "compilable": 39271,
-        "host_free_pass": 31382,
+        "host_free_pass": 31383,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
       "annex_b": {
         "total": 1086,
-        "pass": 1004,
+        "pass": 1003,
         "fail": 60,
         "compile_error": 21,
-        "compile_timeout": 1,
+        "compile_timeout": 2,
         "skip": 0,
-        "compilable": 1064,
-        "host_free_pass": 1004,
+        "compilable": 1063,
+        "host_free_pass": 1003,
         "stale": 0,
         "label": "Annex B (legacy web compat)"
       },
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 32386,
-        "fail": 7949,
+        "fail": 7948,
         "compile_error": 3250,
-        "compile_timeout": 17,
+        "compile_timeout": 18,
         "skip": 19,
-        "compilable": 40335,
+        "compilable": 40334,
         "host_free_pass": 32386,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 32774,
-        "fail": 10452,
+        "fail": 10451,
         "compile_error": 5377,
-        "compile_timeout": 17,
+        "compile_timeout": 18,
         "skip": 115,
-        "compilable": 43226,
+        "compilable": 43225,
         "host_free_pass": 32774,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,46 +84,46 @@
   "official_summary": {
     "total": 43621,
     "pass": 32386,
-    "fail": 7949,
+    "fail": 7948,
     "compile_error": 3250,
-    "compile_timeout": 17,
+    "compile_timeout": 18,
     "skip": 19,
-    "compilable": 40335,
+    "compilable": 40334,
     "host_free_pass": 32386,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 32774,
-    "fail": 10452,
+    "fail": 10451,
     "compile_error": 5377,
-    "compile_timeout": 17,
+    "compile_timeout": 18,
     "skip": 115,
-    "compilable": 43226,
+    "compilable": 43225,
     "host_free_pass": 32774,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 30202,
-    "fail": 7738,
+    "pass": 30203,
+    "fail": 7737,
     "compile_error": 3136,
     "compile_timeout": 15,
     "skip": 19,
     "compilable": 37940,
-    "host_free_pass": 30202,
+    "host_free_pass": 30203,
     "stale": 0
   },
   "scope_summaries": {
     "annex_b": {
       "total": 1086,
-      "pass": 1004,
+      "pass": 1003,
       "fail": 60,
       "compile_error": 21,
-      "compile_timeout": 1,
+      "compile_timeout": 2,
       "skip": 0,
-      "compilable": 1064,
-      "host_free_pass": 1004,
+      "compilable": 1063,
+      "host_free_pass": 1003,
       "stale": 0
     },
     "proposal": {
@@ -139,13 +139,13 @@
     },
     "standard": {
       "total": 42535,
-      "pass": 31382,
-      "fail": 7889,
+      "pass": 31383,
+      "fail": 7888,
       "compile_error": 3229,
       "compile_timeout": 16,
       "skip": 19,
       "compilable": 39271,
-      "host_free_pass": 31382,
+      "host_free_pass": 31383,
       "stale": 0
     }
   },
@@ -164,13 +164,13 @@
     {
       "name": "annexB/language",
       "path": "annexB/language",
-      "pass": 824,
+      "pass": 823,
       "fail": 17,
       "compile_error": 3,
-      "compile_timeout": 1,
+      "compile_timeout": 2,
       "skip": 0,
       "total": 845,
-      "host_free_pass": 824
+      "host_free_pass": 823
     },
     {
       "name": "built-ins/AbstractModuleSource",
@@ -329,13 +329,13 @@
     {
       "name": "built-ins/DataView",
       "path": "built-ins/DataView",
-      "pass": 393,
+      "pass": 394,
       "fail": 119,
       "compile_error": 48,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 561,
-      "host_free_pass": 393
+      "host_free_pass": 394
     },
     {
       "name": "built-ins/Date",
@@ -803,9 +803,9 @@
       "name": "built-ins/TypedArray",
       "path": "built-ins/TypedArray",
       "pass": 370,
-      "fail": 978,
+      "fail": 977,
       "compile_error": 91,
-      "compile_timeout": 7,
+      "compile_timeout": 8,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 370
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 6289,
+    "assertion_fail": 6288,
     "host_import_leak": 3901,
     "illegal_cast": 251,
     "negative_test_fail": 8,
@@ -1293,8 +1293,8 @@
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1337,7 +1337,7 @@
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
-          "test/built-ins/AsyncDisposableStack/prototype/Symbol.toStringTag.js"
+          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
@@ -1553,8 +1553,8 @@
         "sample_files": [
           "test/built-ins/RegExp/prototype/Symbol.split/length.js",
           "test/built-ins/RegExp/prototype/Symbol.match/coerce-global.js",
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.match/u-advance-after-empty.js"
         ],
         "sample_signatures": [
@@ -1751,8 +1751,8 @@
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js",
-          "test/built-ins/Reflect/set/symbol-property.js"
+          "test/built-ins/Reflect/set/symbol-property.js",
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -1982,18 +1982,18 @@
           "#1654"
         ],
         "label": "Array, TypedArray, DataView, and buffer semantics",
-        "count": 2781,
+        "count": 2780,
         "statuses": {
           "pass": 0,
-          "fail": 2474,
+          "fail": 2473,
           "compile_error": 294,
           "compile_timeout": 13,
           "skip": 0,
-          "total": 2781,
+          "total": 2780,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1902,
+          "assertion_fail": 1901,
           "null_deref": 17,
           "illegal_cast": 183,
           "type_error": 353,
@@ -2011,7 +2011,7 @@
           "ES2020": 530,
           "Unclassified (untagged)": 635,
           "ES2026": 120,
-          "ES2025": 10,
+          "ES2025": 9,
           "ES2027": 51,
           "ES2017": 68,
           "ES2019": 25,
@@ -2019,9 +2019,9 @@
         },
         "sample_files": [
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
+          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
           "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js",
-          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
           "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
         "sample_signatures": [
@@ -2195,14 +2195,14 @@
           "#1050"
         ],
         "label": "Annex B function/eval semantics",
-        "count": 24,
+        "count": 25,
         "statuses": {
           "pass": 0,
           "fail": 21,
           "compile_error": 2,
-          "compile_timeout": 1,
+          "compile_timeout": 2,
           "skip": 0,
-          "total": 24,
+          "total": 25,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -2211,23 +2211,23 @@
           "runtime_error": 1
         },
         "by_edition": {
+          "ES5": 2,
           "ES2027": 13,
-          "ES2015": 10,
-          "ES5": 1
+          "ES2015": 10
         },
         "sample_files": [
+          "test/annexB/language/global-code/block-decl-global-existing-non-enumerable-global-init.js",
+          "test/annexB/language/eval-code/direct/func-switch-case-eval-func-init.js",
           "test/annexB/language/expressions/typeof/emulates-undefined.js",
           "test/annexB/built-ins/escape/not-a-constructor.js",
-          "test/annexB/language/statements/if/emulated-undefined.js",
-          "test/annexB/built-ins/unescape/not-a-constructor.js",
-          "test/annexB/language/expressions/logical-not/emulates-undefined.js"
+          "test/annexB/language/statements/if/emulated-undefined.js"
         ],
         "sample_signatures": [
+          "compile_timeout:timeout (10s)",
           "assertion_fail:Test262Error: === \"undefined\"",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: unreachable",
-          "assertion_fail:Test262Error: Expected true but got false",
-          "assertion_fail:Test262Error: this should be unreachable"
+          "assertion_fail:Test262Error: Expected true but got false"
         ]
       },
       {
@@ -2432,14 +2432,14 @@
           "test/built-ins/Symbol/matchAll/prop-desc.js",
           "test/built-ins/Symbol/replace/prop-desc.js",
           "test/built-ins/Symbol/prototype/valueOf/this-val-symbol.js",
-          "test/built-ins/Symbol/prototype/Symbol.toPrimitive/redefined-symbol-wrapper-ordinary-toprimitive.js",
-          "test/built-ins/Symbol/prototype/constructor.js"
+          "test/built-ins/Symbol/prototype/constructor.js",
+          "test/built-ins/Symbol/prototype/Symbol.toPrimitive/redefined-symbol-wrapper-ordinary-toprimitive.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot convert undefined or null to object",
           "type_error:TypeError: Symbol.prototype.valueOf is not yet implemented in --target standalone",
-          "assertion_fail:Test262Error: hint: number Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
+          "assertion_fail:Test262Error: hint: number Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"\"», «\"toStringvalueOf\"») to be true"
         ]
       },
