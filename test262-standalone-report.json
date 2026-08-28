@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-28T10:12:17.290Z",
-  "baseline_generated_at": "2026-08-28T10:12:17.290Z",
-  "baseline_sha": "c99e21b667378f8f663be21c8e1a5fb2dde79c1c",
+  "timestamp": "2026-08-28T10:43:04.244Z",
+  "baseline_generated_at": "2026-08-28T10:43:04.244Z",
+  "baseline_sha": "07823ebaa17e30a745742f587feb32406240a636",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -10,21 +10,21 @@
   },
   "summary": {
     "total": 43621,
-    "pass": 32940,
-    "fail": 7495,
-    "compile_error": 3155,
-    "compile_timeout": 13,
+    "pass": 32942,
+    "fail": 7493,
+    "compile_error": 3156,
+    "compile_timeout": 12,
     "skip": 18,
     "compilable": 40435,
-    "host_free_pass": 32940,
+    "host_free_pass": 32942,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 31935,
         "fail": 7435,
-        "compile_error": 3134,
-        "compile_timeout": 13,
+        "compile_error": 3135,
+        "compile_timeout": 12,
         "skip": 18,
         "compilable": 39370,
         "host_free_pass": 31935,
@@ -33,13 +33,13 @@
       },
       "annex_b": {
         "total": 1086,
-        "pass": 1005,
-        "fail": 60,
+        "pass": 1007,
+        "fail": 58,
         "compile_error": 21,
         "compile_timeout": 0,
         "skip": 0,
         "compilable": 1065,
-        "host_free_pass": 1005,
+        "host_free_pass": 1007,
         "stale": 0,
         "label": "Annex B (legacy web compat)"
       },
@@ -57,25 +57,25 @@
       },
       "official": {
         "total": 43621,
-        "pass": 32940,
-        "fail": 7495,
-        "compile_error": 3155,
-        "compile_timeout": 13,
+        "pass": 32942,
+        "fail": 7493,
+        "compile_error": 3156,
+        "compile_timeout": 12,
         "skip": 18,
         "compilable": 40435,
-        "host_free_pass": 32940,
+        "host_free_pass": 32942,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 33328,
-        "fail": 9998,
-        "compile_error": 5282,
-        "compile_timeout": 13,
+        "pass": 33330,
+        "fail": 9996,
+        "compile_error": 5283,
+        "compile_timeout": 12,
         "skip": 114,
         "compilable": 43326,
-        "host_free_pass": 33328,
+        "host_free_pass": 33330,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -83,47 +83,47 @@
   },
   "official_summary": {
     "total": 43621,
-    "pass": 32940,
-    "fail": 7495,
-    "compile_error": 3155,
-    "compile_timeout": 13,
+    "pass": 32942,
+    "fail": 7493,
+    "compile_error": 3156,
+    "compile_timeout": 12,
     "skip": 18,
     "compilable": 40435,
-    "host_free_pass": 32940,
+    "host_free_pass": 32942,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 33328,
-    "fail": 9998,
-    "compile_error": 5282,
-    "compile_timeout": 13,
+    "pass": 33330,
+    "fail": 9996,
+    "compile_error": 5283,
+    "compile_timeout": 12,
     "skip": 114,
     "compilable": 43326,
-    "host_free_pass": 33328,
+    "host_free_pass": 33330,
     "stale": 0
   },
   "strict_summary": {
     "total": 41110,
-    "pass": 30755,
-    "fail": 7282,
-    "compile_error": 3042,
-    "compile_timeout": 13,
+    "pass": 30757,
+    "fail": 7280,
+    "compile_error": 3043,
+    "compile_timeout": 12,
     "skip": 18,
     "compilable": 38037,
-    "host_free_pass": 30755,
+    "host_free_pass": 30757,
     "stale": 0
   },
   "scope_summaries": {
     "annex_b": {
       "total": 1086,
-      "pass": 1005,
-      "fail": 60,
+      "pass": 1007,
+      "fail": 58,
       "compile_error": 21,
       "compile_timeout": 0,
       "skip": 0,
       "compilable": 1065,
-      "host_free_pass": 1005,
+      "host_free_pass": 1007,
       "stale": 0
     },
     "proposal": {
@@ -141,8 +141,8 @@
       "total": 42535,
       "pass": 31935,
       "fail": 7435,
-      "compile_error": 3134,
-      "compile_timeout": 13,
+      "compile_error": 3135,
+      "compile_timeout": 12,
       "skip": 18,
       "compilable": 39370,
       "host_free_pass": 31935,
@@ -153,13 +153,13 @@
     {
       "name": "annexB/built-ins",
       "path": "annexB/built-ins",
-      "pass": 180,
-      "fail": 43,
+      "pass": 182,
+      "fail": 41,
       "compile_error": 18,
       "compile_timeout": 0,
       "skip": 0,
       "total": 241,
-      "host_free_pass": 180
+      "host_free_pass": 182
     },
     {
       "name": "annexB/language",
@@ -804,8 +804,8 @@
       "path": "built-ins/TypedArray",
       "pass": 443,
       "fail": 908,
-      "compile_error": 90,
-      "compile_timeout": 5,
+      "compile_error": 91,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 443
@@ -1197,7 +1197,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 5914,
+    "assertion_fail": 5912,
     "host_import_leak": 3799,
     "illegal_cast": 247,
     "negative_test_fail": 8,
@@ -1209,7 +1209,7 @@
     "runtime_error": 221,
     "syntax_error": 20,
     "type_error": 1647,
-    "wasm_compile": 71
+    "wasm_compile": 72
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1218,8 +1218,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 15293,
-    "classified": 15293,
+    "total_non_pass_non_skip": 15291,
+    "classified": 15291,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1561,7 +1561,7 @@
           "other:L#:## Codegen error: standalone RegExp engine does not support String.prototype.match with dynamic RegExp flags (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target.; L#:## Codegen error: standalone RegExp eng",
           "host_import_leak:standalone target emitted host imports: env::Object_set_constructor (##)",
           "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true",
-          "other:L#:## Codegen error: standalone RegExp engine does not support @@replace with a function (or non-string) replacer (## follow-up) (## Phase 2a). Use a supported pattern/flag set, or recompile with a JS host target."
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
         ]
       },
       {
@@ -1750,8 +1750,8 @@
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js",
-          "test/built-ins/Reflect/set/symbol-property.js"
+          "test/built-ins/Reflect/set/symbol-property.js",
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -1985,8 +1985,8 @@
         "statuses": {
           "pass": 0,
           "fail": 2345,
-          "compile_error": 310,
-          "compile_timeout": 12,
+          "compile_error": 311,
+          "compile_timeout": 11,
           "skip": 0,
           "total": 2667,
           "host_free_pass": 0
@@ -1996,7 +1996,7 @@
           "null_deref": 15,
           "type_error": 340,
           "illegal_cast": 178,
-          "wasm_compile": 29,
+          "wasm_compile": 30,
           "host_import_leak": 256,
           "other": 37,
           "range_error": 3,
@@ -2027,8 +2027,8 @@
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected SameValue(«function () { [native code] }», «function () { [native code] }») to be true (Testing with Float64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true (Testing with Float64Array and makeArray.)",
-          "null_deref:dereferencing a null pointer [in __closure_140() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]"
+          "null_deref:dereferencing a null pointer [in __closure_140() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
+          "assertion_fail:Test262Error: Expected SameValue(«#», «#») to be true (Testing with Float64Array and makeArray.)"
         ]
       },
       {
@@ -2194,24 +2194,24 @@
           "#1050"
         ],
         "label": "Annex B function/eval semantics",
-        "count": 23,
+        "count": 21,
         "statuses": {
           "pass": 0,
-          "fail": 21,
+          "fail": 19,
           "compile_error": 2,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 23,
+          "total": 21,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 18,
+          "assertion_fail": 16,
           "other": 4,
           "runtime_error": 1
         },
         "by_edition": {
           "ES2027": 13,
-          "ES2015": 10
+          "ES2015": 8
         },
         "sample_files": [
           "test/annexB/language/expressions/typeof/emulates-undefined.js",
@@ -2985,7 +2985,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
@@ -3067,8 +3067,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
