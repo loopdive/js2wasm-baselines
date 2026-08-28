@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-28T17:19:16.667Z",
-  "baseline_generated_at": "2026-08-28T17:19:16.667Z",
-  "baseline_sha": "7fd4ae2bb54200131d161187b199b54403a24ba6",
+  "timestamp": "2026-08-28T17:41:54.178Z",
+  "baseline_generated_at": "2026-08-28T17:41:54.178Z",
+  "baseline_sha": "d7d67f65b7ffbef3798bb5a79829c122e72c9c3a",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 43621,
     "pass": 32948,
-    "fail": 7487,
-    "compile_error": 3155,
-    "compile_timeout": 13,
+    "fail": 7488,
+    "compile_error": 3156,
+    "compile_timeout": 11,
     "skip": 18,
-    "compilable": 40435,
+    "compilable": 40436,
     "host_free_pass": 32948,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 42535,
         "pass": 31941,
-        "fail": 7429,
-        "compile_error": 3134,
-        "compile_timeout": 13,
+        "fail": 7430,
+        "compile_error": 3135,
+        "compile_timeout": 11,
         "skip": 18,
-        "compilable": 39370,
+        "compilable": 39371,
         "host_free_pass": 31941,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 43621,
         "pass": 32948,
-        "fail": 7487,
-        "compile_error": 3155,
-        "compile_timeout": 13,
+        "fail": 7488,
+        "compile_error": 3156,
+        "compile_timeout": 11,
         "skip": 18,
-        "compilable": 40435,
+        "compilable": 40436,
         "host_free_pass": 32948,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 33336,
-        "fail": 9990,
-        "compile_error": 5282,
-        "compile_timeout": 13,
+        "fail": 9991,
+        "compile_error": 5283,
+        "compile_timeout": 11,
         "skip": 114,
-        "compilable": 43326,
+        "compilable": 43327,
         "host_free_pass": 33336,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,22 +84,22 @@
   "official_summary": {
     "total": 43621,
     "pass": 32948,
-    "fail": 7487,
-    "compile_error": 3155,
-    "compile_timeout": 13,
+    "fail": 7488,
+    "compile_error": 3156,
+    "compile_timeout": 11,
     "skip": 18,
-    "compilable": 40435,
+    "compilable": 40436,
     "host_free_pass": 32948,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 33336,
-    "fail": 9990,
-    "compile_error": 5282,
-    "compile_timeout": 13,
+    "fail": 9991,
+    "compile_error": 5283,
+    "compile_timeout": 11,
     "skip": 114,
-    "compilable": 43326,
+    "compilable": 43327,
     "host_free_pass": 33336,
     "stale": 0
   },
@@ -107,8 +107,8 @@
     "total": 41110,
     "pass": 30763,
     "fail": 7275,
-    "compile_error": 3042,
-    "compile_timeout": 12,
+    "compile_error": 3043,
+    "compile_timeout": 11,
     "skip": 18,
     "compilable": 38038,
     "host_free_pass": 30763,
@@ -140,11 +140,11 @@
     "standard": {
       "total": 42535,
       "pass": 31941,
-      "fail": 7429,
-      "compile_error": 3134,
-      "compile_timeout": 13,
+      "fail": 7430,
+      "compile_error": 3135,
+      "compile_timeout": 11,
       "skip": 18,
-      "compilable": 39370,
+      "compilable": 39371,
       "host_free_pass": 31941,
       "stale": 0
     }
@@ -804,8 +804,8 @@
       "path": "built-ins/TypedArray",
       "pass": 443,
       "fail": 908,
-      "compile_error": 90,
-      "compile_timeout": 5,
+      "compile_error": 91,
+      "compile_timeout": 4,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 443
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8613,
-      "fail": 1361,
+      "fail": 1362,
       "compile_error": 1109,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8613
@@ -1197,9 +1197,9 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 5907,
+    "assertion_fail": 5906,
     "host_import_leak": 3799,
-    "illegal_cast": 247,
+    "illegal_cast": 248,
     "negative_test_fail": 8,
     "null_deref": 43,
     "oob": 6,
@@ -1209,7 +1209,7 @@
     "runtime_error": 221,
     "syntax_error": 20,
     "type_error": 1647,
-    "wasm_compile": 71
+    "wasm_compile": 72
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1291,10 +1291,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1336,7 +1336,7 @@
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
-          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
+          "test/built-ins/AsyncDisposableStack/prototype/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
@@ -1452,8 +1452,8 @@
         },
         "by_edition": {
           "Unclassified (untagged)": 38,
-          "ES2026": 6,
           "ES2015": 13,
+          "ES2026": 6,
           "ES2020": 7
         },
         "sample_files": [
@@ -1701,14 +1701,14 @@
           "test/built-ins/Promise/allKeyed/symbol-keys.js",
           "test/built-ins/Uint8Array/fromBase64/alphabet.js",
           "test/built-ins/Proxy/get/trap-is-undefined-receiver.js",
-          "test/built-ins/Proxy/has/trap-is-not-callable.js",
-          "test/built-ins/Proxy/set/call-parameters-prototype-index.js"
+          "test/built-ins/Proxy/set/call-parameters-prototype-index.js",
+          "test/built-ins/Proxy/has/trap-is-not-callable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: '__get_builtin' (dynamic-shape object/property operation) is not yet supported in --target standalone (## Phase B). Use a typed object literal or class instance for fast-path codegen, which compiles to struct.get/struct",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «null») to be true",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: handler object is the trap context Expected SameValue(«undefined», «[object Object]») to be true",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Actual [] and expected [#, #, #] should have the same contents. getOwnPropertyDescriptor: key present on [[ProxyTarget]]"
         ]
       },
@@ -1985,18 +1985,18 @@
         "statuses": {
           "pass": 0,
           "fail": 2342,
-          "compile_error": 310,
-          "compile_timeout": 11,
+          "compile_error": 311,
+          "compile_timeout": 10,
           "skip": 0,
           "total": 2663,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1790,
+          "assertion_fail": 1789,
           "null_deref": 15,
           "type_error": 340,
-          "illegal_cast": 178,
-          "wasm_compile": 29,
+          "illegal_cast": 179,
+          "wasm_compile": 30,
           "host_import_leak": 256,
           "other": 37,
           "range_error": 3,
@@ -2255,15 +2255,15 @@
         },
         "sample_files": [
           "test/built-ins/Date/value-symbol-to-prim-return-prim.js",
-          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/S15.9.3.1_A3_T4.2.js",
+          "test/built-ins/Date/prototype/Symbol.toPrimitive/hint-string-first-invalid.js",
           "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-symbol.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«NaN», «#») to be true",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'call')",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «false») to be true"
         ]
@@ -2545,9 +2545,9 @@
         "count": 587,
         "statuses": {
           "pass": 0,
-          "fail": 577,
+          "fail": 578,
           "compile_error": 9,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 587,
           "host_free_pass": 0
@@ -2985,7 +2985,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
+          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
