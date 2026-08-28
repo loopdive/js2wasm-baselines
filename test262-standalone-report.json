@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-27T23:34:24.598Z",
-  "baseline_generated_at": "2026-08-27T23:34:24.598Z",
-  "baseline_sha": "22aaa47f54119317e2a6ba785c71cbb223dcd3c5",
+  "timestamp": "2026-08-28T00:04:32.081Z",
+  "baseline_generated_at": "2026-08-28T00:04:32.081Z",
+  "baseline_sha": "18785a67c6682b9fc41d3a220a6b88f3f42dc59e",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1291,10 +1291,10 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1452,8 +1452,8 @@
         },
         "by_edition": {
           "Unclassified (untagged)": 38,
-          "ES2015": 13,
           "ES2026": 6,
+          "ES2015": 13,
           "ES2020": 7
         },
         "sample_files": [
@@ -1751,7 +1751,7 @@
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
           "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js",
-          "test/built-ins/Reflect/set/symbol-property.js"
+          "test/built-ins/Reflect/set/different-property-descriptors.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -1994,8 +1994,8 @@
         "error_categories": {
           "assertion_fail": 1833,
           "null_deref": 15,
-          "illegal_cast": 178,
           "type_error": 340,
+          "illegal_cast": 178,
           "wasm_compile": 30,
           "host_import_leak": 256,
           "other": 37,
@@ -2986,7 +2986,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
@@ -3078,8 +3078,8 @@
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)",
           "type_error:TypeError: Atomics.exchange requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Cannot convert undefined or null to object"
+          "type_error:TypeError: Cannot convert undefined or null to object",
+          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
