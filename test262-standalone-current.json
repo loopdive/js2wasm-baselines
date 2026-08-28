@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-28T22:42:53.404Z",
-  "baseline_generated_at": "2026-08-28T22:42:53.404Z",
-  "baseline_sha": "e1335c2d3b2153603e3cb63f6fc938c26983ad91",
+  "timestamp": "2026-08-28T23:04:49.508Z",
+  "baseline_generated_at": "2026-08-28T23:04:49.508Z",
+  "baseline_sha": "4d039800fc154406aa1ebd41de645fe62a803ebc",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -12,8 +12,8 @@
     "total": 43621,
     "pass": 33335,
     "fail": 7140,
-    "compile_error": 3116,
-    "compile_timeout": 12,
+    "compile_error": 3115,
+    "compile_timeout": 13,
     "skip": 18,
     "compilable": 40475,
     "host_free_pass": 33335,
@@ -23,8 +23,8 @@
         "total": 42535,
         "pass": 32314,
         "fail": 7096,
-        "compile_error": 3095,
-        "compile_timeout": 12,
+        "compile_error": 3094,
+        "compile_timeout": 13,
         "skip": 18,
         "compilable": 39410,
         "host_free_pass": 32314,
@@ -59,8 +59,8 @@
         "total": 43621,
         "pass": 33335,
         "fail": 7140,
-        "compile_error": 3116,
-        "compile_timeout": 12,
+        "compile_error": 3115,
+        "compile_timeout": 13,
         "skip": 18,
         "compilable": 40475,
         "host_free_pass": 33335,
@@ -71,8 +71,8 @@
         "total": 48735,
         "pass": 33723,
         "fail": 9643,
-        "compile_error": 5243,
-        "compile_timeout": 12,
+        "compile_error": 5242,
+        "compile_timeout": 13,
         "skip": 114,
         "compilable": 43366,
         "host_free_pass": 33723,
@@ -85,8 +85,8 @@
     "total": 43621,
     "pass": 33335,
     "fail": 7140,
-    "compile_error": 3116,
-    "compile_timeout": 12,
+    "compile_error": 3115,
+    "compile_timeout": 13,
     "skip": 18,
     "compilable": 40475,
     "host_free_pass": 33335,
@@ -96,8 +96,8 @@
     "total": 48735,
     "pass": 33723,
     "fail": 9643,
-    "compile_error": 5243,
-    "compile_timeout": 12,
+    "compile_error": 5242,
+    "compile_timeout": 13,
     "skip": 114,
     "compilable": 43366,
     "host_free_pass": 33723,
@@ -107,8 +107,8 @@
     "total": 41110,
     "pass": 31138,
     "fail": 6920,
-    "compile_error": 3023,
-    "compile_timeout": 11,
+    "compile_error": 3022,
+    "compile_timeout": 12,
     "skip": 18,
     "compilable": 38058,
     "host_free_pass": 31138,
@@ -141,8 +141,8 @@
       "total": 42535,
       "pass": 32314,
       "fail": 7096,
-      "compile_error": 3095,
-      "compile_timeout": 12,
+      "compile_error": 3094,
+      "compile_timeout": 13,
       "skip": 18,
       "compilable": 39410,
       "host_free_pass": 32314,
@@ -298,8 +298,8 @@
       "path": "built-ins/Atomics",
       "pass": 64,
       "fail": 63,
-      "compile_error": 262,
-      "compile_timeout": 0,
+      "compile_error": 261,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 389,
       "host_free_pass": 64
@@ -1209,7 +1209,7 @@
     "runtime_error": 212,
     "syntax_error": 45,
     "type_error": 1571,
-    "wasm_compile": 66
+    "wasm_compile": 65
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1290,11 +1290,11 @@
           "Proposals": 4450
         },
         "sample_files": [
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::CSSNumericValue_equals (##)",
@@ -1336,7 +1336,7 @@
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
-          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
+          "test/built-ins/AsyncDisposableStack/prototype/Symbol.toStringTag.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
@@ -1452,8 +1452,8 @@
         },
         "by_edition": {
           "Unclassified (untagged)": 38,
-          "ES2015": 14,
           "ES2026": 6,
+          "ES2015": 14,
           "ES2020": 7
         },
         "sample_files": [
@@ -1751,8 +1751,8 @@
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/DataView/byteOffset-validated-against-initial-buffer-length.js",
           "test/built-ins/AggregateError/newtarget-proto-fallback.js",
-          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js",
-          "test/built-ins/Reflect/set/symbol-property.js"
+          "test/built-ins/Reflect/set/symbol-property.js",
+          "test/built-ins/Reflect/set/return-false-if-target-is-not-writable.js"
         ],
         "sample_signatures": [
           "other:L#:## Codegen error: Reflect.set with an explicit receiver argument is not yet supported in --target standalone (##); the receiver would be silently dropped and accessor setters would write to the target instead of the receiver.",
@@ -2019,8 +2019,8 @@
         },
         "sample_files": [
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
-          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
           "test/built-ins/TypedArrayConstructors/from/invoked-as-func.js",
+          "test/built-ins/TypedArrayConstructors/from/source-value-is-symbol-throws.js",
           "test/built-ins/TypedArrayConstructors/prototype/forEach/inherited.js",
           "test/built-ins/TypedArrayConstructors/of/invoked-as-func.js"
         ],
@@ -2635,8 +2635,8 @@
         "statuses": {
           "pass": 0,
           "fail": 64,
-          "compile_error": 82,
-          "compile_timeout": 0,
+          "compile_error": 81,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 146,
           "host_free_pass": 0
@@ -2648,7 +2648,6 @@
           "other": 2,
           "syntax_error": 6,
           "illegal_cast": 3,
-          "wasm_compile": 1,
           "range_error": 1,
           "oob": 2
         },
@@ -3069,8 +3068,8 @@
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)",
           "type_error:TypeError: Atomics.exchange requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Cannot convert undefined or null to object"
+          "type_error:TypeError: Cannot convert undefined or null to object",
+          "type_error:TypeError: Atomics.add requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
