@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-29T01:36:58.975Z",
-  "baseline_generated_at": "2026-08-29T01:36:58.975Z",
-  "baseline_sha": "70a74d263d11c158a9da63e1541060614cf6c579",
+  "timestamp": "2026-08-29T02:06:35.738Z",
+  "baseline_generated_at": "2026-08-29T02:06:35.739Z",
+  "baseline_sha": "0762bf02315c70bf8710097d8fbf7d81e6011502",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -106,11 +106,11 @@
   "strict_summary": {
     "total": 41110,
     "pass": 31278,
-    "fail": 6795,
+    "fail": 6796,
     "compile_error": 3006,
-    "compile_timeout": 13,
+    "compile_timeout": 12,
     "skip": 18,
-    "compilable": 38073,
+    "compilable": 38074,
     "host_free_pass": 31278,
     "stale": 0
   },
@@ -199,8 +199,8 @@
       "path": "built-ins/Array",
       "pass": 2115,
       "fail": 834,
-      "compile_error": 125,
-      "compile_timeout": 8,
+      "compile_error": 126,
+      "compile_timeout": 7,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 2115
@@ -803,8 +803,8 @@
       "name": "built-ins/TypedArray",
       "path": "built-ins/TypedArray",
       "pass": 421,
-      "fail": 930,
-      "compile_error": 91,
+      "fail": 931,
+      "compile_error": 90,
       "compile_timeout": 4,
       "skip": 0,
       "total": 1446,
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8743,
-      "fail": 1256,
+      "fail": 1255,
       "compile_error": 1085,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8743
@@ -1199,17 +1199,17 @@
   "error_categories": {
     "assertion_fail": 5590,
     "host_import_leak": 3805,
-    "illegal_cast": 239,
+    "illegal_cast": 240,
     "negative_test_fail": 8,
     "null_deref": 38,
     "oob": 6,
-    "other": 3089,
+    "other": 3088,
     "promise_error": 64,
     "range_error": 20,
     "runtime_error": 212,
     "syntax_error": 45,
     "type_error": 1564,
-    "wasm_compile": 51
+    "wasm_compile": 52
   },
   "hard_errors": {},
   "skip_reasons": {
@@ -1290,10 +1290,10 @@
           "Proposals": 4450
         },
         "sample_files": [
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
@@ -1336,7 +1336,7 @@
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
-          "test/built-ins/AsyncDisposableStack/prototype/Symbol.toStringTag.js"
+          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
@@ -1458,15 +1458,15 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
-          "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/parse/text-object.js",
+          "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js",
           "test/built-ins/JSON/stringify/value-function.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
           "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
+          "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
           "assertion_fail:Test262Error: [[Set]] should not be called.",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true"
         ]
@@ -1985,9 +1985,9 @@
         "count": 2635,
         "statuses": {
           "pass": 0,
-          "fail": 2319,
+          "fail": 2320,
           "compile_error": 304,
-          "compile_timeout": 12,
+          "compile_timeout": 11,
           "skip": 0,
           "total": 2635,
           "host_free_pass": 0
@@ -1995,19 +1995,19 @@
         "error_categories": {
           "assertion_fail": 1769,
           "null_deref": 15,
-          "illegal_cast": 178,
+          "illegal_cast": 179,
           "type_error": 337,
           "host_import_leak": 256,
-          "other": 42,
-          "wasm_compile": 19,
+          "other": 41,
+          "wasm_compile": 20,
           "range_error": 3,
           "oob": 4
         },
         "by_edition": {
           "ES2024": 111,
           "ES2015": 679,
-          "ES2022": 307,
           "ES2023": 129,
+          "ES2022": 307,
           "ES2020": 502,
           "Unclassified (untagged)": 614,
           "ES2026": 120,
@@ -2545,9 +2545,9 @@
         "count": 525,
         "statuses": {
           "pass": 0,
-          "fail": 516,
+          "fail": 515,
           "compile_error": 9,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 525,
           "host_free_pass": 0
@@ -3058,8 +3058,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
