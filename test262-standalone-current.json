@@ -1,32 +1,32 @@
 {
-  "timestamp": "2026-09-01T18:33:02.862Z",
-  "baseline_generated_at": "2026-09-01T18:33:02.862Z",
-  "baseline_sha": "d39779cbfdd5a9b5fdb54569923fd9810637d495",
+  "timestamp": "2026-09-01T19:44:13.886Z",
+  "baseline_generated_at": "2026-09-01T19:44:13.886Z",
+  "baseline_sha": "d153a08826b2d1965fa2fb3f42c0569d3d713f79",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
-    "include_proposals": 0,
-    "label": "official test262 (default scope)"
+    "include_proposals": 1,
+    "label": "official test262 + proposals"
   },
   "summary": {
     "total": 48232,
     "pass": 34141,
-    "fail": 8643,
-    "compile_error": 5421,
+    "fail": 8638,
+    "compile_error": 5426,
     "compile_timeout": 9,
     "skip": 18,
-    "compilable": 42784,
+    "compilable": 42779,
     "host_free_pass": 34141,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
         "pass": 33116,
-        "fail": 8602,
-        "compile_error": 5401,
+        "fail": 8597,
+        "compile_error": 5406,
         "compile_timeout": 9,
         "skip": 18,
-        "compilable": 41718,
+        "compilable": 41713,
         "host_free_pass": 33116,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 48232,
         "pass": 34141,
-        "fail": 8643,
-        "compile_error": 5421,
+        "fail": 8638,
+        "compile_error": 5426,
         "compile_timeout": 9,
         "skip": 18,
-        "compilable": 42784,
+        "compilable": 42779,
         "host_free_pass": 34141,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 34376,
-        "fail": 8659,
-        "compile_error": 5577,
+        "fail": 8654,
+        "compile_error": 5582,
         "compile_timeout": 9,
         "skip": 114,
-        "compilable": 43035,
+        "compilable": 43030,
         "host_free_pass": 34376,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,33 +84,33 @@
   "official_summary": {
     "total": 48232,
     "pass": 34141,
-    "fail": 8643,
-    "compile_error": 5421,
+    "fail": 8638,
+    "compile_error": 5426,
     "compile_timeout": 9,
     "skip": 18,
-    "compilable": 42784,
+    "compilable": 42779,
     "host_free_pass": 34141,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 34376,
-    "fail": 8659,
-    "compile_error": 5577,
+    "fail": 8654,
+    "compile_error": 5582,
     "compile_timeout": 9,
     "skip": 114,
-    "compilable": 43035,
+    "compilable": 43030,
     "host_free_pass": 34376,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
     "pass": 31913,
-    "fail": 8465,
-    "compile_error": 5317,
+    "fail": 8460,
+    "compile_error": 5322,
     "compile_timeout": 8,
     "skip": 18,
-    "compilable": 40378,
+    "compilable": 40373,
     "host_free_pass": 31913,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 47146,
       "pass": 33116,
-      "fail": 8602,
-      "compile_error": 5401,
+      "fail": 8597,
+      "compile_error": 5406,
       "compile_timeout": 9,
       "skip": 18,
-      "compilable": 41718,
+      "compilable": 41713,
       "host_free_pass": 33116,
       "stale": 0
     }
@@ -198,8 +198,8 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 2118,
-      "fail": 844,
-      "compile_error": 112,
+      "fail": 842,
+      "compile_error": 114,
       "compile_timeout": 8,
       "skip": 0,
       "total": 3082,
@@ -638,8 +638,8 @@
       "name": "built-ins/Promise",
       "path": "built-ins/Promise",
       "pass": 330,
-      "fail": 226,
-      "compile_error": 173,
+      "fail": 223,
+      "compile_error": 176,
       "compile_timeout": 0,
       "skip": 0,
       "total": 729,
@@ -1220,7 +1220,7 @@
     "target": "standalone",
     "total_non_pass_non_skip": 14245,
     "classified": 14245,
-    "unclassified_threshold": null,
+    "unclassified_threshold": 0,
     "has_edition_breakdown": true,
     "buckets": [
       {
@@ -1291,9 +1291,9 @@
         },
         "sample_files": [
           "test/built-ins/Temporal/PlainYearMonth/prototype/with/options-read-before-algorithmic-validation.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/add/basic-arithmetic.js",
           "test/built-ins/Temporal/Duration/negative-infinity-throws-rangeerror.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/since/bubble-time-unit.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/add/basic-arithmetic.js",
           "test/built-ins/Temporal/PlainYearMonth/prototype/since/roundingmode-floor.js"
         ],
         "sample_signatures": [
@@ -1978,8 +1978,8 @@
         "count": 2171,
         "statuses": {
           "pass": 0,
-          "fail": 1874,
-          "compile_error": 289,
+          "fail": 1872,
+          "compile_error": 291,
           "compile_timeout": 8,
           "skip": 0,
           "total": 2171,
@@ -2014,15 +2014,15 @@
           "test/built-ins/TypedArray/prototype/map/speciesctor-get-ctor-inherited.js",
           "test/built-ins/TypedArray/Symbol.species/length.js",
           "test/built-ins/TypedArray/prototype/fill/BigInt/fill-values.js",
-          "test/built-ins/TypedArray/prototype/subarray/BigInt/tointeger-begin.js",
-          "test/built-ins/TypedArray/prototype/findLastIndex/return-abrupt-from-this-out-of-bounds.js"
+          "test/built-ins/TypedArray/prototype/findLastIndex/return-abrupt-from-this-out-of-bounds.js",
+          "test/built-ins/TypedArray/prototype/subarray/BigInt/tointeger-begin.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: used defaultCtor but still checks the inherited .constructor Expected SameValue(«true», «undefined») to be true (Testing with Float64Array and makeArray.)",
           "type_error:TypeError: Cannot access property on null or undefined at #:#",
           "assertion_fail:Test262Error: Default start and end indexes are # and this.length (Testing with BigInt64Array and makeArray.)",
-          "assertion_fail:Test262Error: false (Testing with BigInt64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected a TypeError but got a Test262Error (Testing with Float64Array and makeArray.)"
+          "assertion_fail:Test262Error: Expected a TypeError but got a Test262Error (Testing with Float64Array and makeArray.)",
+          "assertion_fail:Test262Error: false (Testing with BigInt64Array and makeArray.)"
         ]
       },
       {
@@ -2725,8 +2725,8 @@
         "count": 255,
         "statuses": {
           "pass": 0,
-          "fail": 122,
-          "compile_error": 133,
+          "fail": 119,
+          "compile_error": 136,
           "compile_timeout": 0,
           "skip": 0,
           "total": 255,
