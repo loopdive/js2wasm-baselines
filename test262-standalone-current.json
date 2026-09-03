@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-03T07:28:51.069Z",
-  "baseline_generated_at": "2026-09-03T07:28:51.069Z",
-  "baseline_sha": "fbe11be260aa0eb8cea8128e3f16b20672a025d7",
+  "timestamp": "2026-09-03T08:25:00.914Z",
+  "baseline_generated_at": "2026-09-03T08:25:00.915Z",
+  "baseline_sha": "cc4f054c1502a709d4d4c5b3050421fa3d53a43f",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 48232,
     "pass": 34536,
-    "fail": 9886,
+    "fail": 9887,
     "compile_error": 3783,
-    "compile_timeout": 9,
+    "compile_timeout": 8,
     "skip": 18,
-    "compilable": 44422,
+    "compilable": 44423,
     "host_free_pass": 34536,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
         "pass": 33511,
-        "fail": 9845,
+        "fail": 9846,
         "compile_error": 3763,
-        "compile_timeout": 9,
+        "compile_timeout": 8,
         "skip": 18,
-        "compilable": 43356,
+        "compilable": 43357,
         "host_free_pass": 33511,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 48232,
         "pass": 34536,
-        "fail": 9886,
+        "fail": 9887,
         "compile_error": 3783,
-        "compile_timeout": 9,
+        "compile_timeout": 8,
         "skip": 18,
-        "compilable": 44422,
+        "compilable": 44423,
         "host_free_pass": 34536,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 34771,
-        "fail": 9902,
+        "fail": 9903,
         "compile_error": 3939,
-        "compile_timeout": 9,
+        "compile_timeout": 8,
         "skip": 114,
-        "compilable": 44673,
+        "compilable": 44674,
         "host_free_pass": 34771,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,22 +84,22 @@
   "official_summary": {
     "total": 48232,
     "pass": 34536,
-    "fail": 9886,
+    "fail": 9887,
     "compile_error": 3783,
-    "compile_timeout": 9,
+    "compile_timeout": 8,
     "skip": 18,
-    "compilable": 44422,
+    "compilable": 44423,
     "host_free_pass": 34536,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 34771,
-    "fail": 9902,
+    "fail": 9903,
     "compile_error": 3939,
-    "compile_timeout": 9,
+    "compile_timeout": 8,
     "skip": 114,
-    "compilable": 44673,
+    "compilable": 44674,
     "host_free_pass": 34771,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 47146,
       "pass": 33511,
-      "fail": 9845,
+      "fail": 9846,
       "compile_error": 3763,
-      "compile_timeout": 9,
+      "compile_timeout": 8,
       "skip": 18,
-      "compilable": 43356,
+      "compilable": 43357,
       "host_free_pass": 33511,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8885,
-      "fail": 1117,
+      "fail": 1118,
       "compile_error": 1081,
-      "compile_timeout": 1,
+      "compile_timeout": 0,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8885
@@ -1293,15 +1293,15 @@
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
+          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: null Expected a RangeError but got a TypeError",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
           "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
           "other:ReferenceError: Temporal is not defined"
         ]
       },
@@ -2534,9 +2534,9 @@
         "count": 450,
         "statuses": {
           "pass": 0,
-          "fail": 441,
+          "fail": 442,
           "compile_error": 8,
-          "compile_timeout": 1,
+          "compile_timeout": 0,
           "skip": 0,
           "total": 450,
           "host_free_pass": 0
