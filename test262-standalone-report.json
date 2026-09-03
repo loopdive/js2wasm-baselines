@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-03T17:56:26.658Z",
-  "baseline_generated_at": "2026-09-03T17:56:26.658Z",
-  "baseline_sha": "998a110ace96ad68d24ec7ac7a99a6d469afe257",
+  "timestamp": "2026-09-03T18:38:01.097Z",
+  "baseline_generated_at": "2026-09-03T18:38:01.097Z",
+  "baseline_sha": "370875346b23714c1db537967ee63a25dfa5e6f2",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1293,16 +1293,16 @@
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: null Expected a RangeError but got a TypeError",
           "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
-          "other:ReferenceError: Temporal is not defined"
+          "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
+          "type_error:TypeError: called value is not a function"
         ]
       },
       {
@@ -1335,8 +1335,8 @@
         "sample_files": [
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
-          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
+          "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
@@ -1454,8 +1454,8 @@
         },
         "by_edition": {
           "Unclassified (untagged)": 34,
-          "ES2015": 6,
           "ES2026": 6,
+          "ES2015": 6,
           "ES2020": 7
         },
         "sample_files": [
