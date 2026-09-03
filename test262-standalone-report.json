@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-03T08:25:00.914Z",
-  "baseline_generated_at": "2026-09-03T08:25:00.915Z",
-  "baseline_sha": "cc4f054c1502a709d4d4c5b3050421fa3d53a43f",
+  "timestamp": "2026-09-03T09:33:59.012Z",
+  "baseline_generated_at": "2026-09-03T09:33:59.012Z",
+  "baseline_sha": "39f987fe621658df271b66e534c584dca4dcb5d7",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -11,22 +11,22 @@
   "summary": {
     "total": 48232,
     "pass": 34536,
-    "fail": 9887,
+    "fail": 9886,
     "compile_error": 3783,
-    "compile_timeout": 8,
+    "compile_timeout": 9,
     "skip": 18,
-    "compilable": 44423,
+    "compilable": 44422,
     "host_free_pass": 34536,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
         "pass": 33511,
-        "fail": 9846,
+        "fail": 9845,
         "compile_error": 3763,
-        "compile_timeout": 8,
+        "compile_timeout": 9,
         "skip": 18,
-        "compilable": 43357,
+        "compilable": 43356,
         "host_free_pass": 33511,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -58,11 +58,11 @@
       "official": {
         "total": 48232,
         "pass": 34536,
-        "fail": 9887,
+        "fail": 9886,
         "compile_error": 3783,
-        "compile_timeout": 8,
+        "compile_timeout": 9,
         "skip": 18,
-        "compilable": 44423,
+        "compilable": 44422,
         "host_free_pass": 34536,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -70,11 +70,11 @@
       "full": {
         "total": 48735,
         "pass": 34771,
-        "fail": 9903,
+        "fail": 9902,
         "compile_error": 3939,
-        "compile_timeout": 8,
+        "compile_timeout": 9,
         "skip": 114,
-        "compilable": 44674,
+        "compilable": 44673,
         "host_free_pass": 34771,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -84,22 +84,22 @@
   "official_summary": {
     "total": 48232,
     "pass": 34536,
-    "fail": 9887,
+    "fail": 9886,
     "compile_error": 3783,
-    "compile_timeout": 8,
+    "compile_timeout": 9,
     "skip": 18,
-    "compilable": 44423,
+    "compilable": 44422,
     "host_free_pass": 34536,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 34771,
-    "fail": 9903,
+    "fail": 9902,
     "compile_error": 3939,
-    "compile_timeout": 8,
+    "compile_timeout": 9,
     "skip": 114,
-    "compilable": 44674,
+    "compilable": 44673,
     "host_free_pass": 34771,
     "stale": 0
   },
@@ -140,11 +140,11 @@
     "standard": {
       "total": 47146,
       "pass": 33511,
-      "fail": 9846,
+      "fail": 9845,
       "compile_error": 3763,
-      "compile_timeout": 8,
+      "compile_timeout": 9,
       "skip": 18,
-      "compilable": 43357,
+      "compilable": 43356,
       "host_free_pass": 33511,
       "stale": 0
     }
@@ -990,9 +990,9 @@
       "name": "language/expressions",
       "path": "language/expressions",
       "pass": 8885,
-      "fail": 1118,
+      "fail": 1117,
       "compile_error": 1081,
-      "compile_timeout": 0,
+      "compile_timeout": 1,
       "skip": 18,
       "total": 11102,
       "host_free_pass": 8885
@@ -1293,15 +1293,15 @@
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: null Expected a RangeError but got a TypeError",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
           "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
           "other:ReferenceError: Temporal is not defined"
         ]
       },
@@ -1459,15 +1459,15 @@
         },
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
-          "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
+          "test/built-ins/JSON/parse/text-object.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js",
           "test/built-ins/JSON/stringify/value-function.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
-          "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
+          "other:L#:## Codegen error: JSON.parse of this value is not yet supported by the native JSON provider (##). Pure-Wasm JSON.stringify of null/undefined/boolean works standalone; numbers, objects, arrays, strings, and JSON.parse require the Phase # ",
           "assertion_fail:Test262Error: [[Set]] should not be called.",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true"
         ]
@@ -1906,15 +1906,15 @@
         },
         "sample_files": [
           "test/language/expressions/class/dstr/async-gen-meth-dflt-obj-ptrn-prop-eval-err.js",
-          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
+          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/async-gen-method/yield-star-getiter-async-undefined-sync-get-abrupt.js",
           "test/language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a Test262Error but got a TypeError",
-          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
+          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Cannot read properties of undefined (reading 'access')"
         ]
@@ -2534,9 +2534,9 @@
         "count": 450,
         "statuses": {
           "pass": 0,
-          "fail": 442,
+          "fail": 441,
           "compile_error": 8,
-          "compile_timeout": 0,
+          "compile_timeout": 1,
           "skip": 0,
           "total": 450,
           "host_free_pass": 0
@@ -2649,15 +2649,15 @@
           "test/language/expressions/bitwise-xor/bigint-non-primitive.js",
           "test/language/expressions/unsigned-right-shift/bigint-non-primitive.js",
           "test/built-ins/Atomics/store/bigint/non-shared-bufferdata.js",
-          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js",
-          "test/built-ins/Atomics/or/bigint/bad-range.js"
+          "test/built-ins/Atomics/or/bigint/bad-range.js",
+          "test/built-ins/Atomics/notify/bigint/non-shared-bufferdata-returns-0.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot mix BigInt and other types, use explicit conversions",
           "assertion_fail:Test262Error: Object(0b101n) >>> Object(1n) throws TypeError Expected a TypeError to be thrown but no exception was thrown at all",
           "type_error:TypeError: Atomics.store requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone",
-          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)"
+          "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
+          "type_error:TypeError: Atomics.notify requires a shared integer TypedArray, which is unsupported in --target standalone"
         ]
       },
       {
