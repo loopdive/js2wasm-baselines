@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-12T14:12:53.190Z",
-  "baseline_generated_at": "2026-09-12T14:12:53.190Z",
-  "baseline_sha": "038006d76253ff996050dc5e6cb0e2f1a491df39",
+  "timestamp": "2026-09-12T14:43:22.041Z",
+  "baseline_generated_at": "2026-09-12T14:43:22.041Z",
+  "baseline_sha": "24411b6763d0d2f89253277401bc90ddb99d2827",
   "oracle_version": 13,
   "mode": {
     "target": "standalone",
@@ -1552,8 +1552,8 @@
         },
         "sample_files": [
           "test/built-ins/RegExp/prototype/Symbol.match/coerce-global.js",
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.replace/coerce-lastindex-err.js",
           "test/built-ins/RegExp/prototype/Symbol.match/builtin-infer-unicode.js"
         ],
@@ -1901,15 +1901,15 @@
         },
         "sample_files": [
           "test/language/expressions/class/dstr/async-gen-meth-dflt-obj-ptrn-prop-eval-err.js",
-          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/elements/multiple-definitions-rs-static-privatename-identifier-by-classname.js",
+          "test/language/expressions/class/dstr/async-private-gen-meth-static-ary-ptrn-elem-ary-empty-init.js",
           "test/language/expressions/class/async-gen-method/yield-star-getiter-async-undefined-sync-get-abrupt.js",
           "test/language/expressions/class/private-setter-brand-check-multiple-evaluations-of-class-realm-function-ctor.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a Test262Error but got a TypeError",
-          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "assertion_fail:Test262Error: Expected SameValue(«null», «#») to be true",
+          "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: Cannot destructure 'null' or 'undefined'",
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Cannot read properties of undefined (reading 'access')"
         ]
@@ -2806,7 +2806,7 @@
           "assertion_fail:Test262Error: Expected true but got false",
           "other:[object WebAssembly.Exception]",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "other:L#:## ':' expected.; L#:## '=>' expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected."
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or ident"
         ]
       },
       {
