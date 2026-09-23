@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-23T21:31:27.789Z",
-  "baseline_generated_at": "2026-09-23T21:31:27.789Z",
-  "baseline_sha": "776b019cc36e915f3a9258ceb4cdf2745cac8fba",
+  "timestamp": "2026-09-23T22:22:05.445Z",
+  "baseline_generated_at": "2026-09-23T22:22:05.445Z",
+  "baseline_sha": "59dbeb1e8adc94d46f84334512465f338ccf04dd",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -12,22 +12,22 @@
   "summary": {
     "total": 48232,
     "pass": 36302,
-    "fail": 9085,
-    "compile_error": 2816,
+    "fail": 9084,
+    "compile_error": 2817,
     "compile_timeout": 11,
     "skip": 18,
-    "compilable": 45387,
+    "compilable": 45386,
     "host_free_pass": 36302,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
         "pass": 35270,
-        "fail": 9050,
-        "compile_error": 2797,
+        "fail": 9049,
+        "compile_error": 2798,
         "compile_timeout": 11,
         "skip": 18,
-        "compilable": 44320,
+        "compilable": 44319,
         "host_free_pass": 35270,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -59,11 +59,11 @@
       "official": {
         "total": 48232,
         "pass": 36302,
-        "fail": 9085,
-        "compile_error": 2816,
+        "fail": 9084,
+        "compile_error": 2817,
         "compile_timeout": 11,
         "skip": 18,
-        "compilable": 45387,
+        "compilable": 45386,
         "host_free_pass": 36302,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -71,11 +71,11 @@
       "full": {
         "total": 48735,
         "pass": 36537,
-        "fail": 9101,
-        "compile_error": 2972,
+        "fail": 9100,
+        "compile_error": 2973,
         "compile_timeout": 11,
         "skip": 114,
-        "compilable": 45638,
+        "compilable": 45637,
         "host_free_pass": 36537,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -85,33 +85,33 @@
   "official_summary": {
     "total": 48232,
     "pass": 36302,
-    "fail": 9085,
-    "compile_error": 2816,
+    "fail": 9084,
+    "compile_error": 2817,
     "compile_timeout": 11,
     "skip": 18,
-    "compilable": 45387,
+    "compilable": 45386,
     "host_free_pass": 36302,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 36537,
-    "fail": 9101,
-    "compile_error": 2972,
+    "fail": 9100,
+    "compile_error": 2973,
     "compile_timeout": 11,
     "skip": 114,
-    "compilable": 45638,
+    "compilable": 45637,
     "host_free_pass": 36537,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
     "pass": 34017,
-    "fail": 8951,
-    "compile_error": 2724,
+    "fail": 8950,
+    "compile_error": 2725,
     "compile_timeout": 11,
     "skip": 18,
-    "compilable": 42968,
+    "compilable": 42967,
     "host_free_pass": 34017,
     "stale": 0
   },
@@ -141,11 +141,11 @@
     "standard": {
       "total": 47146,
       "pass": 35270,
-      "fail": 9050,
-      "compile_error": 2797,
+      "fail": 9049,
+      "compile_error": 2798,
       "compile_timeout": 11,
       "skip": 18,
-      "compilable": 44320,
+      "compilable": 44319,
       "host_free_pass": 35270,
       "stale": 0
     }
@@ -199,9 +199,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 2218,
-      "fail": 744,
+      "fail": 743,
       "compile_error": 110,
-      "compile_timeout": 10,
+      "compile_timeout": 11,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 2218
@@ -805,8 +805,8 @@
       "path": "built-ins/TypedArray",
       "pass": 982,
       "fail": 453,
-      "compile_error": 10,
-      "compile_timeout": 1,
+      "compile_error": 11,
+      "compile_timeout": 0,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 982
@@ -1282,8 +1282,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 1259,
           "type_error": 1212,
+          "assertion_fail": 1259,
           "host_import_leak": 451,
           "other": 1511
         },
@@ -1291,15 +1291,15 @@
           "ES2026": 4433
         },
         "sample_files": [
-          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
-          "test/built-ins/Temporal/PlainDate/prototype/toPlainDateTime/argument-string-unknown-annotation.js"
+          "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: null Expected a RangeError but got a TypeError",
           "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
+          "assertion_fail:Test262Error: null Expected a RangeError but got a TypeError",
           "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
           "type_error:TypeError: called value is not a function"
@@ -1332,15 +1332,15 @@
           "ES2027": 92
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol() should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -1549,8 +1549,8 @@
           "ES2024": 1
         },
         "sample_files": [
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.split/splitter-proto-from-ctor-realm.js",
           "test/built-ins/RegExp/prototype/Symbol.split/species-ctor-ctor-non-obj.js",
           "test/built-ins/RegExpStringIteratorPrototype/next/name.js"
@@ -1973,8 +1973,8 @@
         "count": 1659,
         "statuses": {
           "pass": 0,
-          "fail": 1440,
-          "compile_error": 208,
+          "fail": 1439,
+          "compile_error": 209,
           "compile_timeout": 11,
           "skip": 0,
           "total": 1659,
@@ -2010,14 +2010,14 @@
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js",
-          "test/built-ins/TypedArray/prototype/with/negative-index-resize-to-out-of-bounds.js"
+          "test/built-ins/TypedArray/prototype/set/this-backed-by-resizable-buffer.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "null_deref:dereferencing a null pointer [in __closure_139() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: value assigned to receiver[#] Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)"
+          "illegal_cast:illegal cast [in __module_init_chunk_0() ← __module_init]"
         ]
       },
       {
@@ -2804,7 +2804,7 @@
           "assertion_fail:Test262Error: Expected true but got false",
           "other:[object WebAssembly.Exception]",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or ident"
+          "other:L#:## ':' expected.; L#:## '=>' expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected."
         ]
       },
       {
@@ -2910,7 +2910,7 @@
           "test/language/identifiers/start-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-16.0.0-escaped.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
-          "test/language/identifiers/start-unicode-17.0.0.js"
+          "test/language/identifiers/part-unicode-17.0.0.js"
         ],
         "sample_signatures": [
           "runtime_error:L#:## Invalid character.; L#:## Invalid character.; L#:## ',' expected.; L#:## An identifier or keyword cannot immediately follow a numeric literal.; L#:## Invalid character.; L#:## ',' expected.; L#:## An identifier or keyword cannot immed",
