@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-23T23:36:50.961Z",
-  "baseline_generated_at": "2026-09-23T23:36:50.961Z",
-  "baseline_sha": "5ca346f5f7a00290f192510a4eed087b8408d908",
+  "timestamp": "2026-09-23T23:58:25.418Z",
+  "baseline_generated_at": "2026-09-23T23:58:25.418Z",
+  "baseline_sha": "b6a77738f9d99bcacce2624b375019a85efc37bb",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 36318,
-    "fail": 9081,
+    "pass": 36338,
+    "fail": 9061,
     "compile_error": 2803,
     "compile_timeout": 12,
     "skip": 18,
     "compilable": 45399,
-    "host_free_pass": 36318,
+    "host_free_pass": 36338,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 35286,
-        "fail": 9046,
+        "pass": 35306,
+        "fail": 9026,
         "compile_error": 2784,
         "compile_timeout": 12,
         "skip": 18,
         "compilable": 44332,
-        "host_free_pass": 35286,
+        "host_free_pass": 35306,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 36318,
-        "fail": 9081,
+        "pass": 36338,
+        "fail": 9061,
         "compile_error": 2803,
         "compile_timeout": 12,
         "skip": 18,
         "compilable": 45399,
-        "host_free_pass": 36318,
+        "host_free_pass": 36338,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 36553,
-        "fail": 9097,
+        "pass": 36573,
+        "fail": 9077,
         "compile_error": 2959,
         "compile_timeout": 12,
         "skip": 114,
         "compilable": 45650,
-        "host_free_pass": 36553,
+        "host_free_pass": 36573,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 36318,
-    "fail": 9081,
+    "pass": 36338,
+    "fail": 9061,
     "compile_error": 2803,
     "compile_timeout": 12,
     "skip": 18,
     "compilable": 45399,
-    "host_free_pass": 36318,
+    "host_free_pass": 36338,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 36553,
-    "fail": 9097,
+    "pass": 36573,
+    "fail": 9077,
     "compile_error": 2959,
     "compile_timeout": 12,
     "skip": 114,
     "compilable": 45650,
-    "host_free_pass": 36553,
+    "host_free_pass": 36573,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 34033,
-    "fail": 8947,
+    "pass": 34053,
+    "fail": 8927,
     "compile_error": 2711,
     "compile_timeout": 12,
     "skip": 18,
     "compilable": 42980,
-    "host_free_pass": 34033,
+    "host_free_pass": 34053,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 35286,
-      "fail": 9046,
+      "pass": 35306,
+      "fail": 9026,
       "compile_error": 2784,
       "compile_timeout": 12,
       "skip": 18,
       "compilable": 44332,
-      "host_free_pass": 35286,
+      "host_free_pass": 35306,
       "stale": 0
     }
   },
@@ -803,24 +803,24 @@
     {
       "name": "built-ins/TypedArray",
       "path": "built-ins/TypedArray",
-      "pass": 982,
-      "fail": 453,
+      "pass": 1000,
+      "fail": 435,
       "compile_error": 10,
       "compile_timeout": 1,
       "skip": 0,
       "total": 1446,
-      "host_free_pass": 982
+      "host_free_pass": 1000
     },
     {
       "name": "built-ins/TypedArrayConstructors",
       "path": "built-ins/TypedArrayConstructors",
-      "pass": 574,
-      "fail": 108,
+      "pass": 576,
+      "fail": 106,
       "compile_error": 56,
       "compile_timeout": 0,
       "skip": 0,
       "total": 738,
-      "host_free_pass": 574
+      "host_free_pass": 576
     },
     {
       "name": "built-ins/Uint8Array",
@@ -1198,7 +1198,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 4435,
+    "assertion_fail": 4415,
     "host_import_leak": 1734,
     "illegal_cast": 234,
     "missing_builtin": 2,
@@ -1220,8 +1220,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 12068,
-    "classified": 12068,
+    "total_non_pass_non_skip": 12048,
+    "classified": 12048,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1549,8 +1549,8 @@
           "ES2024": 1
         },
         "sample_files": [
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.split/splitter-proto-from-ctor-realm.js",
           "test/built-ins/RegExp/prototype/Symbol.split/species-ctor-ctor-non-obj.js",
           "test/built-ins/RegExpStringIteratorPrototype/next/name.js"
@@ -1971,19 +1971,19 @@
           "#1654"
         ],
         "label": "Array, TypedArray, DataView, and buffer semantics",
-        "count": 1659,
+        "count": 1639,
         "statuses": {
           "pass": 0,
-          "fail": 1439,
+          "fail": 1419,
           "compile_error": 208,
           "compile_timeout": 12,
           "skip": 0,
-          "total": 1659,
+          "total": 1639,
           "host_free_pass": 0
         },
         "error_categories": {
+          "assertion_fail": 988,
           "null_deref": 4,
-          "assertion_fail": 1008,
           "illegal_cast": 175,
           "type_error": 239,
           "host_import_leak": 179,
@@ -1993,10 +1993,10 @@
         },
         "by_edition": {
           "ES2024": 57,
-          "ES2015": 141,
+          "ES2015": 127,
           "ES2022": 287,
           "ES2023": 89,
-          "ES2020": 260,
+          "ES2020": 254,
           "Unclassified (untagged)": 544,
           "ES2026": 115,
           "ES2027": 47,
@@ -2007,18 +2007,18 @@
           "ES2025": 4
         },
         "sample_files": [
-          "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
+          "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js",
-          "test/built-ins/TypedArray/prototype/with/negative-index-resize-to-out-of-bounds.js"
+          "test/built-ins/TypedArray/prototype/set/this-backed-by-resizable-buffer.js"
         ],
         "sample_signatures": [
-          "null_deref:dereferencing a null pointer [in __closure_139() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
+          "null_deref:dereferencing a null pointer [in __closure_139() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: value assigned to receiver[#] Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)"
+          "illegal_cast:illegal cast [in __module_init_chunk_0() ← __module_init]"
         ]
       },
       {
@@ -2805,7 +2805,7 @@
           "assertion_fail:Test262Error: Expected true but got false",
           "other:[object WebAssembly.Exception]",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or ident"
+          "other:L#:## ':' expected.; L#:## '=>' expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected."
         ]
       },
       {
