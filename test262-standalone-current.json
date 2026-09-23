@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-23T19:27:49.799Z",
-  "baseline_generated_at": "2026-09-23T19:27:49.799Z",
-  "baseline_sha": "940fa8deca2a8f043714759653f74b3d8258e307",
+  "timestamp": "2026-09-23T19:50:10.693Z",
+  "baseline_generated_at": "2026-09-23T19:50:10.693Z",
+  "baseline_sha": "4624d4fc23e294f6bde400afe7bb699851009d10",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 36281,
-    "fail": 9105,
+    "pass": 36295,
+    "fail": 9091,
     "compile_error": 2817,
     "compile_timeout": 11,
     "skip": 18,
     "compilable": 45386,
-    "host_free_pass": 36281,
+    "host_free_pass": 36295,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 35249,
-        "fail": 9070,
+        "pass": 35263,
+        "fail": 9056,
         "compile_error": 2798,
         "compile_timeout": 11,
         "skip": 18,
         "compilable": 44319,
-        "host_free_pass": 35249,
+        "host_free_pass": 35263,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 36281,
-        "fail": 9105,
+        "pass": 36295,
+        "fail": 9091,
         "compile_error": 2817,
         "compile_timeout": 11,
         "skip": 18,
         "compilable": 45386,
-        "host_free_pass": 36281,
+        "host_free_pass": 36295,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 36516,
-        "fail": 9121,
+        "pass": 36530,
+        "fail": 9107,
         "compile_error": 2973,
         "compile_timeout": 11,
         "skip": 114,
         "compilable": 45637,
-        "host_free_pass": 36516,
+        "host_free_pass": 36530,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 36281,
-    "fail": 9105,
+    "pass": 36295,
+    "fail": 9091,
     "compile_error": 2817,
     "compile_timeout": 11,
     "skip": 18,
     "compilable": 45386,
-    "host_free_pass": 36281,
+    "host_free_pass": 36295,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 36516,
-    "fail": 9121,
+    "pass": 36530,
+    "fail": 9107,
     "compile_error": 2973,
     "compile_timeout": 11,
     "skip": 114,
     "compilable": 45637,
-    "host_free_pass": 36516,
+    "host_free_pass": 36530,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 33996,
-    "fail": 8971,
+    "pass": 34010,
+    "fail": 8957,
     "compile_error": 2725,
     "compile_timeout": 11,
     "skip": 18,
     "compilable": 42967,
-    "host_free_pass": 33996,
+    "host_free_pass": 34010,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 35249,
-      "fail": 9070,
+      "pass": 35263,
+      "fail": 9056,
       "compile_error": 2798,
       "compile_timeout": 11,
       "skip": 18,
       "compilable": 44319,
-      "host_free_pass": 35249,
+      "host_free_pass": 35263,
       "stale": 0
     }
   },
@@ -638,13 +638,13 @@
     {
       "name": "built-ins/Promise",
       "path": "built-ins/Promise",
-      "pass": 421,
-      "fail": 172,
+      "pass": 435,
+      "fail": 158,
       "compile_error": 136,
       "compile_timeout": 0,
       "skip": 0,
       "total": 729,
-      "host_free_pass": 421
+      "host_free_pass": 435
     },
     {
       "name": "built-ins/Proxy",
@@ -1198,7 +1198,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 4445,
+    "assertion_fail": 4439,
     "host_import_leak": 1740,
     "illegal_cast": 235,
     "missing_builtin": 2,
@@ -1206,7 +1206,7 @@
     "null_deref": 15,
     "oob": 7,
     "other": 3190,
-    "promise_error": 52,
+    "promise_error": 44,
     "range_error": 15,
     "runtime_error": 141,
     "syntax_error": 14,
@@ -1220,8 +1220,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 12105,
-    "classified": 12105,
+    "total_non_pass_non_skip": 12091,
+    "classified": 12091,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1293,15 +1293,15 @@
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
-          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
           "test/built-ins/Temporal/Duration/prototype/round/subclassing-ignored.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: null Expected a RangeError but got a TypeError",
           "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
+          "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
           "other:ReferenceError: Temporal is not defined"
         ]
       },
@@ -2520,20 +2520,20 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 406,
+        "count": 392,
         "statuses": {
           "pass": 0,
-          "fail": 399,
+          "fail": 385,
           "compile_error": 7,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 406,
+          "total": 392,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 225,
+          "assertion_fail": 219,
           "other": 151,
-          "promise_error": 18,
+          "promise_error": 10,
           "runtime_error": 2,
           "host_import_leak": 5,
           "type_error": 2,
@@ -2541,7 +2541,7 @@
           "wasm_compile": 1
         },
         "by_edition": {
-          "ES2015": 85,
+          "ES2015": 71,
           "ES2018": 42,
           "ES2020": 73,
           "ES2021": 36,
@@ -2909,8 +2909,8 @@
         "sample_files": [
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-16.0.0-escaped.js",
+          "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-17.0.0.js"
         ],
         "sample_signatures": [
@@ -3038,8 +3038,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
