@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-24T11:33:23.277Z",
-  "baseline_generated_at": "2026-09-24T11:33:23.277Z",
-  "baseline_sha": "8dad42b1bbb20502fedb47fc0d03f8d85215d0e1",
+  "timestamp": "2026-09-24T12:50:32.127Z",
+  "baseline_generated_at": "2026-09-24T12:50:32.127Z",
+  "baseline_sha": "cb0e72db3dffdd17548225562d40577b2407bf7e",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 40754,
-    "fail": 5143,
-    "compile_error": 2300,
-    "compile_timeout": 17,
+    "pass": 40755,
+    "fail": 5142,
+    "compile_error": 2299,
+    "compile_timeout": 18,
     "skip": 18,
     "compilable": 45897,
-    "host_free_pass": 40754,
+    "host_free_pass": 40755,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 39717,
-        "fail": 5113,
-        "compile_error": 2281,
-        "compile_timeout": 17,
+        "pass": 39718,
+        "fail": 5112,
+        "compile_error": 2280,
+        "compile_timeout": 18,
         "skip": 18,
         "compilable": 44830,
-        "host_free_pass": 39717,
+        "host_free_pass": 39718,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 40754,
-        "fail": 5143,
-        "compile_error": 2300,
-        "compile_timeout": 17,
+        "pass": 40755,
+        "fail": 5142,
+        "compile_error": 2299,
+        "compile_timeout": 18,
         "skip": 18,
         "compilable": 45897,
-        "host_free_pass": 40754,
+        "host_free_pass": 40755,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 40989,
-        "fail": 5159,
-        "compile_error": 2456,
-        "compile_timeout": 17,
+        "pass": 40990,
+        "fail": 5158,
+        "compile_error": 2455,
+        "compile_timeout": 18,
         "skip": 114,
         "compilable": 46148,
-        "host_free_pass": 40989,
+        "host_free_pass": 40990,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 40754,
-    "fail": 5143,
-    "compile_error": 2300,
-    "compile_timeout": 17,
+    "pass": 40755,
+    "fail": 5142,
+    "compile_error": 2299,
+    "compile_timeout": 18,
     "skip": 18,
     "compilable": 45897,
-    "host_free_pass": 40754,
+    "host_free_pass": 40755,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 40989,
-    "fail": 5159,
-    "compile_error": 2456,
-    "compile_timeout": 17,
+    "pass": 40990,
+    "fail": 5158,
+    "compile_error": 2455,
+    "compile_timeout": 18,
     "skip": 114,
     "compilable": 46148,
-    "host_free_pass": 40989,
+    "host_free_pass": 40990,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 38464,
-    "fail": 5013,
-    "compile_error": 2209,
-    "compile_timeout": 17,
+    "pass": 38465,
+    "fail": 5012,
+    "compile_error": 2208,
+    "compile_timeout": 18,
     "skip": 18,
     "compilable": 43477,
-    "host_free_pass": 38464,
+    "host_free_pass": 38465,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 39717,
-      "fail": 5113,
-      "compile_error": 2281,
-      "compile_timeout": 17,
+      "pass": 39718,
+      "fail": 5112,
+      "compile_error": 2280,
+      "compile_timeout": 18,
       "skip": 18,
       "compilable": 44830,
-      "host_free_pass": 39717,
+      "host_free_pass": 39718,
       "stale": 0
     }
   },
@@ -671,13 +671,13 @@
     {
       "name": "built-ins/RegExp",
       "path": "built-ins/RegExp",
-      "pass": 1800,
-      "fail": 62,
+      "pass": 1801,
+      "fail": 61,
       "compile_error": 17,
       "compile_timeout": 0,
       "skip": 0,
       "total": 1879,
-      "host_free_pass": 1800
+      "host_free_pass": 1801
     },
     {
       "name": "built-ins/RegExpStringIteratorPrototype",
@@ -805,8 +805,8 @@
       "path": "built-ins/TypedArray",
       "pass": 1008,
       "fail": 427,
-      "compile_error": 11,
-      "compile_timeout": 0,
+      "compile_error": 10,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 1008
@@ -1198,14 +1198,14 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 3200,
+    "assertion_fail": 3199,
     "host_import_leak": 1257,
     "illegal_cast": 234,
     "missing_builtin": 2,
     "negative_test_fail": 3,
     "null_deref": 13,
     "oob": 7,
-    "other": 1649,
+    "other": 1648,
     "promise_error": 44,
     "range_error": 34,
     "runtime_error": 141,
@@ -1221,8 +1221,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 7632,
-    "classified": 7632,
+    "total_non_pass_non_skip": 7631,
+    "classified": 7631,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1552,8 +1552,8 @@
           "ES2024": 1
         },
         "sample_files": [
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.split/splitter-proto-from-ctor-realm.js",
           "test/built-ins/RegExp/prototype/Symbol.split/species-ctor-ctor-non-obj.js",
           "test/built-ins/RegExpStringIteratorPrototype/next/name.js"
@@ -1574,18 +1574,18 @@
           "#682"
         ],
         "label": "Standalone RegExp native-engine/runtime gaps: source, constructors, prototype access, result shape",
-        "count": 43,
+        "count": 42,
         "statuses": {
           "pass": 0,
-          "fail": 29,
+          "fail": 28,
           "compile_error": 14,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 43,
+          "total": 42,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 27,
+          "assertion_fail": 26,
           "other": 12,
           "type_error": 2,
           "runtime_error": 1,
@@ -1597,7 +1597,6 @@
           "Unclassified (untagged)": 5,
           "ES2027": 20,
           "ES2022": 1,
-          "ES2024": 1,
           "ES2025": 1
         },
         "sample_files": [
@@ -1977,19 +1976,19 @@
         "statuses": {
           "pass": 0,
           "fail": 1417,
-          "compile_error": 209,
-          "compile_timeout": 11,
+          "compile_error": 208,
+          "compile_timeout": 12,
           "skip": 0,
           "total": 1637,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 991,
           "null_deref": 4,
+          "assertion_fail": 991,
           "illegal_cast": 176,
           "type_error": 233,
           "host_import_leak": 179,
-          "other": 34,
+          "other": 33,
           "wasm_compile": 4,
           "oob": 5
         },
@@ -2009,15 +2008,15 @@
           "ES2025": 4
         },
         "sample_files": [
-          "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
+          "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js",
           "test/built-ins/TypedArray/prototype/with/negative-index-resize-to-out-of-bounds.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "null_deref:dereferencing a null pointer [in __closure_139() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "assertion_fail:Test262Error: value assigned to receiver[#] Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)"
@@ -2910,9 +2909,9 @@
         "sample_files": [
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/start-unicode-16.0.0-escaped.js",
           "test/language/identifiers/part-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0.js"
+          "test/language/identifiers/start-unicode-16.0.0-escaped.js",
+          "test/language/identifiers/start-unicode-17.0.0.js"
         ],
         "sample_signatures": [
           "runtime_error:L#:## Invalid character.; L#:## Invalid character.; L#:## ',' expected.; L#:## An identifier or keyword cannot immediately follow a numeric literal.; L#:## Invalid character.; L#:## ',' expected.; L#:## An identifier or keyword cannot immed",
@@ -3039,8 +3038,8 @@
           "ES2022": 20
         },
         "sample_files": [
-          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/add/validate-arraytype-before-index-coercion.js",
+          "test/built-ins/Atomics/xor/validate-arraytype-before-index-coercion.js",
           "test/built-ins/Atomics/or/non-views.js",
           "test/built-ins/Atomics/notify/notify-nan.js",
           "test/built-ins/Atomics/add/non-views.js"
