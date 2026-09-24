@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-24T09:56:17.417Z",
-  "baseline_generated_at": "2026-09-24T09:56:17.417Z",
-  "baseline_sha": "d76cdfc9b44a656288d79670655abdd3814f7528",
+  "timestamp": "2026-09-24T10:13:40.121Z",
+  "baseline_generated_at": "2026-09-24T10:13:40.121Z",
+  "baseline_sha": "51ce29018a1817e27ff95242ae575ef2b92a916d",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -1293,16 +1293,16 @@
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/overflow-wrong-type.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/until/roundingmode-halfTrunc.js",
-          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/PlainDate/prototype/add/leap-year-arithmetic.js",
+          "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-trunc.js",
           "test/built-ins/Temporal/ZonedDateTime/prototype/with/disambiguation-wrong-type.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: null Expected a RangeError but got a TypeError",
           "type_error:TypeError: Cannot read properties of undefined (reading 'until')",
-          "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
           "host_import_leak:standalone target emitted host imports: env::__temporal_plain_date_add_field, env::__temporal_plain_date_from_string_field (##)",
-          "type_error:TypeError: called value is not a function"
+          "type_error:TypeError: Cannot read properties of undefined (reading 'round')",
+          "other:ReferenceError: Temporal is not defined"
         ]
       },
       {
@@ -1549,8 +1549,8 @@
           "ES2024": 1
         },
         "sample_files": [
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.split/splitter-proto-from-ctor-realm.js",
           "test/built-ins/RegExp/prototype/Symbol.split/species-ctor-ctor-non-obj.js",
           "test/built-ins/RegExpStringIteratorPrototype/next/name.js"
@@ -2804,7 +2804,7 @@
           "assertion_fail:Test262Error: Expected true but got false",
           "other:[object WebAssembly.Exception]",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or ident"
+          "other:L#:## ':' expected.; L#:## '=>' expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected."
         ]
       },
       {
