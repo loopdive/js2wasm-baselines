@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-25T23:09:50.456Z",
-  "baseline_generated_at": "2026-09-25T23:09:50.456Z",
-  "baseline_sha": "543beeb51e9c14955aa2c0d343834ec6c11e2944",
+  "timestamp": "2026-09-25T23:31:11.303Z",
+  "baseline_generated_at": "2026-09-25T23:31:11.303Z",
+  "baseline_sha": "63f1fca535ecb92f78021cf4cbe39c00d19b752c",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -12,22 +12,22 @@
   "summary": {
     "total": 48232,
     "pass": 40775,
-    "fail": 5122,
-    "compile_error": 2300,
+    "fail": 5123,
+    "compile_error": 2299,
     "compile_timeout": 17,
     "skip": 18,
-    "compilable": 45897,
+    "compilable": 45898,
     "host_free_pass": 40775,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
         "pass": 39738,
-        "fail": 5092,
-        "compile_error": 2281,
+        "fail": 5093,
+        "compile_error": 2280,
         "compile_timeout": 17,
         "skip": 18,
-        "compilable": 44830,
+        "compilable": 44831,
         "host_free_pass": 39738,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -59,11 +59,11 @@
       "official": {
         "total": 48232,
         "pass": 40775,
-        "fail": 5122,
-        "compile_error": 2300,
+        "fail": 5123,
+        "compile_error": 2299,
         "compile_timeout": 17,
         "skip": 18,
-        "compilable": 45897,
+        "compilable": 45898,
         "host_free_pass": 40775,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -71,11 +71,11 @@
       "full": {
         "total": 48735,
         "pass": 41010,
-        "fail": 5138,
-        "compile_error": 2456,
+        "fail": 5139,
+        "compile_error": 2455,
         "compile_timeout": 17,
         "skip": 114,
-        "compilable": 46148,
+        "compilable": 46149,
         "host_free_pass": 41010,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -85,33 +85,33 @@
   "official_summary": {
     "total": 48232,
     "pass": 40775,
-    "fail": 5122,
-    "compile_error": 2300,
+    "fail": 5123,
+    "compile_error": 2299,
     "compile_timeout": 17,
     "skip": 18,
-    "compilable": 45897,
+    "compilable": 45898,
     "host_free_pass": 40775,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 41010,
-    "fail": 5138,
-    "compile_error": 2456,
+    "fail": 5139,
+    "compile_error": 2455,
     "compile_timeout": 17,
     "skip": 114,
-    "compilable": 46148,
+    "compilable": 46149,
     "host_free_pass": 41010,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
     "pass": 38481,
-    "fail": 4996,
-    "compile_error": 2209,
+    "fail": 4997,
+    "compile_error": 2208,
     "compile_timeout": 17,
     "skip": 18,
-    "compilable": 43477,
+    "compilable": 43478,
     "host_free_pass": 38481,
     "stale": 0
   },
@@ -141,11 +141,11 @@
     "standard": {
       "total": 47146,
       "pass": 39738,
-      "fail": 5092,
-      "compile_error": 2281,
+      "fail": 5093,
+      "compile_error": 2280,
       "compile_timeout": 17,
       "skip": 18,
-      "compilable": 44830,
+      "compilable": 44831,
       "host_free_pass": 39738,
       "stale": 0
     }
@@ -199,9 +199,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 2212,
-      "fail": 749,
+      "fail": 750,
       "compile_error": 110,
-      "compile_timeout": 11,
+      "compile_timeout": 10,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 2212
@@ -805,8 +805,8 @@
       "path": "built-ins/TypedArray",
       "pass": 1008,
       "fail": 427,
-      "compile_error": 11,
-      "compile_timeout": 0,
+      "compile_error": 10,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 1008
@@ -1337,8 +1337,8 @@
         "sample_files": [
           "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
-          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
+          "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
@@ -1462,15 +1462,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
-          "test/built-ins/JSON/parse/reviver-wrapper.js",
           "test/built-ins/JSON/stringify/value-function.js",
+          "test/built-ins/JSON/parse/reviver-wrapper.js",
           "test/built-ins/JSON/stringify/value-object-abrupt.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
-          "assertion_fail:Test262Error: [[Set]] should not be called.",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
+          "assertion_fail:Test262Error: [[Set]] should not be called.",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
@@ -1552,8 +1552,8 @@
           "ES2024": 1
         },
         "sample_files": [
-          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-is-undefined.js",
+          "test/built-ins/RegExp/prototype/Symbol.matchAll/species-constructor-species-is-null-or-undefined.js",
           "test/built-ins/RegExp/prototype/Symbol.split/splitter-proto-from-ctor-realm.js",
           "test/built-ins/RegExp/prototype/Symbol.split/species-ctor-ctor-non-obj.js",
           "test/built-ins/RegExpStringIteratorPrototype/next/name.js"
@@ -1975,8 +1975,8 @@
         "count": 1637,
         "statuses": {
           "pass": 0,
-          "fail": 1417,
-          "compile_error": 209,
+          "fail": 1418,
+          "compile_error": 208,
           "compile_timeout": 11,
           "skip": 0,
           "total": 1637,
@@ -2012,14 +2012,14 @@
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js",
-          "test/built-ins/TypedArray/prototype/with/negative-index-resize-to-out-of-bounds.js"
+          "test/built-ins/TypedArray/prototype/set/this-backed-by-resizable-buffer.js"
         ],
         "sample_signatures": [
           "null_deref:dereferencing a null pointer [in __closure_139() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "assertion_fail:Test262Error: value assigned to receiver[#] Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)"
+          "illegal_cast:illegal cast [in __module_init_chunk_0() ← __module_init]"
         ]
       },
       {
@@ -2806,7 +2806,7 @@
           "assertion_fail:Test262Error: Expected true but got false",
           "other:[object WebAssembly.Exception]",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "other:L#:## ':' expected.; L#:## '=>' expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected."
+          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or ident"
         ]
       },
       {
@@ -2909,9 +2909,9 @@
         "sample_files": [
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-16.0.0-escaped.js",
-          "test/language/identifiers/start-unicode-17.0.0.js"
+          "test/language/identifiers/part-unicode-17.0.0-class.js",
+          "test/language/identifiers/part-unicode-17.0.0.js"
         ],
         "sample_signatures": [
           "runtime_error:L#:## Invalid character.; L#:## Invalid character.; L#:## ',' expected.; L#:## An identifier or keyword cannot immediately follow a numeric literal.; L#:## Invalid character.; L#:## ',' expected.; L#:## An identifier or keyword cannot immed",
