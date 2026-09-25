@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-25T22:41:21.068Z",
-  "baseline_generated_at": "2026-09-25T22:41:21.068Z",
-  "baseline_sha": "117d337be4a9433a2831195a9762b8d2303503f7",
+  "timestamp": "2026-09-25T23:09:50.456Z",
+  "baseline_generated_at": "2026-09-25T23:09:50.456Z",
+  "baseline_sha": "543beeb51e9c14955aa2c0d343834ec6c11e2944",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 40774,
-    "fail": 5123,
+    "pass": 40775,
+    "fail": 5122,
     "compile_error": 2300,
     "compile_timeout": 17,
     "skip": 18,
     "compilable": 45897,
-    "host_free_pass": 40774,
+    "host_free_pass": 40775,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 39737,
-        "fail": 5093,
+        "pass": 39738,
+        "fail": 5092,
         "compile_error": 2281,
         "compile_timeout": 17,
         "skip": 18,
         "compilable": 44830,
-        "host_free_pass": 39737,
+        "host_free_pass": 39738,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 40774,
-        "fail": 5123,
+        "pass": 40775,
+        "fail": 5122,
         "compile_error": 2300,
         "compile_timeout": 17,
         "skip": 18,
         "compilable": 45897,
-        "host_free_pass": 40774,
+        "host_free_pass": 40775,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 41009,
-        "fail": 5139,
+        "pass": 41010,
+        "fail": 5138,
         "compile_error": 2456,
         "compile_timeout": 17,
         "skip": 114,
         "compilable": 46148,
-        "host_free_pass": 41009,
+        "host_free_pass": 41010,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 40774,
-    "fail": 5123,
+    "pass": 40775,
+    "fail": 5122,
     "compile_error": 2300,
     "compile_timeout": 17,
     "skip": 18,
     "compilable": 45897,
-    "host_free_pass": 40774,
+    "host_free_pass": 40775,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 41009,
-    "fail": 5139,
+    "pass": 41010,
+    "fail": 5138,
     "compile_error": 2456,
     "compile_timeout": 17,
     "skip": 114,
     "compilable": 46148,
-    "host_free_pass": 41009,
+    "host_free_pass": 41010,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 38480,
-    "fail": 4997,
+    "pass": 38481,
+    "fail": 4996,
     "compile_error": 2209,
     "compile_timeout": 17,
     "skip": 18,
     "compilable": 43477,
-    "host_free_pass": 38480,
+    "host_free_pass": 38481,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 39737,
-      "fail": 5093,
+      "pass": 39738,
+      "fail": 5092,
       "compile_error": 2281,
       "compile_timeout": 17,
       "skip": 18,
       "compilable": 44830,
-      "host_free_pass": 39737,
+      "host_free_pass": 39738,
       "stale": 0
     }
   },
@@ -1100,13 +1100,13 @@
     {
       "name": "language/module-code",
       "path": "language/module-code",
-      "pass": 402,
-      "fail": 99,
+      "pass": 403,
+      "fail": 98,
       "compile_error": 98,
       "compile_timeout": 0,
       "skip": 0,
       "total": 599,
-      "host_free_pass": 402
+      "host_free_pass": 403
     },
     {
       "name": "language/punctuators",
@@ -1205,7 +1205,7 @@
     "negative_test_fail": 3,
     "null_deref": 13,
     "oob": 7,
-    "other": 1632,
+    "other": 1631,
     "promise_error": 44,
     "range_error": 34,
     "runtime_error": 141,
@@ -1221,8 +1221,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 7612,
-    "classified": 7612,
+    "total_non_pass_non_skip": 7611,
+    "classified": 7611,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1462,15 +1462,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
-          "test/built-ins/JSON/stringify/value-function.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js",
+          "test/built-ins/JSON/stringify/value-function.js",
           "test/built-ins/JSON/stringify/value-object-abrupt.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
           "assertion_fail:Test262Error: [[Set]] should not be called.",
+          "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
@@ -2769,25 +2769,25 @@
           "#1527"
         ],
         "label": "Module semantics and harness export shape",
-        "count": 101,
+        "count": 100,
         "statuses": {
           "pass": 0,
-          "fail": 34,
+          "fail": 33,
           "compile_error": 67,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 101,
+          "total": 100,
           "host_free_pass": 0
         },
         "error_categories": {
           "runtime_error": 38,
           "assertion_fail": 5,
-          "other": 50,
+          "other": 49,
           "type_error": 1,
           "host_import_leak": 7
         },
         "by_edition": {
-          "Unclassified (untagged)": 35,
+          "Unclassified (untagged)": 34,
           "ES2027": 5,
           "ES2015": 5,
           "ES2025": 15,
