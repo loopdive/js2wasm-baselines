@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-26T23:03:06.510Z",
-  "baseline_generated_at": "2026-09-26T23:03:06.511Z",
-  "baseline_sha": "8104ce7e88acf9a1d281656a9977366394f10e85",
+  "timestamp": "2026-09-26T23:25:37.104Z",
+  "baseline_generated_at": "2026-09-26T23:25:37.104Z",
+  "baseline_sha": "fdf966a3dc4c2fe40dfb06a8e96c5700b9b95744",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 40880,
+    "pass": 40879,
     "fail": 4956,
     "compile_error": 2358,
-    "compile_timeout": 20,
+    "compile_timeout": 21,
     "skip": 18,
-    "compilable": 45836,
-    "host_free_pass": 40880,
+    "compilable": 45835,
+    "host_free_pass": 40879,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 39841,
+        "pass": 39840,
         "fail": 4928,
         "compile_error": 2339,
-        "compile_timeout": 20,
+        "compile_timeout": 21,
         "skip": 18,
-        "compilable": 44769,
-        "host_free_pass": 39841,
+        "compilable": 44768,
+        "host_free_pass": 39840,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 40880,
+        "pass": 40879,
         "fail": 4956,
         "compile_error": 2358,
-        "compile_timeout": 20,
+        "compile_timeout": 21,
         "skip": 18,
-        "compilable": 45836,
-        "host_free_pass": 40880,
+        "compilable": 45835,
+        "host_free_pass": 40879,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 41115,
+        "pass": 41114,
         "fail": 4972,
         "compile_error": 2514,
-        "compile_timeout": 20,
+        "compile_timeout": 21,
         "skip": 114,
-        "compilable": 46087,
-        "host_free_pass": 41115,
+        "compilable": 46086,
+        "host_free_pass": 41114,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 40880,
+    "pass": 40879,
     "fail": 4956,
     "compile_error": 2358,
-    "compile_timeout": 20,
+    "compile_timeout": 21,
     "skip": 18,
-    "compilable": 45836,
-    "host_free_pass": 40880,
+    "compilable": 45835,
+    "host_free_pass": 40879,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 41115,
+    "pass": 41114,
     "fail": 4972,
     "compile_error": 2514,
-    "compile_timeout": 20,
+    "compile_timeout": 21,
     "skip": 114,
-    "compilable": 46087,
-    "host_free_pass": 41115,
+    "compilable": 46086,
+    "host_free_pass": 41114,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 38586,
+    "pass": 38585,
     "fail": 4830,
     "compile_error": 2267,
-    "compile_timeout": 20,
+    "compile_timeout": 21,
     "skip": 18,
-    "compilable": 43416,
-    "host_free_pass": 38586,
+    "compilable": 43415,
+    "host_free_pass": 38585,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 39841,
+      "pass": 39840,
       "fail": 4928,
       "compile_error": 2339,
-      "compile_timeout": 20,
+      "compile_timeout": 21,
       "skip": 18,
-      "compilable": 44769,
-      "host_free_pass": 39841,
+      "compilable": 44768,
+      "host_free_pass": 39840,
       "stale": 0
     }
   },
@@ -781,13 +781,13 @@
     {
       "name": "built-ins/Temporal",
       "path": "built-ins/Temporal",
-      "pass": 4490,
+      "pass": 4489,
       "fail": 102,
       "compile_error": 3,
-      "compile_timeout": 8,
+      "compile_timeout": 9,
       "skip": 0,
       "total": 4603,
-      "host_free_pass": 4490
+      "host_free_pass": 4489
     },
     {
       "name": "built-ins/ThrowTypeError",
@@ -1221,8 +1221,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 7506,
-    "classified": 7506,
+    "total_non_pass_non_skip": 7507,
+    "classified": 7507,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1272,14 +1272,14 @@
           "#661"
         ],
         "label": "Temporal proposal/polyfill gap",
-        "count": 113,
+        "count": 114,
         "statuses": {
           "pass": 0,
           "fail": 102,
           "compile_error": 3,
-          "compile_timeout": 8,
+          "compile_timeout": 9,
           "skip": 0,
-          "total": 113,
+          "total": 114,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1291,7 +1291,7 @@
           "illegal_cast": 1
         },
         "by_edition": {
-          "ES2026": 113
+          "ES2026": 114
         },
         "sample_files": [
           "test/built-ins/Temporal/ZonedDateTime/prototype/add/add-large-subseconds.js",
@@ -1335,15 +1335,15 @@
           "ES2027": 92
         },
         "sample_files": [
-          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/move/sets-state-to-disposed.js",
+          "test/built-ins/AsyncDisposableStack/prototype/move/not-a-constructor.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.asyncDispose-property-not-callable.js",
           "test/built-ins/AsyncDisposableStack/instance-extensible.js",
           "test/built-ins/AsyncDisposableStack/prototype/use/throws-if-value-Symbol.dispose-property-not-callable.js"
         ],
         "sample_signatures": [
-          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_get_disposed, env::AsyncDisposableStack_move, env::AsyncDisposableStack_new (##)",
+          "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new (##)",
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol(Symbol.toStringTag) should be an own property",
           "type_error:TypeError: Cannot access property on null or undefined at #:#"
@@ -1997,8 +1997,8 @@
         "by_edition": {
           "ES2024": 57,
           "ES2015": 106,
-          "ES2022": 277,
           "ES2023": 89,
+          "ES2022": 277,
           "ES2020": 249,
           "Unclassified (untagged)": 549,
           "ES2026": 115,
@@ -2013,15 +2013,15 @@
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
-          "test/built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js",
-          "test/built-ins/TypedArray/prototype/with/negative-index-resize-to-out-of-bounds.js"
+          "test/built-ins/TypedArray/prototype/with/negative-index-resize-to-out-of-bounds.js",
+          "test/built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js"
         ],
         "sample_signatures": [
           "null_deref:dereferencing a null pointer [in __closure_140() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "assertion_fail:Test262Error: value assigned to receiver[#] Expected SameValue(«[object Object]», «[object Object]») to be true",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)"
+          "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)"
         ]
       },
       {
@@ -2808,7 +2808,7 @@
           "assertion_fail:Test262Error: Expected true but got false",
           "other:[object WebAssembly.Exception]",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "other:L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or identifier.; L#:## Identifier expected.; L#:## Unexpected keyword or ident"
+          "other:L#:## ':' expected.; L#:## '=>' expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected.; L#:## Declaration or statement expected."
         ]
       },
       {
@@ -2958,7 +2958,7 @@
           "test/built-ins/WeakRef/throws-when-target-cannot-be-held-weakly.js",
           "test/built-ins/Atomics/wait/cannot-suspend-throws.js",
           "test/built-ins/FinalizationRegistry/prototype/register/return-undefined-register-symbol.js",
-          "test/built-ins/FinalizationRegistry/prototype/unregister/custom-this.js"
+          "test/built-ins/FinalizationRegistry/target-not-callable-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
