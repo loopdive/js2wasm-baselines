@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-27T06:30:50.671Z",
-  "baseline_generated_at": "2026-09-27T06:30:50.671Z",
-  "baseline_sha": "6eac568d412537091ca6201878fbc492deab3631",
+  "timestamp": "2026-09-27T07:43:24.529Z",
+  "baseline_generated_at": "2026-09-27T07:43:24.529Z",
+  "baseline_sha": "bf0c9217909c751fdbd101af062ef4e9a1fdf34e",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 40907,
-    "fail": 4929,
+    "pass": 40908,
+    "fail": 4928,
     "compile_error": 2358,
     "compile_timeout": 20,
     "skip": 18,
     "compilable": 45836,
-    "host_free_pass": 40907,
+    "host_free_pass": 40908,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 39868,
-        "fail": 4901,
+        "pass": 39869,
+        "fail": 4900,
         "compile_error": 2339,
         "compile_timeout": 20,
         "skip": 18,
         "compilable": 44769,
-        "host_free_pass": 39868,
+        "host_free_pass": 39869,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 40907,
-        "fail": 4929,
+        "pass": 40908,
+        "fail": 4928,
         "compile_error": 2358,
         "compile_timeout": 20,
         "skip": 18,
         "compilable": 45836,
-        "host_free_pass": 40907,
+        "host_free_pass": 40908,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 41142,
-        "fail": 4945,
+        "pass": 41143,
+        "fail": 4944,
         "compile_error": 2514,
         "compile_timeout": 20,
         "skip": 114,
         "compilable": 46087,
-        "host_free_pass": 41142,
+        "host_free_pass": 41143,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 40907,
-    "fail": 4929,
+    "pass": 40908,
+    "fail": 4928,
     "compile_error": 2358,
     "compile_timeout": 20,
     "skip": 18,
     "compilable": 45836,
-    "host_free_pass": 40907,
+    "host_free_pass": 40908,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 41142,
-    "fail": 4945,
+    "pass": 41143,
+    "fail": 4944,
     "compile_error": 2514,
     "compile_timeout": 20,
     "skip": 114,
     "compilable": 46087,
-    "host_free_pass": 41142,
+    "host_free_pass": 41143,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 38606,
-    "fail": 4810,
+    "pass": 38607,
+    "fail": 4809,
     "compile_error": 2267,
     "compile_timeout": 20,
     "skip": 18,
     "compilable": 43416,
-    "host_free_pass": 38606,
+    "host_free_pass": 38607,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 39868,
-      "fail": 4901,
+      "pass": 39869,
+      "fail": 4900,
       "compile_error": 2339,
       "compile_timeout": 20,
       "skip": 18,
       "compilable": 44769,
-      "host_free_pass": 39868,
+      "host_free_pass": 39869,
       "stale": 0
     }
   },
@@ -770,13 +770,13 @@
     {
       "name": "built-ins/Symbol",
       "path": "built-ins/Symbol",
-      "pass": 81,
-      "fail": 17,
+      "pass": 82,
+      "fail": 16,
       "compile_error": 0,
       "compile_timeout": 0,
       "skip": 0,
       "total": 98,
-      "host_free_pass": 81
+      "host_free_pass": 82
     },
     {
       "name": "built-ins/Temporal",
@@ -1198,7 +1198,7 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 3117,
+    "assertion_fail": 3116,
     "host_import_leak": 1257,
     "illegal_cast": 238,
     "missing_builtin": 2,
@@ -1221,8 +1221,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 7479,
-    "classified": 7479,
+    "total_non_pass_non_skip": 7478,
+    "classified": 7478,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1463,15 +1463,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
-          "test/built-ins/JSON/parse/reviver-wrapper.js",
           "test/built-ins/JSON/stringify/value-function.js",
+          "test/built-ins/JSON/parse/reviver-wrapper.js",
           "test/built-ins/JSON/stringify/value-object-abrupt.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
-          "assertion_fail:Test262Error: [[Set]] should not be called.",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
+          "assertion_fail:Test262Error: [[Set]] should not be called.",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
@@ -2391,23 +2391,23 @@
           "#1564"
         ],
         "label": "Symbol built-in semantics (keyFor/for arg validation, well-known symbols, registry)",
-        "count": 10,
+        "count": 9,
         "statuses": {
           "pass": 0,
-          "fail": 10,
+          "fail": 9,
           "compile_error": 0,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 10,
+          "total": 9,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 7,
+          "assertion_fail": 6,
           "null_deref": 2,
           "type_error": 1
         },
         "by_edition": {
-          "ES2015": 8,
+          "ES2015": 7,
           "ES2019": 2
         },
         "sample_files": [
@@ -2415,14 +2415,14 @@
           "test/built-ins/Symbol/prototype/Symbol.toPrimitive/removed-symbol-wrapper-ordinary-toprimitive.js",
           "test/built-ins/Symbol/not-callable.js",
           "test/built-ins/Symbol/for/to-string-err.js",
-          "test/built-ins/Symbol/species/builtin-getter-name.js"
+          "test/built-ins/Symbol/prototype/Symbol.toPrimitive/this-val-obj-symbol-wrapper.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«undefined», «function () { [native code] }») to be true",
           "assertion_fail:Test262Error: hint: default",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "null_deref:dereferencing a null pointer [in __closure_67() ← __dyn_call_1 ← __closure_61 ← __call_fn_method_3]",
-          "assertion_fail:Test262Error: Expected SameValue(«\"get\"», «\"get [Symbol.species]\"») to be true"
+          "type_error:TypeError: called value is not a function"
         ]
       },
       {
@@ -2911,8 +2911,8 @@
         "sample_files": [
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-16.0.0-escaped.js",
+          "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-17.0.0.js"
         ],
         "sample_signatures": [
