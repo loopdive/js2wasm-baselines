@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-27T22:15:35.745Z",
-  "baseline_generated_at": "2026-09-27T22:15:35.746Z",
-  "baseline_sha": "a3b82d4c80d3f29a81db01460590b2842199b0ba",
+  "timestamp": "2026-09-27T23:47:51.197Z",
+  "baseline_generated_at": "2026-09-27T23:47:51.198Z",
+  "baseline_sha": "e2f26c85a2aae56f166cfe03ebd21c6fa2d2ccfa",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 40911,
-    "fail": 4925,
+    "pass": 40912,
+    "fail": 4924,
     "compile_error": 2358,
     "compile_timeout": 20,
     "skip": 18,
     "compilable": 45836,
-    "host_free_pass": 40911,
+    "host_free_pass": 40912,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 39872,
-        "fail": 4897,
+        "pass": 39873,
+        "fail": 4896,
         "compile_error": 2339,
         "compile_timeout": 20,
         "skip": 18,
         "compilable": 44769,
-        "host_free_pass": 39872,
+        "host_free_pass": 39873,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 40911,
-        "fail": 4925,
+        "pass": 40912,
+        "fail": 4924,
         "compile_error": 2358,
         "compile_timeout": 20,
         "skip": 18,
         "compilable": 45836,
-        "host_free_pass": 40911,
+        "host_free_pass": 40912,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 41146,
-        "fail": 4941,
+        "pass": 41147,
+        "fail": 4940,
         "compile_error": 2514,
         "compile_timeout": 20,
         "skip": 114,
         "compilable": 46087,
-        "host_free_pass": 41146,
+        "host_free_pass": 41147,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 40911,
-    "fail": 4925,
+    "pass": 40912,
+    "fail": 4924,
     "compile_error": 2358,
     "compile_timeout": 20,
     "skip": 18,
     "compilable": 45836,
-    "host_free_pass": 40911,
+    "host_free_pass": 40912,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 41146,
-    "fail": 4941,
+    "pass": 41147,
+    "fail": 4940,
     "compile_error": 2514,
     "compile_timeout": 20,
     "skip": 114,
     "compilable": 46087,
-    "host_free_pass": 41146,
+    "host_free_pass": 41147,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 38610,
-    "fail": 4806,
+    "pass": 38611,
+    "fail": 4805,
     "compile_error": 2267,
     "compile_timeout": 20,
     "skip": 18,
     "compilable": 43416,
-    "host_free_pass": 38610,
+    "host_free_pass": 38611,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 39872,
-      "fail": 4897,
+      "pass": 39873,
+      "fail": 4896,
       "compile_error": 2339,
       "compile_timeout": 20,
       "skip": 18,
       "compilable": 44769,
-      "host_free_pass": 39872,
+      "host_free_pass": 39873,
       "stale": 0
     }
   },
@@ -517,13 +517,13 @@
     {
       "name": "built-ins/Iterator",
       "path": "built-ins/Iterator",
-      "pass": 176,
-      "fail": 399,
+      "pass": 177,
+      "fail": 398,
       "compile_error": 79,
       "compile_timeout": 0,
       "skip": 0,
       "total": 654,
-      "host_free_pass": 176
+      "host_free_pass": 177
     },
     {
       "name": "built-ins/JSON",
@@ -1198,9 +1198,9 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 3123,
+    "assertion_fail": 3122,
     "host_import_leak": 1257,
-    "illegal_cast": 238,
+    "illegal_cast": 239,
     "missing_builtin": 2,
     "negative_test_fail": 3,
     "null_deref": 12,
@@ -1210,7 +1210,7 @@
     "range_error": 32,
     "runtime_error": 133,
     "syntax_error": 14,
-    "type_error": 877,
+    "type_error": 876,
     "unreachable": 5,
     "wasm_compile": 101
   },
@@ -1221,8 +1221,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 7475,
-    "classified": 7475,
+    "total_non_pass_non_skip": 7474,
+    "classified": 7474,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1463,15 +1463,15 @@
         "sample_files": [
           "test/built-ins/JSON/stringify/value-tojson-object-circular.js",
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
-          "test/built-ins/JSON/stringify/value-function.js",
           "test/built-ins/JSON/parse/reviver-wrapper.js",
+          "test/built-ins/JSON/stringify/value-function.js",
           "test/built-ins/JSON/stringify/value-object-abrupt.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
           "assertion_fail:Test262Error: Expected SameValue(«\"#\"», «undefined») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
           "assertion_fail:Test262Error: [[Set]] should not be called.",
+          "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
           "assertion_fail:Test262Error: Expected a Test262Error to be thrown but no exception was thrown at all"
         ]
       },
@@ -1681,9 +1681,10 @@
         "error_categories": {
           "other": 85,
           "assertion_fail": 42,
-          "type_error": 9,
+          "type_error": 8,
           "host_import_leak": 3,
           "runtime_error": 3,
+          "illegal_cast": 1,
           "null_deref": 1
         },
         "by_edition": {
@@ -1762,21 +1763,21 @@
           "#1718"
         ],
         "label": "Generic iterator protocol still needs a pure-Wasm standalone path",
-        "count": 1202,
+        "count": 1201,
         "statuses": {
           "pass": 0,
-          "fail": 545,
+          "fail": 544,
           "compile_error": 657,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 1202,
+          "total": 1201,
           "host_free_pass": 0
         },
         "error_categories": {
           "promise_error": 10,
           "host_import_leak": 563,
           "type_error": 154,
-          "assertion_fail": 352,
+          "assertion_fail": 351,
           "wasm_compile": 79,
           "other": 26,
           "runtime_error": 8,
@@ -1788,7 +1789,7 @@
           "ES2018": 275,
           "ES2022": 345,
           "ES2027": 161,
-          "ES2025": 290,
+          "ES2025": 289,
           "ES2015": 71,
           "ES2019": 11,
           "ES2026": 45,
@@ -1985,8 +1986,8 @@
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 999,
           "null_deref": 4,
+          "assertion_fail": 999,
           "illegal_cast": 176,
           "type_error": 192,
           "host_import_leak": 179,
@@ -2010,15 +2011,15 @@
           "ES2025": 4
         },
         "sample_files": [
-          "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/detached-buffer.js",
+          "test/built-ins/TypedArrayConstructors/internals/Set/BigInt/null-tobigint.js",
           "test/built-ins/TypedArrayConstructors/internals/Set/key-is-in-bounds-receiver-is-not-typed-array.js",
           "test/built-ins/TypedArray/prototype/at/index-non-numeric-argument-tointeger-invalid.js",
           "test/built-ins/TypedArray/prototype/with/negative-index-resize-to-out-of-bounds.js"
         ],
         "sample_signatures": [
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "null_deref:dereferencing a null pointer [in __closure_140() ← testWithAllTypedArrayConstructors ← __fn_tramp_testWithAllTypedArrayConstructors_cached ← __call_fn_method_4]",
+          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with BigInt64Array and makeArray.)",
           "assertion_fail:Test262Error: value assigned to receiver[#] Expected SameValue(«[object Object]», «[object Object]») to be true",
           "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all (Testing with Float64Array and makeArray.)"
@@ -2911,8 +2912,8 @@
         "sample_files": [
           "test/language/identifiers/part-unicode-16.0.0-escaped.js",
           "test/language/identifiers/start-unicode-17.0.0-class.js",
-          "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-16.0.0-escaped.js",
+          "test/language/identifiers/part-unicode-17.0.0-class.js",
           "test/language/identifiers/start-unicode-17.0.0.js"
         ],
         "sample_signatures": [
