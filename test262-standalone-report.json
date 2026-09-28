@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-28T15:18:25.436Z",
-  "baseline_generated_at": "2026-09-28T15:18:25.436Z",
-  "baseline_sha": "a08ed30b5cc549dff8aae9583998945d1816f69b",
+  "timestamp": "2026-09-28T15:36:15.771Z",
+  "baseline_generated_at": "2026-09-28T15:36:15.771Z",
+  "baseline_sha": "013e9351668d4ae78a63c102c44f8b98ed0c39cb",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -1296,16 +1296,16 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/prototype/subtract/precision-no-floating-point-loss.js",
           "test/built-ins/Temporal/Duration/prototype/round/relativeto-propertybag-invalid-offset-string.js",
+          "test/built-ins/Temporal/Duration/prototype/round/singular-units.js",
           "test/built-ins/Temporal/Instant/prototype/subtract/minimum-maximum-instant.js",
-          "test/built-ins/Temporal/PlainTime/from/argument-object-leap-second.js",
-          "test/built-ins/Temporal/toStringTag/string.js"
+          "test/built-ins/Temporal/PlainTime/from/argument-object-leap-second.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: duration1.subtract(duration2): days result: Expected SameValue(«#», «#») to be true",
           "assertion_fail:Test262Error: \"+#:#\" is not a valid offset string Expected a RangeError to be thrown but no exception was thrown at all",
+          "compile_timeout:timeout (10s)",
           "range_error:RangeError: total of duration time units cannot exceed # s",
-          "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all",
-          "type_error:TypeError: Cannot convert object to primitive value"
+          "assertion_fail:Test262Error: Expected a RangeError to be thrown but no exception was thrown at all"
         ]
       },
       {
