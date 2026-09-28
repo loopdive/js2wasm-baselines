@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-28T16:23:07.359Z",
-  "baseline_generated_at": "2026-09-28T16:23:07.360Z",
-  "baseline_sha": "1915b7597fc33ea28a4eb88736cd0b7c8a2954c0",
+  "timestamp": "2026-09-28T16:53:13.114Z",
+  "baseline_generated_at": "2026-09-28T16:53:13.114Z",
+  "baseline_sha": "17fd40474db1b61caec1b4920fb056cc690e4a32",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -2240,15 +2240,15 @@
         "sample_files": [
           "test/built-ins/Date/parse/year-zero.js",
           "test/built-ins/Date/prototype/setFullYear/arg-date-to-number.js",
-          "test/built-ins/Date/prototype/toJSON/to-primitive-value-of.js",
           "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
+          "test/built-ins/Date/prototype/toJSON/to-primitive-value-of.js",
           "test/built-ins/Date/S15.9.3.1_A3_T3.2.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: reject minus zero as extended year Expected SameValue(«-#», «NaN») to be true",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «») to be true",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «») to be true",
           "assertion_fail:Test262Error: parse below minimum time value Expected SameValue(«-#», «NaN») to be true"
         ]
       },
