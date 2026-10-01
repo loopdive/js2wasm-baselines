@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-01T23:41:26.179Z",
-  "baseline_generated_at": "2026-10-01T23:41:26.179Z",
-  "baseline_sha": "43bb8dcd561bed31c38fa2ec2cb5461c0cfd60f2",
+  "timestamp": "2026-10-01T23:59:00.231Z",
+  "baseline_generated_at": "2026-10-01T23:59:00.231Z",
+  "baseline_sha": "ea52469ee540dadb23f0a50eecb5f2c5988211b2",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -1466,14 +1466,14 @@
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/stringify/replacer-array-abrupt.js",
           "test/built-ins/JSON/parse/reviver-context-source-object-literal.js",
-          "test/built-ins/JSON/parse/reviver-context-source-primitive-literal.js"
+          "test/built-ins/JSON/stringify/replacer-array-duplicates.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error:",
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
           "type_error:TypeError: Cannot convert undefined or null to object",
-          "assertion_fail:Test262Error: Expected SameValue(«#», «null») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«\"{\\\"key\\\":null}\"», «\"{\\\"key\\\":true}\"») to be true"
+          "assertion_fail:Test262Error: Expected SameValue(«\"{\\\"key\\\":null}\"», «\"{\\\"key\\\":true}\"») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«#», «null») to be true"
         ]
       },
       {
@@ -2008,7 +2008,7 @@
           "test/built-ins/TypedArray/prototype/set/BigInt/src-typedarray-not-big-throws.js",
           "test/built-ins/TypedArray/prototype/set/BigInt/src-typedarray-big.js",
           "test/built-ins/TypedArrayConstructors/internals/Get/indexed-value-sab.js",
-          "test/built-ins/TypedArrayConstructors/ctors-bigint/buffer-arg/invoked-with-undefined-newtarget-sab.js"
+          "test/built-ins/TypedArrayConstructors/internals/Set/key-is-valid-index-reflect-set.js"
         ],
         "sample_signatures": [
           "illegal_cast:illegal cast [in __module_init_chunk_0() ← __module_init]",
@@ -2617,8 +2617,8 @@
         },
         "error_categories": {
           "host_import_leak": 80,
-          "assertion_fail": 14,
           "type_error": 32,
+          "assertion_fail": 14,
           "illegal_cast": 3,
           "other": 2,
           "syntax_error": 2,
@@ -2634,13 +2634,13 @@
           "test/built-ins/Atomics/exchange/bigint/bad-range.js",
           "test/built-ins/Atomics/load/bigint/bad-range.js",
           "test/built-ins/Atomics/xor/bigint/good-views.js",
-          "test/built-ins/BigInt/valueof-throws.js",
-          "test/built-ins/BigInt/asUintN/bigint-tobigint-wrapped-values.js"
+          "test/built-ins/BigInt/asUintN/bigint-tobigint-wrapped-values.js",
+          "test/built-ins/BigInt/valueof-throws.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new (##)",
-          "assertion_fail:Test262Error: Expected a Test262Error but got a SyntaxError",
           "type_error:TypeError: Cannot convert value to a BigInt",
+          "assertion_fail:Test262Error: Expected a Test262Error but got a SyntaxError",
           "host_import_leak:standalone target emitted host imports: env::SharedArrayBuffer_new, env::__timer_set_timeout (##)",
           "assertion_fail:Test262Error: Expected a RangeError but got a SyntaxError"
         ]
