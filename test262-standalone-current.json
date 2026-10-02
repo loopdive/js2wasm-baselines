@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-02T05:25:18.316Z",
-  "baseline_generated_at": "2026-10-02T05:25:18.316Z",
-  "baseline_sha": "39cc565790e151e4559d7526dd7c57ade6a9d74d",
+  "timestamp": "2026-10-02T05:46:33.380Z",
+  "baseline_generated_at": "2026-10-02T05:46:33.380Z",
+  "baseline_sha": "fcf4b188d0bd19f23665a318316af766e641f737",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -12,22 +12,22 @@
   "summary": {
     "total": 48232,
     "pass": 41457,
-    "fail": 4853,
-    "compile_error": 1887,
+    "fail": 4854,
+    "compile_error": 1886,
     "compile_timeout": 17,
     "skip": 18,
-    "compilable": 46310,
+    "compilable": 46311,
     "host_free_pass": 41457,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
         "pass": 40416,
-        "fail": 4824,
-        "compile_error": 1871,
+        "fail": 4825,
+        "compile_error": 1870,
         "compile_timeout": 17,
         "skip": 18,
-        "compilable": 45240,
+        "compilable": 45241,
         "host_free_pass": 40416,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -59,11 +59,11 @@
       "official": {
         "total": 48232,
         "pass": 41457,
-        "fail": 4853,
-        "compile_error": 1887,
+        "fail": 4854,
+        "compile_error": 1886,
         "compile_timeout": 17,
         "skip": 18,
-        "compilable": 46310,
+        "compilable": 46311,
         "host_free_pass": 41457,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -71,11 +71,11 @@
       "full": {
         "total": 48735,
         "pass": 41693,
-        "fail": 4869,
-        "compile_error": 2042,
+        "fail": 4870,
+        "compile_error": 2041,
         "compile_timeout": 17,
         "skip": 114,
-        "compilable": 46562,
+        "compilable": 46563,
         "host_free_pass": 41693,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -85,33 +85,33 @@
   "official_summary": {
     "total": 48232,
     "pass": 41457,
-    "fail": 4853,
-    "compile_error": 1887,
+    "fail": 4854,
+    "compile_error": 1886,
     "compile_timeout": 17,
     "skip": 18,
-    "compilable": 46310,
+    "compilable": 46311,
     "host_free_pass": 41457,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 41693,
-    "fail": 4869,
-    "compile_error": 2042,
+    "fail": 4870,
+    "compile_error": 2041,
     "compile_timeout": 17,
     "skip": 114,
-    "compilable": 46562,
+    "compilable": 46563,
     "host_free_pass": 41693,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
     "pass": 39123,
-    "fail": 4731,
-    "compile_error": 1832,
+    "fail": 4732,
+    "compile_error": 1831,
     "compile_timeout": 17,
     "skip": 18,
-    "compilable": 43854,
+    "compilable": 43855,
     "host_free_pass": 39123,
     "stale": 0
   },
@@ -141,11 +141,11 @@
     "standard": {
       "total": 47146,
       "pass": 40416,
-      "fail": 4824,
-      "compile_error": 1871,
+      "fail": 4825,
+      "compile_error": 1870,
       "compile_timeout": 17,
       "skip": 18,
-      "compilable": 45240,
+      "compilable": 45241,
       "host_free_pass": 40416,
       "stale": 0
     }
@@ -199,9 +199,9 @@
       "name": "built-ins/Array",
       "path": "built-ins/Array",
       "pass": 2260,
-      "fail": 723,
+      "fail": 724,
       "compile_error": 88,
-      "compile_timeout": 11,
+      "compile_timeout": 10,
       "skip": 0,
       "total": 3082,
       "host_free_pass": 2260
@@ -805,8 +805,8 @@
       "path": "built-ins/TypedArray",
       "pass": 1087,
       "fail": 348,
-      "compile_error": 11,
-      "compile_timeout": 0,
+      "compile_error": 10,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 1087
@@ -1970,8 +1970,8 @@
         "count": 1487,
         "statuses": {
           "pass": 0,
-          "fail": 1289,
-          "compile_error": 187,
+          "fail": 1290,
+          "compile_error": 186,
           "compile_timeout": 11,
           "skip": 0,
           "total": 1487,
@@ -2232,15 +2232,15 @@
         "sample_files": [
           "test/built-ins/Date/parse/year-zero.js",
           "test/built-ins/Date/prototype/setFullYear/arg-date-to-number.js",
-          "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
           "test/built-ins/Date/prototype/toJSON/to-primitive-value-of.js",
+          "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
           "test/built-ins/Date/S15.9.3.1_A3_T3.2.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: reject minus zero as extended year Expected SameValue(«-#», «NaN») to be true",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
-          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "assertion_fail:Test262Error: should not be called",
+          "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
           "assertion_fail:Test262Error: parse below minimum time value Expected SameValue(«-#», «NaN») to be true"
         ]
       },
