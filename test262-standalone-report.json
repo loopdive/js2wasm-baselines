@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-05T18:37:46.839Z",
-  "baseline_generated_at": "2026-10-05T18:37:46.840Z",
-  "baseline_sha": "40797360d6268c329b9a4aadcb48f100af1dcff4",
+  "timestamp": "2026-10-05T18:56:42.317Z",
+  "baseline_generated_at": "2026-10-05T18:56:42.317Z",
+  "baseline_sha": "08952b0e37983496f753572884d5d8e3f567b1e8",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -1253,8 +1253,8 @@
         },
         "sample_files": [
           "test/language/expressions/dynamic-import/syntax/valid/top-level-import-defer-script-code-valid.js",
-          "test/language/expressions/dynamic-import/syntax/valid/nested-if-import-source-script-code-valid.js",
           "test/language/expressions/dynamic-import/catch/nested-async-gen-await-import-source-source-text-module.js",
+          "test/language/expressions/dynamic-import/syntax/valid/nested-if-import-source-script-code-valid.js",
           "test/language/expressions/dynamic-import/syntax/valid/nested-async-gen-await-import-defer-script-code-valid.js",
           "test/language/expressions/dynamic-import/catch/nested-if-import-catch-import-source-specifier-tostring.js"
         ],
@@ -1794,7 +1794,7 @@
           "test/language/statements/async-generator/yield-star-return-missing-value-is-awaited.js",
           "test/language/statements/for-of/head-using-fresh-binding-per-iteration.js",
           "test/language/statements/async-generator/generator-created-after-decl-inst.js",
-          "test/language/expressions/class/elements/async-gen-private-method-static/yield-star-async-next.js"
+          "test/language/expressions/async-generator/yield-star-sync-next.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__create_async_generator, env::__gen_create_buffer, env::__gen_next, env::__gen_result_done, env::__gen_result_value, env::__gen_return, env::__gen_set_return, env::__gen_yield_star, env::__gen_y",
