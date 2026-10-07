@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-07T18:56:00.039Z",
-  "baseline_generated_at": "2026-10-07T18:56:00.039Z",
-  "baseline_sha": "0a60976d75a3eb1bd1234981403bbecdcffd1391",
+  "timestamp": "2026-10-07T19:19:08.898Z",
+  "baseline_generated_at": "2026-10-07T19:19:08.898Z",
+  "baseline_sha": "0ed93da1edcadb638989fea8a5f4aeda774caa79",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -12,22 +12,22 @@
   "summary": {
     "total": 48232,
     "pass": 41978,
-    "fail": 4357,
-    "compile_error": 1861,
-    "compile_timeout": 18,
+    "fail": 4355,
+    "compile_error": 1860,
+    "compile_timeout": 21,
     "skip": 18,
-    "compilable": 46335,
+    "compilable": 46333,
     "host_free_pass": 41978,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
         "pass": 40935,
-        "fail": 4328,
-        "compile_error": 1847,
-        "compile_timeout": 18,
+        "fail": 4326,
+        "compile_error": 1846,
+        "compile_timeout": 21,
         "skip": 18,
-        "compilable": 45263,
+        "compilable": 45261,
         "host_free_pass": 40935,
         "stale": 0,
         "label": "ECMAScript current standard"
@@ -59,11 +59,11 @@
       "official": {
         "total": 48232,
         "pass": 41978,
-        "fail": 4357,
-        "compile_error": 1861,
-        "compile_timeout": 18,
+        "fail": 4355,
+        "compile_error": 1860,
+        "compile_timeout": 21,
         "skip": 18,
-        "compilable": 46335,
+        "compilable": 46333,
         "host_free_pass": 41978,
         "stale": 0,
         "label": "standard + annex_b (default)"
@@ -71,11 +71,11 @@
       "full": {
         "total": 48735,
         "pass": 42214,
-        "fail": 4373,
-        "compile_error": 2016,
-        "compile_timeout": 18,
+        "fail": 4371,
+        "compile_error": 2015,
+        "compile_timeout": 21,
         "skip": 114,
-        "compilable": 46587,
+        "compilable": 46585,
         "host_free_pass": 42214,
         "stale": 0,
         "label": "standard + annex_b + proposals"
@@ -85,33 +85,33 @@
   "official_summary": {
     "total": 48232,
     "pass": 41978,
-    "fail": 4357,
-    "compile_error": 1861,
-    "compile_timeout": 18,
+    "fail": 4355,
+    "compile_error": 1860,
+    "compile_timeout": 21,
     "skip": 18,
-    "compilable": 46335,
+    "compilable": 46333,
     "host_free_pass": 41978,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
     "pass": 42214,
-    "fail": 4373,
-    "compile_error": 2016,
-    "compile_timeout": 18,
+    "fail": 4371,
+    "compile_error": 2015,
+    "compile_timeout": 21,
     "skip": 114,
-    "compilable": 46587,
+    "compilable": 46585,
     "host_free_pass": 42214,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
     "pass": 39609,
-    "fail": 4267,
-    "compile_error": 1809,
-    "compile_timeout": 18,
+    "fail": 4265,
+    "compile_error": 1808,
+    "compile_timeout": 21,
     "skip": 18,
-    "compilable": 43876,
+    "compilable": 43874,
     "host_free_pass": 39609,
     "stale": 0
   },
@@ -141,11 +141,11 @@
     "standard": {
       "total": 47146,
       "pass": 40935,
-      "fail": 4328,
-      "compile_error": 1847,
-      "compile_timeout": 18,
+      "fail": 4326,
+      "compile_error": 1846,
+      "compile_timeout": 21,
       "skip": 18,
-      "compilable": 45263,
+      "compilable": 45261,
       "host_free_pass": 40935,
       "stale": 0
     }
@@ -638,13 +638,13 @@
     {
       "name": "built-ins/Promise",
       "path": "built-ins/Promise",
-      "pass": 532,
-      "fail": 91,
+      "pass": 533,
+      "fail": 90,
       "compile_error": 106,
       "compile_timeout": 0,
       "skip": 0,
       "total": 729,
-      "host_free_pass": 532
+      "host_free_pass": 533
     },
     {
       "name": "built-ins/Proxy",
@@ -781,13 +781,13 @@
     {
       "name": "built-ins/Temporal",
       "path": "built-ins/Temporal",
-      "pass": 4495,
-      "fail": 101,
+      "pass": 4494,
+      "fail": 100,
       "compile_error": 0,
-      "compile_timeout": 7,
+      "compile_timeout": 9,
       "skip": 0,
       "total": 4603,
-      "host_free_pass": 4495
+      "host_free_pass": 4494
     },
     {
       "name": "built-ins/ThrowTypeError",
@@ -805,8 +805,8 @@
       "path": "built-ins/TypedArray",
       "pass": 1086,
       "fail": 349,
-      "compile_error": 11,
-      "compile_timeout": 0,
+      "compile_error": 10,
+      "compile_timeout": 1,
       "skip": 0,
       "total": 1446,
       "host_free_pass": 1086
@@ -1198,14 +1198,14 @@
     }
   ],
   "error_categories": {
-    "assertion_fail": 2556,
+    "assertion_fail": 2554,
     "host_import_leak": 1207,
     "illegal_cast": 220,
     "missing_builtin": 3,
     "negative_test_fail": 4,
     "null_deref": 7,
     "oob": 7,
-    "other": 1195,
+    "other": 1194,
     "promise_error": 41,
     "range_error": 27,
     "runtime_error": 341,
@@ -1272,24 +1272,24 @@
           "#661"
         ],
         "label": "Temporal proposal/polyfill gap",
-        "count": 108,
+        "count": 109,
         "statuses": {
           "pass": 0,
-          "fail": 101,
+          "fail": 100,
           "compile_error": 0,
-          "compile_timeout": 7,
+          "compile_timeout": 9,
           "skip": 0,
-          "total": 108,
+          "total": 109,
           "host_free_pass": 0
         },
         "error_categories": {
-          "assertion_fail": 70,
+          "assertion_fail": 69,
           "range_error": 17,
           "type_error": 9,
           "unreachable": 5
         },
         "by_edition": {
-          "ES2026": 108
+          "ES2026": 109
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/prototype/subtract/precision-no-floating-point-loss.js",
@@ -1787,7 +1787,7 @@
           "test/language/statements/async-generator/yield-star-return-missing-value-is-awaited.js",
           "test/language/statements/for-of/head-using-fresh-binding-per-iteration.js",
           "test/language/statements/async-generator/generator-created-after-decl-inst.js",
-          "test/language/expressions/class/elements/async-gen-private-method-static/yield-star-async-next.js"
+          "test/language/expressions/async-generator/yield-star-sync-next.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__create_async_generator, env::__gen_create_buffer, env::__gen_next, env::__gen_result_done, env::__gen_result_value, env::__gen_return, env::__gen_set_return, env::__gen_yield_star, env::__gen_y",
@@ -1962,8 +1962,8 @@
         "statuses": {
           "pass": 0,
           "fail": 1161,
-          "compile_error": 187,
-          "compile_timeout": 11,
+          "compile_error": 186,
+          "compile_timeout": 12,
           "skip": 0,
           "total": 1359,
           "host_free_pass": 0
@@ -1974,7 +1974,7 @@
           "host_import_leak": 179,
           "type_error": 153,
           "oob": 5,
-          "other": 11,
+          "other": 10,
           "null_deref": 2,
           "wasm_compile": 1
         },
@@ -2067,8 +2067,8 @@
         },
         "error_categories": {
           "assertion_fail": 117,
-          "other": 13,
           "type_error": 34,
+          "other": 13,
           "wasm_compile": 1,
           "host_import_leak": 29,
           "runtime_error": 13,
@@ -2077,8 +2077,8 @@
         "by_edition": {
           "ES2017": 21,
           "ES2019": 14,
-          "ES2023": 5,
           "ES2015": 14,
+          "ES2023": 5,
           "Unclassified (untagged)": 48,
           "ES2022": 24,
           "ES2024": 17,
@@ -2093,15 +2093,15 @@
         "sample_files": [
           "test/built-ins/Object/prototype/toString/proxy-function-async.js",
           "test/built-ins/Object/fromEntries/uses-define-semantics.js",
-          "test/built-ins/ShadowRealm/prototype/evaluate/returns-proxy-callable-object.js",
           "test/language/global-code/script-decl-lex.js",
+          "test/built-ins/ShadowRealm/prototype/evaluate/returns-proxy-callable-object.js",
           "test/built-ins/Object/seal/configurable-attribute-all-own-properties-set-from-true-to-false-property-are-unaltered.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: async function proxy Expected SameValue(«\"[object Function]\"», «\"[object AsyncFunction]\"») to be true",
           "assertion_fail:Test262Error: should not trigger setter on Object.prototype",
-          "other:ReferenceError: ShadowRealm is not defined",
           "type_error:TypeError: TypeError: Cannot define property, object is not extensible",
+          "other:ReferenceError: ShadowRealm is not defined",
           "assertion_fail:Test262Error: Expected obj[foo2] to be writable, but was not."
         ]
       },
@@ -2490,19 +2490,19 @@
           "#990"
         ],
         "label": "Eval and `new Function` semantics",
-        "count": 276,
+        "count": 275,
         "statuses": {
           "pass": 0,
-          "fail": 271,
+          "fail": 270,
           "compile_error": 5,
           "compile_timeout": 0,
           "skip": 0,
-          "total": 276,
+          "total": 275,
           "host_free_pass": 0
         },
         "error_categories": {
           "other": 114,
-          "assertion_fail": 144,
+          "assertion_fail": 143,
           "runtime_error": 4,
           "promise_error": 10,
           "negative_test_fail": 1,
@@ -2515,7 +2515,7 @@
           "ES2018": 37,
           "ES2020": 49,
           "ES2017": 4,
-          "ES2015": 24,
+          "ES2015": 23,
           "ES2023": 39,
           "Unclassified (untagged)": 43,
           "Proposals": 7,
@@ -2762,7 +2762,7 @@
           "test/language/module-code/instn-iee-err-not-found.js",
           "test/language/module-code/instn-named-bndng-trlng-comma.js",
           "test/language/import/import-bytes/bytes-from-txt.js",
-          "test/language/module-code/top-level-await/syntax/export-var-await-expr-obj-literal.js"
+          "test/language/module-code/instn-named-err-not-found-as.js"
         ],
         "sample_signatures": [
           "other:[object WebAssembly.Exception]",
