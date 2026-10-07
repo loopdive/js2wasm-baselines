@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-07T17:56:19.269Z",
-  "baseline_generated_at": "2026-10-07T17:56:19.269Z",
-  "baseline_sha": "3146af9a349bb20a5a398fba37e8b69b16fb4ab9",
+  "timestamp": "2026-10-07T18:56:00.039Z",
+  "baseline_generated_at": "2026-10-07T18:56:00.039Z",
+  "baseline_sha": "0a60976d75a3eb1bd1234981403bbecdcffd1391",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -1462,15 +1462,15 @@
           "test/built-ins/JSON/stringify/replacer-function-result-undefined.js",
           "test/built-ins/JSON/parse/reviver-context-source-object-literal.js",
           "test/built-ins/JSON/stringify/replacer-array-duplicates.js",
-          "test/built-ins/JSON/stringify/value-bigint-replacer.js",
-          "test/built-ins/JSON/parse/reviver-context-source-primitive-literal.js"
+          "test/built-ins/JSON/parse/reviver-context-source-primitive-literal.js",
+          "test/built-ins/JSON/stringify/value-bigint-replacer.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «undefined») to be true",
           "type_error:TypeError: Cannot convert undefined or null to object",
           "assertion_fail:Test262Error: Expected SameValue(«\"{\\\"key\\\":null}\"», «\"{\\\"key\\\":true}\"») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «\"\\\"bigint\\\"\"») to be true",
-          "assertion_fail:Test262Error: Expected SameValue(«#», «null») to be true"
+          "assertion_fail:Test262Error: Expected SameValue(«#», «null») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«\"null\"», «\"\\\"bigint\\\"\"») to be true"
         ]
       },
       {
@@ -2067,8 +2067,8 @@
         },
         "error_categories": {
           "assertion_fail": 117,
-          "type_error": 34,
           "other": 13,
+          "type_error": 34,
           "wasm_compile": 1,
           "host_import_leak": 29,
           "runtime_error": 13,
@@ -2077,8 +2077,8 @@
         "by_edition": {
           "ES2017": 21,
           "ES2019": 14,
-          "ES2015": 14,
           "ES2023": 5,
+          "ES2015": 14,
           "Unclassified (untagged)": 48,
           "ES2022": 24,
           "ES2024": 17,
@@ -2093,15 +2093,15 @@
         "sample_files": [
           "test/built-ins/Object/prototype/toString/proxy-function-async.js",
           "test/built-ins/Object/fromEntries/uses-define-semantics.js",
-          "test/language/global-code/script-decl-lex.js",
           "test/built-ins/ShadowRealm/prototype/evaluate/returns-proxy-callable-object.js",
+          "test/language/global-code/script-decl-lex.js",
           "test/built-ins/Object/seal/configurable-attribute-all-own-properties-set-from-true-to-false-property-are-unaltered.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: async function proxy Expected SameValue(«\"[object Function]\"», «\"[object AsyncFunction]\"») to be true",
           "assertion_fail:Test262Error: should not trigger setter on Object.prototype",
-          "type_error:TypeError: TypeError: Cannot define property, object is not extensible",
           "other:ReferenceError: ShadowRealm is not defined",
+          "type_error:TypeError: TypeError: Cannot define property, object is not extensible",
           "assertion_fail:Test262Error: Expected obj[foo2] to be writable, but was not."
         ]
       },
@@ -2217,15 +2217,15 @@
         "sample_files": [
           "test/built-ins/Date/parse/year-zero.js",
           "test/built-ins/Date/prototype/setFullYear/arg-date-to-number.js",
-          "test/built-ins/Date/prototype/toJSON/to-primitive-value-of.js",
           "test/built-ins/Date/S15.9.3.1_A3_T6.2.js",
+          "test/built-ins/Date/prototype/toJSON/to-primitive-value-of.js",
           "test/built-ins/Date/S15.9.3.1_A3_T3.2.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: reject minus zero as extended year Expected SameValue(«-#», «NaN») to be true",
           "assertion_fail:Test262Error: \"this\" value Expected SameValue(«[object Object]», «[object Object]») to be true",
-          "assertion_fail:Test262Error: should not be called",
           "assertion_fail:Test262Error: x1.toString() must return \"[object Date]\" Expected SameValue(«\"Sun Dec # # #:#:# GMT+# (Coordinated Universal Time)\"», «\"[object Date]\"») to be true",
+          "assertion_fail:Test262Error: should not be called",
           "assertion_fail:Test262Error: parse below minimum time value Expected SameValue(«-#», «NaN») to be true"
         ]
       },
