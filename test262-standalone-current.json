@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-07T13:39:43.753Z",
-  "baseline_generated_at": "2026-10-07T13:39:43.753Z",
-  "baseline_sha": "3c671f11506f91f4eb91624cf9a8456ca95a6ce8",
+  "timestamp": "2026-10-07T14:04:40.236Z",
+  "baseline_generated_at": "2026-10-07T14:04:40.237Z",
+  "baseline_sha": "9e22f80ce60956ea2f397b4dfbe1cd46cdabac0a",
   "oracle_version": 14,
   "mode": {
     "target": "standalone",
@@ -11,24 +11,24 @@
   },
   "summary": {
     "total": 48232,
-    "pass": 41975,
+    "pass": 41973,
     "fail": 4361,
     "compile_error": 1860,
-    "compile_timeout": 18,
+    "compile_timeout": 20,
     "skip": 18,
-    "compilable": 46336,
-    "host_free_pass": 41975,
+    "compilable": 46334,
+    "host_free_pass": 41973,
     "stale": 0,
     "by_category": {
       "standard": {
         "total": 47146,
-        "pass": 40932,
+        "pass": 40930,
         "fail": 4332,
         "compile_error": 1846,
-        "compile_timeout": 18,
+        "compile_timeout": 20,
         "skip": 18,
-        "compilable": 45264,
-        "host_free_pass": 40932,
+        "compilable": 45262,
+        "host_free_pass": 40930,
         "stale": 0,
         "label": "ECMAScript current standard"
       },
@@ -58,25 +58,25 @@
       },
       "official": {
         "total": 48232,
-        "pass": 41975,
+        "pass": 41973,
         "fail": 4361,
         "compile_error": 1860,
-        "compile_timeout": 18,
+        "compile_timeout": 20,
         "skip": 18,
-        "compilable": 46336,
-        "host_free_pass": 41975,
+        "compilable": 46334,
+        "host_free_pass": 41973,
         "stale": 0,
         "label": "standard + annex_b (default)"
       },
       "full": {
         "total": 48735,
-        "pass": 42211,
+        "pass": 42209,
         "fail": 4377,
         "compile_error": 2015,
-        "compile_timeout": 18,
+        "compile_timeout": 20,
         "skip": 114,
-        "compilable": 46588,
-        "host_free_pass": 42211,
+        "compilable": 46586,
+        "host_free_pass": 42209,
         "stale": 0,
         "label": "standard + annex_b + proposals"
       }
@@ -84,35 +84,35 @@
   },
   "official_summary": {
     "total": 48232,
-    "pass": 41975,
+    "pass": 41973,
     "fail": 4361,
     "compile_error": 1860,
-    "compile_timeout": 18,
+    "compile_timeout": 20,
     "skip": 18,
-    "compilable": 46336,
-    "host_free_pass": 41975,
+    "compilable": 46334,
+    "host_free_pass": 41973,
     "stale": 0
   },
   "full_summary": {
     "total": 48735,
-    "pass": 42211,
+    "pass": 42209,
     "fail": 4377,
     "compile_error": 2015,
-    "compile_timeout": 18,
+    "compile_timeout": 20,
     "skip": 114,
-    "compilable": 46588,
-    "host_free_pass": 42211,
+    "compilable": 46586,
+    "host_free_pass": 42209,
     "stale": 0
   },
   "strict_summary": {
     "total": 45721,
-    "pass": 39606,
+    "pass": 39604,
     "fail": 4271,
     "compile_error": 1808,
-    "compile_timeout": 18,
+    "compile_timeout": 20,
     "skip": 18,
-    "compilable": 43877,
-    "host_free_pass": 39606,
+    "compilable": 43875,
+    "host_free_pass": 39604,
     "stale": 0
   },
   "scope_summaries": {
@@ -140,13 +140,13 @@
     },
     "standard": {
       "total": 47146,
-      "pass": 40932,
+      "pass": 40930,
       "fail": 4332,
       "compile_error": 1846,
-      "compile_timeout": 18,
+      "compile_timeout": 20,
       "skip": 18,
-      "compilable": 45264,
-      "host_free_pass": 40932,
+      "compilable": 45262,
+      "host_free_pass": 40930,
       "stale": 0
     }
   },
@@ -781,13 +781,13 @@
     {
       "name": "built-ins/Temporal",
       "path": "built-ins/Temporal",
-      "pass": 4496,
+      "pass": 4494,
       "fail": 101,
       "compile_error": 0,
-      "compile_timeout": 6,
+      "compile_timeout": 8,
       "skip": 0,
       "total": 4603,
-      "host_free_pass": 4496
+      "host_free_pass": 4494
     },
     {
       "name": "built-ins/ThrowTypeError",
@@ -1221,8 +1221,8 @@
   },
   "root_cause_map": {
     "target": "standalone",
-    "total_non_pass_non_skip": 6410,
-    "classified": 6410,
+    "total_non_pass_non_skip": 6412,
+    "classified": 6412,
     "unclassified_threshold": null,
     "has_edition_breakdown": true,
     "buckets": [
@@ -1272,14 +1272,14 @@
           "#661"
         ],
         "label": "Temporal proposal/polyfill gap",
-        "count": 107,
+        "count": 109,
         "statuses": {
           "pass": 0,
           "fail": 101,
           "compile_error": 0,
-          "compile_timeout": 6,
+          "compile_timeout": 8,
           "skip": 0,
-          "total": 107,
+          "total": 109,
           "host_free_pass": 0
         },
         "error_categories": {
@@ -1289,7 +1289,7 @@
           "unreachable": 5
         },
         "by_edition": {
-          "ES2026": 107
+          "ES2026": 109
         },
         "sample_files": [
           "test/built-ins/Temporal/Duration/prototype/subtract/precision-no-floating-point-loss.js",
@@ -1786,15 +1786,15 @@
         "sample_files": [
           "test/language/statements/class/async-gen-method/yield-star-async-next.js",
           "test/language/statements/async-generator/yield-star-return-missing-value-is-awaited.js",
-          "test/language/statements/for-of/head-using-fresh-binding-per-iteration.js",
           "test/language/statements/async-generator/generator-created-after-decl-inst.js",
+          "test/language/statements/for-of/head-using-fresh-binding-per-iteration.js",
           "test/language/expressions/class/elements/async-gen-private-method-static/yield-star-async-next.js"
         ],
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::__create_async_generator, env::__gen_create_buffer, env::__gen_next, env::__gen_result_done, env::__gen_result_value, env::__gen_return, env::__gen_set_return, env::__gen_yield_star, env::__gen_y",
           "host_import_leak:standalone target emitted host imports: env::__gen_result_done, env::__gen_result_value_f64, env::__gen_return (##)",
-          "assertion_fail:Test262Error: `f[#]()` returns `obj1` Expected SameValue(«null», «[object Object]») to be true",
           "host_import_leak:standalone target emitted host imports: env::__get_async_generator_prototype (##)",
+          "assertion_fail:Test262Error: `f[#]()` returns `obj1` Expected SameValue(«null», «[object Object]») to be true",
           "host_import_leak:standalone target emitted host imports: env::__gen_result_done, env::__gen_result_value (##)"
         ]
       },
@@ -2763,7 +2763,7 @@
           "test/language/module-code/instn-iee-err-not-found.js",
           "test/language/module-code/instn-named-bndng-trlng-comma.js",
           "test/language/import/import-bytes/bytes-from-txt.js",
-          "test/language/module-code/instn-named-err-not-found-as.js"
+          "test/language/module-code/top-level-await/syntax/export-var-await-expr-obj-literal.js"
         ],
         "sample_signatures": [
           "other:[object WebAssembly.Exception]",
