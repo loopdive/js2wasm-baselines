@@ -11,9 +11,9 @@
   "compileTimeoutCases": 24,
   "verifiedExecutionCases": 0,
   "unverifiedExecutionCases": 48621,
-  "timestamp": "2026-10-22T12:04:32.546Z",
-  "baseline_generated_at": "2026-10-22T12:04:32.546Z",
-  "baseline_sha": "709f0f550dd1b34cfad98adb44351f3bdc1ac9ea",
+  "timestamp": "2026-10-22T12:31:15.750Z",
+  "baseline_generated_at": "2026-10-22T12:31:15.750Z",
+  "baseline_sha": "8df02eb1e055b4eaee19edb70e3f7ca682863a54",
   "oracle_version": 15,
   "mode": {
     "target": "standalone",
@@ -158,13 +158,13 @@
     {
       "code": "unsupported:select:body-shape-rejected",
       "tests": 39015,
-      "units": 182139,
+      "units": 182193,
       "passing_tests": 33527
     },
     {
       "code": "unsupported:select:return-type-not-resolvable",
       "tests": 38738,
-      "units": 39926,
+      "units": 39818,
       "passing_tests": 33502
     },
     {
@@ -181,20 +181,20 @@
     },
     {
       "code": "unsupported:select:constructor-resolution-unsupported",
-      "tests": 5459,
-      "units": 19435,
-      "passing_tests": 4449
+      "tests": 5466,
+      "units": 19446,
+      "passing_tests": 4455
     },
     {
       "code": "unsupported:select:class-member-unsupported",
-      "tests": 4649,
-      "units": 9406,
-      "passing_tests": 3812
+      "tests": 4650,
+      "units": 9410,
+      "passing_tests": 3813
     },
     {
       "code": "unsupported:resolve:late-preparation-unsupported",
       "tests": 3153,
-      "units": 15587,
+      "units": 15589,
       "passing_tests": 2498
     },
     {
@@ -241,9 +241,9 @@
     },
     {
       "code": "unsupported:select:class-projection-unsupported",
-      "tests": 242,
-      "units": 296,
-      "passing_tests": 146
+      "tests": 245,
+      "units": 299,
+      "passing_tests": 148
     },
     {
       "code": "unsupported:select:host-surface-unavailable",
@@ -300,6 +300,12 @@
       "passing_tests": 8
     },
     {
+      "code": "unsupported:build:property-write-unsupported",
+      "tests": 9,
+      "units": 9,
+      "passing_tests": 8
+    },
+    {
       "code": "unsupported:select:external-call",
       "tests": 9,
       "units": 9,
@@ -310,6 +316,12 @@
       "tests": 8,
       "units": 8,
       "passing_tests": 8
+    },
+    {
+      "code": "unsupported:build:body-shape-rejected",
+      "tests": 6,
+      "units": 7,
+      "passing_tests": 5
     },
     {
       "code": "unsupported:select:constructor-arity-unsupported",
@@ -324,12 +336,6 @@
       "passing_tests": 5
     },
     {
-      "code": "unsupported:build:body-shape-rejected",
-      "tests": 3,
-      "units": 4,
-      "passing_tests": 3
-    },
-    {
       "code": "unsupported:build:module-init-legacy-coupling",
       "tests": 3,
       "units": 3,
@@ -340,6 +346,12 @@
       "tests": 3,
       "units": 3,
       "passing_tests": 3
+    },
+    {
+      "code": "unsupported:build:property-access-unsupported",
+      "tests": 2,
+      "units": 2,
+      "passing_tests": 1
     },
     {
       "code": "unsupported:select:anonymous-class",
@@ -1805,8 +1817,8 @@
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_disposeAsync, env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol(Symbol.asyncDispose) should be an own property",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «function () { [native code] }») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«null», «[object Object]») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «function () { [native code] }») to be true",
           "assertion_fail:Test262Error: Expected stack2 to be an instance of AsyncDisposableStack"
         ]
       },
@@ -1845,15 +1857,15 @@
           "test/language/expressions/dynamic-import/namespace/promise-then-ns-has-property-str-found-init.js",
           "test/language/expressions/dynamic-import/import-attributes/2nd-param-yield-expr.js",
           "test/language/module-code/top-level-await/dynamic-import-resolution.js",
-          "test/language/expressions/dynamic-import/catch/nested-arrow-import-catch-specifier-tostring-abrupt-rejects.js",
-          "test/language/expressions/dynamic-import/import-attributes/2nd-param-with-undefined.js"
+          "test/language/expressions/dynamic-import/import-attributes/2nd-param-with-undefined.js",
+          "test/language/expressions/dynamic-import/catch/nested-arrow-import-catch-specifier-tostring-abrupt-rejects.js"
         ],
         "sample_signatures": [
           "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: import() failed: Cannot find module './module-code_FIXTURE.js' in the standalone module graph",
           "host_import_leak:standalone target emitted host imports: env::__create_generator, env::__gen_create_buffer, env::__gen_next, env::__gen_push_ref, env::__gen_result_done, env::__gen_result_value, env::__gen_return, env::__gen_throw (##)",
           "runtime_error:Test262:AsyncTestFailure:Test262Error: TypeError: import() failed: Cannot find module './module-import-resolution_FIXTURE.js' in the standalone module graph",
-          "runtime_error:Test262:AsyncTestFailure:Test262Error: Test262Error: Expected SameValue(«TypeError: import() failed: a non-literal specifier cannot be resolved in the standalone module graph», «\"custom error\"») to be true",
-          "other:Test262:AsyncTestFailure:Test262Error: TypeError: import() failed: import options are not supported by the standalone module graph"
+          "other:Test262:AsyncTestFailure:Test262Error: TypeError: import() failed: import options are not supported by the standalone module graph",
+          "runtime_error:Test262:AsyncTestFailure:Test262Error: Test262Error: Expected SameValue(«TypeError: import() failed: a non-literal specifier cannot be resolved in the standalone module graph», «\"custom error\"») to be true"
         ]
       },
       {
@@ -2470,8 +2482,8 @@
         },
         "by_edition": {
           "ES2022": 261,
-          "ES2024": 43,
           "ES2023": 72,
+          "ES2024": 43,
           "ES2026": 120,
           "Unclassified (untagged)": 399,
           "ES2016": 15,
@@ -2485,14 +2497,14 @@
         "sample_files": [
           "test/built-ins/TypedArray/prototype/forEach/BigInt/return-abrupt-from-this-out-of-bounds.js",
           "test/built-ins/TypedArray/prototype/findIndex/BigInt/return-abrupt-from-this-out-of-bounds.js",
-          "test/built-ins/TypedArray/prototype/includes/detached-buffer-during-fromIndex-returns-true-for-undefined.js",
           "test/built-ins/TypedArray/prototype/findLastIndex/BigInt/get-length-ignores-length-prop.js",
+          "test/built-ins/TypedArray/prototype/includes/detached-buffer-during-fromIndex-returns-true-for-undefined.js",
           "test/built-ins/TypedArray/prototype/lastIndexOf/resizable-buffer-special-float-values.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: Expected a TypeError but got a Test262Error (Testing with BigInt64Array and makeArray.)",
-          "assertion_fail:Test262Error: Expected SameValue(«false», «true») to be true (Testing with Float64Array and makeArray.)",
           "assertion_fail:Test262Error: (Testing with BigInt64Array and makeArray.)",
+          "assertion_fail:Test262Error: Expected SameValue(«false», «true») to be true (Testing with Float64Array and makeArray.)",
           "illegal_cast:illegal cast [in __module_init_chunk_0() ← __module_init]",
           "host_import_leak:standalone target emitted host imports: env::__array_from_async (##)"
         ]
