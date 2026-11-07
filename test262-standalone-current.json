@@ -12,9 +12,9 @@
   "verifiedExecutionCases": 0,
   "verifiedFrontendCases": 0,
   "unverifiedExecutionCases": 48621,
-  "timestamp": "2026-11-07T20:21:04.850Z",
-  "baseline_generated_at": "2026-11-07T20:21:04.850Z",
-  "baseline_sha": "70efaebe7442850ccf33e1341393c01b9c135e3d",
+  "timestamp": "2026-11-07T21:21:31.912Z",
+  "baseline_generated_at": "2026-11-07T21:21:31.912Z",
+  "baseline_sha": "d480bc77e1b81b7803e95af15058caa3480b64c3",
   "oracle_version": 16,
   "mode": {
     "target": "standalone",
@@ -31,7 +31,7 @@
     "skip": 18,
     "compilable": 46952,
     "host_free_pass": 42457,
-    "ir_only_pass": 1393,
+    "ir_only_pass": 1396,
     "ir_measured": 39014,
     "ir_only_pass_pct": 2.9,
     "stale": 0,
@@ -45,7 +45,7 @@
         "skip": 18,
         "compilable": 45880,
         "host_free_pass": 41414,
-        "ir_only_pass": 1377,
+        "ir_only_pass": 1380,
         "ir_measured": 37935,
         "ir_only_pass_pct": 2.9,
         "stale": 0,
@@ -90,7 +90,7 @@
         "skip": 18,
         "compilable": 46952,
         "host_free_pass": 42457,
-        "ir_only_pass": 1393,
+        "ir_only_pass": 1396,
         "ir_measured": 39014,
         "ir_only_pass_pct": 2.9,
         "stale": 0,
@@ -105,7 +105,7 @@
         "skip": 114,
         "compilable": 47204,
         "host_free_pass": 42693,
-        "ir_only_pass": 1393,
+        "ir_only_pass": 1396,
         "ir_measured": 39023,
         "ir_only_pass_pct": 2.9,
         "stale": 0,
@@ -122,7 +122,7 @@
     "skip": 18,
     "compilable": 46952,
     "host_free_pass": 42457,
-    "ir_only_pass": 1393,
+    "ir_only_pass": 1396,
     "ir_measured": 39014,
     "ir_only_pass_pct": 2.9,
     "stale": 0
@@ -136,7 +136,7 @@
     "skip": 114,
     "compilable": 47204,
     "host_free_pass": 42693,
-    "ir_only_pass": 1393,
+    "ir_only_pass": 1396,
     "ir_measured": 39023,
     "ir_only_pass_pct": 2.9,
     "stale": 0
@@ -150,7 +150,7 @@
     "skip": 18,
     "compilable": 44488,
     "host_free_pass": 40085,
-    "ir_only_pass": 1373,
+    "ir_only_pass": 1376,
     "ir_measured": 36599,
     "ir_only_pass_pct": 3,
     "stale": 0
@@ -158,9 +158,9 @@
   "ir_fallback_codes": [
     {
       "code": "unsupported:select:body-shape-rejected",
-      "tests": 33112,
-      "units": 67230,
-      "passing_tests": 28002
+      "tests": 33100,
+      "units": 67218,
+      "passing_tests": 27990
     },
     {
       "code": "unsupported:select:param-type-not-resolvable",
@@ -176,9 +176,9 @@
     },
     {
       "code": "unsupported:select:logical-value-unsupported",
-      "tests": 6560,
-      "units": 10570,
-      "passing_tests": 5319
+      "tests": 6562,
+      "units": 10572,
+      "passing_tests": 5321
     },
     {
       "code": "unsupported:select:class-member-unsupported",
@@ -361,6 +361,12 @@
       "passing_tests": 17
     },
     {
+      "code": "unsupported:build:module-init-legacy-coupling",
+      "tests": 17,
+      "units": 17,
+      "passing_tests": 17
+    },
+    {
       "code": "unsupported:build:operand-coercion-unsupported",
       "tests": 15,
       "units": 15,
@@ -377,12 +383,6 @@
       "tests": 12,
       "units": 15,
       "passing_tests": 11
-    },
-    {
-      "code": "unsupported:build:module-init-legacy-coupling",
-      "tests": 10,
-      "units": 10,
-      "passing_tests": 10
     },
     {
       "code": "unsupported:select:constructor-arity-unsupported",
@@ -507,7 +507,7 @@
       "skip": 18,
       "compilable": 45880,
       "host_free_pass": 41414,
-      "ir_only_pass": 1377,
+      "ir_only_pass": 1380,
       "ir_measured": 37935,
       "ir_only_pass_pct": 2.9,
       "stale": 0
@@ -1057,7 +1057,7 @@
       "skip": 0,
       "total": 3411,
       "host_free_pass": 3344,
-      "ir_only_pass": 46,
+      "ir_only_pass": 49,
       "ir_measured": 3411
     },
     {
@@ -1852,9 +1852,9 @@
         "sample_files": [
           "test/built-ins/Temporal/Duration/prototype/round/roundingincrement-days-large.js",
           "test/built-ins/Temporal/PlainMonthDay/from/argument-string-calendar-case-insensitive.js",
+          "test/built-ins/Temporal/ZonedDateTime/prototype/since/roundingmode-expand.js",
           "test/built-ins/Temporal/Duration/prototype/round/valid-increments.js",
-          "test/built-ins/Temporal/Duration/prototype/subtract/precision-no-floating-point-loss.js",
-          "test/built-ins/Temporal/PlainDate/prototype/toLocaleString/return-string.js"
+          "test/built-ins/Temporal/Duration/prototype/subtract/precision-no-floating-point-loss.js"
         ],
         "sample_signatures": [
           "assertion_fail:Test262Error: round to 1e8-# days with plain relativeTo: days result: Expected SameValue(«#», «#») to be true",
@@ -1902,8 +1902,8 @@
         "sample_signatures": [
           "host_import_leak:standalone target emitted host imports: env::AsyncDisposableStack_disposeAsync, env::AsyncDisposableStack_new, env::AsyncDisposableStack_use (##)",
           "assertion_fail:Test262Error: Symbol(Symbol.asyncDispose) should be an own property",
-          "assertion_fail:Test262Error: Expected SameValue(«undefined», «function () { [native code] }») to be true",
           "assertion_fail:Test262Error: Expected SameValue(«null», «[object Object]») to be true",
+          "assertion_fail:Test262Error: Expected SameValue(«undefined», «function () { [native code] }») to be true",
           "assertion_fail:Test262Error: Expected stack2 to be an instance of AsyncDisposableStack"
         ]
       },
@@ -2362,14 +2362,14 @@
           "test/language/statements/class/elements/new-no-sc-line-method-rs-static-generator-method-privatename-identifier.js",
           "test/built-ins/Iterator/prototype/forEach/argument-validation-failure-closes-underlying.js",
           "test/built-ins/Iterator/prototype/forEach/next-method-returns-throwing-value.js",
-          "test/built-ins/Iterator/prototype/join/does-not-close-on-iterator-protocol-violation.js"
+          "test/built-ins/Iterator/prototype/take/next-method-returns-throwing-value.js"
         ],
         "sample_signatures": [
           "type_error:TypeError: Cannot read properties of undefined (reading a class field)",
           "type_error:TypeError: Invalid iterator protocol",
           "assertion_fail:Test262Error: Expected SameValue(«false», «true») to be true",
           "assertion_fail:Test262Error: Expected a Test262Error but got a TypeError",
-          "assertion_fail:Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"
+          "assertion_fail:Test262Error: Expected a ReturnCalledError but got a Error"
         ]
       },
       {
@@ -2579,8 +2579,8 @@
           "ES2017": 2
         },
         "sample_files": [
-          "test/built-ins/TypedArray/prototype/findIndex/BigInt/return-abrupt-from-this-out-of-bounds.js",
           "test/built-ins/TypedArray/prototype/forEach/BigInt/return-abrupt-from-this-out-of-bounds.js",
+          "test/built-ins/TypedArray/prototype/findIndex/BigInt/return-abrupt-from-this-out-of-bounds.js",
           "test/built-ins/TypedArray/prototype/findLastIndex/BigInt/get-length-ignores-length-prop.js",
           "test/built-ins/TypedArray/prototype/includes/detached-buffer-during-fromIndex-returns-true-for-undefined.js",
           "test/built-ins/TypedArray/prototype/lastIndexOf/resizable-buffer-special-float-values.js"
